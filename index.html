@@ -59,7 +59,8 @@ tr.status-past td { opacity: 0.5; }
 .s-now { background: #fff3cd; color: #856404; }
 .s-soon { background: #d4edda; color: #155724; }
 .s-future { background: #e8f4fd; color: #0066cc; }
-.focus-tag { display: inline-block; background: #f0f2f5; border-radius: 3px; padding: 1px 5px; margin: 1px; font-size: 10px; }
+.focus-tag { display: inline-block; background: #f0f2f5; border-radius: 3px; padding: 1px 5px; margin: 1px; font-size: 10px; line-height: 1.35; max-width: 100%; }
+.focus-cell { line-height: 1.45; min-width: 220px; }
 .detail-btn { font-size: 11px; color: #0066cc; cursor: pointer; border: none; background: none; padding: 0; text-decoration: underline; }
 .month-row td { background: #eef1f8; font-weight: 700; font-size: 11px; color: #0f3460; padding: 5px 12px; border-bottom: 2px solid #dde3f0; }
 .empty-state { text-align: center; padding: 60px; color: #aaa; background: white; border-radius: 10px; }
@@ -185,7 +186,7 @@ tr.status-past td { opacity: 0.5; }
   <h1>🌐 全球 AI 展会 & 公司产品数据库 <span class="badge">2024–2026</span></h1>
   <p>First Mover · AI初创关注账号 · 搜索产品/公司 | 点击展会查看完整参展商</p>
   <div style="font-size:11px;opacity:0.6;margin-top:4px">
-    📊 数据版本 v2.8.1 &nbsp;|&nbsp; 最后更新：2026年6月17日（每周一更新）
+    📊 数据版本 v2.8.2 &nbsp;|&nbsp; 最后更新：2026年6月17日（每周一更新）
     <span style="background:#e94560;color:white;padding:1px 6px;border-radius:10px;margin-left:6px;font-size:10px;animation:pulse 2s infinite">● LIVE</span>
   </div>
 </div>
@@ -389,6 +390,31 @@ function getConfTypes(c) {
   return [];
 }
 
+function getConfFocusTopics(c) {
+  const seen = new Set();
+  const out = [];
+  const add = items => {
+    (items || []).forEach(raw => {
+      const t = String(raw || '').trim();
+      if (!t) return;
+      const key = t.toLowerCase();
+      if (seen.has(key)) return;
+      seen.add(key);
+      out.push(t);
+    });
+  };
+  add(c.focus);
+  add((c.detail && c.detail.themes) || []);
+  add((c.productCats || []).map(cat => CAT_SHORT[cat] || cat));
+  return out.slice(0, 20);
+}
+
+function formatFocusTags(c) {
+  const topics = getConfFocusTopics(c);
+  if (!topics.length) return '<span class="focus-tag" style="opacity:0.5">待补充</span>';
+  return `<div class="focus-cell">${topics.map(f => `<span class="focus-tag" title="${escapeHtml(f)}">${escapeHtml(f)}</span>`).join('')}</div>`;
+}
+
 function formatTypeTags(c, useShort) {
   return getConfTypes(c).map(t => {
     const label = useShort ? (TYPE_SHORT[t] || t) : t;
@@ -423,10 +449,10 @@ const MODAL_EX_PAGE_SIZE = 40;
 const PROD_RENDER_PAGE_SIZE = 60;
 const PROD_SEARCH_DEBOUNCE_MS = 280;
 // 官方全量参展商名录（JSON 按需加载，公司名+展位为主）
-const APP_BUILD = 'v2.8.1';
+const APP_BUILD = 'v2.8.2';
 const EXHIBITOR_BULK = {
-  CES2026: 'exhibitor-data/CES2026.json?build=v2.8.1',
-  GITEX2025: 'exhibitor-data/GITEX2025.json?build=v2.8.1',
+  CES2026: 'exhibitor-data/CES2026.json?build=v2.8.2',
+  GITEX2025: 'exhibitor-data/GITEX2025.json?build=v2.8.2',
 };
 const bulkExhibitorCache = {};
 let bulkPreloadPromise = null;
@@ -437,7 +463,7 @@ let currentModalExhibitors = [];
 function ensureCompanyRegistry() {
   if (companyRegistryCache) return Promise.resolve(companyRegistryCache);
   if (!companyRegistryPromise) {
-    companyRegistryPromise = fetch('exhibitor-data/company-registry.json?build=v2.8.1')
+    companyRegistryPromise = fetch('exhibitor-data/company-registry.json?build=v2.8.2')
       .then(res => res.ok ? res.json() : {})
       .then(data => { companyRegistryCache = data || {}; return companyRegistryCache; })
       .catch(() => { companyRegistryCache = {}; return companyRegistryCache; });
@@ -1409,12 +1435,23 @@ const conferences = [{
   types:['学术会议'],
   url:'https://iclr.cc/Conferences/2024',
   productCats:['大模型 / 算法'],
-  focus:[
-    '表示学习',
-    '大模型架构',
-    '多模态',
+    focus:[
+    'AI安全',
     '扩散模型',
-    'AI安全'
+    '多模态',
+    '大模型架构',
+    '表示学习',
+    '大模型扩展规律与涌现能力',
+    '多模态融合（视觉+语言）',
+    'AI安全与对齐基础理论',
+    '扩散模型理论突破',
+    'RLHF改进方法',
+    '大模型',
+    '因果表示学习',
+    '基础模型评估体系',
+    'AI安全与系统2思考',
+    '表示学习、大模型架构与多模态融合',
+    '是跟踪Transformer、扩散模型与AI安'
   ],
   searchExtra:'Vienna Austria machine learning deep learning',
   detail:{
@@ -1460,12 +1497,21 @@ const conferences = [{
   types:['学术会议'],
   url:'https://cvpr.thecvf.com/Conferences/2024',
   productCats:['大模型 / 算法','工业 / 制造'],
-  focus:[
-    '多模态大模型',
-    '视频生成',
-    '3D视觉',
+    focus:[
+    '扩散模型',
     '自动驾驶感知',
-    '扩散模型'
+    'D视觉',
+    '视频生成',
+    '多模态大模型',
+    '文生视频（Sora效应引发视频生成爆发）',
+    'Gaussian Splatting 3D重建技术大热',
+    '多模态LLM与视觉理解融合',
+    '自动驾驶感知精度突破',
+    '医疗影像AI',
+    '大模型',
+    '工业',
+    '空间智能与AI未来',
+    '视觉感知的统一框架'
   ],
   searchExtra:'Seattle computer vision pattern recognition',
   detail:{
@@ -1506,12 +1552,22 @@ const conferences = [{
   types:['学术会议'],
   url:'https://icml.cc/Conferences/2024',
   productCats:['大模型 / 算法'],
-  focus:[
-    '强化学习',
-    'AI对齐',
-    '大模型理论',
+    focus:[
+    '扩散模型',
     '联邦学习',
-    '扩散模型'
+    '大模型理论',
+    'AI对齐',
+    '强化学习',
+    '大模型In-Context Learning原理探究',
+    'AI对齐：RLHF改进方法集中爆发',
+    'Test-Time Compute推理侧扩展',
+    '合成数据训练大模型',
+    '大模型推理效率（量化/蒸馏）',
+    '大模型',
+    '神经网络可验证鲁棒性',
+    '高效大模型训练与推理',
+    '强化学习、大模型理论、联邦学习与AI对齐等方向',
+    '是了解机器学习前沿算法与系统研究'
   ],
   searchExtra:'Vienna machine learning reinforcement learning',
   detail:{
@@ -1552,12 +1608,22 @@ const conferences = [{
   types:['学术会议'],
   url:'https://neurips.cc/Conferences/2024',
   productCats:['大模型 / 算法'],
-  focus:[
-    '大模型前沿',
-    'AI系统基础设施',
-    '推理能力',
+    focus:[
+    'AI安全',
     '多模态',
-    'AI安全'
+    '推理能力',
+    'AI系统基础设施',
+    '大模型前沿',
+    'AI系统基础设施：大规模训练与推理加速',
+    'Transformer推理扩展（o1类思维链模型兴起）',
+    '多模态模型统一架构',
+    'AI安全与可解释性',
+    '合成数据与数据飞轮',
+    '大模型',
+    'Transformer能否学习演绎推理？',
+    '序列到超智能',
+    'AI加速科学发现',
+    '下一代AI架构：超越LLM'
   ],
   searchExtra:'Vancouver neural information processing systems deep learning',
   detail:{
@@ -1608,12 +1674,21 @@ const conferences = [{
   types:['综合性展会','科技巨头大会'],
   url:'https://www.ces.tech/',
   productCats:['消费电子 / 终端'],
-  focus:[
-    'AI PC元年',
-    '物理AI',
-    '人形机器人',
+    focus:[
+    'AI眼镜',
     '车载AI',
-    'AI眼镜'
+    '人形机器人',
+    '物理AI',
+    'AI PC元年',
+    'AI PC元年正式到来：NPU成标配',
+    '物理AI（Physical AI）：NVIDIA Co…',
+    '人形机器人商业化加速',
+    '车载AI：大模型进入座舱',
+    'AI眼镜/可穿戴爆发',
+    '终端',
+    'NVIDIA Cosmos物理AI平台发布',
+    '端侧AI：Snapdragon生态全覆盖',
+    '超越EV：AI定义汽车新时代'
   ],
   searchExtra:'Las Vegas Nevada consumer electronics physical AI humanoid robot',
   detail:{
@@ -1912,12 +1987,23 @@ const conferences = [{
   types:['学术会议'],
   url:'https://aaai.org/conference/aaai/aaai-25/',
   productCats:['大模型 / 算法'],
-  focus:[
-    'AGI路径',
-    '多智能体',
-    'AI伦理',
+    focus:[
+    '大模型规划',
     '知识推理',
-    '大模型规划'
+    'AI伦理',
+    '多智能体',
+    'AGI路径',
+    'AGI研究路径争论升温',
+    '大模型规划与多步推理',
+    '多智能体系统协作',
+    'AI伦理与全球治理框架',
+    '神经符号融合AI',
+    '大模型',
+    '如何构建可对齐的AGI',
+    'AI与人类协作的未来',
+    '空间智能：连接视觉感知与物理世界',
+    '知识推理、NLP、多智能体与AI伦理等方向',
+    '适合跟踪通用AI理论与应用交叉进展'
   ],
   searchExtra:'Philadelphia AGI multi-agent AI ethics',
   detail:{
@@ -1963,12 +2049,23 @@ const conferences = [{
   types:['科技巨头大会','产业与政策峰会'],
   url:'https://www.nvidia.com/gtc/',
   productCats:['芯片 / 算力'],
-  focus:[
-    'Blackwell GPU',
-    '物理AI',
-    'AI工厂',
+    focus:[
+    '推理加速',
     '具身智能',
-    '推理加速'
+    'AI工厂',
+    '物理AI',
+    'Blackwell GPU',
+    'Blackwell Ultra GPU架构深度（GB2…',
+    'AI工厂（AI Factory）商业模式',
+    '物理AI：机器人+自动驾驶+工业AI',
+    '推理时计算扩展',
+    'NVIDIA NIM微服务生态',
+    '芯片',
+    'Blackwell时代：从训练到推理的AI基础设施',
+    'AGI路上的计算需求',
+    'AI加速科学发现',
+    '开源AI与Llama生态',
+    'Copilot+PC与企业AI转型'
   ],
   searchExtra:'San Jose GPU accelerated computing inference AI factory',
   detail:{
@@ -2200,12 +2297,22 @@ const conferences = [{
   types:['学术会议'],
   url:'https://iclr.cc/Conferences/2025',
   productCats:['大模型 / 算法'],
-  focus:[
-    '大模型架构',
-    '多模态',
-    '推理能力',
+    focus:[
+    '合成数据',
     'AI安全',
-    '合成数据'
+    '推理能力',
+    '多模态',
+    '大模型架构',
+    '推理模型（o1/R1类）理论基础',
+    '多模态统一架构',
+    '合成数据扩展大模型能力',
+    'AI安全：越狱攻击与防御',
+    '长上下文处理突破',
+    '大模型',
+    'AI代理与未来工作流',
+    '机器人学习新范式',
+    '推理模型理论基础、多模态统一架构与AI安全',
+    '吸引全球研究者分享大模型最新突破'
   ],
   searchExtra:'Singapore learning representations deep learning',
   detail:{
@@ -2246,12 +2353,22 @@ const conferences = [{
   types:['学术会议'],
   url:'https://neurips.cc/Conferences/2025',
   productCats:['大模型 / 算法'],
-  focus:[
-    '超级智能路径',
-    '强化学习通向AGI',
-    'AI安全',
+    focus:[
+    '具身智能',
     '大模型理论',
-    '具身智能'
+    'AI安全',
+    '强化学习通向AGI',
+    '超级智能路径',
+    '超级智能（SuperIntelligence）路径大讨论',
+    '强化学习从经验到通用智能',
+    'AI安全反思：我们有错误的噩梦吗？',
+    '合成数据与大规模预训练',
+    '具身AI：感知到行动统一框架',
+    '大模型',
+    'Oak架构：从经验出发的超级智能愿景',
+    '我们对AI的噩梦是否搞错方向？',
+    '因果推理与科学发现',
+    'AI风险与未来'
   ],
   searchExtra:'San Diego California neural information processing systems AGI safety',
   detail:{
@@ -2302,12 +2419,23 @@ const conferences = [{
   types:['综合性展会','科技巨头大会'],
   url:'https://www.ces.tech/',
   productCats:['消费电子 / 终端'],
-  focus:[
-    'AI眼镜',
-    '人形机器人',
-    'AI家电',
+    focus:[
+    'AI芯片',
     'AI汽车',
-    'AI芯片'
+    'AI家电',
+    '人形机器人',
+    'AI眼镜',
+    'AI从创新走向落地（Innovation to Imp…',
+    '人形机器人商业化：多家厂商首发量产版',
+    'AI眼镜赛道爆发：后Meta Ray-Ban时代',
+    '家参展商，中美企业主导',
+    'AI芯片：边缘推理成主战场',
+    '终端',
+    '物理AI与下一代AI基础设施',
+    'AI加速计算新纪元',
+    'AI无处不在：从终端到云端',
+    'AI从创新走向落地',
+    '「AI从创新走向落地」'
   ],
   searchExtra:'Las Vegas Nevada AI glasses humanoid robot home appliance automotive',
   detail:{
@@ -2662,12 +2790,20 @@ const conferences = [{
   types:['学术会议'],
   url:'https://aaai.org/conference/aaai/aaai-26/',
   productCats:['大模型 / 算法'],
-  focus:[
-    '深度学习',
-    '知识推理',
-    'NLP',
+    focus:[
+    'AI伦理',
     '多智能体',
-    'AI伦理'
+    'NLP',
+    '知识推理',
+    '深度学习',
+    '大模型推理能力的理论极限',
+    '多智能体协作与冲突解决',
+    '神经符号AI结合路径',
+    'AI伦理：全球标准制定争论',
+    'AI for Science：蛋白质/材料/气候',
+    '大模型',
+    '大模型推理理论、多智能体协作、神经符号AI与AI fo…',
+    '适合科'
   ],
   searchExtra:'Singapore AGI multi-agent AI ethics knowledge reasoning NLP',
   detail:{
@@ -2703,12 +2839,19 @@ const conferences = [{
   types:['科技巨头大会','产业与政策峰会'],
   url:'https://www.nvidia.com/gtc/',
   productCats:['芯片 / 算力'],
-  focus:[
-    'GPU/算力',
-    '大模型训练',
-    'AI Infra',
+    focus:[
+    '自动驾驶',
     '具身智能',
-    '自动驾驶'
+    'AI Infra',
+    '大模型训练',
+    'GPU/算力',
+    '全AI栈更新：从加速计算到AI工厂',
+    'Agentic AI系统落地方案',
+    '开放模型生态（NIM服务市场）',
+    '物理AI：机器人+工业+自动驾驶全景',
+    '量子计算+AI融合前瞻',
+    '芯片',
+    'AI基础设施新纪元：算力、模型、应用全栈'
   ],
   searchExtra:'San Jose GPU Blackwell accelerated computing inference agentic robot autonomous',
   detail:{
@@ -2864,12 +3007,20 @@ const conferences = [{
   types:['综合性展会','科技巨头大会'],
   url:'https://www.computextaipei.com.tw/',
   productCats:['芯片 / 算力','消费电子 / 终端'],
-  focus:[
-    'AI Together',
-    'AI PC',
-    'AI芯片',
+    focus:[
+    '边缘AI',
     '机器人',
-    '边缘AI'
+    'AI芯片',
+    'AI PC',
+    'AI Together',
+    'AI Together：AI & Computing',
+    'Robotics & Mobility',
+    'Next-Gen Tech',
+    '芯片',
+    '终端',
+    '待公布',
+    'AI PC、边缘AI芯片、服务器与散热等供应链',
+    '是观察台湾半导体与硬件创新生态的'
   ],
   searchExtra:'Taipei Taiwan AI PC chip server NPU edge computing',
   detail:{
@@ -2937,12 +3088,21 @@ const conferences = [{
   types:['学术会议'],
   url:'https://cvpr.thecvf.com/',
   productCats:['大模型 / 算法','工业 / 制造'],
-  focus:[
-    '多模态大模型',
-    '图像/视频生成',
-    '3D视觉',
+    focus:[
+    '医疗影像',
     '自动驾驶感知',
-    '医疗影像'
+    'D视觉',
+    '图像/视频生成',
+    '多模态大模型',
+    '多模态大模型+视觉理解深度融合',
+    '视频生成成熟化：实时/长视频',
+    'D世界模型（Spatial Intelligence）',
+    '具身视觉：机器人感知-行动联合',
+    'AI for Medical Imaging',
+    '大模型',
+    '工业',
+    '多模态大模型、视频生成、3D视觉与自动驾驶感知等方向',
+    '论文与Workshop代表'
   ],
   searchExtra:'Denver computer vision multimodal video generation 3D spatial',
   detail:{
@@ -2978,12 +3138,18 @@ const conferences = [{
   types:['学术会议'],
   url:'https://icml.cc/',
   productCats:['大模型 / 算法'],
-  focus:[
-    '强化学习',
-    '生成模型',
-    'AI安全/对齐',
+    focus:[
+    '理论ML',
     '联邦学习',
-    '理论ML'
+    'AI安全/对齐',
+    '生成模型',
+    '强化学习',
+    '待议程公布 — 预计：强化学习通向AGI',
+    '推理扩展理论',
+    'AI安全：对齐税与能力保持',
+    '多智能体强化学习',
+    'AI in Science',
+    '大模型'
   ],
   searchExtra:'Seoul South Korea machine learning reinforcement generative federated',
   detail:{
@@ -3019,12 +3185,19 @@ const conferences = [{
   types:['产业与政策峰会','综合性展会'],
   url:'https://worldsummit.ai/',
   productCats:['大模型 / 算法','AI Agent / 应用'],
-  focus:[
-    'AI治理',
-    '企业AI战略',
-    '初创生态',
+    focus:[
+    'AI投资',
     '全球AI监管',
-    'AI投资'
+    '初创生态',
+    '企业AI战略',
+    'AI治理',
+    '周年纪念版：回顾AI十年与展望未来',
+    '全球AI治理框架最新动态',
+    '企业AI转型：ROI验证与规模化',
+    'AI初创生态：融资趋势与方向',
+    'AI与可持续发展深度融合',
+    '大模型',
+    'Agent'
   ],
   searchExtra:'Amsterdam Netherlands AI governance regulation startup investment 10th anniversary',
   detail:{
@@ -3060,12 +3233,20 @@ const conferences = [{
   types:['学术会议'],
   url:'https://neurips.cc/',
   productCats:['大模型 / 算法'],
-  focus:[
-    '大模型前沿',
-    'AI对齐/安全',
-    '强化学习',
+    focus:[
+    'AI+科学',
     '扩散模型',
-    'AI+科学'
+    '强化学习',
+    'AI对齐/安全',
+    '大模型前沿',
+    '待议程公布 — 预计：AGI进展评估',
+    '推理模型下一代架构',
+    'AI安全：超级对齐问题',
+    '合成数据与预训练极限',
+    'AI for Science大规模应用',
+    '大模型',
+    '大模型、AI系统、推理与安全等方向',
+    '是年底跟踪全球AI研究趋势的核心会议'
   ],
   searchExtra:'Sydney Australia neural information processing AGI alignment diffusion',
   detail:{
@@ -3101,12 +3282,21 @@ const conferences = [{
   types:['综合性展会','产业与政策峰会'],
   url:'https://www.mwcbarcelona.com/',
   productCats:['消费电子 / 终端'],
-  focus:[
-    '5G+AI融合',
-    '端侧AI手机',
-    'AI网络',
+    focus:[
+    'XR',
     '卫星通信',
-    'XR'
+    'AI网络',
+    '端侧AI手机',
+    'G+AI融合',
+    'G向5G-Advanced演进（GSMA主题）',
+    '端侧AI手机全面爆发：三星Galaxy AI全球首秀',
+    'AI原生网络架构',
+    '卫星通信商业化',
+    'XR降温转向实用AI',
+    '终端',
+    '运营商AI战略',
+    '端侧AI手机生态',
+    'AI手机与品牌全球化'
   ],
   searchExtra:'Barcelona Spain mobile world congress GSMA 5G telecom',
   detail:{
@@ -3195,12 +3385,22 @@ const conferences = [{
   types:['科技巨头大会','产业与政策峰会'],
   url:'https://cloud.google.com/blog/topics/google-cloud-next/google-cloud-next-2024-wrap-up',
   productCats:['AI Agent / 应用','AI 基础设施'],
-  focus:[
-    'Gemini大模型',
-    'AI基础设施',
-    '企业AI代理',
+    focus:[
+    '安全AI',
     '数据云',
-    '安全AI'
+    '企业AI代理',
+    'AI基础设施',
+    'Gemini大模型',
+    'Gemini 1.5 Pro发布（100万token上…',
+    'Google Vids AI视频创作工具',
+    'Gemini for Google Workspace…',
+    'AI安全：Mandiant AI集成',
+    'Cloud GPU超算集群扩张',
+    'Agent',
+    'Infra',
+    'AI驱动的下一个计算平台',
+    '企业AI基础设施战略',
+    'AI加速科学发现'
   ],
   searchExtra:'Las Vegas Google Cloud Gemini Vertex AI TPU developer',
   detail:{
@@ -3246,12 +3446,22 @@ const conferences = [{
   types:['科技巨头大会'],
   url:'https://build.microsoft.com/',
   productCats:['AI Agent / 应用'],
-  focus:[
-    'Copilot+PC',
-    'GPT-4o',
-    'AI Agent',
+    focus:[
+    'Azure AI',
     'GitHub Copilot',
-    'Azure AI'
+    'AI Agent',
+    'GPT-4o',
+    'Copilot+PC',
+    'Copilot+PC发布（端侧AI PC新品类）',
+    'GPT-4o整合进全套Microsoft产品',
+    'AI Agent框架：AutoGen升级',
+    'GitHub Copilot Workspace',
+    'Azure AI Studio新功能',
+    'Agent',
+    'AI时代的软件开发范式',
+    'GPT-4o与多模态AI未来',
+    'Azure AI基础设施规划',
+    'Copilot生态、Azure AI、Windows…'
   ],
   searchExtra:'Seattle Microsoft Azure Copilot developer conference Windows',
   detail:{
@@ -3296,12 +3506,21 @@ const conferences = [{
   country:'Paris, France',
   types:['创投活动','综合性展会'],
   url:'https://vivatech.com/',
-  focus:[
-    'AI创业生态',
-    '欧洲科技独角兽',
-    '深度科技',
+    focus:[
+    '绿色科技',
     '可持续AI',
-    '绿色科技'
+    '深度科技',
+    '欧洲科技独角兽',
+    'AI创业生态',
+    '欧洲AI主权议题首次成核心议题',
+    '深度科技(Deep Tech)投资热',
+    '生成式AI欧洲落地实践',
+    '可持续科技与绿色AI',
+    '+初创公司参展',
+    '欧洲AI主权战略',
+    '欧盟AI法案框架',
+    'AI的全球机遇与挑战',
+    'AI、深度科技与欧洲监管环境下的创新生态'
   ],
   searchExtra:'Paris France startup tech innovation Europe VC deeptech sustainability',
   detail:{
@@ -3347,12 +3566,21 @@ const conferences = [{
   types:['科技巨头大会'],
   url:'https://developer.apple.com/wwdc24/',
   productCats:['AI Agent / 应用','消费电子 / 终端'],
-  focus:[
-    'Apple Intelligence',
-    'iOS 18',
-    'AI Siri',
+    focus:[
+    '隐私AI',
     'visionOS',
-    '隐私AI'
+    'AI Siri',
+    'iOS 18',
+    'Apple Intelligence',
+    'Apple Intelligence正式发布（设备端A…',
+    'Siri深度重构：ChatGPT集成',
+    'iOS18/macOS Sequoia AI功能全面铺开',
+    'visionOS 2.0',
+    '隐私优先AI：Private Cloud Compute',
+    'Agent',
+    '终端',
+    'Apple Intelligence时代的到来',
+    'iOS 18与AI平台深度解析'
   ],
   searchExtra:'Cupertino Apple iOS macOS visionOS Swift developer WWDC keynote',
   detail:{
@@ -3393,12 +3621,23 @@ const conferences = [{
   types:['科技巨头大会','产业与政策峰会'],
   url:'https://www.salesforce.com/dreamforce/',
   productCats:['AI Agent / 应用'],
-  focus:[
-    'Agentforce AI代理',
-    'Einstein AI',
-    '企业AI落地',
+    focus:[
+    'CRM+AI',
     'Data Cloud',
-    'CRM+AI'
+    '企业AI落地',
+    'Einstein AI',
+    'Agentforce AI代理',
+    'Agentforce发布（Salesforce AI代…',
+    'Einstein Copilot企业全面铺开',
+    'Data Cloud+AI统一数据平台',
+    'AI ROI：企业真实案例展示',
+    '+参会者',
+    'Agent',
+    'Agentforce与AI自主企业',
+    '人与技术的未来',
+    '领导力与科技变革',
+    'Agentforce企业AI代理、CRM智能化与数据云…',
+    '是企业SaaS与'
   ],
   searchExtra:'San Francisco Salesforce CRM enterprise AI Agentforce Einstein',
   detail:{
@@ -3444,12 +3683,18 @@ const conferences = [{
   types:['创投活动','产业与政策峰会'],
   url:'https://techcrunch.com/events/tc-disrupt-2024/',
   productCats:['AI Agent / 应用'],
-  focus:[
-    'AI创业',
-    'Startup Battlefield',
-    'VC投资趋势',
+    focus:[
+    'SaaS新模式',
     'AI工具',
-    'SaaS新模式'
+    'VC投资趋势',
+    'Startup Battlefield',
+    'AI创业',
+    'AI创业浪潮：2024年AI初创融资突破历史',
+    'Startup Battlefield 200家初创竞…',
+    'VC视角：AI泡沫还是刚开始？',
+    'B2B AI SaaS新商业模式',
+    'Agent',
+    'AI时代创业新浪潮'
   ],
   searchExtra:'San Francisco TechCrunch startup battlefield VC venture capital seed funding',
   detail:{
@@ -3484,12 +3729,23 @@ const conferences = [{
   types:['综合性展会','产业与政策峰会'],
   url:'https://www.gitex.com/',
   productCats:['数据 / 云 / 安全','AI Agent / 应用'],
-  focus:[
-    'AI+政府数字化',
-    '智慧城市',
-    '中东AI投资',
+    focus:[
+    '网络安全AI',
     'Web3',
-    '网络安全AI'
+    '中东AI投资',
+    '智慧城市',
+    'AI+政府数字化',
+    'AI+政府数字化：中东各国政府集体拥抱AI',
+    '智慧城市解决方案规模化',
+    '中东成为AI新战场：千亿级投资涌入',
+    'Web3与AI融合应用',
+    '网络安全AI自动化',
+    '数据云',
+    'Agent',
+    'AI赋能智慧迪拜2040愿景',
+    '全球技术创新展示',
+    'AI、云计算、网络安全与智慧城市',
+    '是观察海湾国家数字化与AI投资热潮的重要平台'
   ],
   searchExtra:'Dubai UAE Middle East GITEX smart city digital government cybersecurity',
   detail:{
@@ -3529,12 +3785,20 @@ const conferences = [{
   country:'Lisbon, Portugal',
   types:['创投活动','产业与政策峰会'],
   url:'https://websummit.com/',
-  focus:[
-    'AI与创业生态',
-    '未来媒体',
-    '气候科技',
+    focus:[
+    '+参会',
     '监管政策',
-    '70000+参会'
+    '气候科技',
+    '未来媒体',
+    'AI与创业生态',
+    'AI监管争论：开源vs闭源',
+    '创业融资寒冬中的AI例外',
+    '气候科技+AI融合',
+    '媒体与AI：版权与内容生产',
+    '天15个主题轨道1000+演讲',
+    '开源AI与Llama生态',
+    'AGI时间线与挑战',
+    '科技监管的欧洲路径'
   ],
   searchExtra:'Lisbon Portugal Europe startup tech innovation media climate AI regulation',
   detail:{
@@ -3580,12 +3844,22 @@ const conferences = [{
   types:['科技巨头大会','产业与政策峰会'],
   url:'https://aws.amazon.com/events/reinvent/',
   productCats:['AI 基础设施','数据 / 云 / 安全'],
-  focus:[
-    '生成式AI基础设施',
-    'Bedrock平台',
-    'Trainium芯片',
+    focus:[
+    '数据湖+AI',
     '企业AI代理',
-    '数据湖+AI'
+    'Trainium芯片',
+    'Bedrock平台',
+    '生成式AI基础设施',
+    'Amazon Nova基础模型系列发布',
+    'AWS Bedrock多模态扩展',
+    'Trainium2 AI训练芯片',
+    'Amazon Q Business AI助手升级',
+    '云AI基础设施大规模扩张路线图',
+    'Infra',
+    '数据云',
+    'Amazon AI战略全景',
+    '生成式AI基础设施新篇章',
+    'Bedrock与企业AI落地'
   ],
   searchExtra:'Las Vegas Amazon AWS cloud computing reinvent Bedrock Nova Trainium enterprise',
   detail:{
@@ -3631,12 +3905,22 @@ const conferences = [{
   types:['科技巨头大会','产业与政策峰会'],
   url:'https://cloud.withgoogle.com/next/25',
   productCats:['AI Agent / 应用','AI 基础设施'],
-  focus:[
-    'Gemini 2.0',
-    'Agentic AI',
-    'Cloud AI基础设施',
+    focus:[
+    '安全AI',
     'Vertex AI',
-    '安全AI'
+    'Cloud AI基础设施',
+    'Agentic AI',
+    'Gemini 2.0',
+    'Gemini 2.0 Flash/Pro发布',
+    'AI Agent at Scale：企业级Agent部…',
+    'Project Astra多模态实时AI助手',
+    'Google Axion ARM服务器芯片发布',
+    'Gemini in Google Workspace全…',
+    'Agent',
+    'Infra',
+    'AI与下一个计算时代',
+    '企业AI Agent规模化',
+    'Gemini与AGI之路'
   ],
   searchExtra:'Las Vegas Google Cloud Gemini Vertex AI Axion developer enterprise',
   detail:{
@@ -3682,12 +3966,22 @@ const conferences = [{
   types:['科技巨头大会'],
   url:'https://build.microsoft.com/',
   productCats:['AI Agent / 应用'],
-  focus:[
-    'Copilot AI Agent',
-    'GitHub Copilot升级',
-    'Azure AI Foundry',
+    focus:[
+    'MCP协议',
     'AI PC生态',
-    'MCP协议'
+    'Azure AI Foundry',
+    'GitHub Copilot升级',
+    'Copilot AI Agent',
+    'Microsoft Copilot全面进化为AI Ag…',
+    'GitHub Copilot Workspace正式发布',
+    'MCP(Model Context Protocol)…',
+    'Azure AI Foundry开放生态',
+    'Windows AI Studio + 端侧AI',
+    'Agent',
+    'AI Agent时代的软件开发',
+    'OpenAI与微软深度合作',
+    'Azure AI Foundry生态',
+    'Copilot+PC、Azure AI Foundry…'
   ],
   searchExtra:'Seattle Microsoft Azure GitHub Copilot MCP agent developer Windows',
   detail:{
@@ -3732,12 +4026,20 @@ const conferences = [{
   country:'Paris, France',
   types:['创投活动','综合性展会'],
   url:'https://vivatech.com/',
-  focus:[
-    '欧洲AI主权',
-    '深度科技',
-    'AI初创生态',
+    focus:[
+    '欧盟AI法案',
     '可持续AI',
-    '欧盟AI法案'
+    'AI初创生态',
+    '深度科技',
+    '欧洲AI主权',
+    '欧盟AI法案正式实施：合规成本与机遇',
+    '欧洲AI独角兽崛起：Mistral/Aleph Alp…',
+    '+初创公司+3600+投资人峰会',
+    '深度科技投资持续升温',
+    'AI与气候：绿色AI成主流议题',
+    '欧洲AI战略2025新进展',
+    'AI的全球扩张与挑战',
+    '超越大语言模型的AI路径'
   ],
   searchExtra:'Paris France startup tech Europe AI regulation Mistral deeptech sustainability',
   detail:{
@@ -3783,12 +4085,21 @@ const conferences = [{
   types:['科技巨头大会'],
   url:'https://developer.apple.com/wwdc25/',
   productCats:['AI Agent / 应用','消费电子 / 终端'],
-  focus:[
-    'Apple Intelligence 2.0',
-    'iOS 19',
-    'Siri AI升级',
+    focus:[
+    '隐私AI',
     'visionOS',
-    '隐私AI'
+    'Siri AI升级',
+    'iOS 19',
+    'Apple Intelligence 2.0',
+    'Apple Intelligence 2.0：更强的端…',
+    'Siri深度理解升级：个人上下文感知',
+    'iOS 19/macOS Tahoe全新AI功能',
+    'visionOS 3.0：空间AI应用生态',
+    'Private Cloud Compute扩展',
+    'Agent',
+    '终端',
+    'Apple Intelligence进化新篇章',
+    'iOS 19深度解析'
   ],
   searchExtra:'Cupertino Apple iOS macOS visionOS Swift developer WWDC intelligence siri',
   detail:{
@@ -3829,12 +4140,21 @@ const conferences = [{
   types:['学术会议'],
   url:'https://2025.ieee-icra.org/',
   productCats:['机器人 / 具身智能','工业 / 制造'],
-  focus:[
-    '具身AI',
-    '人形机器人',
-    '机器学习控制',
+    focus:[
+    '人机交互',
     '自动驾驶机器人',
-    '人机交互'
+    '机器学习控制',
+    '人形机器人',
+    '具身AI',
+    '具身AI技术成熟化',
+    '人形机器人工厂部署案例展示',
+    '强化学习控制策略新突破',
+    '自动驾驶与机器人感知融合',
+    '人机协作安全与伦理',
+    '机器人',
+    '工业',
+    '移动机器人、操作规划、具身智能与自动驾驶',
+    '是机器人学术研究的风向标'
   ],
   searchExtra:'Atlanta robotics automation IEEE robot embodied AI manipulation autonomous',
   detail:{
@@ -3870,12 +4190,19 @@ const conferences = [{
   types:['科技巨头大会','产业与政策峰会'],
   url:'https://www.salesforce.com/dreamforce/',
   productCats:['AI Agent / 应用'],
-  focus:[
-    'Agentforce 2.0',
-    '企业AI代理大规模落地',
-    '数据+AI融合',
+    focus:[
+    '行业AI',
     'AI ROI',
-    '行业AI'
+    '数据+AI融合',
+    '企业AI代理大规模落地',
+    'Agentforce 2.0',
+    'Agentforce 2.0：AI代理自主完成复杂企业…',
+    '数据云与AI深度融合：统一数据资产',
+    '行业AI成熟：金融/医疗/零售真实ROI案例',
+    'AI治理框架：企业责任AI落地',
+    '+参会者',
+    'Agent',
+    'Agentforce 2.0与AI自主企业'
   ],
   searchExtra:'San Francisco Salesforce CRM enterprise AI Agentforce Data Cloud agent',
   detail:{
@@ -3911,12 +4238,23 @@ const conferences = [{
   types:['创投活动','产业与政策峰会'],
   url:'https://techcrunch.com/events/tc-disrupt-2025/',
   productCats:['AI 基础设施','机器人 / 具身智能','数据 / 云 / 安全'],
-  focus:[
-    'AI初创Battlefield',
-    'VC趋势',
-    'AI基础设施创业',
+    focus:[
+    'AI安全创业',
     '具身AI',
-    'AI安全创业'
+    'AI基础设施创业',
+    'VC趋势',
+    'AI初创Battlefield',
+    'AI创业进入应用层爆发期：从工具到平台',
+    '具身AI初创融资热：机器人+物理AI',
+    'AI安全新赛道：合规与防御类初创崛起',
+    'B2B AI SaaS成熟：付费意愿验证',
+    'Startup Battlefield决赛',
+    'Infra',
+    '机器人',
+    '数据云',
+    'AI创业新浪潮',
+    '下一个十亿级AI公司',
+    'AI Agent初创、垂直大模型与硬科技融资'
   ],
   searchExtra:'San Francisco TechCrunch startup battlefield VC venture capital embodied AI robot',
   detail:{
@@ -3956,12 +4294,18 @@ const conferences = [{
   country:'Lisbon, Portugal',
   types:['创投活动','产业与政策峰会'],
   url:'https://websummit.com/',
-  focus:[
-    'AI监管前沿',
-    '欧洲创业生态',
-    '气候科技',
+    focus:[
+    '初创融资',
     'AI伦理',
-    '初创融资'
+    '气候科技',
+    '欧洲创业生态',
+    'AI监管前沿',
+    'AI法案实施一年：创业影响评估',
+    '欧洲AI创业生态：本地模型vs美国大模型',
+    '气候科技+AI：绿色转型加速',
+    'AI伦理争论：开源与责任边界',
+    '+参会者1000+演讲',
+    '科技改变未来'
   ],
   searchExtra:'Lisbon Portugal Europe startup tech AI regulation ethics climate founder investor',
   detail:{
@@ -3996,12 +4340,19 @@ const conferences = [{
   country:'Helsinki, Finland',
   types:['创投活动','产业与政策峰会'],
   url:'https://slush.org/',
-  focus:[
-    '创始人融资',
-    '深度科技',
-    'AI初创',
+    focus:[
+    'VC对接',
     '北欧创业生态',
-    'VC对接'
+    'AI初创',
+    '深度科技',
+    '创始人融资',
+    '创始人最关心的5件事：AI时代的融资策略',
+    '深度科技投资升温：AI+生物+气候',
+    '北欧AI生态：小国大梦想',
+    'VC与创始人1对1精准对接',
+    '+参会者4000+创业者',
+    '创业融资新规则',
+    '从0到独角兽的路径'
   ],
   searchExtra:'Helsinki Finland startup founder VC deep tech Nordic ecosystem seed funding',
   detail:{
@@ -4042,12 +4393,21 @@ const conferences = [{
   types:['科技巨头大会','产业与政策峰会'],
   url:'https://aws.amazon.com/events/reinvent/',
   productCats:['AI 基础设施','数据 / 云 / 安全'],
-  focus:[
-    'Agentic AI',
-    'Amazon Nova升级',
-    'Trainium3芯片',
+    focus:[
+    '云AI基础设施',
     '企业AI代理',
-    '云AI基础设施'
+    'Trainium3芯片',
+    'Amazon Nova升级',
+    'Agentic AI',
+    'Agentic AI成大会核心主题：600+技术Ses…',
+    'Amazon Nova 2.0多模态模型升级',
+    'Trainium3 AI训练芯片发布',
+    'Amazon Q Enterprise AI助手新功能',
+    'AWS合规AI：各行业落地框架',
+    'Infra',
+    '数据云',
+    'Agentic AI的规模化部署',
+    'Amazon AI战略下一阶段'
   ],
   searchExtra:'Las Vegas Amazon AWS cloud reinvent Bedrock Nova Trainium agent enterprise',
   detail:{
@@ -4088,12 +4448,23 @@ const conferences = [{
   types:['综合性展会','产业与政策峰会'],
   url:'https://www.mwcbarcelona.com/',
   productCats:['消费电子 / 终端'],
-  focus:[
-    '6G+AI融合',
-    'AI手机新纪元',
-    '卫星直连',
+    focus:[
+    'AR眼镜',
     'AI网络自治',
-    'AR眼镜'
+    '卫星直连',
+    'AI手机新纪元',
+    'G+AI融合',
+    '"AI and Us: What Are We Rea…',
+    'G标准制定进入关键期',
+    'AI手机：端侧大模型成绝对标配',
+    'AR眼镜：后iPhone时代入口争夺',
+    'AI网络自治：零接触运维',
+    '终端',
+    'AI终端：无处不在的智能',
+    'G路线图与全球连接',
+    'G-A',
+    'G、AI手机、卫星通信与边缘AI',
+    '吸引全球运营商与设备商发布新品'
   ],
   searchExtra:'Barcelona Spain MWC mobile 6G satellite AI AR glasses network autonomous',
   detail:{
@@ -4177,12 +4548,24 @@ const conferences = [{
   types:['科技巨头大会','产业与政策峰会'],
   url:'https://www.googlecloudevents.com/next-vegas',
   productCats:['AI Agent / 应用','AI 基础设施'],
-  focus:[
-    'Agentic Cloud',
-    'Gemini企业版',
-    'Vertex AI Agent',
+    focus:[
+    '开发者工具',
     '云TPU',
-    '开发者工具'
+    'Vertex AI Agent',
+    'Gemini企业版',
+    'Agentic Cloud',
+    '开幕主题演讲：The agentic cloud（4/…',
+    '开发者主题演讲：Agents in the auton…',
+    'Partner Summit / Leaders Ci…',
+    'Gemini · Vertex AI · Agent…',
+    '云基础设施与 TPU 算力更新',
+    'Next at Night：Allegiant Sta…',
+    'Agent',
+    'Infra',
+    'Opening Keynote — The agent…',
+    'Agentic AI 规模化与企业落地',
+    'Developer Keynote — Agents…',
+    'The agentic cloud'
   ],
   searchExtra:'Las Vegas Google Cloud Next 26 agentic cloud Gemini TPU developer Mandalay Bay Benson Boone Weezer replay',
   detail:{
@@ -4229,12 +4612,20 @@ const conferences = [{
   types:['科技巨头大会'],
   url:'https://build.microsoft.com/',
   productCats:['AI Agent / 应用'],
-  focus:[
-    'GitHub Copilot Agent',
-    'AI开发工具',
-    'Azure AI',
+    focus:[
+    'MCP生态',
     'Windows AI',
-    'MCP生态'
+    'Azure AI',
+    'AI开发工具',
+    'GitHub Copilot Agent',
+    'GitHub Copilot全面Agent化：从代码补…',
+    'Azure AI Foundry企业落地方案深化',
+    'MCP协议生态：微软+合作伙伴全面接入',
+    'Windows AI本地推理能力升级',
+    'AI安全开发：责任AI框架',
+    'Agent',
+    'AI Agent时代全面到来',
+    'GitHub Copilot下一阶段'
   ],
   searchExtra:'San Francisco Microsoft Azure GitHub Copilot MCP agent developer Windows AI Foundry',
   detail:{
@@ -4275,12 +4666,21 @@ const conferences = [{
   types:['科技巨头大会'],
   url:'https://developer.apple.com/wwdc26/',
   productCats:['AI Agent / 应用','消费电子 / 终端'],
-  focus:[
-    'Apple Intelligence深度升级',
-    'iOS 20',
-    'Siri AGI化',
+    focus:[
+    'macOS AI',
     'visionOS AI',
-    'macOS AI'
+    'Siri AGI化',
+    'iOS 20',
+    'Apple Intelligence深度升级',
+    'Apple Intelligence深度升级：HUGE…',
+    'iOS 20重磅AI功能',
+    'Siri进一步AGI化：复杂任务自主完成',
+    'visionOS 4.0空间AI体验',
+    'macOS AI创作工具',
+    'Agent',
+    '终端',
+    'Apple Intelligence的下一个章节',
+    'iOS 20与AI全面融合'
   ],
   searchExtra:'Cupertino Apple iOS macOS visionOS Swift developer WWDC intelligence siri AGI Gemini',
   detail:{
@@ -4321,12 +4721,21 @@ const conferences = [{
   types:['学术会议'],
   url:'https://2024.ieee-icra.org/',
   productCats:['机器人 / 具身智能','工业 / 制造'],
-  focus:[
-    '机器人AI',
-    '运动规划',
-    '抓取操控',
+    focus:[
+    '人机交互',
     '自动驾驶',
-    '人机交互'
+    '抓取操控',
+    '运动规划',
+    '机器人AI',
+    '大模型赋能机器人操控',
+    'Transformer在机器人控制中的应用爆发',
+    '抓取与灵巧操控新突破',
+    '自动驾驶感知与规划',
+    '人机自然语言交互',
+    '机器人',
+    '工业',
+    '操作、导航、人机协作与学习型控制',
+    '是具身智能与工业机器人研究的重要交流平台'
   ],
   searchExtra:'Yokohama Japan robotics automation IEEE manipulation autonomous driving grasping',
   detail:{
@@ -4362,12 +4771,20 @@ const conferences = [{
   types:['学术会议'],
   url:'https://2026.ieee-icra.org/',
   productCats:['机器人 / 具身智能','工业 / 制造'],
-  focus:[
-    '具身AI',
-    '人形机器人',
-    'AI操控',
+    focus:[
+    '人机协作',
     '自动驾驶机器人',
-    '人机协作'
+    'AI操控',
+    '人形机器人',
+    '具身AI',
+    '具身AI：视觉-语言-动作(VLA)模型爆发',
+    '人形机器人从实验室走向工厂：真实部署案例',
+    'AI操控：灵巧手+触觉传感器融合',
+    '自动驾驶与机器人感知统一框架',
+    '人机协作安全标准新进展',
+    '机器人',
+    '工业',
+    '人形机器人、具身基础模型与自主系统安全等方向'
   ],
   searchExtra:'Vienna Austria robotics automation IEEE humanoid embodied AI manipulation VLA model',
   detail:{
@@ -4403,11 +4820,17 @@ const conferences = [{
   types:['科技巨头大会','产业与政策峰会'],
   url:'https://www.salesforce.com/dreamforce/',
   productCats:['AI Agent / 应用'],
-  focus:[
-    'Agentforce 3.0',
-    'AI自主企业',
+    focus:[
+    '行业AI成熟化',
     '数据+AI深度融合',
-    '行业AI成熟化'
+    'AI自主企业',
+    'Agentforce 3.0',
+    '待公布 — 预计：Agentforce 3.0发布',
+    'AI自主企业(Autonomous Enterpris…',
+    '行业AI垂直化深化',
+    '数据+AI深度融合新阶段',
+    'Agent',
+    '待公布'
   ],
   searchExtra:'San Francisco Salesforce CRM enterprise AI Agentforce autonomous agent vertical',
   detail:{
@@ -4442,11 +4865,15 @@ const conferences = [{
   types:['创投活动','产业与政策峰会'],
   url:'https://techcrunch.com/events/techcrunch-disrupt/',
   productCats:['AI 基础设施'],
-  focus:[
-    'AI创业新浪潮',
-    'Startup Battlefield',
+    focus:[
+    'AI基础设施创业',
     '物理AI初创',
-    'AI基础设施创业'
+    'Startup Battlefield',
+    'AI创业新浪潮',
+    '待公布 — 预计：物理AI(机器人/自动驾驶)初创爆发',
+    'AI基础设施创业机会',
+    'Startup Battlefield新赛季',
+    'Infra'
   ],
   searchExtra:'San Francisco TechCrunch startup battlefield VC venture capital physical AI robot infrastructure',
   detail:{
@@ -4480,12 +4907,21 @@ const conferences = [{
   types:['综合性展会','产业与政策峰会'],
   url:'https://www.gitex.com/',
   productCats:['数据 / 云 / 安全','AI Agent / 应用'],
-  focus:[
-    'AI+量子融合',
-    '主权AI深化',
-    '智慧城市2.0',
+    focus:[
+    '全球南方AI',
     'AI创业生态',
-    '全球南方AI'
+    '智慧城市2.0',
+    '主权AI深化',
+    'AI+量子融合',
+    '全球首个GITEX TechCation（会议+旅游融…',
+    'AI+量子计算融合：商业化路径',
+    '主权AI深化：更多国家建本地AI基础设施',
+    '全球南方AI：非洲/东南亚/中东AI生态',
+    'Summit+4天Expo新形式',
+    '数据云',
+    'Agent',
+    'AI、云、网络安全与数字政府',
+    '是观察海湾AI投资与智慧城市项目的重要窗口'
   ],
   searchExtra:'Dubai UAE GITEX TechCation quantum sovereign AI smart city Africa Southeast Asia startup',
   detail:{
@@ -4520,12 +4956,14 @@ const conferences = [{
   country:'Lisbon, Portugal',
   types:['创投活动','产业与政策峰会'],
   url:'https://websummit.com/',
-  focus:[
-    'AI创业未来',
-    '欧洲科技主权',
-    'AI监管成熟化',
+    focus:[
+    '下一个十亿用户',
     '气候科技',
-    '下一个十亿用户'
+    'AI监管成熟化',
+    '欧洲科技主权',
+    'AI创业未来',
+    '待公布 — 预计：AI创业进入整合期',
+    '欧洲科技自主战略深化'
   ],
   searchExtra:'Lisbon Portugal Europe startup tech AI sovereignty climate founder investor regulation',
   detail:{
@@ -4557,11 +4995,13 @@ const conferences = [{
   country:'Helsinki, Finland',
   types:['创投活动','产业与政策峰会'],
   url:'https://slush.org/',
-  focus:[
-    '创始人融资',
-    '深度科技AI',
+    focus:[
+    'VC趋势2027',
     '北欧创业生态',
-    'VC趋势2027'
+    '深度科技AI',
+    '创始人融资',
+    '待公布 — 预计：AI时代创始人融资新规则',
+    '深度科技持续升温'
   ],
   searchExtra:'Helsinki Finland startup founder VC deep tech Nordic 2027 AI seed funding ecosystem',
   detail:{
@@ -4594,11 +5034,15 @@ const conferences = [{
   types:['科技巨头大会','产业与政策峰会'],
   url:'https://aws.amazon.com/events/reinvent/',
   productCats:['AI 基础设施','数据 / 云 / 安全'],
-  focus:[
-    '下一代Agentic AI',
-    '量子+AI',
+    focus:[
+    '云AI成本优化',
     'AWS AI芯片',
-    '云AI成本优化'
+    '量子+AI',
+    '下一代Agentic AI',
+    '待公布 — 预计：Agentic AI规模化落地',
+    '量子计算+AI前瞻',
+    'Infra',
+    '数据云'
   ],
   searchExtra:'Las Vegas Amazon AWS cloud reinvent agent quantum chip cost enterprise 2026',
   detail:{
@@ -4631,12 +5075,19 @@ const conferences = [{
   types:['科技巨头大会','产业与政策峰会'],
   url:'https://www.nvidia.com/gtc/',
   productCats:['芯片 / 算力'],
-  focus:[
-    'EMEA地区AI应用',
-    '欧洲AI基础设施',
-    'GPU计算',
+    focus:[
+    'AI政策',
     '机器人',
-    'AI政策'
+    'GPU计算',
+    '欧洲AI基础设施',
+    'EMEA地区AI应用',
+    '面向欧洲中东非洲EMEA地区的GTC分站',
+    '欧洲AI基础设施建设进展',
+    'GPU计算在欧洲的落地',
+    'AI政策与监管环境下的技术发展',
+    '芯片',
+    'Jensen Huang或地区负责人',
+    '欧洲AI基础设施、工业数字化、机器人与欧盟AI政策环境…'
   ],
   searchExtra:'Berlin Germany NVIDIA GTC Europe EMEA GPU AI robot autonomous industrial policy',
   detail:{
@@ -4670,12 +5121,15 @@ const conferences = [{
   country:'Paris, France',
   types:['创投活动','综合性展会'],
   url:'https://vivatech.com/',
-  focus:[
-    '欧洲AI主权',
-    '深度科技',
-    'AI初创生态',
+    focus:[
+    '欧盟AI监管',
     '可持续AI',
-    '欧盟AI监管'
+    'AI初创生态',
+    '深度科技',
+    '欧洲AI主权',
+    '待公布 — 预计：欧洲AI主权战略升级',
+    '深度科技投资继续升温',
+    'AI监管成熟期：合规与创新平衡'
   ],
   searchExtra:'Paris France startup tech Europe AI regulation deeptech sustainability VivaTech 2026',
   detail:{
@@ -4709,13 +5163,25 @@ const conferences = [{
   types:['产业与政策峰会','综合性展会'],
   url:'https://www.worldaic.com.cn/',
   productCats:['大模型 / 算法','机器人 / 具身智能','AI Agent / 应用'],
-  focus:[
-    '大模型落地',
-    '具身智能',
-    'AI治理',
-    '算力',
+    focus:[
+    '智能终端',
     '行业AI',
-    '智能终端'
+    '算力',
+    'AI治理',
+    '具身智能',
+    '大模型落地',
+    '智能时代 同球共济（主题）',
+    '大模型与智能体应用',
+    '算力新基建',
+    '具身智能与智能终端',
+    'AI安全治理',
+    '大模型',
+    '机器人',
+    'Agent',
+    'AI与中国机遇',
+    '云计算与AI基础设施',
+    '智能时代 同球共济',
+    '会议论坛、展览展示、评奖赛事、智能体验、创新孵化五大板块'
   ],
   searchExtra:'Shanghai China world AI conference WAIC 世界人工智能大会',
   detail:{
@@ -5583,12 +6049,17 @@ const conferences = [{
   types:['综合性展会'],
   url:'https://developer.cloud.tencent.com/news/2577497',
   productCats:['数据 / 云 / 安全'],
-  focus:[
-    'AI应用落地',
-    '政企AI',
-    '学术+产业+应用',
+    focus:[
+    'AI安全',
     'AI硬件',
-    'AI安全'
+    '学术+产业+应用',
+    '政企AI',
+    'AI应用落地',
+    '学术+产业+应用三位一体AI生态',
+    '政企数字化智能化升级',
+    'AI安全与数据治理',
+    '数据云',
+    '请以官方发布为准'
   ],
   searchExtra:'Beijing China AI expo 中国 人工智能展览 academic industry application',
   detail:{
@@ -5749,12 +6220,21 @@ const conferences = [{
   types:['创投活动','科技巨头大会'],
   url:'https://www.nvidia.cn/startups/showcase-2025/',
   productCats:['AI Agent / 应用','机器人 / 具身智能'],
-  focus:[
-    'AI初创',
-    '创业路演',
-    'AI Agent',
+    focus:[
+    'NVIDIA生态',
     '具身智能',
-    'NVIDIA生态'
+    'AI Agent',
+    '创业路演',
+    'AI初创',
+    '全国13场区域展示活动',
+    'AI Agent与具身智能路演',
+    'NVIDIA初创加速计划生态对接',
+    '月14日苏州半程展示收官',
+    'Agent',
+    '机器人',
+    '中国AI创业生态与Inception计划',
+    'AI Agent、具身智能等前沿方向',
+    '为早期AI创业公司对接技术、资本与产业资'
   ],
   searchExtra:'NVIDIA Inception Showcase China startup Shanghai Beijing Shenzhen Hangzhou AI agent',
   detail:{
@@ -5887,12 +6367,18 @@ const conferences = [{
   country:'Hong Kong',
   types:['创投活动','产业与政策峰会'],
   url:'https://riseconf.com/',
-  focus:[
-    '亚洲科技创业',
-    'VC投资趋势',
-    'AI初创',
+    focus:[
+    '大湾区',
     '香港科创',
-    '大湾区'
+    'AI初创',
+    'VC投资趋势',
+    '亚洲科技创业',
+    '⚠️ 2025年RISE未在香港举办，官网日期待公布（…',
+    '香港与大湾区科创生态',
+    'AI初创融资新趋势',
+    '亚洲独角兽崛起路径',
+    'AI监管：亚洲视角',
+    '香港AI政策2025'
   ],
   searchExtra:'Hong Kong Asia startup tech VC investment AI fintech greater bay area RISE conference',
   detail:{
@@ -5957,13 +6443,22 @@ const conferences = [{
   types:['综合性展会','产业与政策峰会'],
   url:'https://www.mwcbarcelona.com/',
   productCats:['消费电子 / 终端'],
-  focus:[
-    '5G/6G',
-    'AI手机',
-    '网络AI',
-    '边缘AI',
+    focus:[
+    '生成式AI',
     '卫星通信',
-    '生成式AI'
+    '边缘AI',
+    '网络AI',
+    'AI手机',
+    'G/6G',
+    'G AI融合：网络智能化',
+    '生成式AI手机终端应用',
+    'AI赋能电信运营',
+    '边缘AI与工业物联网',
+    'G研究前沿',
+    '终端',
+    'AI手机时代的Snapdragon平台',
+    'G-A与AI融合网络',
+    'AI基础设施与电信融合'
   ],
   searchExtra:'MWC Barcelona Spain mobile world congress 5G 6G AI smartphone network',
   detail:{
@@ -6374,14 +6869,25 @@ const conferences = [{
   types:['综合性展会','科技巨头大会'],
   url:'https://www.computextaipei.com.tw/',
   productCats:['芯片 / 算力','消费电子 / 终端'],
-  focus:[
-    'AI PC',
-    'AI服务器',
-    '生成式AI',
-    '具身智能/机器人',
-    'RISC-V',
+    focus:[
+    '绿能',
     '边缘AI',
-    '绿能'
+    'RISC-V',
+    '具身智能/机器人',
+    '生成式AI',
+    'AI服务器',
+    'AI PC',
+    'AI Computing：AI服务器与数据中心',
+    'Future Mobility：ADAS与自动驾驶',
+    'Next-Gen Communication：WiFi…',
+    'Green Energy & Sustainabili…',
+    '芯片',
+    '终端',
+    'Physical AI与机器人时代',
+    'AI PC与端侧AI生态',
+    'AI工厂与制造转型',
+    '天玑AI芯片全球战略',
+    'AI NEXT'
   ],
   searchExtra:'Computex Taipei Taiwan AI PC server GPU AMD NVIDIA ASUS GIGABYTE semiconductor AI NEXT',
   detail:{
@@ -7083,14 +7589,25 @@ const conferences = [{
   types:['综合性展会','产业与政策峰会'],
   url:'https://www.gitex.com/',
   productCats:['数据 / 云 / 安全','AI Agent / 应用'],
-  focus:[
-    'AI/大模型',
-    '网络安全',
-    '智慧城市',
-    '云计算',
-    '区块链',
+    focus:[
+    '工业AI',
     '卫星通信',
-    '工业AI'
+    '区块链',
+    '云计算',
+    '智慧城市',
+    '网络安全',
+    'AI/大模型',
+    '生成式AI与大语言模型实战落地',
+    'AI驱动网络安全',
+    '智慧城市与政府数字化转型',
+    '边缘AI与工业物联网',
+    '全球AI创业生态',
+    '数据云',
+    'Agent',
+    '生成式AI的下一个边界',
+    '中东AI战略与国家主权AI',
+    '国家AI战略：阿联酋样本',
+    '生成式AI、云、网络安全与数字政府'
   ],
   searchExtra:'GITEX Global Dubai UAE artificial intelligence cybersecurity smart city cloud fintech startup',
   detail:{
@@ -7965,13 +8482,25 @@ const conferences = [{
   types:['综合性展会'],
   url:'https://www.ifa-berlin.com/',
   productCats:['消费电子 / 终端'],
-  focus:[
-    'AI家电',
-    '消费电子',
-    'AI音频视频',
-    'AIoT智能家居',
+    focus:[
+    '可持续AI',
     'AI健康',
-    '可持续AI'
+    'AIoT智能家居',
+    'AI音频视频',
+    '消费电子',
+    'AI家电',
+    'AI赋能消费电子',
+    '智能家居互联互通',
+    'AI音视频技术',
+    '可持续与绿色AI',
+    'AI健康与健身科技',
+    '终端',
+    'IFA 2025：AI驱动消费电子新时代',
+    'Galaxy AI生态与全球扩展',
+    'AI家电与ThinQ AI平台',
+    'Innovation For All',
+    'AI家电、智能音频、可穿戴与智能家居',
+    '是观察欧洲消费科技趋势的重要窗口'
   ],
   searchExtra:'IFA Berlin Germany consumer electronics AI home appliance smart home audio video health sustainability',
   detail:{
@@ -8284,13 +8813,25 @@ const conferences = [{
   types:['综合性展会'],
   url:'https://www.semiconwest.org/',
   productCats:['芯片 / 算力'],
-  focus:[
-    'AI芯片制造',
-    '晶圆制造设备',
-    '半导体封装',
-    'EDA/IP',
+    focus:[
+    'AI驱动制造',
     '先进工艺',
-    'AI驱动制造'
+    'EDA/IP',
+    '半导体封装',
+    '晶圆制造设备',
+    'AI芯片制造',
+    'SEMICON West首次落地凤凰城（2025年起与…',
+    '先进封装：Chiplet与HBM',
+    'EDA AI：芯片设计自动化',
+    'D集成与异构计算',
+    '绿色半导体制造',
+    '芯片',
+    'AI EDA：AI设计AI芯片的新时代',
+    'Intelligent System Design：A…',
+    'AI驱动半导体材料工程',
+    '先进制程、Chiplet',
+    'HBM封装、EDA AI与设备供应链',
+    '是AI芯片制造与'
   ],
   searchExtra:'SEMICON West Phoenix Arizona semiconductor chip wafer EDA equipment AI manufacturing packaging advanced process',
   detail:{
@@ -8967,11 +9508,23 @@ const conferences = [{
   types:['产业与政策峰会'],
   url:'https://www.embodiedai-summit.com/',
   productCats:['芯片 / 算力','机器人 / 具身智能'],
-  focus:[
-    '具身智能',
-    '人形机器人',
+    focus:[
+    'AI芯片',
     '机器人产业链',
-    'AI芯片'
+    '人形机器人',
+    '具身智能',
+    '具身智能产业化路径',
+    '人形机器人核心技术',
+    '机器人供应链生态',
+    'AI与机器人融合',
+    '芯片',
+    '机器人',
+    '宇树机器人：从四足到人形的进化',
+    '通用具身智能的商业化路径',
+    '具身智能基础模型研究进展',
+    '具身智能+人形机器人',
+    '「具身智能+人形机器人」的垂直产业峰会',
+    '年3月11–13日在杭州举办'
   ],
   searchExtra:'杭州 具身智能 机器人 杭州国际博览中心 宇树 智元 银河通用 千寻 小米 人形机器人 产业大会',
   detail:{
@@ -9101,11 +9654,18 @@ const conferences = [{
   types:['综合性展会'],
   url:'https://www.jufair.com/',
   productCats:['芯片 / 算力','机器人 / 具身智能','工业 / 制造'],
-  focus:[
-    '人形机器人',
-    'AI芯片',
+    focus:[
+    '工业AI',
     '核心零部件',
-    '工业AI'
+    'AI芯片',
+    '人形机器人',
+    '人形机器人产业化',
+    'AI芯片国产化',
+    '机器人核心零部件',
+    '智能制造AI',
+    '芯片',
+    '机器人',
+    '工业'
   ],
   searchExtra:'北京 人工智能 机器人 展览会 AI芯片 核心零部件 人形机器人 免费参观',
   detail:{
@@ -9205,11 +9765,19 @@ const conferences = [{
   types:['科技巨头大会','产业与政策峰会'],
   url:'https://gdps.org.cn/',
   productCats:['大模型 / 算法','AI Agent / 应用'],
-  focus:[
-    '开发者生态',
-    'AI应用开发',
+    focus:[
+    '产品发布',
     '大模型',
-    '产品发布'
+    'AI应用开发',
+    '开发者生态',
+    'AI开发者工具与生态',
+    '大模型应用开发实践',
+    '开源AI框架',
+    'AI产品发布专场',
+    'Agent',
+    'AI开发者工具与最佳实践',
+    '开发者，找找找',
+    '上海高地'
   ],
   searchExtra:'GDPS 全球开发者先锋大会 上海 张江科学会堂 开发者 AI应用 技术论坛 产品发布',
   detail:{
@@ -9343,11 +9911,16 @@ const conferences = [{
   types:['综合性展会'],
   url:'https://www.gaie.cn/',
   productCats:['机器人 / 具身智能'],
-  focus:[
-    '具身智能',
-    '机器人产业化',
+    focus:[
+    '人形机器人',
     '零部件',
-    '人形机器人'
+    '机器人产业化',
+    '具身智能',
+    '具身智能产业化主题',
+    '机器人零部件专区',
+    '具身智能演练场',
+    '新品机器人发布',
+    '机器人'
   ],
   searchExtra:'深圳 人工智能 机器人展 具身智能产业化 零部件 人形机器人 供需对接',
   detail:{
@@ -9482,11 +10055,18 @@ const conferences = [{
   types:['综合性展会'],
   url:'https://www.fair-robot.com/',
   productCats:['机器人 / 具身智能'],
-  focus:[
-    '机器人全产业链',
-    '供应链对接',
+    focus:[
+    '零部件配套',
     '产业投资',
-    '零部件配套'
+    '供应链对接',
+    '机器人全产业链',
+    '机器人全产业链生态',
+    '供需精准对接',
+    '产业投资路演',
+    '余场论坛',
+    '机器人',
+    '本体制造、核心零部件、系统集成与投融资对接',
+    '适合供应链采购、渠道拓展和产业投资研'
   ],
   searchExtra:'FAIR plus 机器人 全产业链 深圳 供应链 零部件 产业对接 论坛 500家企业',
   detail:{
@@ -9635,11 +10215,21 @@ const conferences = [{
   types:['综合性展会'],
   url:'https://www.jufair.com/',
   productCats:['机器人 / 具身智能','工业 / 制造'],
-  focus:[
-    '人形机器人',
-    '供应链生态',
+    focus:[
+    '工业机器人',
     '服务机器人',
-    '工业机器人'
+    '供应链生态',
+    '人形机器人',
+    '人形机器人集体亮相',
+    '全品类机器人生态',
+    '供应链配套对接',
+    '机器人应用场景展示',
+    '机器人',
+    '工业',
+    '人形机器人+供应链',
+    '人形、工业、服务、特种和农业机器人全品类',
+    '并设供应链配套对接区',
+    '适合整机厂、零部'
   ],
   searchExtra:'上海 人形机器人 供应链 生态展 国家会展中心 服务机器人 工业机器人 特种机器人 农业机器人',
   detail:{
@@ -9788,11 +10378,18 @@ const conferences = [{
   types:['综合性展会'],
   url:'https://www.jufair.com/',
   productCats:['机器人 / 具身智能','工业 / 制造'],
-  focus:[
-    '人形机器人',
-    'AI具身智能',
+    focus:[
+    'Optimus',
     '工业化落地',
-    'Optimus'
+    'AI具身智能',
+    '人形机器人',
+    '人形机器人赋能新型工业化',
+    '特斯拉Optimus V3中国首展',
+    '具身智能核心技术',
+    '机器人工业落地场景',
+    '机器人',
+    '工业',
+    'Optimus人形机器人：从实验室到工厂'
   ],
   searchExtra:'杭州 人形机器人 机器人技术展 特斯拉 Optimus V3 宇树 云深处 300家企业 人形机器人赋能新型工业化',
   detail:{
@@ -9919,11 +10516,17 @@ const conferences = [{
   types:['综合性展会'],
   url:'https://www.ciros-expo.com/',
   productCats:['机器人 / 具身智能','工业 / 制造'],
-  focus:[
-    '工业机器人',
-    'AI机器人解决方案',
+    focus:[
+    '机器人本体',
     '智能制造',
-    '机器人本体'
+    'AI机器人解决方案',
+    '工业机器人',
+    '工业机器人本体与解决方案',
+    'AI视觉与检测',
+    '智能制造AI',
+    '机器人系统集成',
+    '机器人',
+    '工业'
   ],
   searchExtra:'北京 机器人大会 CRS Expo 中国国际展览中心 朝阳馆 工业机器人 智能制造 机器人本体 解决方案',
   detail:{
@@ -10058,12 +10661,18 @@ const conferences = [{
   types:['综合性展会'],
   url:'https://www.aceexpo.cn/',
   productCats:['消费电子 / 终端'],
-  focus:[
-    '消费电子',
-    'AIoT',
-    '智慧生活',
+    focus:[
+    'AI终端',
     '全域互联',
-    'AI终端'
+    '智慧生活',
+    'AIoT',
+    '消费电子',
+    '智慧生活·全域互联（主题）',
+    'AI消费终端',
+    'AIoT生态互联',
+    '前沿AI硬件',
+    '终端',
+    '智慧生活·全域互联'
   ],
   searchExtra:'亚洲消费电子展 ACE 北京 亦创 智慧生活 全域互联 消费电子 AI终端 八大展馆',
   detail:{
@@ -10212,11 +10821,18 @@ const conferences = [{
   types:['综合性展会'],
   url:'https://www.arce-expo.com/',
   productCats:['机器人 / 具身智能','工业 / 制造'],
-  focus:[
-    'AI与机器人融合',
-    '人形机器人',
+    focus:[
+    '全球化协作',
     '工业机器人',
-    '全球化协作'
+    '人形机器人',
+    'AI与机器人融合',
+    '制造未来-共生共赢（主题）',
+    'AI与机器人深度融合',
+    '全球化协作与产业链',
+    '人形/工业全品类展示',
+    '机器人',
+    '工业',
+    '制造未来-共生共赢'
   ],
   searchExtra:'ARCE 亚洲机器人大会 广州 制造未来 AI机器人融合 人形机器人 工业机器人 全品类',
   detail:{
@@ -10344,11 +10960,18 @@ const conferences = [{
   types:['产业与政策峰会'],
   url:'https://www.caict.ac.cn/kxyj/qwfb/bps/',
   productCats:['芯片 / 算力'],
-  focus:[
-    'AI算力',
-    '智能计算',
+    focus:[
+    'AI基础设施',
     '算力网络',
-    'AI基础设施'
+    '智能计算',
+    'AI算力',
+    'AI算力基础设施建设',
+    '智能计算产业生态',
+    '算力网络互联',
+    '绿色AI算力',
+    '芯片',
+    '算网筑基 智引未来',
+    '+2+X+Y'
   ],
   searchExtra:'中国算力大会 大同 大同市美术馆 山西 智能计算 AI算力 算力网络 数据中心 算力基础设施',
   detail:{
@@ -10455,11 +11078,20 @@ const conferences = [{
   types:['产业与政策峰会'],
   url:'https://www.isc.org.cn/',
   productCats:['数据 / 云 / 安全'],
-  focus:[
-    '互联网AI',
-    '大模型应用',
+    focus:[
+    '数字经济',
     'AI安全',
-    '数字经济'
+    '大模型应用',
+    '互联网AI',
+    'AI大模型产业应用',
+    '数字经济与AI',
+    '互联网AI安全',
+    'AI赋能产业数字化',
+    '数据云',
+    '数驱新质·智创未来',
+    '人工智能、5G-A',
+    'G、低空经济等前沿方向',
+    '设开幕式、高峰论坛、行业论坛及展览'
   ],
   searchExtra:'中国互联网大会 北京 互联网 AI应用 大模型 数字经济 AI安全 网络安全',
   detail:{
@@ -10587,11 +11219,19 @@ const conferences = [{
   types:['产业与政策峰会'],
   url:'https://www.wimc.org.cn/',
   productCats:['工业 / 制造'],
-  focus:[
-    '智能制造',
-    '工业AI',
+    focus:[
+    'AI工厂',
     '工业互联网',
-    'AI工厂'
+    '工业AI',
+    '智能制造',
+    'AI赋能智能制造',
+    '工业互联网与AI',
+    '数字孪生工厂',
+    '智能制造标准与生态',
+    '工业',
+    'AI+工厂',
+    'AI赋能制造业、工业互联网、数字孪生工厂和智能制造标准…',
+    '汇聚华为、海尔卡奥斯'
   ],
   searchExtra:'世界智能制造大会 南京 工业AI 智能制造 工业互联网 AI工厂 数字孪生 工业机器人',
   detail:{
@@ -10719,11 +11359,18 @@ const conferences = [{
   types:['产业与政策峰会'],
   url:'https://ccai.caai.cn/',
   productCats:['大模型 / 算法','数据 / 云 / 安全'],
-  focus:[
-    '大模型',
-    'AI政策',
+    focus:[
+    '产业AI',
     'AI治理',
-    '产业AI'
+    'AI政策',
+    '大模型',
+    '中国AI战略与政策方向',
+    '大模型竞争格局',
+    'AI治理与安全',
+    '产业AI落地',
+    '数据云',
+    '智启新元 海创未来',
+    '人工智能领域十大问题'
   ],
   searchExtra:'中国人工智能大会 CCAI 北京 海淀 大模型 AI政策 AI治理 产业AI 院长年会',
   detail:{
@@ -10879,11 +11526,19 @@ const conferences = [{
   types:['产业与政策峰会'],
   url:'https://www.cmif.org.cn/',
   productCats:['机器人 / 具身智能','工业 / 制造'],
-  focus:[
-    '机器人产业政策',
-    '人形机器人',
+    focus:[
+    'AI技术',
     '工业机器人',
-    'AI技术'
+    '人形机器人',
+    '机器人产业政策',
+    '中国机器人产业政策解读',
+    '人形机器人技术进展',
+    '机器人产业链生态',
+    'AI驱动机器人创新',
+    '机器人',
+    '工业',
+    '构建开放协同的智能机器人产业发展生态',
+    '+1+8'
   ],
   searchExtra:'中国机器人产业发展大会 CRIC2025 上海 普陀 机器人产业 人形机器人 工业机器人 政策',
   detail:{
@@ -11011,11 +11666,17 @@ const conferences = [{
   types:['综合性展会','产业与政策峰会'],
   url:'https://www.worldrobotconference.com/',
   productCats:['机器人 / 具身智能'],
-  focus:[
-    '人形机器人',
-    '具身智能',
+    focus:[
+    '机器人大赛',
     '工业机器人',
-    '机器人大赛'
+    '具身智能',
+    '人形机器人',
+    '人形机器人与具身智能',
+    '工业机器人AI升级',
+    '机器人产业国际合作',
+    '机器人应用落地',
+    '机器人',
+    '让机器人更智慧，让具身体更智能'
   ],
   searchExtra:'世界机器人大会 WRC 2025 北京亦庄 人形机器人 具身智能 北人亦创',
   detail:{
@@ -11164,11 +11825,17 @@ const conferences = [{
   types:['产业与政策峰会'],
   url:'https://gaitc.caai.cn/',
   productCats:['大模型 / 算法'],
-  focus:[
-    'AI基础研究',
-    '大模型技术',
+    focus:[
+    'AI国际合作',
     'AI伦理',
-    'AI国际合作'
+    '大模型技术',
+    'AI基础研究',
+    '交叉、融合、相生、共赢（主题）',
+    '大模型技术突破',
+    'AI伦理与治理',
+    '全球AI合作框架',
+    '大模型',
+    '交叉、融合、相生、共赢'
   ],
   searchExtra:'全球人工智能技术大会 GAITC 杭州 6月 AI研究 大模型 AI伦理 国际合作 学术峰会',
   detail:{
@@ -11303,11 +11970,18 @@ const conferences = [{
   types:['综合性展会'],
   url:'https://www.dahaoexpo.com/expo/46159',
   productCats:['AI Agent / 应用'],
-  focus:[
-    'AI应用',
-    'AI产品',
+    focus:[
+    'AI新基建',
     '企业AI',
-    'AI新基建'
+    'AI产品',
+    'AI应用',
+    '企业AI落地应用',
+    'AI新基建与算力',
+    'AI赋能各行业',
+    'AI创新产品展示',
+    'Agent',
+    'AI应用软件、智能硬件、AI新基建和企业数字化方案',
+    '汇聚科大讯飞、商汤、旷视等本'
   ],
   searchExtra:'上海国际人工智能展览会 AIEXPO 上海 AI应用 AI产品 企业AI 新基建 智能软件 AI硬件',
   detail:{
@@ -11442,12 +12116,18 @@ const conferences = [{
   types:['产业与政策峰会','综合性展会'],
   url:'https://www.worldaic.com.cn/',
   productCats:['大模型 / 算法','机器人 / 具身智能','AI Agent / 应用'],
-  focus:[
-    '大模型',
-    '具身智能',
-    'AI治理',
+    focus:[
+    '机器人',
     'AI产业化',
-    '机器人'
+    'AI治理',
+    '具身智能',
+    '大模型',
+    '大模型产业落地',
+    '具身智能与机器人',
+    'AI治理与安全',
+    'AI国际合作',
+    'Agent',
+    '大模型产业化、具身智能与机器人、AI安全治理和国际合作…'
   ],
   searchExtra:'WAIC 2026 世界人工智能大会 上海 大模型 具身智能 AI治理 AI产业',
   detail:{
@@ -11589,11 +12269,20 @@ const conferences = [{
   types:['综合性展会'],
   url:'https://www.asiarobot.net/',
   productCats:['机器人 / 具身智能','工业 / 制造'],
-  focus:[
-    '工业机器人',
-    '人形机器人',
+    focus:[
+    '智能制造',
     'AI视觉',
-    '智能制造'
+    '人形机器人',
+    '工业机器人',
+    '人形机器人工业化落地',
+    '工业机器人AI升级',
+    'AI视觉检测',
+    '智能制造数字化',
+    '机器人',
+    '工业',
+    '智变未来 数字智能',
+    '工业机器人、服务机器人、AI视觉检测与智能制造系统集成',
+    '是华北地区重要的机器人专'
   ],
   searchExtra:'北京 CRS Expo 机器人展览会 2026 5月14 中国国际展览中心朝阳馆 工业机器人',
   detail:{
@@ -11714,11 +12403,21 @@ const conferences = [{
   types:['科技巨头大会','产业与政策峰会'],
   url:'https://gdps.org.cn/',
   productCats:['大模型 / 算法','AI Agent / 应用','机器人 / 具身智能'],
-  focus:[
-    '开发者生态',
-    'AI应用开发',
+    focus:[
+    '具身智能',
     '大模型',
-    '具身智能'
+    'AI应用开发',
+    '开发者生态',
+    '具身智能开发者生态',
+    '大模型应用开发',
+    'AI Agent工具链',
+    '开源AI框架2026',
+    'Agent',
+    '机器人',
+    '宁智毋庸，创领未来',
+    'AI+产业',
+    'AI Agent、OpenClaw、具身智能与「AI+…',
+    '是服务开发者与'
   ],
   searchExtra:'GDPS 2026 全球开发者先锋大会 上海 开发者 AI应用 大模型 具身智能',
   detail:{
@@ -11825,12 +12524,17 @@ const conferences = [{
   types:['产业与政策峰会'],
   url:'https://www.caict.ac.cn/',
   productCats:['芯片 / 算力'],
-  focus:[
-    'AI算力',
-    '智能计算',
-    '算力网络',
+    focus:[
+    '绿色计算',
     'AI芯片',
-    '绿色计算'
+    '算力网络',
+    '智能计算',
+    'AI算力',
+    'AI算力基础设施2026',
+    '绿色算力与可持续',
+    '国产AI芯片进展',
+    '算力网络互联',
+    '芯片'
   ],
   searchExtra:'中国算力大会 2026 AI算力 智能计算 算力网络 AI芯片 绿色算力',
   detail:{
@@ -11922,12 +12626,19 @@ const conferences = [{
   country:'Beijing, China',
   types:['产业与政策峰会'],
   url:'https://www.zgcforum.com.cn/',
-  focus:[
-    'AI创新',
-    '科技政策',
-    '前沿科技',
+    focus:[
+    '产业化',
     '国际科技合作',
-    '产业化'
+    '前沿科技',
+    '科技政策',
+    'AI创新',
+    '新质生产力与全球科技合作（主题）',
+    'AI基础研究前沿',
+    '科技政策与国际合作',
+    'AI产业化与创新生态',
+    '中国AI战略与前沿科技政策',
+    '国际科技合作与AI研究进展',
+    '新质生产力与全球科技合作'
   ],
   searchExtra:'中关村论坛 北京 AI创新 科技政策 前沿科技 国际合作 学术峰会 产业化',
   detail:{
@@ -12073,12 +12784,18 @@ const conferences = [{
   types:['学术会议','产业与政策峰会'],
   url:'https://www.ccf.org.cn/',
   productCats:['数据 / 云 / 安全'],
-  focus:[
-    '大数据',
-    '计算智能',
-    'AI学术',
+    focus:[
+    '数据挖掘',
     '机器学习',
-    '数据挖掘'
+    'AI学术',
+    '计算智能',
+    '大数据',
+    '大数据与AI融合',
+    '计算智能前沿',
+    'AI学术竞赛',
+    '数据挖掘与知识发现',
+    '数据云',
+    '数据要素筑基、数智融合创新'
   ],
   searchExtra:'CCF BigData 2025 天津 大数据学术会议 数据要素 数智融合 BDCI',
   detail:{
@@ -12164,12 +12881,21 @@ const conferences = [{
   types:['科技巨头大会','产业与政策峰会'],
   url:'https://www.eet-china.com/info/73684.html',
   productCats:['大模型 / 算法','AI Agent / 应用','芯片 / 算力'],
-  focus:[
-    'AI开发者',
-    '大模型应用',
-    'AI芯片',
+    focus:[
+    '开源',
     'Agent',
-    '开源'
+    'AI芯片',
+    '大模型应用',
+    'AI开发者',
+    '大模型应用开发实战',
+    'AI Agent开发框架',
+    '开源AI生态',
+    'AI工程化最佳实践',
+    '大模型',
+    '芯片',
+    '开发者之力，共建AI新生态',
+    'AI大模型、大算力芯片、具身智能与端侧AI',
+    '适合一线开发者和技术负责人'
   ],
   searchExtra:'AIDC 2025 苏州 金鸡湖 AI开发者大会 ICDIA 创芯展 大模型 算力芯片',
   detail:{
@@ -12290,12 +13016,21 @@ const conferences = [{
   types:['产业与政策峰会'],
   url:'https://www.shlab.org.cn/',
   productCats:['大模型 / 算法','机器人 / 具身智能','数据 / 云 / 安全'],
-  focus:[
-    '书生大模型',
-    '具身智能',
-    'AI安全',
+    focus:[
+    '多模态',
     '开源AI',
-    '多模态'
+    'AI安全',
+    '具身智能',
+    '书生大模型',
+    '书生·浦语InternLM大模型进展',
+    '具身智能与机器人研究',
+    'AI安全与对齐',
+    '开源AI生态',
+    '大模型',
+    '机器人',
+    '数据云',
+    '开源AI与大模型研究方向',
+    '人工智能的多维突破与协同创新'
   ],
   searchExtra:'明珠湖会议 上海AI实验室 星河社区 6月 InternLM 具身智能 AI4S 学术',
   detail:{
@@ -12415,11 +13150,18 @@ const conferences = [{
   types:['综合性展会'],
   url:'http://www.cnesbexpo.com/',
   productCats:['机器人 / 具身智能'],
-  focus:[
-    '人形机器人',
-    '具身智能',
+    focus:[
+    '机器人应用',
     '机器人硬件',
-    '机器人应用'
+    '具身智能',
+    '人形机器人',
+    '人形机器人产业化进展',
+    '机器人政策与标准',
+    '具身智能技术路线',
+    '产业链投融资',
+    '机器人',
+    '具身智能与人形机器人技术创新与产业落地',
+    '汇聚优必选、大疆等深圳机器人产业集群代表'
   ],
   searchExtra:'深圳 具身智能机器人展 高交会 2025 11月 宝安国际会展中心 人形机器人',
   detail:{
@@ -12547,11 +13289,17 @@ const conferences = [{
   types:['产业与政策峰会'],
   url:'https://www.zgcforum.com/zh2025/agenda/t7906/319615',
   productCats:['机器人 / 具身智能'],
-  focus:[
-    '具身智能',
-    '人形机器人',
+    focus:[
+    '机器人学习',
     'AI基础模型',
-    '机器人学习'
+    '人形机器人',
+    '具身智能',
+    '具身智能基础模型',
+    '人形机器人感知与操作',
+    '机器人强化学习',
+    '具身AI产业化',
+    '机器人',
+    '具身智能十五大重点方向'
   ],
   searchExtra:'中国具身智能大会 CEAI 2025 北京 海淀 具身大模型 十五大重点方向 白皮书',
   detail:{
@@ -12700,12 +13448,21 @@ const conferences = [{
   types:['产业与政策峰会','学术会议'],
   url:'http://cclm.org.cn/',
   productCats:['大模型 / 算法'],
-  focus:[
-    '大模型',
-    'LLM产业化',
-    'AI Agent',
+    focus:[
+    '大模型安全',
     '多模态',
-    '大模型安全'
+    'AI Agent',
+    'LLM产业化',
+    '大模型',
+    '大模型产业竞争格局2025',
+    'AI Agent商业化路径',
+    '多模态大模型进展',
+    '大模型安全与对齐',
+    '生成式AI、具身智能、知识图谱等方向',
+    '约600名学者与从业者参会',
+    '大模型理论突破、技术前沿、产业落地与生态共建',
+    '设13场高端专题论坛',
+    '涵盖生成式A'
   ],
   searchExtra:'中国大模型大会 CLM 2025 CIPS 北京 昆泰酒店 LLM 多模态 具身智能',
   detail:{
@@ -12826,11 +13583,18 @@ const conferences = [{
   types:['产业与政策峰会'],
   url:'https://www.aiww.com/aievent/23757b2bcbab5e39',
   productCats:['大模型 / 算法'],
-  focus:[
-    'AI教育',
-    '教育大模型',
+    focus:[
+    'AI素养',
     'AI+教育',
-    'AI素养'
+    '教育大模型',
+    'AI教育',
+    'AI赋能教育变革',
+    '教育大模型应用',
+    'AI素养培育',
+    '智慧校园与AI治理',
+    '大模型',
+    'AI课程体系、教学方法、产学研融合与AI教育生态',
+    '适合高校管理者与教研人员'
   ],
   searchExtra:'中国人工智能教育大会 2025 北京 裕龙御柏 中教全媒体 AI教育 高校',
   detail:{
@@ -12951,12 +13715,20 @@ const conferences = [{
   types:['学术会议','产业与政策峰会'],
   url:'https://2025.baai.ac.cn/',
   productCats:['大模型 / 算法'],
-  focus:[
-    '大模型',
-    '具身智能',
-    'AI安全',
+    focus:[
+    'AI for Science',
     '多模态',
-    'AI for Science'
+    'AI安全',
+    '具身智能',
+    '大模型',
+    '大模型产业CEO论坛',
+    '具身智能与人形机器人',
+    'NeuroAI神经智能',
+    'AI安全与深度推理',
+    'AI for Science与产业应用',
+    '人工智能基础理论与前沿突破',
+    'AI内行春晚',
+    '智领未来'
   ],
   searchExtra:'北京智源大会 BAAI 2025 6月 图灵奖 中关村 展示中心 大模型产业CEO 具身智能',
   detail:{
@@ -13098,12 +13870,20 @@ const conferences = [{
   types:['学术会议','产业与政策峰会'],
   url:'https://2026.baai.ac.cn/',
   productCats:['大模型 / 算法'],
-  focus:[
-    '多模态',
-    '世界模型',
-    '具身智能',
+    focus:[
+    '智算系统',
     'AI Agent',
-    '智算系统'
+    '具身智能',
+    '世界模型',
+    '多模态',
+    '多模态与世界模型',
+    '具身智能产业论坛',
+    '科研智能体与AI4S',
+    '智算前沿与未来架构',
+    '大模型产业与AI开源',
+    '大模型',
+    '人工智能前沿趋势与产业协同',
+    'AI内行春晚'
   ],
   searchExtra:'北京智源大会 BAAI 2026 6月 中关村国际创新中心 世界模型 强化学习 OpenClaw',
   detail:{
@@ -13238,12 +14018,21 @@ const conferences = [{
   types:['产业与政策峰会'],
   url:'https://www.nanjing.gov.cn/',
   productCats:['工业 / 制造'],
-  focus:[
-    '工业软件',
-    '信创',
-    '开源生态',
+    focus:[
+    'AI软件',
     '鸿蒙',
-    'AI软件'
+    '开源生态',
+    '信创',
+    '工业软件',
+    '工业软件核心技术攻关',
+    '信创产业与国产替代',
+    '开源生态与鸿蒙应用',
+    '软件名园招商与产融对接',
+    '工业',
+    '工业软件赋智 开源创新赋能',
+    '万亿软件名城',
+    '工业软件看南京',
+    '鸿蒙之城'
   ],
   searchExtra:'南京软件大会 2025 6月 江北新区 工业软件 鸿蒙之城 万亿软件名城 扬子江国际会议中心',
   detail:{
@@ -13364,12 +14153,18 @@ const conferences = [{
   types:['综合性展会','产业与政策峰会'],
   url:'https://www.mwcshanghai.cn/',
   productCats:['消费电子 / 终端'],
-  focus:[
-    '5G-A',
-    '人工智能+',
-    '行业互联',
+    focus:[
+    '移动通信',
     '机器人',
-    '移动通信'
+    '行业互联',
+    '人工智能+',
+    'G-A',
+    'G-Advanced与行业应用',
+    '人工智能+移动通信',
+    '开放API与云网融合',
+    '智能终端与机器人',
+    '终端',
+    '亚太移动产业与AI融合趋势'
   ],
   searchExtra:'MWC上海 2025 6月 新国际博览中心 SNIEC 华为 荣耀 中兴 AI 5G 世界机器人大赛',
   detail:{
@@ -13531,12 +14326,19 @@ const conferences = [{
   types:['科技巨头大会','产业与政策峰会'],
   url:'https://developer.huawei.com/home/hdc/hdc2025.html',
   productCats:['AI Agent / 应用'],
-  focus:[
-    'HarmonyOS',
-    '盘古大模型',
-    '鸿蒙智能体',
+    focus:[
+    '开发者生态',
     'AI云服务',
-    '开发者生态'
+    '鸿蒙智能体',
+    '盘古大模型',
+    'HarmonyOS',
+    'HarmonyOS 6全场景智能',
+    '鸿蒙智能体与端侧AI',
+    '盘古大模型5.5行业落地',
+    'AI云服务与开发者激励',
+    'Agent',
+    '鸿蒙生态与全场景智能战略',
+    '盘古大模型与新一代AI云服务'
   ],
   searchExtra:'华为开发者大会 HDC 2025 东莞 松山湖 鸿蒙6 HarmonyOS 盘古大模型5.5 开发者',
   detail:{
@@ -13654,12 +14456,21 @@ const conferences = [{
   types:['产业与政策峰会'],
   url:'https://www.gdec.net.cn/2025',
   productCats:['数据 / 云 / 安全'],
-  focus:[
-    '数字经济',
-    '人工智能',
-    '数字城市',
+    focus:[
+    '国际合作',
     '数据要素',
-    '国际合作'
+    '数字城市',
+    '人工智能',
+    '数字经济',
+    '数字友好城市建设',
+    '人工智能与产业数字化',
+    '跨境数据治理',
+    '全球数字经济城市联盟',
+    '数据云',
+    '北京数字经济与开放合作',
+    '数字中国建设与AI治理',
+    '建设数字友好城市',
+    '+6+N'
   ],
   searchExtra:'全球数字经济大会 GDEC 2025 北京 国家会议中心 7月 数字友好城市 城市联盟',
   detail:{
@@ -13819,12 +14630,18 @@ const conferences = [{
   types:['综合性展会','产业与政策峰会'],
   url:'https://www.bigdata-expo.cn/',
   productCats:['数据 / 云 / 安全'],
-  focus:[
-    '大数据',
-    '算力',
-    '数据要素',
+    focus:[
+    '数字经济',
     '人工智能',
-    '数字经济'
+    '数据要素',
+    '算力',
+    '大数据',
+    '数据要素市场化',
+    '算力产业与智算中心',
+    '人工智能关键应用',
+    '数字经济项目投融资',
+    '数据云',
+    '数聚产业动能 智启发展新篇'
   ],
   searchExtra:'数博会 2025 贵阳 8月 国家数据局 大数据 算力 人工智能 数聚产业动能',
   detail:{
@@ -13973,12 +14790,20 @@ const conferences = [{
   types:['科技巨头大会','产业与政策峰会'],
   url:'https://yunqi.aliyun.com/',
   productCats:['AI Agent / 应用','AI 基础设施'],
-  focus:[
-    '通义千问',
-    '云计算',
-    'AI Agent',
+    focus:[
+    '算力基础设施',
     '具身智能',
-    '算力基础设施'
+    'AI Agent',
+    '云计算',
+    '通义千问',
+    '通义千问大模型系列发布',
+    'AI Agent开发与应用',
+    '具身智能与前沿应用',
+    '云智一体算力基础设施',
+    'Agent',
+    'Infra',
+    '云计算与AI产业演进',
+    '云智一体·碳硅共生'
   ],
   searchExtra:'云栖大会 2025 杭州 9月 云栖小镇 通义千问 Qwen3 碳硅共生 阿里云百炼',
   detail:{
@@ -14112,12 +14937,18 @@ const conferences = [{
   types:['综合性展会','产业与政策峰会'],
   url:'https://www.chtf.com/',
   productCats:['消费电子 / 终端','工业 / 制造'],
-  focus:[
-    '人工智能',
-    '机器人',
-    '半导体',
+    focus:[
+    '高新技术成果交易',
     '低空经济',
-    '高新技术成果交易'
+    '半导体',
+    '机器人',
+    '人工智能',
+    '人工智能与机器人',
+    '半导体与集成电路',
+    '低空经济与空天',
+    '未来前沿科技',
+    '终端',
+    '工业'
   ],
   searchExtra:'高交会 CHTF 2025 深圳 11月 宝安国际会展中心 人工智能 机器人 半导体 高新技术',
   detail:{
@@ -14225,12 +15056,21 @@ const conferences = [{
   types:['产业与政策峰会'],
   url:'https://gaitc.caai.cn/',
   productCats:['大模型 / 算法','机器人 / 具身智能'],
-  focus:[
-    '大模型',
-    '具身智能',
-    '空间智能',
+    focus:[
+    'AI产业生态',
     '科学智能',
-    'AI产业生态'
+    '空间智能',
+    '具身智能',
+    '大模型',
+    '大模型与AGI前沿',
+    '具身智能与空间智能',
+    '科学智能AI4S',
+    'AI产业生态与创新创业',
+    '人工智能关键能力清单',
+    '机器人',
+    '人工智能系统突破与十五五AI+行动',
+    '人工智能基础理论与交叉创新',
+    '交叉、融合、相生、共赢'
   ],
   searchExtra:'GAITC 2026 全球人工智能技术大会 杭州 5月 未来科技城 CAAI 交叉融合',
   detail:{
@@ -14356,12 +15196,19 @@ const conferences = [{
   types:['综合性展会','产业与政策峰会'],
   url:'https://www.mwcshanghai.cn/',
   productCats:['消费电子 / 终端'],
-  focus:[
-    '5G-A',
-    '人工智能+',
-    '行业互联',
+    focus:[
+    '智能终端',
     '移动通信',
-    '智能终端'
+    '行业互联',
+    '人工智能+',
+    'G-A',
+    'G-Advanced演进',
+    '人工智能+行业应用',
+    '开放API与云网融合',
+    '智能终端创新',
+    '终端',
+    'G-Advanced、人工智能+、行业数字化与开放互联',
+    '汇聚全球运营商、设备商'
   ],
   searchExtra:'MWC上海 2026 6月 新国际博览中心 SNIEC AI 5G 亚太移动',
   detail:{
@@ -14489,12 +15336,17 @@ const conferences = [{
   types:['产业与政策峰会'],
   url:'https://www.gdec.net.cn/2026',
   productCats:['数据 / 云 / 安全'],
-  focus:[
-    '数字经济',
-    '人工智能',
-    '数字城市',
+    focus:[
+    '国际合作',
     '数据要素',
-    '国际合作'
+    '数字城市',
+    '人工智能',
+    '数字经济',
+    '人工智能与产业数字化',
+    '数字新基建与算力',
+    '数据要素与跨境治理',
+    '全球数字经济合作',
+    '数据云'
   ],
   searchExtra:'全球数字经济大会 GDEC 2026 北京 国家会议中心 7月 数字经济 AI',
   detail:{
@@ -14615,12 +15467,18 @@ const conferences = [{
   types:['综合性展会','产业与政策峰会'],
   url:'https://www.chtf.com/',
   productCats:['消费电子 / 终端','工业 / 制造'],
-  focus:[
-    '人工智能',
-    '机器人',
-    '半导体',
+    focus:[
+    '高新技术成果交易',
     '低空经济',
-    '高新技术成果交易'
+    '半导体',
+    '机器人',
+    '人工智能',
+    '人工智能与机器人',
+    '半导体与集成电路',
+    '低空经济与空天',
+    '未来前沿科技',
+    '终端',
+    '工业'
   ],
   searchExtra:'高交会 CHTF 2026 深圳 11月 宝安国际会展中心 人工智能 机器人 40万平方米',
   detail:{
@@ -14968,7 +15826,7 @@ function render() {
       <td><div class="date-main">${escapeHtml(c.dates)}</div></td>
       <td><div class="location-city">${escapeHtml(c.city)}</div><div class="location-country">${escapeHtml(c.country)}</div></td>
       <td><div class="type-tags">${formatTypeTags(c, true)}</div></td>
-      <td>${(c.focus||[]).map(f=>`<span class="focus-tag">${escapeHtml(f)}</span>`).join('')}</td>
+      <td>${formatFocusTags(c)}</td>
       <td><a href="${escapeHtml(c.url)}" target="_blank" class="url-link" onclick="event.stopPropagation()">🔗</a></td>
       <td><button type="button" class="detail-btn">详情 →</button></td>
     `;
@@ -15397,6 +16255,7 @@ render();
   <details>
     <summary style="cursor:pointer;font-size:12px;color:#666;font-weight:600">📋 数据更新日志</summary>
     <div style="margin-top:8px;font-size:12px;color:#888;line-height:1.8">
+      <div>v2.8.2 (2026-06-17)：全量重新抓取并扩充 103 场展会「核心主题/关注重点」（官网+议程+详情合并，平均 13 条/场）</div>
       <div>v2.8.1 (2026-06-17)：更新 Google Cloud Next 2026 议程与回放；公司板块恢复 v2.7.4 卡片样式（移除一句话定位）</div>
       <div>v2.8.0 (2026-06-15)：公司卡片新增一句话定位（类型+核心价值+团队方向）；全球展会默认展示；类型/产品类别多选筛选</div>
       <div>v2.7.4 (2026-06-15)：修正中文公司被英文站 JSON-LD 美国分公司地址误判为总部（如禾赛科技）</div>
