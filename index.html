@@ -153,6 +153,7 @@ tr.status-past td { opacity: 0.5; }
 .prod-conf-badge-2 { background: #f97316; }
 .prod-stage-pill, .prod-card-header .ex-stage { flex-shrink: 0; font-size: 9px; padding: 2px 8px; border-radius: 10px; font-weight: 700; line-height: 1.2; }
 .prod-country { font-size: 10px; color: #666; margin-bottom: 5px; font-weight: 600; }
+.prod-pitch { font-size: 10px; color: #5a6278; line-height: 1.5; margin-bottom: 6px; padding: 5px 8px; background: #f4f6fb; border-radius: 6px; border-left: 3px solid #0f3460; display: -webkit-box; -webkit-line-clamp: 3; -webkit-box-orient: vertical; overflow: hidden; word-break: break-word; }
 .prod-cats { display: flex; gap: 3px; flex-wrap: wrap; margin-bottom: 5px; }
 .prod-cat-pill, .prod-cats .ex-cat { font-size: 9px; padding: 2px 8px; border-radius: 10px; font-weight: 700; letter-spacing: 0.02em; line-height: 1.3; border: 1px solid transparent; }
 .prod-product { font-size: 11px; color: #444; line-height: 1.45; margin-bottom: 6px; display: -webkit-box; -webkit-line-clamp: 2; -webkit-box-orient: vertical; overflow: hidden; word-break: break-word; }
@@ -185,7 +186,7 @@ tr.status-past td { opacity: 0.5; }
   <h1>🌐 全球 AI 展会 & 公司产品数据库 <span class="badge">2024–2026</span></h1>
   <p>First Mover · AI初创关注账号 · 搜索产品/公司 | 点击展会查看完整参展商</p>
   <div style="font-size:11px;opacity:0.6;margin-top:4px">
-    📊 数据版本 v2.7.4 &nbsp;|&nbsp; 最后更新：2026年6月15日（每周一更新）
+    📊 数据版本 v2.8.0 &nbsp;|&nbsp; 最后更新：2026年6月15日（每周一更新）
     <span style="background:#e94560;color:white;padding:1px 6px;border-radius:10px;margin-left:6px;font-size:10px;animation:pulse 2s infinite">● LIVE</span>
   </div>
 </div>
@@ -242,8 +243,8 @@ tr.status-past td { opacity: 0.5; }
 
 <div class="controls">
   <div style="display:flex;gap:8px;margin-bottom:12px;border-bottom:2px solid #0f3460;padding-bottom:8px">
-  <button id="tabChina" onclick="setRegionTab('china')" style="padding:8px 20px;border:none;border-radius:6px 6px 0 0;background:#e94560;color:white;font-weight:700;font-size:14px;cursor:pointer;transition:all 0.2s">🇨🇳 中国展会</button>
-  <button id="tabGlobal" onclick="setRegionTab('global')" style="padding:8px 20px;border:none;border-radius:6px 6px 0 0;background:#0f3460;color:#aaa;font-weight:700;font-size:14px;cursor:pointer;transition:all 0.2s">🌍 全球展会</button>
+  <button id="tabChina" onclick="setRegionTab('china')" style="padding:8px 20px;border:none;border-radius:6px 6px 0 0;background:#0f3460;color:#aaa;font-weight:700;font-size:14px;cursor:pointer;transition:all 0.2s">🇨🇳 中国展会</button>
+  <button id="tabGlobal" onclick="setRegionTab('global')" style="padding:8px 20px;border:none;border-radius:6px 6px 0 0;background:#e94560;color:white;font-weight:700;font-size:14px;cursor:pointer;transition:all 0.2s">🌍 全球展会</button>
   <span id="tabCount" style="margin-left:auto;align-self:center;color:#aaa;font-size:12px"></span>
 </div>
   <!-- Row 1 -->
@@ -274,14 +275,14 @@ tr.status-past td { opacity: 0.5; }
       <button class="btn" onclick="setFilter('month',12,this)">12</button>
     </div>
     <div class="sep"></div>
-    <div class="ctrl-label">类型</div>
+    <div class="ctrl-label">类型<small style="font-weight:500;color:#999;margin-left:4px">可多选</small></div>
     <div class="filter-group" id="typeFilters">
-      <button class="btn active" onclick="setFilter('type','all',this)">全部</button>
-      <button class="btn" onclick="setFilter('type','学术会议',this)">📚 学术会议</button>
-      <button class="btn" onclick="setFilter('type','科技巨头大会',this)">💻 科技巨头大会</button>
-      <button class="btn" onclick="setFilter('type','综合性展会',this)">🏛 综合性展会</button>
-      <button class="btn" onclick="setFilter('type','产业与政策峰会',this)">🎤 产业与政策峰会</button>
-      <button class="btn" onclick="setFilter('type','创投活动',this)">🚀 创投活动</button>
+      <button class="btn active" id="typeFilterAll" onclick="setMultiFilter('type','all',this)">全部</button>
+      <button class="btn" onclick="setMultiFilter('type','学术会议',this)">📚 学术会议</button>
+      <button class="btn" onclick="setMultiFilter('type','科技巨头大会',this)">💻 科技巨头大会</button>
+      <button class="btn" onclick="setMultiFilter('type','综合性展会',this)">🏛 综合性展会</button>
+      <button class="btn" onclick="setMultiFilter('type','产业与政策峰会',this)">🎤 产业与政策峰会</button>
+      <button class="btn" onclick="setMultiFilter('type','创投活动',this)">🚀 创投活动</button>
     </div>
     <div class="sep"></div>
     <div class="search-wrap">
@@ -292,17 +293,17 @@ tr.status-past td { opacity: 0.5; }
   </div>
   <!-- Row 1b: 产品类别筛选 -->
   <div class="ctrl-row">
-    <div class="ctrl-label">产品类别</div>
+    <div class="ctrl-label">产品类别<small style="font-weight:500;color:#999;margin-left:4px">可多选</small></div>
     <div class="filter-group" id="catFilters">
-      <button class="btn active" onclick="setFilter('cat','all',this)">全部</button>
-      <button class="btn" onclick="setFilter('cat','大模型 / 算法',this)">🧠 大模型</button>
-      <button class="btn" onclick="setFilter('cat','AI Agent / 应用',this)">🤖 Agent</button>
-      <button class="btn" onclick="setFilter('cat','芯片 / 算力',this)">⚙️ 芯片</button>
-      <button class="btn" onclick="setFilter('cat','AI 基础设施',this)">🏗️ Infra</button>
-      <button class="btn" onclick="setFilter('cat','机器人 / 具身智能',this)">🦾 机器人</button>
-      <button class="btn" onclick="setFilter('cat','消费电子 / 终端',this)">📱 终端</button>
-      <button class="btn" onclick="setFilter('cat','工业 / 制造',this)">🏭 工业</button>
-      <button class="btn" onclick="setFilter('cat','数据 / 云 / 安全',this)">🌐 数据云</button>
+      <button class="btn active" id="catFilterAll" onclick="setMultiFilter('cat','all',this)">全部</button>
+      <button class="btn" onclick="setMultiFilter('cat','大模型 / 算法',this)">🧠 大模型</button>
+      <button class="btn" onclick="setMultiFilter('cat','AI Agent / 应用',this)">🤖 Agent</button>
+      <button class="btn" onclick="setMultiFilter('cat','芯片 / 算力',this)">⚙️ 芯片</button>
+      <button class="btn" onclick="setMultiFilter('cat','AI 基础设施',this)">🏗️ Infra</button>
+      <button class="btn" onclick="setMultiFilter('cat','机器人 / 具身智能',this)">🦾 机器人</button>
+      <button class="btn" onclick="setMultiFilter('cat','消费电子 / 终端',this)">📱 终端</button>
+      <button class="btn" onclick="setMultiFilter('cat','工业 / 制造',this)">🏭 工业</button>
+      <button class="btn" onclick="setMultiFilter('cat','数据 / 云 / 安全',this)">🌐 数据云</button>
     </div>
   </div>
   <!-- Row 2: 国家/地区筛选 -->
@@ -366,7 +367,7 @@ tr.status-past td { opacity: 0.5; }
   <div class="legend-item"><span class="ex-stage stage-b">B轮</span></div>
   <div class="legend-item"><span class="ex-stage stage-c">C轮+</span></div>
   <div class="legend-item"><span class="ex-stage stage-listed">上市</span></div>
-  <div class="hint">💡 活动支持多标签 · 点击任意行查看完整详情 · 搜索支持地点/产品/公司/主题</div>
+  <div class="hint">💡 类型与产品类别支持多选 · 活动本身亦支持多标签 · 点击任意行查看完整详情</div>
 </div>
 
 <!-- Modal -->
@@ -402,8 +403,9 @@ function isAcademicOnlyConf(c) {
 }
 
 function matchesConfType(c) {
-  if (F.type === 'all') return true;
-  return getConfTypes(c).includes(F.type);
+  if (!F.types || !F.types.length) return true;
+  const confTypes = getConfTypes(c);
+  return F.types.some(t => confTypes.includes(t));
 }
 const STAGE_UNKNOWN = '融资未公开';
 const STAGE_CLS = {'初创·Pre':'stage-startup','天使/Seed':'stage-seed','A轮':'stage-a','B轮':'stage-b','C轮+':'stage-c','上市':'stage-listed','已收购':'stage-acquired','待补充':'stage-pending','融资未公开':'stage-unknown','其他':'stage-unknown'};
@@ -422,10 +424,10 @@ const MODAL_EX_PAGE_SIZE = 40;
 const PROD_RENDER_PAGE_SIZE = 60;
 const PROD_SEARCH_DEBOUNCE_MS = 280;
 // 官方全量参展商名录（JSON 按需加载，公司名+展位为主）
-const APP_BUILD = 'v2.7.4';
+const APP_BUILD = 'v2.8.0';
 const EXHIBITOR_BULK = {
-  CES2026: 'exhibitor-data/CES2026.json?build=v2.7.4',
-  GITEX2025: 'exhibitor-data/GITEX2025.json?build=v2.7.4',
+  CES2026: 'exhibitor-data/CES2026.json?build=v2.8.0',
+  GITEX2025: 'exhibitor-data/GITEX2025.json?build=v2.8.0',
 };
 const bulkExhibitorCache = {};
 let bulkPreloadPromise = null;
@@ -436,7 +438,7 @@ let currentModalExhibitors = [];
 function ensureCompanyRegistry() {
   if (companyRegistryCache) return Promise.resolve(companyRegistryCache);
   if (!companyRegistryPromise) {
-    companyRegistryPromise = fetch('exhibitor-data/company-registry.json?build=v2.7.4')
+    companyRegistryPromise = fetch('exhibitor-data/company-registry.json?build=v2.8.0')
       .then(res => res.ok ? res.json() : {})
       .then(data => { companyRegistryCache = data || {}; return companyRegistryCache; })
       .catch(() => { companyRegistryCache = {}; return companyRegistryCache; });
@@ -960,6 +962,79 @@ const CAT_SHORT = {'大模型 / 算法':'大模型','AI Agent / 应用':'Agent',
 const CAT_BTN_LABEL = {'大模型 / 算法':'🧠 大模型','AI Agent / 应用':'🤖 Agent','芯片 / 算力':'⚙️ 芯片','AI 基础设施':'🏗️ Infra','机器人 / 具身智能':'🦾 机器人','消费电子 / 终端':'📱 终端','工业 / 制造':'🏭 工业','数据 / 云 / 安全':'🌐 数据云'};
 const CAT_DESC = {'大模型 / 算法':'LLM · 多模态 · 扩散模型 · 强化学习 · AI对齐','AI Agent / 应用':'AI Agent · 企业AI · SaaS · AI工具 · Copilot','芯片 / 算力':'GPU · AI芯片 · NPU · 算力网络 · AI工厂','AI 基础设施':'云计算 · AI Infra · 数据中心 · MLOps','机器人 / 具身智能':'人形机器人 · 工业机器人 · 具身智能 · 供应链','消费电子 / 终端':'AI手机 · AI眼镜 · AI PC · AIoT · 车载AI','工业 / 制造':'工业AI · 智能制造 · 工业互联网 · 自动驾驶 · 低空经济','数据 / 云 / 安全':'大数据 · 数据要素 · 云安全 · AI治理 · 网络安全'};
 const LEGACY_CAT_MAP = {硬件:['芯片 / 算力'],软件:['AI Agent / 应用'],大模型:['大模型 / 算法'],基础设施:['AI 基础设施'],机器人:['机器人 / 具身智能']};
+const KNOWN_COMPANY_PITCH = {
+  openai: '通用人工智能研究公司，以 GPT 系列大模型与 ChatGPT 为核心产品，团队汇聚全球顶尖 AI 研究与应用工程人才。',
+  anthropic: 'AI 安全与大模型公司，以 Claude 系列模型为核心，团队强调可靠、可解释的企业级 AI 能力。',
+  nvidia: 'AI 算力基础设施龙头，以 GPU 与 CUDA 生态构建核心壁垒，团队在芯片架构与 AI 软件栈持续引领行业。',
+  google: '全球 AI 平台巨头，以 Gemini 大模型与全栈云 AI 服务为核心，团队覆盖研究、芯片到应用全链路。',
+  microsoft: '企业 AI 平台领导者，以 Copilot 与 Azure AI 为核心产品，团队深耕企业级 AI 落地与开发者生态。',
+  amazon: '云计算与 AI 基础设施巨头，以 AWS 与 Bedrock 模型服务为核心，团队构建全球最大 AI 云生态之一。',
+  unitree: '消费级与工业级机器人公司，以四足与人形机器人量产为核心，团队具备运动控制与硬件工程全栈能力。',
+  '宇树': '消费级与工业级机器人公司，以四足与人形机器人量产为核心，团队具备运动控制与硬件工程全栈能力。',
+  hesai: '车载激光雷达领军企业，以高性能激光感知方案服务自动驾驶与机器人，团队具备从研发到量产的全栈工程能力。',
+  '禾赛': '车载激光雷达领军企业，以高性能激光感知方案服务自动驾驶与机器人，团队具备从研发到量产的全栈工程能力。',
+  xiaomi: 'AIoT 与消费电子巨头，以「人车家全生态」智能终端为核心，团队在端侧 AI 与硬件整合上优势明显。',
+  '小米': 'AIoT 与消费电子巨头，以「人车家全生态」智能终端为核心，团队在端侧 AI 与硬件整合上优势明显。',
+  huawei: 'ICT 与 AI 基础设施龙头，以昇腾算力与鸿蒙 AI 终端生态为核心，团队覆盖芯片、云到行业应用。',
+  '华为': 'ICT 与 AI 基础设施龙头，以昇腾算力与鸿蒙 AI 终端生态为核心，团队覆盖芯片、云到行业应用。',
+  deepseek: '大模型新锐公司，以 DeepSeek 系列开源/商用模型为核心，团队在推理效率与算法创新上表现突出。',
+  figure: '通用人形机器人公司，以 Figure 人形机器人为核心，团队聚焦具身智能与工业场景落地。',
+  databricks: '数据与 AI 平台公司，以 Lakehouse 与 MLOps 能力为核心，团队深耕企业数据智能与模型训练管线。',
+};
+
+const COMPANY_KIND = {
+  '大模型 / 算法': '大模型与算法',
+  'AI Agent / 应用': 'AI Agent 与企业应用',
+  '芯片 / 算力': 'AI 芯片与算力',
+  'AI 基础设施': 'AI 基础设施与云平台',
+  '机器人 / 具身智能': '机器人与具身智能',
+  '消费电子 / 终端': 'AI 终端与消费电子',
+  '工业 / 制造': '工业 AI 与智能制造',
+  '数据 / 云 / 安全': '数据智能与云安全',
+};
+
+function resolveCompanyPitch(e, confs, aliases) {
+  const names = [e.nameEn, e.name, e.nameZh, ...(aliases || [])].filter(Boolean);
+  for (const n of names) {
+    const hit = resolveRegistryHit(n);
+    if (hit && hit.pitch) return String(hit.pitch).trim();
+    const key = normalizeNameForRegistry(n);
+    if (KNOWN_COMPANY_PITCH[key]) return KNOWN_COMPANY_PITCH[key];
+    const short = String(n).toLowerCase().trim();
+    if (KNOWN_COMPANY_PITCH[short]) return KNOWN_COMPANY_PITCH[short];
+  }
+  return generateCompanyPitch(e, confs);
+}
+
+function generateCompanyPitch(e, confs) {
+  const cats = resolveCompanyCats(e, confs);
+  if (!cats.length) return '';
+  const primary = cats[0];
+  const kind = COMPANY_KIND[primary] || 'AI 科技';
+  const stage = normalizeStageValue(e.stage);
+  let prefix = '';
+  if (stage === '上市') prefix = '行业领先的';
+  else if (['A轮', 'B轮', 'C轮+', '天使/Seed', '初创·Pre'].includes(stage)) prefix = '成长型';
+  const prod = resolveProductDisplay(e);
+  const ptxt = String(prod.text || '').replace(/^【.*?】/, '').trim();
+  let core = '';
+  if (ptxt && ptxt !== '待补充' && ptxt.length <= 40) {
+    core = `以「${ptxt}」为核心产品`;
+  } else {
+    const topics = (CAT_DESC[primary] || kind).split('·').map(s => s.trim()).filter(Boolean);
+    core = `核心价值聚焦${topics.slice(0, 2).join('与') || kind}`;
+  }
+  const teamParts = (CAT_DESC[primary] || '').split('·').map(s => s.trim()).filter(Boolean).slice(0, 3);
+  const team = teamParts.length ? `团队深耕${teamParts.join('、')}等方向` : '团队专注 AI 产品化与工程落地';
+  return `${prefix}${kind}公司，${core}，${team}。`;
+}
+
+function formatCompanyPitch(e, confs, aliases) {
+  const pitch = resolveCompanyPitch(e, confs, aliases);
+  if (!pitch) return '';
+  return `<div class="prod-pitch" title="${escapeHtml(pitch)}">${escapeHtml(pitch)}</div>`;
+}
+
 const KNOWN_COMPANY_CATS = {
   openai:['大模型 / 算法','AI Agent / 应用'], anthropic:['大模型 / 算法','AI Agent / 应用'], deepseek:['大模型 / 算法'],
   nvidia:['芯片 / 算力','AI 基础设施'], amd:['芯片 / 算力'], intel:['芯片 / 算力'], qualcomm:['芯片 / 算力','消费电子 / 终端'],
@@ -1178,6 +1253,7 @@ function renderProdCard(e, confs, aliases) {
       <span class="ex-stage prod-stage-pill ${stageCls}">${escapeHtml(stageLabel)}</span>
     </div>
     ${formatProdCountry(e)}
+    ${formatCompanyPitch(e, confs, aliases || [])}
     <div class="prod-cats">${catTags || '<span class="prod-field-pending" style="font-size:9px">待补充</span>'}</div>
     <div class="prod-product" title="${escapeHtml(prod.text)}">${prodText}</div>
     <div class="prod-conf-row">
@@ -2315,7 +2391,7 @@ const conferences = [{
       'AI从创新走向落地（Innovation to Implementation）',
       '人形机器人商业化：多家厂商首发量产版',
       'AI眼镜赛道爆发：后Meta Ray-Ban时代',
-      '4,112家参展商，中美企业主导',
+      '4,190家参展商，中美企业主导',
       'AI芯片：边缘推理成主战场'
     ],
     speakers:[
@@ -7087,7 +7163,7 @@ const conferences = [{
   ],
   searchExtra:'GITEX Global Dubai UAE artificial intelligence cybersecurity smart city cloud fintech startup',
   detail:{
-    intro:'GITEX Global 2025于10月13–17日在阿联酋迪拜举办，是中东最大科技展。展会涵盖生成式AI、云、网络安全与数字政府，Sam Altman、Satya Nadella等出席，海湾主权基金与科技投资是重要看点。',
+    intro:'GITEX Global 2025于10月13–17日在阿联酋迪拜举办，是中东最大科技展；名录已同步 2,291 家参展商。展会涵盖生成式AI、云、网络安全与数字政府，Sam Altman、Satya Nadella等出席，海湾主权基金与科技投资是重要看点。',
     themes:[
       '生成式AI与大语言模型实战落地',
       'AI驱动网络安全',
@@ -14752,8 +14828,8 @@ const conferences = [{
 ];
 
 // ─── STATE ─────────────────────────────────────────────
-let regionTab = 'china'; // 'china' | 'global'
-let F = { year:'all', month:'all', type:'all', cat:'all', country:'all', search:'' };
+let regionTab = 'global'; // 'china' | 'global'
+let F = { year:'all', month:'all', types:[], cats:[], country:'all', search:'' };
 let PF = { stage:'all', cat:'all', country:'all' };
 let companySearchIndex = null;
 let companySearchIndexPromise = null;
@@ -14803,6 +14879,31 @@ function setRegionTab(tab) {
   render();
   if (document.getElementById('prodSearchSection').style.display !== 'none') renderProdSearch();
 }
+function setMultiFilter(key, val, btn) {
+  const listKey = key === 'type' ? 'types' : 'cats';
+  const groupId = key === 'type' ? 'typeFilters' : 'catFilters';
+  const allId = key === 'type' ? 'typeFilterAll' : 'catFilterAll';
+  if (val === 'all') {
+    F[listKey] = [];
+    document.querySelectorAll(`#${groupId} .btn`).forEach(b => b.classList.remove('active'));
+    const allBtn = document.getElementById(allId);
+    if (allBtn) allBtn.classList.add('active');
+  } else {
+    const allBtn = document.getElementById(allId);
+    if (allBtn) allBtn.classList.remove('active');
+    const idx = F[listKey].indexOf(val);
+    if (idx >= 0) {
+      F[listKey].splice(idx, 1);
+      btn.classList.remove('active');
+      if (!F[listKey].length && allBtn) allBtn.classList.add('active');
+    } else {
+      F[listKey].push(val);
+      btn.classList.add('active');
+    }
+  }
+  render();
+}
+
 function setFilter(key, val, btn) {
   F[key] = val;
   const groupId = {year:'yearFilters',month:'monthFilters',type:'typeFilters',cat:'catFilters',country:'countryFilters'}[key];
@@ -14861,8 +14962,9 @@ function buildSearchText(c) {
 
 // Check if conference matches product category filter
 function matchesCat(c) {
-  if (F.cat === 'all') return true;
-  return getConfProdCats(c).includes(F.cat);
+  if (!F.cats || !F.cats.length) return true;
+  const confCats = getConfProdCats(c);
+  return F.cats.some(cat => confCats.includes(cat));
 }
 
 function bindTableClicks() {
@@ -15124,9 +15226,10 @@ function setProdPage(page) {
   if (grid) grid.scrollTop = 0;
 }
 
-function buildCompanySearchText(e, aliases) {
+function buildCompanySearchText(e, aliases, confs) {
   const catText = (e.cats || []).flatMap(c => [c, CAT_SHORT[c] || '', ...(CAT_DESC[c] || '').split(' · ')]);
-  return [e.name, e.nameZh || '', e.nameEn || '', ...(aliases || []), e.productZh || '', e.product, e.stage, e.country || '', e.countryZh || '', ...catText, e.url || ''].join(' ').toLowerCase();
+  const pitch = resolveCompanyPitch(e, confs || [], aliases);
+  return [e.name, e.nameZh || '', e.nameEn || '', ...(aliases || []), e.productZh || '', e.product, e.stage, e.country || '', e.countryZh || '', pitch, ...catText, e.url || ''].join(' ').toLowerCase();
 }
 
 function companySearchScore(e, aliases, searchText, words, activeCat) {
@@ -15202,7 +15305,7 @@ function buildCompanySearchIndex() {
       e,
       confs: val.confs,
       aliases,
-      searchText: buildCompanySearchText(e, aliases),
+      searchText: buildCompanySearchText(e, aliases, val.confs),
     });
   });
   all.sort((a, b) => a.e.name.localeCompare(b.e.name, 'zh-CN'));
@@ -15352,6 +15455,7 @@ function renderProdSearch() {
 const prodBuildEl = document.getElementById('prodBuildTag');
 if (prodBuildEl) prodBuildEl.textContent = APP_BUILD;
 
+ensureBulkPreloaded();
 render();
 </script>
 
@@ -15363,6 +15467,7 @@ render();
   <details>
     <summary style="cursor:pointer;font-size:12px;color:#666;font-weight:600">📋 数据更新日志</summary>
     <div style="margin-top:8px;font-size:12px;color:#888;line-height:1.8">
+      <div>v2.8.0 (2026-06-15)：公司卡片新增一句话定位（类型+核心价值+团队方向）；全球展会默认展示；类型/产品类别多选筛选</div>
       <div>v2.7.4 (2026-06-15)：修正中文公司被英文站 JSON-LD 美国分公司地址误判为总部（如禾赛科技）</div>
       <div>v2.7.3 (2026-06-15)：重新爬取 6500+ 公司总部归属地（官网/Wikidata/域名），修正 GITEX 阿联酋误标</div>
       <div>v2.7.2 (2026-06-15)：公司搜索——移除产品方向提示文案；归属地改为总部所在，不再用参展举办地推断</div>
