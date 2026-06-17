@@ -11,7 +11,10 @@
     "productZh": "Unitree人形/四足机器人",
     "nameEn": "Unitree",
     "country": "China",
-    "countryZh": "中国"
+    "countryZh": "中国",
+    "pitch": "是一全球民用机器人领导者，专注于高性能腿式/人形机器人。",
+    "pitchSource": "bulk-merge",
+    "pitchVerified": false
   },
   "unitree robotics": {
     "stage": "上市",
@@ -25,7 +28,10 @@
     "productZh": "G1人形机器人",
     "nameEn": "Unitree",
     "country": "China",
-    "countryZh": "中国"
+    "countryZh": "中国",
+    "pitch": "是一全球民用机器人领导者，专注于高性能腿式/人形机器人。",
+    "pitchSource": "bulk-merge",
+    "pitchVerified": false
   },
   "unitree": {
     "stage": "上市",
@@ -39,7 +45,10 @@
     "productZh": "Unitree H1/G1人形机器人及四足机器狗",
     "nameEn": "Unitree",
     "country": "China",
-    "countryZh": "中国"
+    "countryZh": "中国",
+    "pitch": "是一全球民用机器人领导者，专注于高性能腿式/人形机器人。",
+    "pitchSource": "bulk-merge",
+    "pitchVerified": false
   },
   "智元机器人": {
     "stage": "B轮",
@@ -1402,11 +1411,13 @@
       "AI Agent / 应用",
       "芯片 / 算力"
     ],
-    "product": "【参展产品】Rabbit R1软件更新版：新增LAM模型迭代",
+    "product": "",
     "nameZh": "",
-    "productZh": "【参展产品】Rabbit R1软件更新版：新增LAM模型迭代",
+    "productZh": "",
     "country": "Italy",
-    "countryZh": "意大利"
+    "countryZh": "意大利",
+    "exhibitProductZh": "Rabbit R1软件更新版：新增LAM模型迭代",
+    "exhibitProduct": "Rabbit R1软件更新版：新增LAM模型迭代"
   },
   "agility robotics": {
     "stage": "C轮+",
@@ -1505,11 +1516,13 @@
     "cats": [
       "AI 基础设施"
     ],
-    "product": "【参展产品】向量数据库引擎（$50M融资，开源）",
+    "product": "",
     "nameZh": "",
-    "productZh": "【参展产品】向量数据库引擎（$50M融资，开源）",
+    "productZh": "",
     "country": "Germany",
-    "countryZh": "德国"
+    "countryZh": "德国",
+    "exhibitProductZh": "向量数据库引擎（$50M融资，开源）",
+    "exhibitProduct": "向量数据库引擎（$50M融资，开源）"
   },
   "g42": {
     "stage": "融资未公开",
@@ -1699,7 +1712,7 @@
       "大模型 / 算法",
       "AI Agent / 应用"
     ],
-    "product": "AI for Science",
+    "product": "科学人工智能",
     "nameZh": "深势科技",
     "productZh": "科学人工智能",
     "nameEn": "Dp",
@@ -1783,9 +1796,11 @@
       "芯片 / 算力",
       "工业 / 制造"
     ],
-    "product": "【参展产品】AFEELA 1 AI自动驾驶电动车量产版正式发布",
+    "product": "",
     "nameZh": "",
-    "productZh": "【参展产品】AFEELA 1 AI自动驾驶电动车量产版正式发布"
+    "productZh": "",
+    "exhibitProductZh": "AFEELA 1 AI自动驾驶电动车量产版正式发布",
+    "exhibitProduct": "AFEELA 1 AI自动驾驶电动车量产版正式发布"
   },
   "aeye": {
     "stage": "上市",
@@ -1795,11 +1810,13 @@
       "芯片 / 算力",
       "工业 / 制造"
     ],
-    "product": "【参展产品】4D LiDAR智能感知系统（自动驾驶）",
+    "product": "",
     "nameZh": "",
-    "productZh": "【参展产品】4D LiDAR智能感知系统（自动驾驶）",
+    "productZh": "",
     "country": "India",
-    "countryZh": "印度"
+    "countryZh": "印度",
+    "exhibitProductZh": "4D LiDAR智能感知系统（自动驾驶）",
+    "exhibitProduct": "4D LiDAR智能感知系统（自动驾驶）"
   },
   "brilliant labs": {
     "stage": "A轮",
@@ -1837,11 +1854,13 @@
       "AI Agent / 应用",
       "芯片 / 算力"
     ],
-    "product": "【参展产品】X2飞行汽车eVTOL模块化概念车",
+    "product": "",
     "nameZh": "",
-    "productZh": "【参展产品】X2飞行汽车eVTOL模块化概念车",
+    "productZh": "",
     "country": "China",
-    "countryZh": "中国"
+    "countryZh": "中国",
+    "exhibitProductZh": "X2飞行汽车eVTOL模块化概念车",
+    "exhibitProduct": "X2飞行汽车eVTOL模块化概念车"
   },
   "withings": {
     "stage": "B轮",
@@ -1941,7 +1960,7 @@
     "cats": [
       "机器人 / 具身智能"
     ],
-    "product": "Robotaxi",
+    "product": "机器人出租车",
     "nameZh": "",
     "productZh": "机器人出租车"
   },
@@ -1987,7 +2006,10 @@
     ],
     "product": "商品图转3D/AR模型",
     "nameZh": "",
-    "productZh": "商品图转3D/AR模型"
+    "productZh": "商品图转3D/AR模型",
+    "pitch": "是一一家 ICT 初创公司，提供人工智能解决方案，用于从产品图像生成 3D 和 AR 内容，主要用于零售。",
+    "pitchSource": "bulk-merge",
+    "pitchVerified": false
   },
   "fingervision": {
     "stage": "A轮",
@@ -2066,7 +2088,7 @@
     "stage": "融资未公开",
     "url": "https://bostondynamics.com",
     "cats": [],
-    "product": "Spot/Atlas",
+    "product": "现货/图集",
     "nameZh": "",
     "productZh": "现货/图集"
   },
@@ -2115,11 +2137,13 @@
     "cats": [
       "芯片 / 算力"
     ],
-    "product": "【参展产品】PowerEdge AI服务器最新款",
+    "product": "",
     "nameZh": "",
-    "productZh": "【参展产品】PowerEdge AI服务器最新款",
+    "productZh": "",
     "country": "United States",
-    "countryZh": "美国"
+    "countryZh": "美国",
+    "exhibitProductZh": "PowerEdge AI服务器最新款",
+    "exhibitProduct": "PowerEdge AI服务器最新款"
   },
   "axiamatic": {
     "stage": "A轮",
@@ -2127,9 +2151,11 @@
     "cats": [
       "AI Agent / 应用"
     ],
-    "product": "【参展产品】企业AI转型加速平台（$54M A轮）",
+    "product": "",
     "nameZh": "",
-    "productZh": "【参展产品】企业AI转型加速平台（$54M A轮）"
+    "productZh": "",
+    "exhibitProductZh": "企业AI转型加速平台（$54M A轮）",
+    "exhibitProduct": "企业AI转型加速平台（$54M A轮）"
   },
   "metai": {
     "stage": "天使/Seed",
@@ -2137,9 +2163,11 @@
     "cats": [
       "AI Agent / 应用"
     ],
-    "product": "【参展产品】数字孪生工厂AI平台（NVIDIA Inception精选）",
+    "product": "",
     "nameZh": "",
-    "productZh": "【参展产品】数字孪生工厂AI平台（NVIDIA Inception精选）"
+    "productZh": "",
+    "exhibitProductZh": "数字孪生工厂AI平台（NVIDIA Inception精选）",
+    "exhibitProduct": "数字孪生工厂AI平台（NVIDIA Inception精选）"
   },
   "spingence": {
     "stage": "初创·Pre",
@@ -2148,9 +2176,11 @@
       "芯片 / 算力",
       "AI 基础设施"
     ],
-    "product": "【参展产品】边缘AI推理芯片（NVIDIA Inception精选）",
+    "product": "",
     "nameZh": "",
-    "productZh": "【参展产品】边缘AI推理芯片（NVIDIA Inception精选）"
+    "productZh": "",
+    "exhibitProductZh": "边缘AI推理芯片（NVIDIA Inception精选）",
+    "exhibitProduct": "边缘AI推理芯片（NVIDIA Inception精选）"
   },
   "field ai": {
     "stage": "C轮+",
@@ -2583,7 +2613,10 @@
     "nameZh": "",
     "productZh": "Ring AI家庭安全新一代、Alexa AI升级版",
     "country": "United States",
-    "countryZh": "美国"
+    "countryZh": "美国",
+    "pitch": "自 2013 年成立以来，Ring 一直致力于帮助人们了解重要的事情。",
+    "pitchSource": "bulk-merge",
+    "pitchVerified": false
   },
   "cerence ai": {
     "stage": "上市",
@@ -2631,9 +2664,11 @@
       "AI Agent / 应用",
       "AI 基础设施"
     ],
-    "product": "【参展产品】Azure AI Foundry、Copilot+企业方案",
+    "product": "",
     "nameZh": "",
-    "productZh": "【参展产品】Azure AI Foundry、Copilot+企业方案"
+    "productZh": "",
+    "exhibitProductZh": "Azure AI Foundry、Copilot+企业方案",
+    "exhibitProduct": "Azure AI Foundry、Copilot+企业方案"
   },
   "asus": {
     "stage": "上市",
@@ -2642,11 +2677,13 @@
       "AI Agent / 应用",
       "芯片 / 算力"
     ],
-    "product": "【参展产品】ROG/ProArt AI新品线",
+    "product": "",
     "nameZh": "",
-    "productZh": "【参展产品】ROG/ProArt AI新品线",
+    "productZh": "",
     "country": "United States",
-    "countryZh": "美国"
+    "countryZh": "美国",
+    "exhibitProductZh": "ROG/ProArt AI新品线",
+    "exhibitProduct": "ROG/ProArt AI新品线"
   },
   "gigabyte": {
     "stage": "上市",
@@ -2654,11 +2691,13 @@
     "cats": [
       "芯片 / 算力"
     ],
-    "product": "【参展产品】AI服务器/工作站新品",
+    "product": "",
     "nameZh": "",
-    "productZh": "【参展产品】AI服务器/工作站新品",
+    "productZh": "",
     "country": "China",
-    "countryZh": "中国"
+    "countryZh": "中国",
+    "exhibitProductZh": "AI服务器/工作站新品",
+    "exhibitProduct": "AI服务器/工作站新品"
   },
   "supermicro": {
     "stage": "上市",
@@ -2667,11 +2706,13 @@
       "芯片 / 算力",
       "AI 基础设施"
     ],
-    "product": "【参展产品】AI SuperCluster液冷方案",
+    "product": "",
     "nameZh": "",
-    "productZh": "【参展产品】AI SuperCluster液冷方案",
+    "productZh": "",
     "country": "Romania",
-    "countryZh": "罗马尼亚"
+    "countryZh": "罗马尼亚",
+    "exhibitProductZh": "AI SuperCluster液冷方案",
+    "exhibitProduct": "AI SuperCluster液冷方案"
   },
   "kneron": {
     "stage": "B轮",
@@ -2679,11 +2720,13 @@
     "cats": [
       "芯片 / 算力"
     ],
-    "product": "【参展产品】新一代NPU推理芯片",
+    "product": "",
     "nameZh": "",
-    "productZh": "【参展产品】新一代NPU推理芯片",
+    "productZh": "",
     "country": "China",
-    "countryZh": "中国"
+    "countryZh": "中国",
+    "exhibitProductZh": "新一代NPU推理芯片",
+    "exhibitProduct": "新一代NPU推理芯片"
   },
   "华为": {
     "stage": "上市",
@@ -2717,11 +2760,13 @@
     "cats": [
       "AI 基础设施"
     ],
-    "product": "【参展产品】AI原生网络+6G研究成果",
+    "product": "",
     "nameZh": "",
-    "productZh": "【参展产品】AI原生网络+6G研究成果",
+    "productZh": "",
     "country": "China",
-    "countryZh": "中国"
+    "countryZh": "中国",
+    "exhibitProductZh": "AI原生网络+6G研究成果",
+    "exhibitProduct": "AI原生网络+6G研究成果"
   },
   "nokia": {
     "stage": "上市",
@@ -2729,11 +2774,13 @@
     "cats": [
       "AI 基础设施"
     ],
-    "product": "【参展产品】AI-Native网络、Nokia AI Catalog",
+    "product": "",
     "nameZh": "",
-    "productZh": "【参展产品】AI-Native网络、Nokia AI Catalog",
+    "productZh": "",
     "country": "FI",
-    "countryZh": "FI"
+    "countryZh": "FI",
+    "exhibitProductZh": "AI-Native网络、Nokia AI Catalog",
+    "exhibitProduct": "AI-Native网络、Nokia AI Catalog"
   },
   "nothing": {
     "stage": "A轮",
@@ -2743,11 +2790,13 @@
       "芯片 / 算力",
       "消费电子 / 终端"
     ],
-    "product": "【参展产品】Nothing Phone 3 AI深度集成版",
+    "product": "",
     "nameZh": "",
-    "productZh": "【参展产品】Nothing Phone 3 AI深度集成版",
+    "productZh": "",
     "country": "United Kingdom",
-    "countryZh": "英国"
+    "countryZh": "英国",
+    "exhibitProductZh": "Nothing Phone 3 AI深度集成版",
+    "exhibitProduct": "Nothing Phone 3 AI深度集成版"
   },
   "meta": {
     "stage": "上市",
@@ -3389,7 +3438,10 @@
     "productZh": "Unitree H1/G1人形机器人、B2四足机器人、Go2机器狗",
     "nameEn": "Unitree",
     "country": "China",
-    "countryZh": "中国"
+    "countryZh": "中国",
+    "pitch": "是一全球民用机器人领导者，专注于高性能腿式/人形机器人。",
+    "pitchSource": "bulk-merge",
+    "pitchVerified": false
   },
   "上海智元机器人": {
     "stage": "B轮",
@@ -3417,7 +3469,10 @@
     "productZh": "GR-1/GR-2通用人形机器人、AI康复机器人",
     "nameEn": "Fftai",
     "country": "China",
-    "countryZh": "中国"
+    "countryZh": "中国",
+    "pitch": "是一一家行业领先的主动式AI机器人公司，致力于通过全栈机器人技术丰富人类生活。",
+    "pitchSource": "bulk-merge",
+    "pitchVerified": false
   },
   "北京银河通用机器人": {
     "stage": "A轮",
@@ -3583,7 +3638,10 @@
     "productZh": "IoT AI模组、5G智能模组、边缘AI计算模组",
     "nameEn": "Quectel",
     "country": "China",
-    "countryZh": "中国"
+    "countryZh": "中国",
+    "pitch": "是一一家端到端物联网解决方案提供商。",
+    "pitchSource": "bulk-merge",
+    "pitchVerified": false
   },
   "中电金信数字科技集团": {
     "stage": "上市",
@@ -3906,7 +3964,10 @@
     "productZh": "AI芯片IP一站式设计服务、NPU IP授权、AI SoC定制",
     "nameEn": "Verisilicon",
     "country": "China",
-    "countryZh": "中国"
+    "countryZh": "中国",
+    "pitch": "芯原致力于利用自有半导体IP为客户提供基于平台的全方位、一站式芯片定制服务和半导体IP授权服务。",
+    "pitchSource": "bulk-merge",
+    "pitchVerified": false
   },
   "华大九天": {
     "stage": "上市",
@@ -4318,12 +4379,14 @@
       "大模型 / 算法",
       "AI 基础设施"
     ],
-    "product": "【参展产品】混元大模型、腾讯云AI代码助手",
+    "product": "",
     "nameZh": "腾讯云",
-    "productZh": "【参展产品】混元大模型、腾讯云AI代码助手",
+    "productZh": "",
     "nameEn": "Cloud",
     "country": "South Korea",
-    "countryZh": "韩国"
+    "countryZh": "韩国",
+    "exhibitProductZh": "混元大模型、腾讯云AI代码助手",
+    "exhibitProduct": "混元大模型、腾讯云AI代码助手"
   },
   "百度智能云": {
     "stage": "上市",
@@ -4332,12 +4395,14 @@
       "大模型 / 算法",
       "AI 基础设施"
     ],
-    "product": "【参展产品】文心一言企业版、百度飞桨平台",
+    "product": "",
     "nameZh": "百度智能云",
-    "productZh": "【参展产品】文心一言企业版、百度飞桨平台",
+    "productZh": "",
     "nameEn": "Cloud",
     "country": "China",
-    "countryZh": "中国"
+    "countryZh": "中国",
+    "exhibitProductZh": "文心一言企业版、百度飞桨平台",
+    "exhibitProduct": "文心一言企业版、百度飞桨平台"
   },
   "曜澜智能科技": {
     "stage": "初创·Pre",
@@ -4388,11 +4453,13 @@
     "cats": [
       "AI Agent / 应用"
     ],
-    "product": "【参展产品】AI跨境支付平台、企业财务AI",
+    "product": "",
     "nameZh": "",
-    "productZh": "【参展产品】AI跨境支付平台、企业财务AI",
+    "productZh": "",
     "country": "Australia",
-    "countryZh": "澳大利亚"
+    "countryZh": "澳大利亚",
+    "exhibitProductZh": "AI跨境支付平台、企业财务AI",
+    "exhibitProduct": "AI跨境支付平台、企业财务AI"
   },
   "welab": {
     "stage": "C轮+",
@@ -4400,9 +4467,11 @@
     "cats": [
       "AI Agent / 应用"
     ],
-    "product": "【参展产品】AI数字银行、金融风控AI",
+    "product": "",
     "nameZh": "",
-    "productZh": "【参展产品】AI数字银行、金融风控AI"
+    "productZh": "",
+    "exhibitProductZh": "AI数字银行、金融风控AI",
+    "exhibitProduct": "AI数字银行、金融风控AI"
   },
   "三星电子 samsung": {
     "stage": "上市",
@@ -6795,7 +6864,10 @@
     "productZh": "Unitree G1人形机器人（CES首秀）、B2-W轮足机器人",
     "nameEn": "Unitree",
     "country": "China",
-    "countryZh": "中国"
+    "countryZh": "中国",
+    "pitch": "是一全球民用机器人领导者，专注于高性能腿式/人形机器人。",
+    "pitchSource": "bulk-merge",
+    "pitchVerified": false
   },
   "1x technologies": {
     "stage": "B轮",
@@ -8854,7 +8926,10 @@
     "productZh": "鸿蒙操作系统适配、工业软件解决方案",
     "nameEn": "Archermind",
     "country": "China",
-    "countryZh": "中国"
+    "countryZh": "中国",
+    "pitch": "诚迈科技成立于2006年，总部位于南京，目标成为全球智能操作系统领导者。",
+    "pitchSource": "bulk-merge",
+    "pitchVerified": false
   },
   "中兴通讯": {
     "stage": "上市",
