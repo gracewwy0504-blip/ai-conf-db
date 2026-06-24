@@ -1,0 +1,853 @@
+{
+  "id": "SEMICONWest2025",
+  "source": "semiconwest-inline-seed",
+  "count": 81,
+  "updatedAt": "2026-06-24T09:11:08Z",
+  "exhibitors": [
+    {
+      "name": "Advanced Energy Industries",
+      "stage": "上市",
+      "cats": [
+        "AI Agent / 应用",
+        "芯片 / 算力"
+      ],
+      "product": "AI电源系统（RF/DC）、等离子体AI控制、AI热管理",
+      "url": "https://www.advancedenergy.com",
+      "country": "USA"
+    },
+    {
+      "name": "Advantest",
+      "stage": "上市",
+      "cats": [
+        "AI Agent / 应用",
+        "芯片 / 算力"
+      ],
+      "product": "T2000 AI芯片测试系统、AI-SoC测试平台、量子AI测试",
+      "url": "https://www.advantest.com",
+      "country": "USA"
+    },
+    {
+      "name": "Aehr Test Systems",
+      "stage": "上市",
+      "cats": [
+        "芯片 / 算力"
+      ],
+      "product": "AI芯片老化测试、SiC AI功率器件测试",
+      "url": "https://www.aehr.com",
+      "country": "USA"
+    },
+    {
+      "name": "Aerojet Rocketdyne",
+      "stage": "上市",
+      "cats": [
+        "芯片 / 算力"
+      ],
+      "product": "AI推进系统材料、特种AI半导体材料",
+      "url": "https://www.aerojetrocketdyne.com",
+      "country": "USA"
+    },
+    {
+      "name": "Air Liquide液化空气",
+      "stage": "上市",
+      "cats": [
+        "芯片 / 算力",
+        "AI 基础设施"
+      ],
+      "product": "AI半导体特种气体、超纯AI工业气体、氢气AI供应",
+      "url": "https://www.airliquide.com",
+      "country": "USA"
+    },
+    {
+      "name": "Allegro MicroSystems",
+      "stage": "上市",
+      "cats": [
+        "芯片 / 算力"
+      ],
+      "product": "AI磁传感器、AI电流传感、AI电机驱动IC",
+      "url": "https://www.allegromicro.com",
+      "country": "USA"
+    },
+    {
+      "name": "Alphawave Semi",
+      "stage": "上市",
+      "cats": [
+        "芯片 / 算力"
+      ],
+      "product": "AI SerDes IP、UCIe Chiplet接口IP、高速AI互连",
+      "url": "https://www.alphawave.com",
+      "country": "USA"
+    },
+    {
+      "name": "Amkor Technology",
+      "stage": "上市",
+      "cats": [
+        "芯片 / 算力"
+      ],
+      "product": "AI芯片先进封装OSAT、Chiplet AI封装、HBM封装",
+      "url": "https://www.amkor.com",
+      "country": "USA"
+    },
+    {
+      "name": "Ansys仿真",
+      "stage": "上市",
+      "cats": [
+        "AI Agent / 应用"
+      ],
+      "product": "AI半导体仿真、HFSS AI电磁场仿真、AI热管理仿真",
+      "url": "https://www.ansys.com",
+      "country": "USA"
+    },
+    {
+      "name": "Applied Materials",
+      "stage": "上市",
+      "cats": [
+        "AI Agent / 应用",
+        "芯片 / 算力"
+      ],
+      "product": "AI CVD薄膜沉积设备、AI蚀刻系统、Centura AI晶圆处理平台",
+      "url": "https://www.appliedmaterials.com",
+      "country": "USA"
+    },
+    {
+      "name": "Arrow Electronics艾睿电子",
+      "stage": "上市",
+      "cats": [
+        "AI 基础设施"
+      ],
+      "product": "AI半导体分销、电子元器件AI供应链、AI增值服务",
+      "url": "https://www.arrow.com",
+      "country": "USA"
+    },
+    {
+      "name": "Arteris IP",
+      "stage": "上市",
+      "cats": [
+        "AI Agent / 应用"
+      ],
+      "product": "AI NoC网络芯片IP、SoC AI互连、芯片设计AI平台",
+      "url": "https://www.arteris.com",
+      "country": "USA"
+    },
+    {
+      "name": "ASE Group日月光",
+      "stage": "上市",
+      "cats": [
+        "芯片 / 算力"
+      ],
+      "product": "AI芯片OSAT封测、SiP AI系统封装、AI先进封装",
+      "url": "https://www.aseglobal.com",
+      "country": "USA"
+    },
+    {
+      "name": "ASM Pacific Technology",
+      "stage": "上市",
+      "cats": [
+        "AI Agent / 应用",
+        "芯片 / 算力"
+      ],
+      "product": "AI芯片封装设备、AI引线键合、AI贴片系统",
+      "url": "https://www.asmpacific.com",
+      "country": "USA"
+    },
+    {
+      "name": "ASML",
+      "stage": "上市",
+      "cats": [
+        "芯片 / 算力"
+      ],
+      "product": "EUV光刻机、High-NA EUV系统、TWINSCAN AI控制系统",
+      "url": "https://www.asml.com",
+      "country": "USA"
+    },
+    {
+      "name": "Atomica (前 IMT)",
+      "stage": "B轮",
+      "cats": [
+        "芯片 / 算力"
+      ],
+      "product": "AI MEMS传感器、AI生物传感器芯片制造",
+      "url": "https://www.atomica.com",
+      "country": "USA"
+    },
+    {
+      "name": "Avnet安富利",
+      "stage": "上市",
+      "cats": [
+        "AI 基础设施"
+      ],
+      "product": "AI嵌入式解决方案分销、Silica AI元器件、AI设计服务",
+      "url": "https://www.avnet.com",
+      "country": "USA"
+    },
+    {
+      "name": "Axcelis Technologies",
+      "stage": "上市",
+      "cats": [
+        "芯片 / 算力"
+      ],
+      "product": "AI离子注入系统、Purion AI注入平台",
+      "url": "https://www.axcelis.com",
+      "country": "USA"
+    },
+    {
+      "name": "BE Semiconductor",
+      "stage": "上市",
+      "cats": [
+        "芯片 / 算力"
+      ],
+      "product": "AI混合键合设备、Besi AI倒装芯片、先进封装AI",
+      "url": "https://www.besi.com",
+      "country": "USA"
+    },
+    {
+      "name": "Brewer Science",
+      "stage": "B轮",
+      "cats": [
+        "芯片 / 算力"
+      ],
+      "product": "AI先进封装材料、临时键合AI材料、光刻AI辅助材料",
+      "url": "https://www.brewerscience.com",
+      "country": "USA"
+    },
+    {
+      "name": "Brooks Automation (Azenta)",
+      "stage": "上市",
+      "cats": [
+        "AI Agent / 应用",
+        "芯片 / 算力"
+      ],
+      "product": "AI晶圆自动化传输、低温AI存储、样品管理AI",
+      "url": "https://www.azenta.com",
+      "country": "USA"
+    },
+    {
+      "name": "Bruker布鲁克",
+      "stage": "上市",
+      "cats": [
+        "AI Agent / 应用",
+        "芯片 / 算力"
+      ],
+      "product": "AI原子力显微镜AFM、AI半导体材料分析",
+      "url": "https://www.bruker.com",
+      "country": "USA"
+    },
+    {
+      "name": "Cabot Microelectronics卡博特",
+      "stage": "上市",
+      "cats": [
+        "芯片 / 算力"
+      ],
+      "product": "AI CMP抛光液、AI钨CMP浆料、精密AI平坦化",
+      "url": "https://www.cmcmaterials.com",
+      "country": "USA"
+    },
+    {
+      "name": "Cadence Computational software",
+      "stage": "上市",
+      "cats": [
+        "大模型 / 算法",
+        "AI Agent / 应用"
+      ],
+      "product": "Cerebrus AI EDA优化、Palladium AI仿真、Virtuso AI Layout",
+      "url": "https://www.cadence.com",
+      "country": "USA"
+    },
+    {
+      "name": "Carl Zeiss蔡司半导体",
+      "stage": "上市",
+      "cats": [
+        "AI Agent / 应用",
+        "芯片 / 算力"
+      ],
+      "product": "AI EUV光学系统、AI晶圆量测、ZEISS SMT光学AI",
+      "url": "https://www.zeiss.com/semiconductor-manufacturing-technology",
+      "country": "USA"
+    },
+    {
+      "name": "Cerebras Systems",
+      "stage": "C轮+",
+      "cats": [
+        "大模型 / 算法",
+        "芯片 / 算力"
+      ],
+      "product": "WSE-3晶圆级AI芯片、CS-3 AI计算机、大模型训练平台",
+      "url": "https://www.cerebras.net",
+      "country": "USA"
+    },
+    {
+      "name": "Cohu Xcerra",
+      "stage": "上市",
+      "cats": [
+        "AI Agent / 应用",
+        "芯片 / 算力"
+      ],
+      "product": "AI芯片封测设备、AI处理器测试、Cohu AI测试生态",
+      "url": "https://www.cohu.com",
+      "country": "USA"
+    },
+    {
+      "name": "Coventor",
+      "stage": "B轮",
+      "cats": [
+        "AI Agent / 应用"
+      ],
+      "product": "MEMS AI仿真设计、工艺AI建模、SEMulator3D AI",
+      "url": "https://www.coventor.com",
+      "country": "USA"
+    },
+    {
+      "name": "d-Matrix",
+      "stage": "C轮+",
+      "cats": [
+        "芯片 / 算力"
+      ],
+      "product": "Corsair AI推理加速器、计算内存AI芯片架构",
+      "url": "https://www.d-matrix.ai",
+      "country": "USA"
+    },
+    {
+      "name": "Digi-Key电子",
+      "stage": "上市",
+      "cats": [
+        "AI 基础设施"
+      ],
+      "product": "AI元器件分销平台、半导体AI供应链、BOM AI配单",
+      "url": "https://www.digikey.com",
+      "country": "USA"
+    },
+    {
+      "name": "Disco Corporation",
+      "stage": "上市",
+      "cats": [
+        "芯片 / 算力"
+      ],
+      "product": "AI晶圆切割机、AI研磨机、Kabra AI切割控制",
+      "url": "https://www.disco.co.jp",
+      "country": "USA"
+    },
+    {
+      "name": "Entegris",
+      "stage": "上市",
+      "cats": [
+        "芯片 / 算力"
+      ],
+      "product": "AI制造材料纯化、超纯化学品AI管理、FOUP AI晶圆盒",
+      "url": "https://www.entegris.com",
+      "country": "USA"
+    },
+    {
+      "name": "EV Group EVG",
+      "stage": "C轮+",
+      "cats": [
+        "芯片 / 算力"
+      ],
+      "product": "AI混合键合设备、AI晶圆键合、3D集成AI制造",
+      "url": "https://www.evgroup.com",
+      "country": "USA"
+    },
+    {
+      "name": "FEI (Thermo Fisher Scientific)",
+      "stage": "上市",
+      "cats": [
+        "AI Agent / 应用",
+        "芯片 / 算力"
+      ],
+      "product": "AI聚焦离子束FIB-SEM、AI TEM分析、半导体AI失效分析",
+      "url": "https://www.thermofisher.com/fei",
+      "country": "USA"
+    },
+    {
+      "name": "Flex Logix",
+      "stage": "B轮",
+      "cats": [
+        "AI Agent / 应用",
+        "芯片 / 算力"
+      ],
+      "product": "嵌入式FPGA AI IP、InferX AI推理芯片",
+      "url": "https://flex-logix.com",
+      "country": "USA"
+    },
+    {
+      "name": "FormFactor",
+      "stage": "上市",
+      "cats": [
+        "AI Agent / 应用",
+        "芯片 / 算力"
+      ],
+      "product": "AI探针卡测试系统、先进封装AI测试",
+      "url": "https://www.formfactor.com",
+      "country": "USA"
+    },
+    {
+      "name": "Fujifilm富士胶片半导体",
+      "stage": "上市",
+      "cats": [
+        "芯片 / 算力"
+      ],
+      "product": "AI EUV光刻胶、AI显影液、半导体AI化学品",
+      "url": "https://www.fujifilm.com/semiconductor",
+      "country": "USA"
+    },
+    {
+      "name": "Gigaphoton",
+      "stage": "C轮+",
+      "cats": [
+        "芯片 / 算力"
+      ],
+      "product": "AI激光光源、KrF/ArF AI准分子激光",
+      "url": "https://www.gigaphoton.com",
+      "country": "USA"
+    },
+    {
+      "name": "Groq",
+      "stage": "C轮+",
+      "cats": [
+        "大模型 / 算法",
+        "芯片 / 算力"
+      ],
+      "product": "LPU AI推理芯片、GroqCloud AI推理服务、超低延迟AI",
+      "url": "https://groq.com",
+      "country": "USA"
+    },
+    {
+      "name": "Hermes Microvision台湾漢民科技",
+      "stage": "上市",
+      "cats": [
+        "AI Agent / 应用",
+        "芯片 / 算力"
+      ],
+      "product": "e-beam AI检测工具、CDSEM AI量测",
+      "url": "https://www.hmi.com.tw",
+      "country": "USA"
+    },
+    {
+      "name": "Hitachi High-Tech日立高新",
+      "stage": "上市",
+      "cats": [
+        "AI Agent / 应用",
+        "芯片 / 算力"
+      ],
+      "product": "AI CD-SEM关键尺寸测量、AI电子束检测、AI半导体制造",
+      "url": "https://www.hitachi-hightech.com",
+      "country": "USA"
+    },
+    {
+      "name": "IEEE Solid-State Circuits",
+      "stage": "融资未公开",
+      "cats": [
+        "AI Agent / 应用"
+      ],
+      "product": "AI芯片学术研究、ISSCC AI论文、固态电路AI标准",
+      "url": "https://sscs.ieee.org",
+      "country": "USA"
+    },
+    {
+      "name": "Intevac",
+      "stage": "上市",
+      "cats": [
+        "芯片 / 算力"
+      ],
+      "product": "AI磁盘制造设备、AI太阳能薄膜沉积",
+      "url": "https://www.intevac.com",
+      "country": "USA"
+    },
+    {
+      "name": "IPC国际电子工业联接协会",
+      "stage": "融资未公开",
+      "cats": [
+        "AI Agent / 应用"
+      ],
+      "product": "AI电子制造标准、PCB AI设计规范、AI质量认证",
+      "url": "https://www.ipc.org",
+      "country": "USA"
+    },
+    {
+      "name": "IQVIA / Cymer (ASML子公司)",
+      "stage": "上市",
+      "cats": [
+        "芯片 / 算力"
+      ],
+      "product": "ArF AI准分子激光光源、DUV AI激光系统",
+      "url": "https://www.cymer.com",
+      "country": "USA"
+    },
+    {
+      "name": "JEOL日本电子",
+      "stage": "上市",
+      "cats": [
+        "芯片 / 算力"
+      ],
+      "product": "AI扫描电子显微镜SEM、AI TEM透射电镜、AI半导体检测",
+      "url": "https://www.jeol.com",
+      "country": "USA"
+    },
+    {
+      "name": "JSR Corporation",
+      "stage": "上市",
+      "cats": [
+        "芯片 / 算力"
+      ],
+      "product": "AI半导体光刻胶、EUV光刻材料、AI ARC涂层",
+      "url": "https://www.jsr.co.jp",
+      "country": "USA"
+    },
+    {
+      "name": "KLA Corporation",
+      "stage": "上市",
+      "cats": [
+        "AI Agent / 应用",
+        "芯片 / 算力"
+      ],
+      "product": "AI晶圆缺陷检测、Surfscan AI检测、AI过程控制系统",
+      "url": "https://www.kla.com",
+      "country": "USA"
+    },
+    {
+      "name": "Lam Research柯磊",
+      "stage": "上市",
+      "cats": [
+        "AI Agent / 应用",
+        "芯片 / 算力"
+      ],
+      "product": "AI薄膜沉积VECTOR系列、Kiyo AI刻蚀、Sense.i AI预测维护",
+      "url": "https://www.lamresearch.com",
+      "country": "USA"
+    },
+    {
+      "name": "Mattson Technology",
+      "stage": "C轮+",
+      "cats": [
+        "芯片 / 算力"
+      ],
+      "product": "AI热处理系统、AI氧化退火炉",
+      "url": "https://www.mattson.com",
+      "country": "USA"
+    },
+    {
+      "name": "Merck默克半导体",
+      "stage": "上市",
+      "cats": [
+        "芯片 / 算力"
+      ],
+      "product": "AI晶圆高纯度化学品、AI CMP浆料、特种AI气体",
+      "url": "https://www.merckgroup.com/semiconductor",
+      "country": "USA"
+    },
+    {
+      "name": "MKS Instruments",
+      "stage": "上市",
+      "cats": [
+        "AI Agent / 应用",
+        "芯片 / 算力"
+      ],
+      "product": "AI气体流量控制、AI等离子体监测、AI过程分析仪",
+      "url": "https://www.mksinst.com",
+      "country": "USA"
+    },
+    {
+      "name": "Nanometrics纳米量测",
+      "stage": "上市",
+      "cats": [
+        "AI Agent / 应用",
+        "芯片 / 算力"
+      ],
+      "product": "AI光学量测系统、Atlas AI薄膜厚度测量",
+      "url": "https://www.onto-innovation.com",
+      "country": "USA"
+    },
+    {
+      "name": "NVIDIA",
+      "stage": "上市",
+      "cats": [
+        "AI Agent / 应用",
+        "芯片 / 算力"
+      ],
+      "product": "cuLitho AI光刻计算加速、AI芯片设计工具、半导体AI解决方案",
+      "url": "https://www.nvidia.com",
+      "country": "USA"
+    },
+    {
+      "name": "onsemi安森美",
+      "stage": "上市",
+      "cats": [
+        "芯片 / 算力"
+      ],
+      "product": "AI图像传感器、EliteSiC AI功率模块、AI自动驾驶传感",
+      "url": "https://www.onsemi.com",
+      "country": "USA"
+    },
+    {
+      "name": "Onto Innovation Nanometrics",
+      "stage": "上市",
+      "cats": [
+        "AI Agent / 应用",
+        "芯片 / 算力"
+      ],
+      "product": "Atlas AI量测系统、Dragonfly G2 AI检测、AI半导体量测",
+      "url": "https://www.ontoinnovation.com/nanometrics",
+      "country": "USA"
+    },
+    {
+      "name": "Park Systems",
+      "stage": "上市",
+      "cats": [
+        "AI Agent / 应用",
+        "芯片 / 算力"
+      ],
+      "product": "AI原子力显微镜、非接触AI量测、半导体AI表面分析",
+      "url": "https://www.parksystems.com",
+      "country": "USA"
+    },
+    {
+      "name": "PDF Solutions",
+      "stage": "上市",
+      "cats": [
+        "AI Agent / 应用",
+        "大模型 / 算法"
+      ],
+      "product": "Exensio AI大数据分析平台、AI良率优化、Cimetrix AI设备互联",
+      "url": "https://www.pdfsolutions.com",
+      "country": "USA"
+    },
+    {
+      "name": "Photon Dynamics",
+      "stage": "上市",
+      "cats": [
+        "AI Agent / 应用",
+        "芯片 / 算力"
+      ],
+      "product": "AI平面显示器检测、TFT AI阵列检测",
+      "url": "https://www.photondynamics.com",
+      "country": "USA"
+    },
+    {
+      "name": "Praxair普莱克斯",
+      "stage": "上市",
+      "cats": [
+        "芯片 / 算力"
+      ],
+      "product": "AI半导体工业气体、超纯氮气AI供应系统",
+      "url": "https://www.linde.com",
+      "country": "USA"
+    },
+    {
+      "name": "PVA TePla",
+      "stage": "上市",
+      "cats": [
+        "芯片 / 算力"
+      ],
+      "product": "AI晶体生长系统、AI等离子清洗、半导体AI材料处理",
+      "url": "https://www.pvatepla.com",
+      "country": "USA"
+    },
+    {
+      "name": "Rambus",
+      "stage": "上市",
+      "cats": [
+        "AI Agent / 应用",
+        "芯片 / 算力"
+      ],
+      "product": "AI内存接口芯片、HBM AI控制器、AI数据中心安全芯片",
+      "url": "https://www.rambus.com",
+      "country": "USA"
+    },
+    {
+      "name": "Rescale",
+      "stage": "C轮+",
+      "cats": [
+        "AI Agent / 应用",
+        "AI 基础设施"
+      ],
+      "product": "AI HPC云计算平台、半导体AI仿真云、EDA AI云加速",
+      "url": "https://rescale.com",
+      "country": "USA"
+    },
+    {
+      "name": "Rudolph Technologies",
+      "stage": "上市",
+      "cats": [
+        "AI Agent / 应用",
+        "芯片 / 算力"
+      ],
+      "product": "AI晶圆检测、AI宏观检测系统、良率AI管理",
+      "url": "https://www.rudolphtech.com",
+      "country": "USA"
+    },
+    {
+      "name": "SambaNova Systems",
+      "stage": "C轮+",
+      "cats": [
+        "大模型 / 算法",
+        "芯片 / 算力"
+      ],
+      "product": "SN40L AI推理芯片、Samba-1大模型推理平台、企业AI",
+      "url": "https://sambanova.ai",
+      "country": "USA"
+    },
+    {
+      "name": "Screen Semiconductor日屏半导体",
+      "stage": "上市",
+      "cats": [
+        "芯片 / 算力"
+      ],
+      "product": "AI清洗设备、AI热处理系统、单晶圆AI处理",
+      "url": "https://www.screen.co.jp/spe",
+      "country": "USA"
+    },
+    {
+      "name": "SEMI国际半导体产业协会",
+      "stage": "融资未公开",
+      "cats": [
+        "AI Agent / 应用"
+      ],
+      "product": "AI半导体产业标准、SEMI AI设备接口标准、AI政策推动",
+      "url": "https://www.semi.org",
+      "country": "USA"
+    },
+    {
+      "name": "Shin-Etsu Chemical信越化学",
+      "stage": "上市",
+      "cats": [
+        "芯片 / 算力"
+      ],
+      "product": "AI硅晶圆、AI光刻胶材料、硅外延片AI",
+      "url": "https://www.shinetsu.co.jp",
+      "country": "USA"
+    },
+    {
+      "name": "Siemens EDA",
+      "stage": "上市",
+      "cats": [
+        "AI Agent / 应用"
+      ],
+      "product": "Calibre AI DRC验证、Questa AI仿真、AI芯片设计工具链",
+      "url": "https://eda.sw.siemens.com",
+      "country": "USA"
+    },
+    {
+      "name": "Silicon Expert",
+      "stage": "B轮",
+      "cats": [
+        "AI Agent / 应用"
+      ],
+      "product": "AI零部件数据分析、AI供应链风险管理、BOM AI分析",
+      "url": "https://www.siliconexpert.com",
+      "country": "USA"
+    },
+    {
+      "name": "Silicon Labs",
+      "stage": "上市",
+      "cats": [
+        "AI Agent / 应用",
+        "芯片 / 算力"
+      ],
+      "product": "AI IoT芯片、Matter AI连接芯片、工业AI无线SoC",
+      "url": "https://www.silabs.com",
+      "country": "USA"
+    },
+    {
+      "name": "Sumitomo Chemical住友化学",
+      "stage": "上市",
+      "cats": [
+        "芯片 / 算力"
+      ],
+      "product": "AI半导体光刻胶、AI CMP浆料、半导体AI材料",
+      "url": "https://www.sumitomo-chem.co.jp",
+      "country": "USA"
+    },
+    {
+      "name": "Suss MicroTec",
+      "stage": "上市",
+      "cats": [
+        "芯片 / 算力"
+      ],
+      "product": "AI晶圆键合系统、AI光刻对准、先进封装AI设备",
+      "url": "https://www.suss.com",
+      "country": "USA"
+    },
+    {
+      "name": "Synopsys Silicon Lifecycle",
+      "stage": "上市",
+      "cats": [
+        "AI Agent / 应用",
+        "大模型 / 算法"
+      ],
+      "product": "Synopsys.ai EDA平台、DSO.ai AI芯片设计优化、AI功能安全验证",
+      "url": "https://www.synopsys.com/silicon-lifecycle-management",
+      "country": "USA"
+    },
+    {
+      "name": "Teradyne",
+      "stage": "上市",
+      "cats": [
+        "AI Agent / 应用",
+        "芯片 / 算力"
+      ],
+      "product": "AI SoC测试系统、UltraFLEX AI测试平台、AI半导体测试",
+      "url": "https://www.teradyne.com",
+      "country": "USA"
+    },
+    {
+      "name": "Tokyo Electron东京电子",
+      "stage": "上市",
+      "cats": [
+        "AI Agent / 应用",
+        "芯片 / 算力"
+      ],
+      "product": "AI热处理设备、Etch AI蚀刻、AI清洗系统",
+      "url": "https://www.tel.com",
+      "country": "USA"
+    },
+    {
+      "name": "Tokyo Seimitsu精工",
+      "stage": "上市",
+      "cats": [
+        "芯片 / 算力"
+      ],
+      "product": "AI晶圆切割系统、AI精密测量、Accretech AI检测",
+      "url": "https://www.accretech.com",
+      "country": "USA"
+    },
+    {
+      "name": "Ultra Clean Holdings",
+      "stage": "上市",
+      "cats": [
+        "芯片 / 算力"
+      ],
+      "product": "半导体零件清洁AI、气体输送AI系统",
+      "url": "https://www.uctt.com",
+      "country": "USA"
+    },
+    {
+      "name": "Veeco",
+      "stage": "上市",
+      "cats": [
+        "芯片 / 算力"
+      ],
+      "product": "AI MOCVD外延设备、AI离子束沉积系统",
+      "url": "https://www.veeco.com",
+      "country": "USA"
+    },
+    {
+      "name": "Vishay",
+      "stage": "上市",
+      "cats": [
+        "芯片 / 算力"
+      ],
+      "product": "AI功率电阻器、AI二极管/MOSFET、工业AI被动元件",
+      "url": "https://www.vishay.com",
+      "country": "USA"
+    },
+    {
+      "name": "Wolfspeed",
+      "stage": "上市",
+      "cats": [
+        "芯片 / 算力"
+      ],
+      "product": "SiC AI功率芯片、AI电动汽车功率器件、AI充电芯片",
+      "url": "https://www.wolfspeed.com",
+      "country": "USA"
+    }
+  ],
+  "notes": "Official exhibitor portal currently requires brittle ASP.NET postback traversal; seeded from curated inline records."
+}

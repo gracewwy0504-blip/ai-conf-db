@@ -1,0 +1,598 @@
+{
+  "id": "MWC2025",
+  "source": "mwcbarcelona-inline-seed",
+  "count": 50,
+  "updatedAt": "2026-06-24T09:11:08Z",
+  "exhibitors": [
+    {
+      "name": "Accenture",
+      "stage": "上市",
+      "cats": [
+        "AI Agent / 应用"
+      ],
+      "product": "AI转型咨询、生成式AI电信方案、Accenture AI Lab",
+      "url": "https://www.accenture.com",
+      "country": "Spain",
+      "countryZh": "西班牙"
+    },
+    {
+      "name": "Amazon AWS",
+      "stage": "上市",
+      "cats": [
+        "大模型 / 算法",
+        "AI 基础设施"
+      ],
+      "product": "AWS Bedrock大模型平台、Graviton AI芯片、电信云",
+      "url": "https://aws.amazon.com",
+      "country": "Spain",
+      "countryZh": "西班牙"
+    },
+    {
+      "name": "Amdocs",
+      "stage": "上市",
+      "cats": [
+        "AI Agent / 应用"
+      ],
+      "product": "电信AI转型平台、AI客服、网络编排AI",
+      "url": "https://www.amdocs.com",
+      "country": "Spain",
+      "countryZh": "西班牙"
+    },
+    {
+      "name": "Arm",
+      "stage": "上市",
+      "cats": [
+        "芯片 / 算力"
+      ],
+      "product": "Armv9 AI CPU架构、Cortex-X925、AI移动平台",
+      "url": "https://www.arm.com",
+      "country": "Spain",
+      "countryZh": "西班牙"
+    },
+    {
+      "name": "Bosch博世",
+      "stage": "上市",
+      "cats": [
+        "AI Agent / 应用",
+        "芯片 / 算力"
+      ],
+      "product": "汽车AI传感器、工业AI视觉、智能家居AI",
+      "url": "https://www.bosch.com",
+      "country": "Spain",
+      "countryZh": "西班牙"
+    },
+    {
+      "name": "Capgemini",
+      "stage": "上市",
+      "cats": [
+        "AI Agent / 应用"
+      ],
+      "product": "AI工程、电信AI解决方案、云原生AI",
+      "url": "https://www.capgemini.com",
+      "country": "Spain",
+      "countryZh": "西班牙"
+    },
+    {
+      "name": "Celona",
+      "stage": "B轮",
+      "cats": [
+        "AI Agent / 应用",
+        "AI 基础设施"
+      ],
+      "product": "企业5G AI专网、私有网络AI管理",
+      "url": "https://www.celona.io",
+      "country": "Spain",
+      "countryZh": "西班牙"
+    },
+    {
+      "name": "Cisco思科",
+      "stage": "上市",
+      "cats": [
+        "AI Agent / 应用",
+        "AI 基础设施"
+      ],
+      "product": "Cisco AI网络、SD-WAN AI、企业AI安全平台",
+      "url": "https://www.cisco.com",
+      "country": "Spain",
+      "countryZh": "西班牙"
+    },
+    {
+      "name": "CrowdStrike",
+      "stage": "上市",
+      "cats": [
+        "AI Agent / 应用"
+      ],
+      "product": "AI网络安全平台Falcon、威胁情报AI",
+      "url": "https://www.crowdstrike.com",
+      "country": "Spain",
+      "countryZh": "西班牙"
+    },
+    {
+      "name": "DeepSig",
+      "stage": "B轮",
+      "cats": [
+        "大模型 / 算法",
+        "AI Agent / 应用"
+      ],
+      "product": "AI无线电频谱感知、机器学习射频平台",
+      "url": "https://www.deepsig.ai",
+      "country": "Spain",
+      "countryZh": "西班牙"
+    },
+    {
+      "name": "Deutsche Telekom德电",
+      "stage": "上市",
+      "cats": [
+        "AI 基础设施"
+      ],
+      "product": "Telekom AI、5G SA核心网、MagentaAI助手",
+      "url": "https://www.telekom.com",
+      "country": "Spain",
+      "countryZh": "西班牙"
+    },
+    {
+      "name": "Fortinet",
+      "stage": "上市",
+      "cats": [
+        "AI Agent / 应用",
+        "芯片 / 算力"
+      ],
+      "product": "FortiAI安全平台、AI防火墙、零信任AI",
+      "url": "https://www.fortinet.com",
+      "country": "Spain",
+      "countryZh": "西班牙"
+    },
+    {
+      "name": "Google",
+      "stage": "上市",
+      "cats": [
+        "大模型 / 算法",
+        "AI Agent / 应用"
+      ],
+      "product": "Gemini AI、Google Cloud AI、Android AI生态",
+      "url": "https://www.google.com",
+      "country": "Spain",
+      "countryZh": "西班牙"
+    },
+    {
+      "name": "Honeywell",
+      "stage": "上市",
+      "cats": [
+        "AI Agent / 应用",
+        "芯片 / 算力"
+      ],
+      "product": "工业AI平台、楼宇AI管理系统、AI质检",
+      "url": "https://www.honeywell.com",
+      "country": "Spain",
+      "countryZh": "西班牙"
+    },
+    {
+      "name": "IBM",
+      "stage": "上市",
+      "cats": [
+        "AI Agent / 应用",
+        "AI 基础设施"
+      ],
+      "product": "IBM Granite大模型、Watson AI、量子计算服务",
+      "url": "https://www.ibm.com",
+      "country": "Spain",
+      "countryZh": "西班牙"
+    },
+    {
+      "name": "Intel",
+      "stage": "上市",
+      "cats": [
+        "AI Agent / 应用",
+        "芯片 / 算力"
+      ],
+      "product": "Core Ultra AI PC处理器、Gaudi 3 AI加速器、网络AI芯片",
+      "url": "https://www.intel.com",
+      "country": "Spain",
+      "countryZh": "西班牙"
+    },
+    {
+      "name": "KT Korea Telecom",
+      "stage": "上市",
+      "cats": [
+        "AI Agent / 应用",
+        "AI 基础设施"
+      ],
+      "product": "KT AI服务、韩国6G研究、AI Cloud",
+      "url": "https://www.kt.com",
+      "country": "Spain",
+      "countryZh": "西班牙"
+    },
+    {
+      "name": "Mavenir",
+      "stage": "C轮+",
+      "cats": [
+        "AI Agent / 应用",
+        "AI 基础设施"
+      ],
+      "product": "Open RAN AI软件、5G核心网、AI无线优化",
+      "url": "https://mavenir.com",
+      "country": "Spain",
+      "countryZh": "西班牙"
+    },
+    {
+      "name": "MediaTek联发科",
+      "stage": "上市",
+      "cats": [
+        "芯片 / 算力"
+      ],
+      "product": "天玑9400 AI手机芯片、AI-on-Device平台",
+      "url": "https://www.mediatek.com",
+      "country": "Spain",
+      "countryZh": "西班牙"
+    },
+    {
+      "name": "Meta",
+      "stage": "上市",
+      "cats": [
+        "大模型 / 算法",
+        "AI Agent / 应用",
+        "芯片 / 算力"
+      ],
+      "product": "Llama 3开源大模型、Meta AI助手、Ray-Ban AI眼镜",
+      "url": "https://www.meta.com",
+      "country": "Spain",
+      "countryZh": "西班牙"
+    },
+    {
+      "name": "Microsoft",
+      "stage": "上市",
+      "cats": [
+        "大模型 / 算法",
+        "AI Agent / 应用"
+      ],
+      "product": "Azure AI、Copilot AI助手、OpenAI合作电信方案",
+      "url": "https://www.microsoft.com",
+      "country": "Spain",
+      "countryZh": "西班牙"
+    },
+    {
+      "name": "NetCracker",
+      "stage": "上市",
+      "cats": [
+        "AI Agent / 应用"
+      ],
+      "product": "AI网络管理、5G编排AI、电信BSS/OSS",
+      "url": "https://www.netcracker.com",
+      "country": "Spain",
+      "countryZh": "西班牙"
+    },
+    {
+      "name": "NVIDIA",
+      "stage": "上市",
+      "cats": [
+        "芯片 / 算力",
+        "AI 基础设施"
+      ],
+      "product": "Blackwell AI芯片、AI-RAN电信AI解决方案、DGX SuperPOD",
+      "url": "https://www.nvidia.com",
+      "country": "Spain",
+      "countryZh": "西班牙"
+    },
+    {
+      "name": "OPPO",
+      "stage": "C轮+",
+      "cats": [
+        "AI Agent / 应用",
+        "芯片 / 算力"
+      ],
+      "product": "Find X8 Pro AI手机、ColorOS AI、OPPO AI搜索",
+      "url": "https://www.oppo.com",
+      "country": "Spain",
+      "countryZh": "西班牙"
+    },
+    {
+      "name": "Orange",
+      "stage": "上市",
+      "cats": [
+        "AI Agent / 应用",
+        "AI 基础设施"
+      ],
+      "product": "Orange AI助手、网络AI优化、AI数字孪生",
+      "url": "https://www.orange.com",
+      "country": "Spain",
+      "countryZh": "西班牙"
+    },
+    {
+      "name": "Palo Alto Networks",
+      "stage": "上市",
+      "cats": [
+        "AI Agent / 应用"
+      ],
+      "product": "AI驱动网络安全、Precision AI、SASE安全",
+      "url": "https://www.paloaltonetworks.com",
+      "country": "Spain",
+      "countryZh": "西班牙"
+    },
+    {
+      "name": "Qualcomm",
+      "stage": "上市",
+      "cats": [
+        "AI Agent / 应用",
+        "芯片 / 算力"
+      ],
+      "product": "Snapdragon 8 Elite AI手机芯片、AI PC平台、车载AI",
+      "url": "https://www.qualcomm.com",
+      "country": "Spain",
+      "countryZh": "西班牙"
+    },
+    {
+      "name": "Rakuten Mobile乐天",
+      "stage": "C轮+",
+      "cats": [
+        "AI Agent / 应用",
+        "AI 基础设施"
+      ],
+      "product": "Open RAN AI网络、Rakuten Symphony云电信",
+      "url": "https://corp.rakuten.co.jp/businesses/mobile/",
+      "country": "Spain",
+      "countryZh": "西班牙"
+    },
+    {
+      "name": "Salesforce",
+      "stage": "上市",
+      "cats": [
+        "大模型 / 算法",
+        "AI Agent / 应用"
+      ],
+      "product": "Einstein AI、Agentforce AI平台、MWC电信AI方案",
+      "url": "https://www.salesforce.com",
+      "country": "Spain",
+      "countryZh": "西班牙"
+    },
+    {
+      "name": "SAP",
+      "stage": "上市",
+      "cats": [
+        "AI Agent / 应用"
+      ],
+      "product": "SAP Business AI、Joule AI助手、企业AI转型",
+      "url": "https://www.sap.com",
+      "country": "Spain",
+      "countryZh": "西班牙"
+    },
+    {
+      "name": "Sierra Wireless",
+      "stage": "上市",
+      "cats": [
+        "芯片 / 算力"
+      ],
+      "product": "5G IoT网关、边缘AI路由器、工业AI连接",
+      "url": "https://www.sierrawireless.com",
+      "country": "Spain",
+      "countryZh": "西班牙"
+    },
+    {
+      "name": "SK Telecom",
+      "stage": "上市",
+      "cats": [
+        "大模型 / 算法",
+        "AI Agent / 应用"
+      ],
+      "product": "SKT AI金融、A. 大模型、AI数据中心战略",
+      "url": "https://www.sktelecom.com",
+      "country": "Spain",
+      "countryZh": "西班牙"
+    },
+    {
+      "name": "T-Mobile",
+      "stage": "上市",
+      "cats": [
+        "AI 基础设施"
+      ],
+      "product": "T-Mobile 5G AI网络、AI客服、AI频谱优化",
+      "url": "https://www.t-mobile.com",
+      "country": "Spain",
+      "countryZh": "西班牙"
+    },
+    {
+      "name": "Telit Cinterion",
+      "stage": "上市",
+      "cats": [
+        "芯片 / 算力"
+      ],
+      "product": "AI IoT模组、5G工业模组、边缘AI计算模块",
+      "url": "https://www.telit.com",
+      "country": "Spain",
+      "countryZh": "西班牙"
+    },
+    {
+      "name": "vivo",
+      "stage": "C轮+",
+      "cats": [
+        "AI Agent / 应用",
+        "芯片 / 算力"
+      ],
+      "product": "vivo X200 Ultra AI手机、蓝心大模型、AI拍照",
+      "url": "https://www.vivo.com",
+      "country": "Spain",
+      "countryZh": "西班牙"
+    },
+    {
+      "name": "VMware/Broadcom",
+      "stage": "上市",
+      "cats": [
+        "AI Agent / 应用",
+        "AI 基础设施"
+      ],
+      "product": "VCF电信云、AI工作负载平台",
+      "url": "https://www.broadcom.com",
+      "country": "Spain",
+      "countryZh": "西班牙"
+    },
+    {
+      "name": "Vodafone",
+      "stage": "上市",
+      "cats": [
+        "AI Agent / 应用",
+        "AI 基础设施"
+      ],
+      "product": "Vodafone AI网络、TOBi AI客服、企业AI云",
+      "url": "https://www.vodafone.com",
+      "country": "Spain",
+      "countryZh": "西班牙"
+    },
+    {
+      "name": "Zebra Technologies",
+      "stage": "上市",
+      "cats": [
+        "AI Agent / 应用",
+        "芯片 / 算力"
+      ],
+      "product": "AI扫码设备、仓储机器人AI、边缘AI终端",
+      "url": "https://www.zebra.com",
+      "country": "Spain",
+      "countryZh": "西班牙"
+    },
+    {
+      "name": "三星电子 Samsung",
+      "stage": "上市",
+      "cats": [
+        "AI Agent / 应用",
+        "芯片 / 算力"
+      ],
+      "product": "Galaxy AI、三星5G基站、Galaxy S25 AI手机",
+      "url": "https://www.samsung.com",
+      "country": "Spain",
+      "countryZh": "西班牙"
+    },
+    {
+      "name": "中兴通讯 ZTE",
+      "stage": "上市",
+      "cats": [
+        "芯片 / 算力",
+        "AI 基础设施"
+      ],
+      "product": "5G-A基站、iMoochi AI终端、智慧网络AI平台",
+      "url": "https://www.zte.com.cn",
+      "country": "Spain",
+      "countryZh": "西班牙"
+    },
+    {
+      "name": "中国电信",
+      "stage": "上市",
+      "cats": [
+        "大模型 / 算法",
+        "AI 基础设施"
+      ],
+      "product": "星辰大模型国际版、AI算力网络、5G-A方案",
+      "url": "https://www.chinatelecom.com.cn",
+      "country": "Spain",
+      "countryZh": "西班牙"
+    },
+    {
+      "name": "中国移动通信",
+      "stage": "上市",
+      "cats": [
+        "大模型 / 算法",
+        "AI 基础设施"
+      ],
+      "product": "九天AI平台、5G-A国际展示、AI算网融合",
+      "url": "https://www.chinamobile.com",
+      "country": "Spain",
+      "countryZh": "西班牙"
+    },
+    {
+      "name": "华为",
+      "stage": "上市",
+      "cats": [
+        "AI Agent / 应用",
+        "芯片 / 算力",
+        "AI 基础设施"
+      ],
+      "product": "5G-A网络解决方案、昇腾AI推理、盘古大模型网络版",
+      "url": "https://www.huawei.com",
+      "country": "Spain",
+      "countryZh": "西班牙"
+    },
+    {
+      "name": "小米集团",
+      "stage": "上市",
+      "cats": [
+        "AI Agent / 应用",
+        "芯片 / 算力"
+      ],
+      "product": "小米15 Ultra AI手机、澎湃OS AI、小爱AI助手",
+      "url": "https://www.mi.com",
+      "country": "Spain",
+      "countryZh": "西班牙"
+    },
+    {
+      "name": "爱立信 Ericsson",
+      "stage": "上市",
+      "cats": [
+        "AI Agent / 应用",
+        "AI 基础设施"
+      ],
+      "product": "AI原生5G、Ericsson Cognitive Software、Intent-Driven Networks",
+      "url": "https://www.ericsson.com",
+      "country": "Spain",
+      "countryZh": "西班牙"
+    },
+    {
+      "name": "联想集团",
+      "stage": "上市",
+      "cats": [
+        "AI Agent / 应用",
+        "芯片 / 算力"
+      ],
+      "product": "AI PC ThinkPad、摩托罗拉AI手机、联想混合云AI",
+      "url": "https://www.lenovo.com",
+      "country": "Spain",
+      "countryZh": "西班牙"
+    },
+    {
+      "name": "荣耀 HONOR",
+      "stage": "C轮+",
+      "cats": [
+        "AI Agent / 应用",
+        "芯片 / 算力"
+      ],
+      "product": "HONOR Magic7 AI手机、MagicOS AI系统、端侧AI",
+      "url": "https://www.hihonor.com",
+      "country": "Spain",
+      "countryZh": "西班牙"
+    },
+    {
+      "name": "西门子 Siemens",
+      "stage": "上市",
+      "cats": [
+        "AI Agent / 应用",
+        "芯片 / 算力"
+      ],
+      "product": "工业元宇宙AI、数字孪生、AI工厂自动化",
+      "url": "https://www.siemens.com",
+      "country": "Spain",
+      "countryZh": "西班牙"
+    },
+    {
+      "name": "诺基亚 Nokia",
+      "stage": "上市",
+      "cats": [
+        "AI Agent / 应用",
+        "AI 基础设施"
+      ],
+      "product": "Nokia AI Network、Bell Labs AI研究、6G研发",
+      "url": "https://www.nokia.com",
+      "country": "Spain",
+      "countryZh": "西班牙"
+    },
+    {
+      "name": "软银 SoftBank",
+      "stage": "上市",
+      "cats": [
+        "AI Agent / 应用",
+        "AI 基础设施"
+      ],
+      "product": "SoftBank AI基础设施、1NCE IoT、AI数据中心",
+      "url": "https://www.softbank.jp",
+      "country": "Spain",
+      "countryZh": "西班牙"
+    }
+  ],
+  "notes": "Official directory is JS/search driven; seeded from curated inline records until a stable unattended adapter is finalized."
+}

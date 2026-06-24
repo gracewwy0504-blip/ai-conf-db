@@ -4,7 +4,7 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>全球 AI 展会 & 公司产品搜索 2024–2026</title>
-<link rel="preload" href="exhibitor-data/conferences.json?build=v2.8.5" as="fetch" crossorigin>
+<link rel="preload" href="exhibitor-data/conferences-lite.json?build=v2026.06.24.0933" as="fetch" crossorigin>
 <style>
 * { box-sizing: border-box; margin: 0; padding: 0; }
 body { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif; background: #f0f2f5; color: #1a1a2e; }
@@ -238,7 +238,7 @@ tr.status-past td { opacity: 0.5; }
   <div class="prod-search-bar">
     <h2>🔍 产品 &amp; 公司搜索</h2>
     <input class="prod-search-input" type="text" id="prodSearchInput" placeholder="搜公司名、产品、技术方向… 例：Agent 芯片 机器人 Copilot" oninput="scheduleProdSearch()">
-    <div class="prod-stat" id="prodStat">- 家参展公司 · - 个展会</div>
+    <div class="prod-stat" id="prodStat">- 家独立公司 / - 条参展记录</div>
     <span id="prodBuildTag" style="font-size:10px;color:rgba(255,255,255,0.45);white-space:nowrap"></span>
   </div>
   <div class="prod-filter-row">
@@ -490,14 +490,22 @@ function formatStageLabel(stage) {
 const MODAL_EX_PAGE_SIZE = 40;
 const PROD_RENDER_PAGE_SIZE = 60;
 const PROD_SEARCH_DEBOUNCE_MS = 280;
+const TABLE_SEARCH_DEBOUNCE_MS = 160;
 // 官方全量参展商名录（JSON 按需加载，公司名+展位为主）
-const APP_BUILD = 'v2.8.5';
+const APP_BUILD = 'v2026.06.24.0933';
+function assetUrl(path) {
+  return `${path}?build=${encodeURIComponent(APP_BUILD)}`;
+}
 const EXHIBITOR_BULK = {
-  CES2026: 'exhibitor-data/CES2026.json?build=v2.8.5',
-  GITEX2025: 'exhibitor-data/GITEX2025.json?build=v2.8.5',
+  CES2026: 'exhibitor-data/CES2026.json',
+  GITEX2025: 'exhibitor-data/GITEX2025.json',
+  WAIC2025: 'exhibitor-data/WAIC2025.json',
+  Computex2025: 'exhibitor-data/Computex2025.json',
+  SEMICONWest2025: 'exhibitor-data/SEMICONWest2025.json',
+  MWC2025: 'exhibitor-data/MWC2025.json',
 };
+const COMPANY_SEARCH_INDEX_PATH = 'exhibitor-data/company-search-index.json';
 const bulkExhibitorCache = {};
-let bulkPreloadPromise = null;
 let companyRegistryCache = null;
 let companyRegistryPromise = null;
 let currentModalExhibitors = [];
@@ -505,7 +513,7 @@ let currentModalExhibitors = [];
 function ensureCompanyRegistry() {
   if (companyRegistryCache) return Promise.resolve(companyRegistryCache);
   if (!companyRegistryPromise) {
-    companyRegistryPromise = fetch('exhibitor-data/company-registry.json?build=v2.8.5')
+    companyRegistryPromise = fetch(assetUrl('exhibitor-data/company-registry.json'))
       .then(res => res.ok ? res.json() : {})
       .then(data => { companyRegistryCache = data || {}; return companyRegistryCache; })
       .catch(() => { companyRegistryCache = {}; return companyRegistryCache; });
@@ -1620,7 +1628,7 @@ async function loadBulkExhibitors(confId) {
   const path = EXHIBITOR_BULK[confId];
   if (!path) return [];
   if (bulkExhibitorCache[confId]) return bulkExhibitorCache[confId];
-  const res = await fetch(path);
+  const res = await fetch(assetUrl(path));
   if (!res.ok) throw new Error('无法加载参展商名录: ' + path);
   const data = await res.json();
   bulkExhibitorCache[confId] = data.exhibitors || [];
@@ -1659,17 +1667,6 @@ async function getExhibitorsForConf(c) {
   return mergeExhibitorLists(inline, bulk);
 }
 
-function ensureBulkPreloaded() {
-  if (!bulkPreloadPromise) {
-    const ids = Object.keys(EXHIBITOR_BULK);
-    bulkPreloadPromise = Promise.all(ids.map(loadBulkExhibitors)).catch(err => {
-      console.error('bulk preload failed', err);
-      bulkPreloadPromise = null;
-    });
-  }
-  return bulkPreloadPromise || Promise.resolve();
-}
-
 function getStatus(c) {
   if (c.end < today) return 'past';
   if (c.start <= today && c.end >= today) return 'now';
@@ -1689,6 +1686,8 @@ const STATUS_INFO = {past:['已结束','s-past'],now:['进行中','s-now'],soon:
 
 let conferences = [];
 let conferencesReady = null;
+let conferenceDetails = null;
+let conferenceDetailsReady = null;
 
 function hydrateConferenceDates(list) {
   return (list || []).map(c => ({
@@ -1701,7 +1700,7 @@ function hydrateConferenceDates(list) {
 function ensureConferences() {
   if (conferences.length) return Promise.resolve(conferences);
   if (!conferencesReady) {
-    conferencesReady = fetch('exhibitor-data/conferences.json?build=v2.8.5')
+    conferencesReady = fetch(assetUrl('exhibitor-data/conferences-lite.json'))
       .then(res => {
         if (!res.ok) throw new Error('无法加载展会数据');
         return res.json();
@@ -1718,14 +1717,37 @@ function ensureConferences() {
   return conferencesReady;
 }
 
+function ensureConferenceDetails() {
+  if (conferenceDetails) return Promise.resolve(conferenceDetails);
+  if (!conferenceDetailsReady) {
+    conferenceDetailsReady = fetch(assetUrl('exhibitor-data/conferences.json'))
+      .then(res => {
+        if (!res.ok) throw new Error('无法加载展会详情数据');
+        return res.json();
+      })
+      .then(data => {
+        conferenceDetails = hydrateConferenceDates(data);
+        return conferenceDetails;
+      })
+      .catch(err => {
+        conferenceDetailsReady = null;
+        throw err;
+      });
+  }
+  return conferenceDetailsReady;
+}
+
 // ─── STATE ─────────────────────────────────────────────
 let regionTab = 'global'; // 'china' | 'global'
 let F = { year:'all', month:'all', types:[], cats:[], country:'all', search:'' };
 let PF = { stage:'all', cat:'all', country:'all' };
 let companySearchIndex = null;
 let companySearchIndexPromise = null;
+let companySearchMeta = null;
+let companySearchMetaPromise = null;
 let prodCurrentPage = 1;
 let prodSearchTimer = null;
+let tableSearchTimer = null;
 
 // 国家匹配逻辑
 const COUNTRY_MAP = {
@@ -1919,10 +1941,18 @@ function updateProdCatFilterCounts(index) {
     btn.innerHTML = `${label}<span class="cat-count">${n}</span>`;
   });
 }
-function setSearch(v) { F.search = v.toLowerCase().trim(); render(); }
+function applySearch(v) {
+  F.search = v.toLowerCase().trim();
+  render();
+}
+function setSearch(v) {
+  clearTimeout(tableSearchTimer);
+  tableSearchTimer = setTimeout(() => applySearch(v), TABLE_SEARCH_DEBOUNCE_MS);
+}
 
 // Build searchable text for a conference
 function buildSearchText(c) {
+  if (c && c.searchText) return c.searchText;
   const d = c.detail || {};
   const parts = [
     c.name, c.full, c.city, c.country, ...getConfTypes(c),
@@ -1933,7 +1963,8 @@ function buildSearchText(c) {
     ...(d.speakers || []).map(s => `${s.name} ${s.org} ${s.topic}`),
     ...(d.exhibitors || []).map(e => `${e.name} ${e.product} ${(e.cats||[]).join(' ')} ${e.stage}`),
   ];
-  return parts.join(' ').toLowerCase();
+  c.searchText = parts.join(' ').toLowerCase();
+  return c.searchText;
 }
 
 // Check if conference matches product category filter
@@ -2054,8 +2085,8 @@ async function openModal(id) {
   document.body.style.overflow = 'hidden';
   document.getElementById('modalContent').innerHTML = '<div style="padding:40px;text-align:center;color:#666">加载展会详情中…</div>';
   try {
-    await ensureConferences();
-    const c = conferences.find(x => x && x.id === currentModalId);
+    const details = await ensureConferenceDetails();
+    const c = details.find(x => x && x.id === currentModalId);
     if (!c) {
       document.getElementById('modalContent').innerHTML = '<div style="padding:40px;color:#c00;text-align:center">未找到该展会。</div>';
       return;
@@ -2071,7 +2102,8 @@ async function openModal(id) {
 }
 
 function renderModal() {
-  const c = conferences.find(x => x && x.id === currentModalId);
+  const details = conferenceDetails || [];
+  const c = details.find(x => x && x.id === currentModalId);
   if (!c) return;
   const d = c.detail || {};
   const exhibitors = currentModalExhibitors.length ? currentModalExhibitors : (d.exhibitors || []);
@@ -2246,92 +2278,58 @@ function companySearchScore(e, aliases, searchText, words, activeCat) {
   return score;
 }
 
-function buildCompanySearchIndex() {
-  const companyMap = new Map();
-  conferences.forEach(c => {
-    if (!c || !c.id || c.id.includes('_DUP_REMOVED')) return;
-    const inline = (c.detail && c.detail.exhibitors) || [];
-    const bulk = bulkExhibitorCache[c.id] || [];
-    const exhibitors = mergeExhibitorLists(inline, bulk);
-    if (!exhibitors.length) return;
-    exhibitors.forEach(raw => {
-      const e = withExhibitorCountry(raw, c);
-      const resolvedUrl = resolveCompanyUrl(e.name, e.url);
-      const mergeKey = companyMergeKey(e.name, resolvedUrl);
-      if (!companyMap.has(mergeKey)) {
-        const displayName = displayCompanyName(e.name);
-        companyMap.set(mergeKey, {
-          e: {
-            name: e.nameZh || displayName,
-            nameEn: e.nameEn || (hasChineseText(displayName) ? '' : e.name),
-            nameZh: e.nameZh || resolveNameZh(e.name) || (hasChineseText(e.name) ? displayName : ''),
-            stage: e.stage,
-            cats: [...(e.cats || [])],
-            product: e.productZh || e.product || '',
-            productZh: e.productZh || '',
-            pitch: e.pitch || '',
-            pitchSource: e.pitchSource || '',
-            pitchVerified: !!e.pitchVerified,
-            exhibitProductZh: e.exhibitProductZh || e.exhibitProduct || '',
-            exhibitProduct: e.exhibitProductZh || e.exhibitProduct || '',
-            url: resolvedUrl || '',
-            booth: e.booth || '',
-            country: e.country || '',
-            countryZh: e.countryZh || '',
-          },
-          confs: [],
-          confIdSet: new Set(),
-          aliases: new Set([e.name, e.nameEn].filter(Boolean)),
-        });
-      }
-      const entry = companyMap.get(mergeKey);
-      absorbCompanyEntry(entry, e, e.name);
-      if (e.nameEn) entry.aliases.add(e.nameEn);
-      if (!entry.confIdSet.has(c.id)) {
-        entry.confIdSet.add(c.id);
-        entry.confs.push(c);
-      }
-    });
-  });
-
-  mergeCompaniesFuzzy(companyMap);
-
-  companyMap.forEach(val => applyCompanyCountry(val.e, [...val.aliases], val.confs));
-
-  const all = [];
-  companyMap.forEach(val => {
-    const aliases = [...val.aliases];
-    const e = val.e;
-    e.stage = normalizeStageValue(e.stage);
-    e.cats = resolveCompanyCats(e, val.confs);
-    const prod = resolveProductDisplay(e);
-    if (prod.text && prod.text !== '待补充' && (!e.product || isCompanyIntroText(e.product) || prod.label === '核心产品')) {
-      e.product = prod.text;
-    }
-    all.push({
-      e,
-      confs: val.confs,
-      aliases,
-      searchText: buildCompanySearchText(e, aliases, val.confs),
-    });
-  });
-  all.sort((a, b) => a.e.name.localeCompare(b.e.name, 'zh-CN'));
-  return all;
-}
-
 function ensureCompanySearchIndex() {
   if (companySearchIndex) return Promise.resolve(companySearchIndex);
   if (companySearchIndexPromise) return companySearchIndexPromise;
-  companySearchIndexPromise = Promise.all([ensureConferences(), ensureBulkPreloaded(), ensureCompanyRegistry()])
-    .then(() => {
-      companySearchIndex = buildCompanySearchIndex();
-      return companySearchIndex;
+  companySearchIndexPromise = Promise.all([ensureConferences(), ensureCompanyRegistry()])
+    .then(([confList]) => {
+      const confById = new Map((confList || []).map(conf => [conf.id, conf]));
+      return fetch(assetUrl(COMPANY_SEARCH_INDEX_PATH))
+        .then(res => {
+          if (!res.ok) throw new Error('无法加载公司搜索索引');
+          return res.json();
+        })
+        .then(data => {
+          companySearchIndex = (data || []).map(item => {
+            const confs = ((item && item.confIds) || []).map(id => confById.get(id)).filter(Boolean);
+            const e = { ...(item.e || {}) };
+            e.stage = normalizeStageValue(e.stage);
+            e.cats = resolveCompanyCats(e, confs);
+            const prod = resolveProductDisplay(e);
+            if (prod.text && prod.text !== '待补充' && (!e.product || isCompanyIntroText(e.product) || prod.label === '核心产品')) {
+              e.product = prod.text;
+            }
+            return {
+              e,
+              confs,
+              aliases: item.aliases || [],
+              searchText: item.searchText || buildCompanySearchText(e, item.aliases || [], confs),
+            };
+          });
+          return companySearchIndex;
+        });
     })
     .catch(err => {
       companySearchIndexPromise = null;
       throw err;
     });
   return companySearchIndexPromise;
+}
+
+function ensureCompanySearchMeta() {
+  if (companySearchMeta) return Promise.resolve(companySearchMeta);
+  if (companySearchMetaPromise) return companySearchMetaPromise;
+  companySearchMetaPromise = fetch(assetUrl('exhibitor-data/company-search-meta.json'))
+    .then(res => res.ok ? res.json() : { uniqueCompanyCount: 0, exhibitorRecordCount: 0 })
+    .then(data => {
+      companySearchMeta = data || { uniqueCompanyCount: 0, exhibitorRecordCount: 0 };
+      return companySearchMeta;
+    })
+    .catch(() => {
+      companySearchMeta = { uniqueCompanyCount: 0, exhibitorRecordCount: 0 };
+      return companySearchMeta;
+    });
+  return companySearchMetaPromise;
 }
 
 function isExhibitorEventPageUrl(url) {
@@ -2402,8 +2400,8 @@ function renderProdSearch() {
     if (pagination) pagination.innerHTML = '';
   }
 
-  ensureCompanySearchIndex()
-    .then(index => {
+  Promise.all([ensureCompanySearchIndex(), ensureCompanySearchMeta()])
+    .then(([index, meta]) => {
       updateProdCatFilterCounts(index);
       const words = q ? q.split(/\s+/).filter(Boolean) : [];
       const filtered = index.filter(({ e, aliases, searchText }) => {
@@ -2432,7 +2430,7 @@ function renderProdSearch() {
       const catLabel = PF.cat !== 'all' ? (CAT_BTN_LABEL[PF.cat] || PF.cat) : '';
       stat.innerHTML = catLabel
         ? `<b>${filtered.length}</b> 家「${catLabel}」公司 · 覆盖 <b>${confCount}</b> 个展会`
-        : `<b>${filtered.length}</b> 家参展公司 · 国内外合计覆盖 <b>${confCount}</b> 个展会`;
+        : `<b>${meta.uniqueCompanyCount || filtered.length}</b> 家独立公司 / <b>${meta.exhibitorRecordCount || filtered.length}</b> 条参展记录 · 覆盖 <b>${confCount}</b> 个展会`;
 
       if (!filtered.length) {
         const hint = PF.cat !== 'all' ? `暂无「${CAT_BTN_LABEL[PF.cat] || PF.cat}」标签公司，试试切换方向或清空筛选` : '未找到匹配结果，试试其他关键词（如 "NVIDIA 芯片"、"Agent SaaS"）';

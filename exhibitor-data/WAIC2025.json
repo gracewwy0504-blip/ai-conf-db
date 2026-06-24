@@ -1,0 +1,1374 @@
+{
+  "id": "WAIC2025",
+  "source": "worldaic-inline-seed",
+  "count": 116,
+  "updatedAt": "2026-06-24T09:11:08Z",
+  "exhibitors": [
+    {
+      "name": "三六零集团",
+      "stage": "上市",
+      "cats": [
+        "大模型 / 算法",
+        "AI Agent / 应用"
+      ],
+      "product": "360智脑大模型、AI网络安全、360AI搜索",
+      "url": "https://www.360.cn",
+      "country": "China",
+      "countryZh": "中国"
+    },
+    {
+      "name": "上交所技术公司",
+      "stage": "融资未公开",
+      "cats": [
+        "AI Agent / 应用",
+        "AI 基础设施"
+      ],
+      "product": "AI交易监控、量化AI系统、金融数据AI分析",
+      "url": "https://www.sseinfo.com",
+      "country": "China",
+      "countryZh": "中国"
+    },
+    {
+      "name": "上海AI实验室",
+      "stage": "融资未公开",
+      "cats": [
+        "大模型 / 算法",
+        "AI Agent / 应用"
+      ],
+      "product": "书生·浦语InternLM大模型、OpenXLab AI平台",
+      "url": "https://www.shlab.org.cn",
+      "country": "China",
+      "countryZh": "中国"
+    },
+    {
+      "name": "上海仙工智能科技",
+      "stage": "C轮+",
+      "cats": [
+        "AI Agent / 应用",
+        "机器人 / 具身智能"
+      ],
+      "product": "SEER复合机器人、Seer Fleet调度系统",
+      "url": "https://www.seerrobotics.com",
+      "country": "China",
+      "countryZh": "中国"
+    },
+    {
+      "name": "上海傅利叶智能科技",
+      "stage": "C轮+",
+      "cats": [
+        "芯片 / 算力",
+        "机器人 / 具身智能"
+      ],
+      "product": "GR-1通用人形机器人、GR-2、傅利叶康复机器人",
+      "url": "https://www.fftai.com",
+      "country": "China",
+      "countryZh": "中国"
+    },
+    {
+      "name": "上海哔哩哔哩科技",
+      "stage": "上市",
+      "cats": [
+        "AI Agent / 应用"
+      ],
+      "product": "AI视频生成、B站AI创作助手、AIGC内容平台",
+      "url": "https://www.bilibili.com",
+      "country": "China",
+      "countryZh": "中国"
+    },
+    {
+      "name": "上海星思半导体",
+      "stage": "B轮",
+      "cats": [
+        "芯片 / 算力"
+      ],
+      "product": "AI定位芯片、高精度AI导航SoC、物联网AI芯片",
+      "url": "https://www.senseauto.com",
+      "country": "China",
+      "countryZh": "中国"
+    },
+    {
+      "name": "上海智元机器人",
+      "stage": "B轮",
+      "cats": [
+        "芯片 / 算力",
+        "机器人 / 具身智能"
+      ],
+      "product": "远征A2人形机器人、远征A2-W轮式人形机器人",
+      "url": "https://www.zhiyuan-robot.com",
+      "country": "China",
+      "countryZh": "中国"
+    },
+    {
+      "name": "上海曦智科技",
+      "stage": "C轮+",
+      "cats": [
+        "芯片 / 算力"
+      ],
+      "product": "光子芯片AI加速器、光子计算平台",
+      "url": "https://www.lightelligence.ai",
+      "country": "China",
+      "countryZh": "中国"
+    },
+    {
+      "name": "上海燧原科技",
+      "stage": "C轮+",
+      "cats": [
+        "芯片 / 算力"
+      ],
+      "product": "云燧i20 AI训练芯片、邃思推理芯片、AI算力集群",
+      "url": "https://www.streamcomputing.com",
+      "country": "China",
+      "countryZh": "中国"
+    },
+    {
+      "name": "上海移远通信技术",
+      "stage": "上市",
+      "cats": [
+        "芯片 / 算力"
+      ],
+      "product": "IoT AI模组、5G智能模组、边缘AI计算模组",
+      "url": "https://www.quectel.com",
+      "country": "China",
+      "countryZh": "中国"
+    },
+    {
+      "name": "上海稀宇极智科技（MiniMax）",
+      "stage": "C轮+",
+      "cats": [
+        "大模型 / 算法",
+        "AI Agent / 应用"
+      ],
+      "product": "海螺AI视频生成、MiniMax-Text-01大模型、语音克隆",
+      "url": "https://www.minimaxi.com",
+      "country": "China",
+      "countryZh": "中国"
+    },
+    {
+      "name": "上海阶跃星辰",
+      "stage": "B轮",
+      "cats": [
+        "大模型 / 算法",
+        "AI Agent / 应用"
+      ],
+      "product": "Step-2多模态大模型、Step-Audio语音大模型",
+      "url": "https://www.stepfun.com",
+      "country": "China",
+      "countryZh": "中国"
+    },
+    {
+      "name": "上海非夕机器人科技",
+      "stage": "C轮+",
+      "cats": [
+        "芯片 / 算力",
+        "机器人 / 具身智能"
+      ],
+      "product": "Rizon 4s灵巧机械臂、AI力控机器人平台",
+      "url": "https://www.flexiv.cn",
+      "country": "China",
+      "countryZh": "中国"
+    },
+    {
+      "name": "中国农业银行",
+      "stage": "上市",
+      "cats": [
+        "AI Agent / 应用"
+      ],
+      "product": "农银AI小智、AI贷款审批、乡村振兴AI平台",
+      "url": "https://www.abchina.com",
+      "country": "China",
+      "countryZh": "中国"
+    },
+    {
+      "name": "中国工商银行",
+      "stage": "上市",
+      "cats": [
+        "AI Agent / 应用",
+        "AI 基础设施"
+      ],
+      "product": "工银AI大模型、智能客服AI、AI风控合规",
+      "url": "https://www.icbc.com.cn",
+      "country": "China",
+      "countryZh": "中国"
+    },
+    {
+      "name": "中国电信集团",
+      "stage": "上市",
+      "cats": [
+        "AI Agent / 应用",
+        "AI 基础设施"
+      ],
+      "product": "天翼云AI算力平台、星辰大模型、AI智算基础设施",
+      "url": "https://www.chinatelecom.com.cn",
+      "country": "China",
+      "countryZh": "中国"
+    },
+    {
+      "name": "中国移动通信集团",
+      "stage": "上市",
+      "cats": [
+        "大模型 / 算法",
+        "AI 基础设施"
+      ],
+      "product": "九天人工智能平台、中国移动云、移动算力网络",
+      "url": "https://www.chinamobile.com",
+      "country": "China",
+      "countryZh": "中国"
+    },
+    {
+      "name": "中国联合网络通信集团",
+      "stage": "上市",
+      "cats": [
+        "AI 基础设施"
+      ],
+      "product": "鸿湖大模型、联通云算力、工业互联网AI平台",
+      "url": "https://www.chinaunicom.com.cn",
+      "country": "China",
+      "countryZh": "中国"
+    },
+    {
+      "name": "中电金信数字科技集团",
+      "stage": "上市",
+      "cats": [
+        "AI Agent / 应用",
+        "AI 基础设施"
+      ],
+      "product": "金融AI解决方案、银行核心系统AI升级",
+      "url": "https://www.cfins.com.cn",
+      "country": "China",
+      "countryZh": "中国"
+    },
+    {
+      "name": "中科院自动化研究所",
+      "stage": "融资未公开",
+      "cats": [
+        "大模型 / 算法",
+        "AI Agent / 应用"
+      ],
+      "product": "紫东太初多模态大模型、AI认知智能研究",
+      "url": "https://www.ia.cas.cn",
+      "country": "China",
+      "countryZh": "中国"
+    },
+    {
+      "name": "之江实验室",
+      "stage": "融资未公开",
+      "cats": [
+        "大模型 / 算法",
+        "AI 基础设施"
+      ],
+      "product": "神经拟态计算、AI超算、鸿鹄AI云脑",
+      "url": "https://www.zhejianglab.com",
+      "country": "China",
+      "countryZh": "中国"
+    },
+    {
+      "name": "乐聚（深圳）机器人技术",
+      "stage": "B轮",
+      "cats": [
+        "芯片 / 算力",
+        "机器人 / 具身智能"
+      ],
+      "product": "夸父01人形机器人、AELOS机器人",
+      "url": "https://www.lejurobot.com",
+      "country": "China",
+      "countryZh": "中国"
+    },
+    {
+      "name": "云从科技",
+      "stage": "上市",
+      "cats": [
+        "AI Agent / 应用"
+      ],
+      "product": "从容大模型、人机协同AI操作系统、金融AI解决方案",
+      "url": "https://www.cloudwalk.com",
+      "country": "China",
+      "countryZh": "中国"
+    },
+    {
+      "name": "云知声智能科技",
+      "stage": "C轮+",
+      "cats": [
+        "大模型 / 算法",
+        "AI Agent / 应用"
+      ],
+      "product": "山海大模型、山海医疗AI、语音交互AIoT解决方案",
+      "url": "https://www.unisound.com",
+      "country": "China",
+      "countryZh": "中国"
+    },
+    {
+      "name": "亚马逊云科技 (AWS中国)",
+      "stage": "上市",
+      "cats": [
+        "大模型 / 算法",
+        "AI 基础设施"
+      ],
+      "product": "Amazon Bedrock大模型平台、AWS AI服务、SageMaker",
+      "url": "https://aws.amazon.com/cn/",
+      "country": "China",
+      "countryZh": "中国"
+    },
+    {
+      "name": "京东集团",
+      "stage": "上市",
+      "cats": [
+        "AI Agent / 应用",
+        "AI 基础设施"
+      ],
+      "product": "言犀企业大模型、京东云、供应链AI解决方案",
+      "url": "https://www.jd.com",
+      "country": "China",
+      "countryZh": "中国"
+    },
+    {
+      "name": "亿咖通科技",
+      "stage": "C轮+",
+      "cats": [
+        "AI Agent / 应用",
+        "芯片 / 算力"
+      ],
+      "product": "ECARX AI车载芯片、智能座舱AI平台、车载AI操作系统",
+      "url": "https://www.ecarx.com",
+      "country": "China",
+      "countryZh": "中国"
+    },
+    {
+      "name": "依图科技",
+      "stage": "C轮+",
+      "cats": [
+        "AI Agent / 应用",
+        "芯片 / 算力"
+      ],
+      "product": "依图AI芯片求思、医疗AI影像诊断、城市AI治理",
+      "url": "https://www.yitutech.com",
+      "country": "China",
+      "countryZh": "中国"
+    },
+    {
+      "name": "元戎启行",
+      "stage": "C轮+",
+      "cats": [
+        "AI Agent / 应用"
+      ],
+      "product": "DeepRoute AI自动驾驶软件、去中心化AI传感方案",
+      "url": "https://www.deeproute.ai",
+      "country": "China",
+      "countryZh": "中国"
+    },
+    {
+      "name": "出门问问信息科技",
+      "stage": "上市",
+      "cats": [
+        "大模型 / 算法",
+        "AI Agent / 应用",
+        "芯片 / 算力"
+      ],
+      "product": "问问AI写作、Tico OS穿戴AI系统、AI配音克隆",
+      "url": "https://www.chumenwenwen.com",
+      "country": "China",
+      "countryZh": "中国"
+    },
+    {
+      "name": "北京人形机器人创新中心",
+      "stage": "融资未公开",
+      "cats": [
+        "机器人 / 具身智能"
+      ],
+      "product": "天工人形机器人、具身智能关键技术研发",
+      "url": "https://www.humanoid-robot.cn",
+      "country": "China",
+      "countryZh": "中国"
+    },
+    {
+      "name": "北京后摩智能科技",
+      "stage": "B轮",
+      "cats": [
+        "芯片 / 算力"
+      ],
+      "product": "存算一体AI芯片、后摩鸿途H30推理芯片",
+      "url": "https://www.haomo.ai",
+      "country": "China",
+      "countryZh": "中国"
+    },
+    {
+      "name": "北京智源人工智能研究院",
+      "stage": "融资未公开",
+      "cats": [
+        "大模型 / 算法",
+        "AI Agent / 应用"
+      ],
+      "product": "悟道大模型、FlagAI开源平台、AI基础研究",
+      "url": "https://www.baai.ac.cn",
+      "country": "China",
+      "countryZh": "中国"
+    },
+    {
+      "name": "北京智谱华章",
+      "stage": "C轮+",
+      "cats": [
+        "大模型 / 算法",
+        "AI Agent / 应用"
+      ],
+      "product": "GLM-4大模型、智谱清言、CogVideoX视频生成",
+      "url": "https://www.zhipuai.cn",
+      "country": "China",
+      "countryZh": "中国"
+    },
+    {
+      "name": "北京月之暗面（Kimi）",
+      "stage": "C轮+",
+      "cats": [
+        "大模型 / 算法",
+        "AI Agent / 应用"
+      ],
+      "product": "Kimi k1.5长文本推理模型、Kimi探索版、Kimi企业版",
+      "url": "https://www.moonshot.cn",
+      "country": "China",
+      "countryZh": "中国"
+    },
+    {
+      "name": "北京澜码科技",
+      "stage": "B轮",
+      "cats": [
+        "大模型 / 算法",
+        "AI Agent / 应用"
+      ],
+      "product": "LangBot企业AI应用平台、AI工作流自动化",
+      "url": "https://www.lanmai.ai",
+      "country": "China",
+      "countryZh": "中国"
+    },
+    {
+      "name": "北京生数科技",
+      "stage": "A轮",
+      "cats": [
+        "大模型 / 算法",
+        "AI Agent / 应用"
+      ],
+      "product": "Vidu视频生成大模型、短视频AI创作平台",
+      "url": "https://www.shengshu-ai.com",
+      "country": "China",
+      "countryZh": "中国"
+    },
+    {
+      "name": "北京金山云网络技术",
+      "stage": "上市",
+      "cats": [
+        "AI 基础设施"
+      ],
+      "product": "金山云AI算力、云服务器GPU集群",
+      "url": "https://www.ksyun.com",
+      "country": "China",
+      "countryZh": "中国"
+    },
+    {
+      "name": "北京金山办公软件（WPS）",
+      "stage": "上市",
+      "cats": [
+        "大模型 / 算法",
+        "AI Agent / 应用"
+      ],
+      "product": "WPS AI大模型套件、WPS Office AI助手",
+      "url": "https://www.wps.cn",
+      "country": "China",
+      "countryZh": "中国"
+    },
+    {
+      "name": "北京银河通用机器人",
+      "stage": "A轮",
+      "cats": [
+        "芯片 / 算力",
+        "机器人 / 具身智能"
+      ],
+      "product": "Galbot G1通用人形机器人、具身智能基础模型",
+      "url": "https://galaxyrobot.cn",
+      "country": "China",
+      "countryZh": "中国"
+    },
+    {
+      "name": "北京面壁智能（ModelBest）",
+      "stage": "B轮",
+      "cats": [
+        "大模型 / 算法",
+        "AI Agent / 应用"
+      ],
+      "product": "MiniCPM端侧大模型、CPM-Bee开源大模型",
+      "url": "https://modelbest.cn",
+      "country": "China",
+      "countryZh": "中国"
+    },
+    {
+      "name": "华为云",
+      "stage": "上市",
+      "cats": [
+        "大模型 / 算法",
+        "AI 基础设施"
+      ],
+      "product": "盘古大模型API服务、ModelArts AI开发平台、华为云AI算力",
+      "url": "https://www.huaweicloud.com",
+      "country": "China",
+      "countryZh": "中国"
+    },
+    {
+      "name": "华为技术有限公司",
+      "stage": "上市",
+      "cats": [
+        "AI Agent / 应用",
+        "芯片 / 算力",
+        "AI 基础设施"
+      ],
+      "product": "昇腾AI芯片集群、盘古大模型3.0、ModelArts云平台",
+      "url": "https://www.huawei.com",
+      "country": "China",
+      "countryZh": "中国"
+    },
+    {
+      "name": "华为智能汽车解决方案",
+      "stage": "上市",
+      "cats": [
+        "AI Agent / 应用",
+        "芯片 / 算力"
+      ],
+      "product": "HarmonyOS智能座舱、ADS 2.0高阶自动驾驶、DriveONE智能电动",
+      "url": "https://auto.huawei.com",
+      "country": "China",
+      "countryZh": "中国"
+    },
+    {
+      "name": "华大九天",
+      "stage": "上市",
+      "cats": [
+        "AI Agent / 应用"
+      ],
+      "product": "EDA AI设计工具、模拟EDA AI平台、国产芯片设计AI",
+      "url": "https://www.empyrean.com.cn",
+      "country": "China",
+      "countryZh": "中国"
+    },
+    {
+      "name": "华泰证券",
+      "stage": "上市",
+      "cats": [
+        "AI Agent / 应用"
+      ],
+      "product": "AI量化投资、涨乐AI助手、AI风控平台",
+      "url": "https://www.htsc.com.cn",
+      "country": "China",
+      "countryZh": "中国"
+    },
+    {
+      "name": "厦门算能科技",
+      "stage": "B轮",
+      "cats": [
+        "芯片 / 算力"
+      ],
+      "product": "BM1688边缘AI芯片、SOPHON AI推理加速模块",
+      "url": "https://www.sophgo.com",
+      "country": "China",
+      "countryZh": "中国"
+    },
+    {
+      "name": "合合信息科技",
+      "stage": "上市",
+      "cats": [
+        "AI Agent / 应用"
+      ],
+      "product": "智能文档AI、名片扫描OCR、TextIn文档解析",
+      "url": "https://www.intsig.com",
+      "country": "China",
+      "countryZh": "中国"
+    },
+    {
+      "name": "吉利汽车集团",
+      "stage": "上市",
+      "cats": [
+        "AI Agent / 应用",
+        "芯片 / 算力"
+      ],
+      "product": "银河AI智驾系统、星睿AI芯片、吉利AI座舱",
+      "url": "https://www.geely.com",
+      "country": "China",
+      "countryZh": "中国"
+    },
+    {
+      "name": "商汤科技",
+      "stage": "上市",
+      "cats": [
+        "大模型 / 算法",
+        "AI Agent / 应用",
+        "芯片 / 算力"
+      ],
+      "product": "日日新SenseNova大模型、商汤绝影自动驾驶、元萝卜教育AI",
+      "url": "https://www.sensetime.com",
+      "country": "China",
+      "countryZh": "中国"
+    },
+    {
+      "name": "喜马拉雅",
+      "stage": "C轮+",
+      "cats": [
+        "AI Agent / 应用"
+      ],
+      "product": "AI播客、声音AI克隆、AIGC音频创作平台",
+      "url": "https://www.ximalaya.com",
+      "country": "China",
+      "countryZh": "中国"
+    },
+    {
+      "name": "图达通",
+      "stage": "C轮+",
+      "cats": [
+        "芯片 / 算力"
+      ],
+      "product": "猎鹰超远距激光雷达、Falcon AI传感器",
+      "url": "https://www.innoviz-tech.com.cn",
+      "country": "China",
+      "countryZh": "中国"
+    },
+    {
+      "name": "地平线机器人",
+      "stage": "C轮+",
+      "cats": [
+        "AI Agent / 应用",
+        "芯片 / 算力"
+      ],
+      "product": "征程6 AI车载芯片、Journey AI视觉算法、BEV感知AI",
+      "url": "https://horizon.cc",
+      "country": "China",
+      "countryZh": "中国"
+    },
+    {
+      "name": "墨芯人工智能（深圳）",
+      "stage": "B轮",
+      "cats": [
+        "芯片 / 算力"
+      ],
+      "product": "Antoum DOJO AI推理芯片、边缘AI加速卡",
+      "url": "https://www.moffett.ai",
+      "country": "China",
+      "countryZh": "中国"
+    },
+    {
+      "name": "大华技术",
+      "stage": "上市",
+      "cats": [
+        "AI Agent / 应用",
+        "芯片 / 算力"
+      ],
+      "product": "AI智能摄像、DHI-AI视频平台、城市大脑AI",
+      "url": "https://www.dahuasecurity.com",
+      "country": "China",
+      "countryZh": "中国"
+    },
+    {
+      "name": "字节跳动",
+      "stage": "C轮+",
+      "cats": [
+        "大模型 / 算法",
+        "AI Agent / 应用"
+      ],
+      "product": "豆包大模型、即梦AI视频生成、火山引擎AI云服务",
+      "url": "https://www.bytedance.com",
+      "country": "China",
+      "countryZh": "中国"
+    },
+    {
+      "name": "寒武纪",
+      "stage": "上市",
+      "cats": [
+        "芯片 / 算力"
+      ],
+      "product": "思元590 AI推理芯片、MLU AI加速卡、寒武纪云AI",
+      "url": "https://www.cambricon.com",
+      "country": "China",
+      "countryZh": "中国"
+    },
+    {
+      "name": "小i机器人",
+      "stage": "上市",
+      "cats": [
+        "大模型 / 算法",
+        "AI Agent / 应用"
+      ],
+      "product": "华藏企业大模型、AI客服机器人、政务AI助手",
+      "url": "https://www.xiaoi.com",
+      "country": "China",
+      "countryZh": "中国"
+    },
+    {
+      "name": "小鹏汽车",
+      "stage": "上市",
+      "cats": [
+        "AI Agent / 应用",
+        "芯片 / 算力"
+      ],
+      "product": "AI鹰眼视觉系统、XNGP全场景智能驾驶、AI数字座舱",
+      "url": "https://www.xpeng.com",
+      "country": "China",
+      "countryZh": "中国"
+    },
+    {
+      "name": "希捷科技",
+      "stage": "上市",
+      "cats": [
+        "芯片 / 算力"
+      ],
+      "product": "AI数据中心存储解决方案、高容量HDD",
+      "url": "https://www.seagate.com/cn/",
+      "country": "China",
+      "countryZh": "中国"
+    },
+    {
+      "name": "平安科技",
+      "stage": "上市",
+      "cats": [
+        "大模型 / 算法",
+        "AI Agent / 应用"
+      ],
+      "product": "平安AI医疗、金融大模型、平安脑AI平台",
+      "url": "https://tech.pingan.com",
+      "country": "China",
+      "countryZh": "中国"
+    },
+    {
+      "name": "影眸科技（上海）",
+      "stage": "B轮",
+      "cats": [
+        "AI Agent / 应用",
+        "芯片 / 算力"
+      ],
+      "product": "AI视频分析、行为识别AI、三维传感AI摄像机",
+      "url": "https://www.deepglint.com",
+      "country": "China",
+      "countryZh": "中国"
+    },
+    {
+      "name": "思必驰",
+      "stage": "C轮+",
+      "cats": [
+        "AI Agent / 应用",
+        "芯片 / 算力"
+      ],
+      "product": "DUI AI对话平台、AI语音芯片、车载AI语音交互",
+      "url": "https://www.aispeech.com",
+      "country": "China",
+      "countryZh": "中国"
+    },
+    {
+      "name": "思科科技(北京)",
+      "stage": "上市",
+      "cats": [
+        "AI Agent / 应用",
+        "AI 基础设施"
+      ],
+      "product": "Cisco AI网络解决方案、AI安全平台",
+      "url": "https://www.cisco.com/c/zh_cn/",
+      "country": "China",
+      "countryZh": "中国"
+    },
+    {
+      "name": "摩尔线程",
+      "stage": "上市",
+      "cats": [
+        "芯片 / 算力",
+        "AI 基础设施"
+      ],
+      "product": "MUSA GPU芯片、MTT S4000 AI训练卡、曦云AI计算平台",
+      "url": "https://www.mthreads.com",
+      "country": "China",
+      "countryZh": "中国"
+    },
+    {
+      "name": "文远知行",
+      "stage": "C轮+",
+      "cats": [
+        "AI Agent / 应用",
+        "芯片 / 算力"
+      ],
+      "product": "Robotaxi自动驾驶出租、AI无人巴士、港口AI自动驾驶",
+      "url": "https://www.weride.ai",
+      "country": "China",
+      "countryZh": "中国"
+    },
+    {
+      "name": "施耐德电气（中国）",
+      "stage": "上市",
+      "cats": [
+        "芯片 / 算力",
+        "AI 基础设施"
+      ],
+      "product": "AI数据中心能源管理、智能配电系统、EcoStruxure平台",
+      "url": "https://www.se.com/cn/",
+      "country": "China",
+      "countryZh": "中国"
+    },
+    {
+      "name": "旷视科技",
+      "stage": "融资未公开",
+      "cats": [
+        "AI Agent / 应用",
+        "芯片 / 算力"
+      ],
+      "product": "Face++人脸识别AI、旷视AI工业视觉、供应链AI机器人",
+      "url": "https://www.megvii.com",
+      "country": "China",
+      "countryZh": "中国"
+    },
+    {
+      "name": "昆仑万维",
+      "stage": "上市",
+      "cats": [
+        "大模型 / 算法",
+        "AI Agent / 应用"
+      ],
+      "product": "天工大模型、SkyWork AI、昆仑天工AI助手",
+      "url": "https://www.kunlun.com",
+      "country": "China",
+      "countryZh": "中国"
+    },
+    {
+      "name": "晶泰科技",
+      "stage": "上市",
+      "cats": [
+        "AI Agent / 应用",
+        "AI 基础设施"
+      ],
+      "product": "AI药物研发平台、蛋白质结构预测、分子生成AI",
+      "url": "https://www.xtalpi.com",
+      "country": "China",
+      "countryZh": "中国"
+    },
+    {
+      "name": "智行者科技",
+      "stage": "C轮+",
+      "cats": [
+        "AI Agent / 应用",
+        "芯片 / 算力"
+      ],
+      "product": "无人驾驶清扫车、自动驾驶末端物流、AI无人作业车",
+      "url": "https://www.idriverplus.com",
+      "country": "China",
+      "countryZh": "中国"
+    },
+    {
+      "name": "曙光信息产业",
+      "stage": "上市",
+      "cats": [
+        "芯片 / 算力",
+        "AI 基础设施"
+      ],
+      "product": "中科曙光AI服务器、超算中心解决方案",
+      "url": "https://www.dawning.com.cn",
+      "country": "China",
+      "countryZh": "中国"
+    },
+    {
+      "name": "杭州宇树科技",
+      "stage": "C轮+",
+      "cats": [
+        "芯片 / 算力",
+        "机器人 / 具身智能"
+      ],
+      "product": "Unitree H1/G1人形机器人、B2四足机器人、Go2机器狗",
+      "url": "https://www.unitree.com",
+      "country": "China",
+      "countryZh": "中国"
+    },
+    {
+      "name": "梅卡曼德机器人",
+      "stage": "C轮+",
+      "cats": [
+        "AI Agent / 应用",
+        "机器人 / 具身智能"
+      ],
+      "product": "3D视觉引导机器人、Mech-Mind工业AI平台",
+      "url": "https://www.mech-mind.com",
+      "country": "China",
+      "countryZh": "中国"
+    },
+    {
+      "name": "比亚迪",
+      "stage": "上市",
+      "cats": [
+        "AI Agent / 应用",
+        "芯片 / 算力"
+      ],
+      "product": "天神之眼智驾系统、云辇AI悬架、灵犀AI人机交互",
+      "url": "https://www.byd.com",
+      "country": "China",
+      "countryZh": "中国"
+    },
+    {
+      "name": "浙江强脑科技",
+      "stage": "C轮+",
+      "cats": [
+        "芯片 / 算力",
+        "机器人 / 具身智能"
+      ],
+      "product": "BrainCo强脑仿生手、脑机接口AI康复设备",
+      "url": "https://www.brainco.tech",
+      "country": "China",
+      "countryZh": "中国"
+    },
+    {
+      "name": "浪潮集团",
+      "stage": "上市",
+      "cats": [
+        "芯片 / 算力",
+        "AI 基础设施"
+      ],
+      "product": "元脑AI服务器、InspurCloud云、AI算力中心解决方案",
+      "url": "https://www.inspur.com",
+      "country": "China",
+      "countryZh": "中国"
+    },
+    {
+      "name": "海光信息",
+      "stage": "上市",
+      "cats": [
+        "芯片 / 算力"
+      ],
+      "product": "海光7000系列AI服务器芯片、DCU AI加速器",
+      "url": "https://www.hygon.cn",
+      "country": "China",
+      "countryZh": "中国"
+    },
+    {
+      "name": "海康威视",
+      "stage": "上市",
+      "cats": [
+        "AI Agent / 应用",
+        "芯片 / 算力"
+      ],
+      "product": "萤火虫AI工业相机、DeepinView AI摄像机、AI智慧城市",
+      "url": "https://www.hikvision.com",
+      "country": "China",
+      "countryZh": "中国"
+    },
+    {
+      "name": "深信服科技",
+      "stage": "上市",
+      "cats": [
+        "AI Agent / 应用",
+        "AI 基础设施"
+      ],
+      "product": "深信服AI安全平台、超融合基础设施、零信任网络",
+      "url": "https://www.sangfor.com.cn",
+      "country": "China",
+      "countryZh": "中国"
+    },
+    {
+      "name": "深势科技",
+      "stage": "C轮+",
+      "cats": [
+        "大模型 / 算法",
+        "AI Agent / 应用"
+      ],
+      "product": "Uni-Mol分子大模型、AI材料设计、蛋白质AI仿真",
+      "url": "https://dp.tech",
+      "country": "China",
+      "countryZh": "中国"
+    },
+    {
+      "name": "清华大学AI研究院",
+      "stage": "融资未公开",
+      "cats": [
+        "大模型 / 算法",
+        "AI Agent / 应用"
+      ],
+      "product": "ChatGLM大模型研究、AI安全、具身智能研究",
+      "url": "https://air.tsinghua.edu.cn",
+      "country": "China",
+      "countryZh": "中国"
+    },
+    {
+      "name": "滴滴出行",
+      "stage": "C轮+",
+      "cats": [
+        "AI Agent / 应用",
+        "芯片 / 算力"
+      ],
+      "product": "滴滴自动驾驶、智能交通AI调度、DAS自动驾驶系统",
+      "url": "https://www.didiglobal.com",
+      "country": "China",
+      "countryZh": "中国"
+    },
+    {
+      "name": "澳鹏数据科技（Appen中国）",
+      "stage": "上市",
+      "cats": [
+        "AI 基础设施"
+      ],
+      "product": "AI训练数据标注、RLHF数据、多模态数据服务",
+      "url": "https://www.appen.com.cn",
+      "country": "China",
+      "countryZh": "中国"
+    },
+    {
+      "name": "爱芯元智半导体",
+      "stage": "C轮+",
+      "cats": [
+        "芯片 / 算力"
+      ],
+      "product": "爱芯元智AX AI芯片、端侧视觉AI处理器",
+      "url": "https://www.axera-tech.com",
+      "country": "China",
+      "countryZh": "中国"
+    },
+    {
+      "name": "特斯拉",
+      "stage": "上市",
+      "cats": [
+        "AI Agent / 应用",
+        "芯片 / 算力",
+        "机器人 / 具身智能"
+      ],
+      "product": "Optimus人形机器人、FSD全自动驾驶、Dojo超算",
+      "url": "https://www.tesla.com",
+      "country": "China",
+      "countryZh": "中国"
+    },
+    {
+      "name": "理想汽车",
+      "stage": "上市",
+      "cats": [
+        "AI Agent / 应用",
+        "芯片 / 算力"
+      ],
+      "product": "MindGPT车载大模型、Mind MGPU智能驾驶、AI智能座舱",
+      "url": "https://www.lixiang.com",
+      "country": "China",
+      "countryZh": "中国"
+    },
+    {
+      "name": "百图生科",
+      "stage": "C轮+",
+      "cats": [
+        "大模型 / 算法",
+        "AI Agent / 应用"
+      ],
+      "product": "BioMap生命科学AI、xTrimoPGLM蛋白质大模型",
+      "url": "https://www.biomap.com",
+      "country": "China",
+      "countryZh": "中国"
+    },
+    {
+      "name": "百度",
+      "stage": "上市",
+      "cats": [
+        "大模型 / 算法",
+        "AI Agent / 应用",
+        "AI 基础设施"
+      ],
+      "product": "文心大模型4.0、百度飞桨深度学习框架、萝卜快跑Robotaxi",
+      "url": "https://www.baidu.com",
+      "country": "China",
+      "countryZh": "中国"
+    },
+    {
+      "name": "知乎",
+      "stage": "上市",
+      "cats": [
+        "大模型 / 算法",
+        "AI Agent / 应用"
+      ],
+      "product": "知乎直答AI搜索、知海大模型、AI知识问答平台",
+      "url": "https://www.zhihu.com",
+      "country": "China",
+      "countryZh": "中国"
+    },
+    {
+      "name": "禾赛科技",
+      "stage": "上市",
+      "cats": [
+        "芯片 / 算力"
+      ],
+      "product": "AT128激光雷达、FT120车规激光雷达、AI自动驾驶传感",
+      "url": "https://www.hesaitech.com",
+      "country": "China",
+      "countryZh": "中国"
+    },
+    {
+      "name": "科大讯飞",
+      "stage": "上市",
+      "cats": [
+        "大模型 / 算法",
+        "AI Agent / 应用"
+      ],
+      "product": "讯飞星火认知大模型4.0、AI学习机、星火语音交互平台",
+      "url": "https://www.iflytek.com",
+      "country": "China",
+      "countryZh": "中国"
+    },
+    {
+      "name": "立讯精密工业",
+      "stage": "上市",
+      "cats": [
+        "芯片 / 算力"
+      ],
+      "product": "AI终端连接器、服务器散热模组、可穿戴AI硬件",
+      "url": "https://www.luxshare-ict.com",
+      "country": "China",
+      "countryZh": "中国"
+    },
+    {
+      "name": "网易有道信息技术",
+      "stage": "上市",
+      "cats": [
+        "大模型 / 算法",
+        "AI Agent / 应用"
+      ],
+      "product": "有道子曰教育大模型、AI词典翻译、有道速读",
+      "url": "https://www.youdao.com",
+      "country": "China",
+      "countryZh": "中国"
+    },
+    {
+      "name": "网易集团",
+      "stage": "上市",
+      "cats": [
+        "大模型 / 算法",
+        "AI Agent / 应用"
+      ],
+      "product": "网易有灵AI、伏羲游戏AI、网易云音乐AI",
+      "url": "https://www.163.com",
+      "country": "China",
+      "countryZh": "中国"
+    },
+    {
+      "name": "美团",
+      "stage": "上市",
+      "cats": [
+        "AI Agent / 应用",
+        "机器人 / 具身智能"
+      ],
+      "product": "美团配送无人机、地面配送机器人、AI选址大模型",
+      "url": "https://www.meituan.com",
+      "country": "China",
+      "countryZh": "中国"
+    },
+    {
+      "name": "聆心智能",
+      "stage": "B轮",
+      "cats": [
+        "大模型 / 算法",
+        "AI Agent / 应用"
+      ],
+      "product": "CharacterGLM角色扮演大模型、AI情感陪伴、AI虚拟人",
+      "url": "https://www.lingyiwanwu.com",
+      "country": "China",
+      "countryZh": "中国"
+    },
+    {
+      "name": "联发科技",
+      "stage": "上市",
+      "cats": [
+        "芯片 / 算力"
+      ],
+      "product": "天玑AI手机芯片、AI-on-Chip解决方案",
+      "url": "https://www.mediatek.cn",
+      "country": "China",
+      "countryZh": "中国"
+    },
+    {
+      "name": "联想集团",
+      "stage": "上市",
+      "cats": [
+        "AI Agent / 应用",
+        "芯片 / 算力"
+      ],
+      "product": "AI PC、ThinkBook AI、联想AI解决方案中心",
+      "url": "https://www.lenovo.com",
+      "country": "China",
+      "countryZh": "中国"
+    },
+    {
+      "name": "腾讯",
+      "stage": "上市",
+      "cats": [
+        "大模型 / 算法",
+        "AI Agent / 应用"
+      ],
+      "product": "混元大模型、腾讯云AI、腾讯元宝AI助手",
+      "url": "https://www.tencent.com",
+      "country": "China",
+      "countryZh": "中国"
+    },
+    {
+      "name": "节卡机器人",
+      "stage": "C轮+",
+      "cats": [
+        "芯片 / 算力",
+        "机器人 / 具身智能"
+      ],
+      "product": "协作机器人、JAKA Zu系列轻型协作臂",
+      "url": "https://www.jaka.com",
+      "country": "China",
+      "countryZh": "中国"
+    },
+    {
+      "name": "芯原微电子",
+      "stage": "上市",
+      "cats": [
+        "芯片 / 算力"
+      ],
+      "product": "AI芯片IP一站式设计服务、NPU IP授权、AI SoC定制",
+      "url": "https://www.verisilicon.com",
+      "country": "China",
+      "countryZh": "中国"
+    },
+    {
+      "name": "芯来科技",
+      "stage": "B轮",
+      "cats": [
+        "芯片 / 算力"
+      ],
+      "product": "RISC-V AI处理器IP、Nuclei AI嵌入式处理器",
+      "url": "https://www.nucleisys.com",
+      "country": "China",
+      "countryZh": "中国"
+    },
+    {
+      "name": "范式集团（01.AI）",
+      "stage": "B轮",
+      "cats": [
+        "AI Agent / 应用",
+        "大模型 / 算法"
+      ],
+      "product": "Yi-Lightning大模型、Yi-Vision多模态、零一AI助手",
+      "url": "https://www.01.ai",
+      "country": "China",
+      "countryZh": "中国"
+    },
+    {
+      "name": "蔚来汽车",
+      "stage": "上市",
+      "cats": [
+        "AI Agent / 应用",
+        "芯片 / 算力"
+      ],
+      "product": "NIO Aquila超感系统、NAD自动驾驶、NOMI AI助手",
+      "url": "https://www.nio.com",
+      "country": "China",
+      "countryZh": "中国"
+    },
+    {
+      "name": "虎牙直播",
+      "stage": "上市",
+      "cats": [
+        "AI Agent / 应用"
+      ],
+      "product": "AI直播助手、AI虚拟形象、游戏AI实况",
+      "url": "https://www.huya.com",
+      "country": "China",
+      "countryZh": "中国"
+    },
+    {
+      "name": "蚂蚁科技集团",
+      "stage": "C轮+",
+      "cats": [
+        "大模型 / 算法",
+        "AI Agent / 应用"
+      ],
+      "product": "蚂蚁百灵大模型、支付宝AI助手、AI金融风控",
+      "url": "https://www.antgroup.com",
+      "country": "China",
+      "countryZh": "中国"
+    },
+    {
+      "name": "西门子（中国）",
+      "stage": "上市",
+      "cats": [
+        "AI Agent / 应用",
+        "芯片 / 算力"
+      ],
+      "product": "工业AI、Xcelerator数字孪生平台、AI工厂自动化",
+      "url": "https://www.siemens.com/cn/",
+      "country": "China",
+      "countryZh": "中国"
+    },
+    {
+      "name": "谷歌信息技术（中国）",
+      "stage": "上市",
+      "cats": [
+        "大模型 / 算法",
+        "AI 基础设施"
+      ],
+      "product": "Gemini大模型、Google Cloud AI、TPU算力",
+      "url": "https://cloud.google.com",
+      "country": "China",
+      "countryZh": "中国"
+    },
+    {
+      "name": "轻舟智航",
+      "stage": "B轮",
+      "cats": [
+        "AI Agent / 应用"
+      ],
+      "product": "AI自动驾驶中间件、无人小巴AI系统",
+      "url": "https://www.qcraft.ai",
+      "country": "China",
+      "countryZh": "中国"
+    },
+    {
+      "name": "达观数据",
+      "stage": "B轮",
+      "cats": [
+        "大模型 / 算法",
+        "AI Agent / 应用"
+      ],
+      "product": "曹植企业大模型、AI文档智能、AI知识图谱",
+      "url": "https://www.datagrand.com",
+      "country": "China",
+      "countryZh": "中国"
+    },
+    {
+      "name": "速腾聚创",
+      "stage": "上市",
+      "cats": [
+        "AI Agent / 应用",
+        "芯片 / 算力"
+      ],
+      "product": "激光雷达AI感知、MEMS固态激光雷达、AI点云处理",
+      "url": "https://www.robosense.ai",
+      "country": "China",
+      "countryZh": "中国"
+    },
+    {
+      "name": "阿里巴巴（中国）",
+      "stage": "上市",
+      "cats": [
+        "大模型 / 算法",
+        "AI Agent / 应用",
+        "AI 基础设施"
+      ],
+      "product": "通义千问大模型、阿里云PAI平台、阿里云百炼模型服务",
+      "url": "https://www.aliyun.com",
+      "country": "China",
+      "countryZh": "中国"
+    },
+    {
+      "name": "黑芝麻智能",
+      "stage": "C轮+",
+      "cats": [
+        "芯片 / 算力"
+      ],
+      "product": "华山A2000 AI自动驾驶芯片、华山A1000 AI感知处理器",
+      "url": "https://www.bsczc.com",
+      "country": "China",
+      "countryZh": "中国"
+    },
+    {
+      "name": "龙芯中科",
+      "stage": "上市",
+      "cats": [
+        "芯片 / 算力"
+      ],
+      "product": "龙芯3A6000 AI处理器、LoongArch AI架构、国产AI服务器",
+      "url": "https://www.loongson.cn",
+      "country": "China",
+      "countryZh": "中国"
+    }
+  ],
+  "notes": "Official public full directory not yet stabilized for unattended crawling; seeded from curated inline records."
+}
