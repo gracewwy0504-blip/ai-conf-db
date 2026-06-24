@@ -118,6 +118,8 @@ def conference_lite(conf: Dict[str, Any]) -> Dict[str, Any]:
     item["searchExtra"] = conf.get("searchExtra", "")
     item["searchText"] = conf.get("searchText", "")
     item["bulkExhibitorCount"] = conf.get("bulkExhibitorCount", 0)
+    item["start"] = conf.get("start")
+    item["end"] = conf.get("end")
     return item
 
 
