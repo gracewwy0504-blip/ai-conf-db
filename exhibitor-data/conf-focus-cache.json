@@ -460,5 +460,413 @@
     "ts": 1781683195,
     "ok": false,
     "error": "decode() takes at most 2 arguments (3 given)"
+  },
+  "https://iclr.cc/Conferences…": {
+    "tags": [],
+    "ts": 1782359263,
+    "ok": false,
+    "error": "'ascii' codec can't encode character '\\u2026' in position 16: ordinal not in range(128)"
+  },
+  "https://cvpr.thecvf.com/Con…": {
+    "tags": [],
+    "ts": 1782359263,
+    "ok": false,
+    "error": "'ascii' codec can't encode character '\\u2026' in position 8: ordinal not in range(128)"
+  },
+  "https://icml.cc/Conferences…": {
+    "tags": [],
+    "ts": 1782359263,
+    "ok": false,
+    "error": "'ascii' codec can't encode character '\\u2026' in position 16: ordinal not in range(128)"
+  },
+  "https://neurips.cc/Conferen…": {
+    "tags": [],
+    "ts": 1782359263,
+    "ok": false,
+    "error": "'ascii' codec can't encode character '\\u2026' in position 13: ordinal not in range(128)"
+  },
+  "https://aaai.org/conference…": {
+    "tags": [],
+    "ts": 1782359263,
+    "ok": false,
+    "error": "'ascii' codec can't encode character '\\u2026' in position 15: ordinal not in range(128)"
+  },
+  "https://www.computextaipei.…": {
+    "tags": [],
+    "ts": 1782359263,
+    "ok": false,
+    "error": "'latin-1' codec can't encode character '\\u2026' in position 19: ordinal not in range(256)"
+  },
+  "https://www.nvidia.com/gtc": {
+    "tags": [],
+    "ts": 1782359263,
+    "ok": false,
+    "error": "decode() takes at most 2 arguments (3 given)"
+  },
+  "https://cloud.google.com/bl…": {
+    "tags": [],
+    "ts": 1782359263,
+    "ok": false,
+    "error": "'ascii' codec can't encode character '\\u2026' in position 7: ordinal not in range(128)"
+  },
+  "https://www.mwcbarcelona.com": {
+    "tags": [],
+    "ts": 1782359263,
+    "ok": false,
+    "error": "decode() takes at most 2 arguments (3 given)"
+  },
+  "https://icml.cc": {
+    "tags": [],
+    "ts": 1782359263,
+    "ok": false,
+    "error": "decode() takes at most 2 arguments (3 given)"
+  },
+  "https://developer.apple.com…": {
+    "tags": [],
+    "ts": 1782359263,
+    "ok": false,
+    "error": "'latin-1' codec can't encode character '\\u2026' in position 19: ordinal not in range(256)"
+  },
+  "https://www.salesforce.com/…": {
+    "tags": [],
+    "ts": 1782359263,
+    "ok": false,
+    "error": "'ascii' codec can't encode character '\\u2026' in position 5: ordinal not in range(128)"
+  },
+  "https://techcrunch.com/even…": {
+    "tags": [],
+    "ts": 1782359263,
+    "ok": false,
+    "error": "'ascii' codec can't encode character '\\u2026' in position 9: ordinal not in range(128)"
+  },
+  "https://cvpr.thecvf.com": {
+    "tags": [],
+    "ts": 1782359263,
+    "ok": false,
+    "error": "decode() takes at most 2 arguments (3 given)"
+  },
+  "https://www.gitex.com": {
+    "tags": [],
+    "ts": 1782359263,
+    "ok": false,
+    "error": "HTTP Error 403: Forbidden"
+  },
+  "https://aws.amazon.com/even…": {
+    "tags": [],
+    "ts": 1782359263,
+    "ok": false,
+    "error": "'ascii' codec can't encode character '\\u2026' in position 9: ordinal not in range(128)"
+  },
+  "https://cloud.withgoogle.co…": {
+    "tags": [],
+    "ts": 1782359263,
+    "ok": false,
+    "error": "'latin-1' codec can't encode character '\\u2026' in position 19: ordinal not in range(256)"
+  },
+  "https://neurips.cc": {
+    "tags": [],
+    "ts": 1782359263,
+    "ok": false,
+    "error": "decode() takes at most 2 arguments (3 given)"
+  },
+  "https://www.ces.tech": {
+    "tags": [],
+    "ts": 1782359263,
+    "ok": false,
+    "error": "decode() takes at most 2 arguments (3 given)"
+  },
+  "https://2025.ieee-icra.org": {
+    "tags": [],
+    "ts": 1782359264,
+    "ok": false,
+    "error": "decode() takes at most 2 arguments (3 given)"
+  },
+  "https://websummit.com": {
+    "tags": [],
+    "ts": 1782359264,
+    "ok": false,
+    "error": "decode() takes at most 2 arguments (3 given)"
+  },
+  "https://www.googlecloudeven…": {
+    "tags": [],
+    "ts": 1782359264,
+    "ok": false,
+    "error": "'latin-1' codec can't encode character '\\u2026' in position 19: ordinal not in range(256)"
+  },
+  "https://slush.org": {
+    "tags": [],
+    "ts": 1782359264,
+    "ok": false,
+    "error": "decode() takes at most 2 arguments (3 given)"
+  },
+  "https://build.microsoft.com": {
+    "tags": [],
+    "ts": 1782359264,
+    "ok": false,
+    "error": "decode() takes at most 2 arguments (3 given)"
+  },
+  "https://worldsummit.ai": {
+    "tags": [],
+    "ts": 1782359264,
+    "ok": false,
+    "error": "decode() takes at most 2 arguments (3 given)"
+  },
+  "https://2026.ieee-icra.org": {
+    "tags": [],
+    "ts": 1782359264,
+    "ok": false,
+    "error": "decode() takes at most 2 arguments (3 given)"
+  },
+  "https://developer.cloud.ten…": {
+    "tags": [],
+    "ts": 1782359264,
+    "ok": false,
+    "error": "'latin-1' codec can't encode character '\\u2026' in position 19: ordinal not in range(256)"
+  },
+  "https://www.nvidia.cn/start…": {
+    "tags": [],
+    "ts": 1782359264,
+    "ok": false,
+    "error": "'ascii' codec can't encode character '\\u2026' in position 10: ordinal not in range(128)"
+  },
+  "https://riseconf.com": {
+    "tags": [],
+    "ts": 1782359264,
+    "ok": false,
+    "error": "decode() takes at most 2 arguments (3 given)"
+  },
+  "https://www.embodiedai-summ…": {
+    "tags": [],
+    "ts": 1782359264,
+    "ok": false,
+    "error": "'latin-1' codec can't encode character '\\u2026' in position 19: ordinal not in range(256)"
+  },
+  "https://www.semiconwest.org": {
+    "tags": [],
+    "ts": 1782359265,
+    "ok": false,
+    "error": "HTTP Error 403: Forbidden"
+  },
+  "https://vivatech.com": {
+    "tags": [],
+    "ts": 1782359265,
+    "ok": false,
+    "error": "decode() takes at most 2 arguments (3 given)"
+  },
+  "https://www.fair-robot.com": {
+    "tags": [],
+    "ts": 1782359265,
+    "ok": false,
+    "error": "<urlopen error [SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.c:1016)>"
+  },
+  "https://2024.ieee-icra.org": {
+    "tags": [],
+    "ts": 1782359265,
+    "ok": false,
+    "error": "decode() takes at most 2 arguments (3 given)"
+  },
+  "https://www.jufair.com": {
+    "tags": [],
+    "ts": 1782359265,
+    "ok": false,
+    "error": "decode() takes at most 2 arguments (3 given)"
+  },
+  "https://www.worldaic.com.cn": {
+    "tags": [],
+    "ts": 1782359265,
+    "ok": false,
+    "error": "decode() takes at most 2 arguments (3 given)"
+  },
+  "https://www.caict.ac.cn/kxy…": {
+    "tags": [],
+    "ts": 1782359265,
+    "ok": false,
+    "error": "'ascii' codec can't encode character '\\u2026' in position 8: ordinal not in range(128)"
+  },
+  "https://www.ciros-expo.com": {
+    "tags": [],
+    "ts": 1782359265,
+    "ok": false,
+    "error": "<urlopen error [Errno 111] Connection refused>"
+  },
+  "https://www.arce-expo.com": {
+    "tags": [],
+    "ts": 1782359265,
+    "ok": false,
+    "error": "<urlopen error [Errno 111] Connection refused>"
+  },
+  "https://gdps.org.cn": {
+    "tags": [],
+    "ts": 1782359266,
+    "ok": false,
+    "error": "decode() takes at most 2 arguments (3 given)"
+  },
+  "https://www.worldrobotconfe…": {
+    "tags": [],
+    "ts": 1782359266,
+    "ok": false,
+    "error": "'latin-1' codec can't encode character '\\u2026' in position 19: ordinal not in range(256)"
+  },
+  "https://www.cmif.org.cn": {
+    "tags": [],
+    "ts": 1782359266,
+    "ok": false,
+    "error": "<urlopen error [Errno 111] Connection refused>"
+  },
+  "https://www.dahaoexpo.com/e…": {
+    "tags": [],
+    "ts": 1782359266,
+    "ok": false,
+    "error": "'ascii' codec can't encode character '\\u2026' in position 6: ordinal not in range(128)"
+  },
+  "https://www.aceexpo.cn": {
+    "tags": [],
+    "ts": 1782359266,
+    "ok": false,
+    "error": "<urlopen error [Errno 104] Connection reset by peer>"
+  },
+  "https://www.ifa-berlin.com": {
+    "tags": [],
+    "ts": 1782359267,
+    "ok": false,
+    "error": "decode() takes at most 2 arguments (3 given)"
+  },
+  "https://www.isc.org.cn": {
+    "tags": [],
+    "ts": 1782359267,
+    "ok": false,
+    "error": "decode() takes at most 2 arguments (3 given)"
+  },
+  "https://www.wimc.org.cn": {
+    "tags": [],
+    "ts": 1782359267,
+    "ok": false,
+    "error": "decode() takes at most 2 arguments (3 given)"
+  },
+  "https://www.eet-china.com/i…": {
+    "tags": [],
+    "ts": 1782359267,
+    "ok": false,
+    "error": "'ascii' codec can't encode character '\\u2026' in position 6: ordinal not in range(128)"
+  },
+  "https://www.caict.ac.cn": {
+    "tags": [],
+    "ts": 1782359267,
+    "ok": false,
+    "error": "HTTP Error 412: Precondition Failed"
+  },
+  "https://www.asiarobot.net": {
+    "tags": [],
+    "ts": 1782359268,
+    "ok": false,
+    "error": "decode() takes at most 2 arguments (3 given)"
+  },
+  "https://www.zgcforum.com/zh…": {
+    "tags": [],
+    "ts": 1782359268,
+    "ok": false,
+    "error": "'ascii' codec can't encode character '\\u2026' in position 7: ordinal not in range(128)"
+  },
+  "https://www.ccf.org.cn": {
+    "tags": [],
+    "ts": 1782359268,
+    "ok": false,
+    "error": "decode() takes at most 2 arguments (3 given)"
+  },
+  "https://www.aiww.com/aieven…": {
+    "tags": [],
+    "ts": 1782359268,
+    "ok": false,
+    "error": "'ascii' codec can't encode character '\\u2026' in position 11: ordinal not in range(128)"
+  },
+  "http://www.cnesbexpo.com": {
+    "tags": [],
+    "ts": 1782359269,
+    "ok": false,
+    "error": "decode() takes at most 2 arguments (3 given)"
+  },
+  "https://www.zgcforum.com.cn": {
+    "tags": [],
+    "ts": 1782359270,
+    "ok": false,
+    "error": "decode() takes at most 2 arguments (3 given)"
+  },
+  "https://www.shlab.org.cn": {
+    "tags": [],
+    "ts": 1782359270,
+    "ok": false,
+    "error": "decode() takes at most 2 arguments (3 given)"
+  },
+  "https://2025.baai.ac.cn": {
+    "tags": [],
+    "ts": 1782359270,
+    "ok": false,
+    "error": "decode() takes at most 2 arguments (3 given)"
+  },
+  "https://developer.huawei.co…": {
+    "tags": [],
+    "ts": 1782359270,
+    "ok": false,
+    "error": "'latin-1' codec can't encode character '\\u2026' in position 19: ordinal not in range(256)"
+  },
+  "https://www.mwcshanghai.cn": {
+    "tags": [],
+    "ts": 1782359270,
+    "ok": false,
+    "error": "decode() takes at most 2 arguments (3 given)"
+  },
+  "https://2026.baai.ac.cn": {
+    "tags": [],
+    "ts": 1782359270,
+    "ok": false,
+    "error": "decode() takes at most 2 arguments (3 given)"
+  },
+  "http://cclm.org.cn": {
+    "tags": [],
+    "ts": 1782359271,
+    "ok": false,
+    "error": "decode() takes at most 2 arguments (3 given)"
+  },
+  "https://yunqi.aliyun.com": {
+    "tags": [],
+    "ts": 1782359271,
+    "ok": false,
+    "error": "decode() takes at most 2 arguments (3 given)"
+  },
+  "https://gaitc.caai.cn": {
+    "tags": [],
+    "ts": 1782359272,
+    "ok": false,
+    "error": "Remote end closed connection without response"
+  },
+  "https://www.bigdata-expo.cn": {
+    "tags": [],
+    "ts": 1782359272,
+    "ok": false,
+    "error": "decode() takes at most 2 arguments (3 given)"
+  },
+  "https://www.chtf.com": {
+    "tags": [],
+    "ts": 1782359273,
+    "ok": false,
+    "error": "decode() takes at most 2 arguments (3 given)"
+  },
+  "https://www.nanjing.gov.cn": {
+    "tags": [],
+    "ts": 1782359276,
+    "ok": false,
+    "error": "decode() takes at most 2 arguments (3 given)"
+  },
+  "https://www.gaie.cn": {
+    "tags": [],
+    "ts": 1782359279,
+    "ok": false,
+    "error": "<urlopen error timed out>"
+  },
+  "https://ccai.caai.cn": {
+    "tags": [],
+    "ts": 1782359286,
+    "ok": false,
+    "error": "<urlopen error timed out>"
   }
 }
