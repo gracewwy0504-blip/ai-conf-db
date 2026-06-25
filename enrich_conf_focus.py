@@ -8,12 +8,12 @@ import ssl
 import time
 from concurrent.futures import ThreadPoolExecutor, as_completed
 from pathlib import Path
-from typing import Any, Dict, List, Set
+from typing import Any, Dict, List, Set, Tuple
 from urllib.error import HTTPError, URLError
 from urllib.request import Request, urlopen
 
 ROOT = Path(__file__).resolve().parent
-INDEX = ROOT / "index.html"
+CONFERENCES_PATH = ROOT / "exhibitor-data" / "conferences.json"
 CACHE = ROOT / "exhibitor-data" / "conf-focus-cache.json"
 
 UA = "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36"
@@ -110,67 +110,37 @@ def keywords_from_intro(intro: str) -> List[str]:
     return [x for x in out if x]
 
 
-def parse_string_array(block: str, key: str) -> List[str]:
-    m = re.search(rf"{key}:\[(.*?)\]", block, re.S)
-    if not m:
-        return []
-    return [clean_tag(x) for x in re.findall(r"'((?:\\'|[^'])*)'", m.group(1)) if clean_tag(x)]
-
-
-def parse_conf_blocks(html: str) -> List[Dict[str, Any]]:
+def load_conferences() -> List[Dict[str, Any]]:
+    conferences = json.loads(CONFERENCES_PATH.read_text(encoding="utf-8"))
     confs: List[Dict[str, Any]] = []
-    for m in re.finditer(r"\{\s*\n\s*id:'([^']+)'", html):
-        cid = m.group(1)
-        if "_DUP_REMOVED" in cid:
+    for conf in conferences:
+        if not isinstance(conf, dict):
             continue
-        start = m.start()
-        # find matching closing `},` for this conference object
-        depth = 0
-        i = start
-        in_str = False
-        esc = False
-        while i < len(html):
-            ch = html[i]
-            if in_str:
-                if esc:
-                    esc = False
-                elif ch == "\\":
-                    esc = True
-                elif ch == "'":
-                    in_str = False
-            else:
-                if ch == "'":
-                    in_str = True
-                elif ch == "{":
-                    depth += 1
-                elif ch == "}":
-                    depth -= 1
-                    if depth == 0:
-                        end = i + 1
-                        if end < len(html) and html[end : end + 1] == ",":
-                            end += 1
-                        block = html[start:end]
-                        intro_m = re.search(r"intro:'((?:\\'|[^'])*)'", block)
-                        url_m = re.search(r"url:'([^']*)'", block)
-                        confs.append(
-                            {
-                                "id": cid,
-                                "url": url_m.group(1) if url_m else "",
-                                "focus": parse_string_array(block, "focus"),
-                                "themes": parse_string_array(block, "themes"),
-                                "productCats": parse_string_array(block, "productCats"),
-                                "intro": intro_m.group(1).replace("\\'", "'") if intro_m else "",
-                                "speakers": [
-                                    clean_tag(t)
-                                    for t in re.findall(r"topic:'((?:\\'|[^'])*)'", block)
-                                    if clean_tag(t)
-                                ],
-                                "block": block,
-                            }
-                        )
-                        break
-            i += 1
+        cid = clean_tag(conf.get("id"))
+        if not cid or "_DUP_REMOVED" in cid:
+            continue
+        detail = conf.get("detail") or {}
+        confs.append(
+            {
+                "id": cid,
+                "url": clean_tag(conf.get("url")),
+                "focus": list(conf.get("focus") or []),
+                "themes": list(detail.get("themes") or []),
+                "productCats": list(conf.get("productCats") or []),
+                "intro": clean_text(detail.get("intro")),
+                "speakers": [
+                    clean_tag(s.get("topic"))
+                    for s in (detail.get("speakers") or [])
+                    if isinstance(s, dict) and clean_tag(s.get("topic"))
+                ],
+                "_source": conf,
+            }
+        )
     return confs
+
+
+def clean_text(text: Any) -> str:
+    return re.sub(r"\s+", " ", str(text or "").strip())
 
 
 def scrape_url_tags(url: str, cache: Dict[str, Any]) -> List[str]:
@@ -215,32 +185,28 @@ def merge_tags(conf: Dict[str, Any], scraped: List[str]) -> List[str]:
     return merged[:MAX_TAGS]
 
 
-def format_focus_array(tags: List[str]) -> str:
-    if not tags:
-        return "  focus:[]"
-    lines = ["  focus:["]
-    for t in tags:
-        esc = t.replace("\\", "\\\\").replace("'", "\\'")
-        lines.append(f"    '{esc}',")
-    lines[-1] = lines[-1].rstrip(",")
-    lines.append("  ]")
-    return "\n".join(lines)
-
-
-def replace_focus_by_id(html: str, cid: str, tags: List[str]) -> str:
-    pat = rf"(id:'{re.escape(cid)}'[\s\S]*?)focus:\[[\s\S]*?\]"
-    repl = r"\1" + format_focus_array(tags)
-    new_html, n = re.subn(pat, repl, html, count=1)
-    if n != 1:
-        raise ValueError(f"focus replace failed for {cid} (matches={n})")
-    return new_html
+def apply_focus_updates(confs: List[Dict[str, Any]], url_tags: Dict[str, List[str]]) -> Tuple[int, List[Tuple[str, int, int]]]:
+    updated = 0
+    stats: List[Tuple[str, int, int]] = []
+    for conf in confs:
+        scraped = url_tags.get(conf["id"], [])
+        tags = merge_tags(conf, scraped)
+        old_n = len(conf.get("focus") or [])
+        source = conf.get("_source") or {}
+        if tags != conf.get("focus"):
+            source["focus"] = tags
+            updated += 1
+        stats.append((conf["id"], old_n, len(tags)))
+    return updated, stats
 
 
 def main() -> None:
-    html = INDEX.read_text(encoding="utf-8")
     cache = json.loads(CACHE.read_text(encoding="utf-8")) if CACHE.exists() else {}
-    confs = parse_conf_blocks(html)
+    confs = load_conferences()
     print(f"conferences: {len(confs)}")
+    if not confs:
+        print("no conferences found; skipping focus enrichment")
+        return
 
     url_tags: Dict[str, List[str]] = {}
     with ThreadPoolExecutor(max_workers=8) as pool:
@@ -263,22 +229,10 @@ def main() -> None:
 
     CACHE.write_text(json.dumps(cache, ensure_ascii=False, indent=2), encoding="utf-8")
 
-    updated = 0
-    stats = []
-    new_html = html
-    for conf in confs:
-        scraped = url_tags.get(conf["id"], [])
-        tags = merge_tags(conf, scraped)
-        old_n = len(conf.get("focus") or [])
-        if tags != conf.get("focus"):
-            updated += 1
-        stats.append((conf["id"], old_n, len(tags)))
-        try:
-            new_html = replace_focus_by_id(new_html, conf["id"], tags)
-        except ValueError as exc:
-            print(f"  warn: {exc}")
+    updated, stats = apply_focus_updates(confs, url_tags)
+    conferences = [conf["_source"] for conf in confs]
+    CONFERENCES_PATH.write_text(json.dumps(conferences, ensure_ascii=False, indent=2), encoding="utf-8")
 
-    INDEX.write_text(new_html, encoding="utf-8")
     avg = sum(s[2] for s in stats) / len(stats)
     print(f"updated focus arrays: {updated}/{len(confs)}, avg tags {avg:.1f}")
     print("top expansions:")
