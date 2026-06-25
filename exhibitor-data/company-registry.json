@@ -1486,7 +1486,9 @@
     ],
     "product": "GPU云",
     "nameZh": "",
-    "productZh": "GPU云"
+    "productZh": "GPU云",
+    "country": "United States",
+    "countryZh": "美国"
   },
   "together ai": {
     "stage": "B轮",
@@ -1917,7 +1919,9 @@
     ],
     "product": "Jennie治疗机器狗",
     "nameZh": "",
-    "productZh": "Jennie治疗机器狗"
+    "productZh": "Jennie治疗机器狗",
+    "country": "Indonesia",
+    "countryZh": "印度尼西亚"
   },
   "intuition robotics": {
     "stage": "C轮+",
@@ -2456,7 +2460,9 @@
     ],
     "product": "AI驱动外骨骼、电动关节执行器",
     "nameZh": "",
-    "productZh": "AI驱动外骨骼、电动关节执行器"
+    "productZh": "AI驱动外骨骼、电动关节执行器",
+    "country": "United States",
+    "countryZh": "美国"
   },
   "govee moments limited": {
     "stage": "C轮+",
@@ -2467,7 +2473,9 @@
     ],
     "product": "AI智能灯光、Matter生态智能家居AI",
     "nameZh": "",
-    "productZh": "AI智能灯光、Matter生态智能家居AI"
+    "productZh": "AI智能灯光、Matter生态智能家居AI",
+    "country": "United States",
+    "countryZh": "美国"
   },
   "hangzhou roboct technology": {
     "stage": "B轮",
@@ -2585,7 +2593,9 @@
     ],
     "product": "AI热成像摄像机、工业AI视觉检测系统",
     "nameZh": "",
-    "productZh": "AI热成像摄像机、工业AI视觉检测系统"
+    "productZh": "AI热成像摄像机、工业AI视觉检测系统",
+    "country": "United States",
+    "countryZh": "美国"
   },
   "siemens": {
     "stage": "上市",
@@ -2668,7 +2678,9 @@
     "nameZh": "",
     "productZh": "",
     "exhibitProductZh": "Azure AI Foundry、Copilot+企业方案",
-    "exhibitProduct": "Azure AI Foundry、Copilot+企业方案"
+    "exhibitProduct": "Azure AI Foundry、Copilot+企业方案",
+    "country": "United States",
+    "countryZh": "美国"
   },
   "asus": {
     "stage": "上市",
@@ -5392,7 +5404,9 @@
     ],
     "product": "RISC-V AI芯片、Wormhole AI加速器、开源AI硬件",
     "nameZh": "",
-    "productZh": "RISC-V AI芯片、Wormhole AI加速器、开源AI硬件"
+    "productZh": "RISC-V AI芯片、Wormhole AI加速器、开源AI硬件",
+    "country": "South Korea",
+    "countryZh": "韩国"
   },
   "andes technology晶心科技": {
     "stage": "C轮+",
@@ -6515,7 +6529,9 @@
     ],
     "product": "AI工程服务、嵌入式AI、汽车AI软件",
     "nameZh": "",
-    "productZh": "AI工程服务、嵌入式AI、汽车AI软件"
+    "productZh": "AI工程服务、嵌入式AI、汽车AI软件",
+    "country": "Bulgaria",
+    "countryZh": "保加利亚"
   },
   "aiq (abu dhabi national oil)": {
     "stage": "融资未公开",
@@ -6694,7 +6710,9 @@
     ],
     "product": "主权一键部署LLM云",
     "nameZh": "",
-    "productZh": "主权一键部署LLM云"
+    "productZh": "主权一键部署LLM云",
+    "country": "United States",
+    "countryZh": "美国"
   },
   "decagon": {
     "stage": "C轮+",
@@ -7379,7 +7397,9 @@
     ],
     "product": "Govee AI氛围灯、AI灯带、Matter AI智能照明",
     "nameZh": "",
-    "productZh": "Govee AI氛围灯、AI灯带、Matter AI智能照明"
+    "productZh": "Govee AI氛围灯、AI灯带、Matter AI智能照明",
+    "country": "United States",
+    "countryZh": "美国"
   },
   "netatmo": {
     "stage": "B轮",
@@ -7695,7 +7715,9 @@
     ],
     "product": "AI电源系统（RF/DC）、等离子体AI控制、AI热管理",
     "nameZh": "",
-    "productZh": "AI电源系统（RF/DC）、等离子体AI控制、AI热管理"
+    "productZh": "AI电源系统（RF/DC）、等离子体AI控制、AI热管理",
+    "country": "Japan",
+    "countryZh": "日本"
   },
   "mks instruments": {
     "stage": "上市",
@@ -7767,7 +7789,9 @@
     ],
     "product": "AI混合键合设备、Besi AI倒装芯片、先进封装AI",
     "nameZh": "",
-    "productZh": "AI混合键合设备、Besi AI倒装芯片、先进封装AI"
+    "productZh": "AI混合键合设备、Besi AI倒装芯片、先进封装AI",
+    "country": "Taiwan",
+    "countryZh": "台湾"
   },
   "amkor technology": {
     "stage": "上市",
@@ -8121,7 +8145,9 @@
     ],
     "product": "AI混合键合设备、AI晶圆键合、3D集成AI制造",
     "nameZh": "",
-    "productZh": "AI混合键合设备、AI晶圆键合、3D集成AI制造"
+    "productZh": "AI混合键合设备、AI晶圆键合、3D集成AI制造",
+    "country": "Taiwan",
+    "countryZh": "台湾"
   },
   "cohu xcerra": {
     "stage": "上市",
