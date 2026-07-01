@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-25T04:02:33Z",
+  "generatedAt": "2026-07-01T12:49:33Z",
   "companies": [
     {
       "name": ".lumen",
@@ -66,6 +66,15 @@
       ]
     },
     {
+      "name": "1NCE / SoftBank",
+      "nameEn": "1NCE IoT Lifetime Flat",
+      "nameZh": "",
+      "url": "",
+      "confIds": [
+        "Computex2025"
+      ]
+    },
+    {
       "name": "276 HOLDINGS Inc.",
       "nameEn": "276Holdings",
       "nameZh": "",
@@ -111,6 +120,15 @@
       ]
     },
     {
+      "name": "2m02",
+      "nameEn": "2m02",
+      "nameZh": "",
+      "url": "",
+      "confIds": [
+        "Computex2025"
+      ]
+    },
+    {
       "name": "2Pi",
       "nameEn": "2Pioptics",
       "nameZh": "",
@@ -138,6 +156,15 @@
       ]
     },
     {
+      "name": "3D Architech, Inc.",
+      "nameEn": "3D Architech, Inc.",
+      "nameZh": "",
+      "url": "",
+      "confIds": [
+        "Computex2025"
+      ]
+    },
+    {
       "name": "3D Technology 'UTU'",
       "nameEn": "Utu",
       "nameZh": "",
@@ -156,6 +183,15 @@
       ]
     },
     {
+      "name": "3drens",
+      "nameEn": "3drens",
+      "nameZh": "",
+      "url": "",
+      "confIds": [
+        "Computex2025"
+      ]
+    },
+    {
       "name": "3H CO., LTD.",
       "nameEn": "3Hk",
       "nameZh": "",
@@ -171,6 +207,15 @@
       "url": "https://www.mmm.com",
       "confIds": [
         "CES2026"
+      ]
+    },
+    {
+      "name": "3M Taiwan Ltd.",
+      "nameEn": "3M Taiwan Ltd.",
+      "nameZh": "",
+      "url": "",
+      "confIds": [
+        "Computex2025"
       ]
     },
     {
@@ -291,6 +336,15 @@
       ]
     },
     {
+      "name": "7Hz Inc.",
+      "nameEn": "7Hz Inc.",
+      "nameZh": "",
+      "url": "",
+      "confIds": [
+        "Computex2025"
+      ]
+    },
+    {
       "name": "7X",
       "nameEn": "7X",
       "nameZh": "",
@@ -306,6 +360,24 @@
       "url": "https://8kassociation.com/",
       "confIds": [
         "CES2026"
+      ]
+    },
+    {
+      "name": "A Barristor Company",
+      "nameEn": "A Barristor Company",
+      "nameZh": "",
+      "url": "",
+      "confIds": [
+        "Computex2025"
+      ]
+    },
+    {
+      "name": "A-Four Tech Co., Ltd.",
+      "nameEn": "A4 TECH,Bloody,Fstyler",
+      "nameZh": "",
+      "url": "",
+      "confIds": [
+        "Computex2025"
       ]
     },
     {
@@ -343,6 +415,15 @@
       "confIds": [
         "CES2026",
         "GITEX2025"
+      ]
+    },
+    {
+      "name": "AAEON Technology Inc.",
+      "nameEn": "AAEON Technology Inc.",
+      "nameZh": "",
+      "url": "",
+      "confIds": [
+        "Computex2025"
       ]
     },
     {
@@ -397,6 +478,15 @@
       "url": "https://www.abark.tech/",
       "confIds": [
         "GITEX2025"
+      ]
+    },
+    {
+      "name": "ABA LOCKS INTERNATIONAL CO., LTD.",
+      "nameEn": "ABA",
+      "nameZh": "",
+      "url": "",
+      "confIds": [
+        "Computex2025"
       ]
     },
     {
@@ -463,6 +553,15 @@
       ]
     },
     {
+      "name": "ABILITY ENTERPRISE CO., LTD.",
+      "nameEn": "ABILITY ENTERPRISE CO., LTD.",
+      "nameZh": "",
+      "url": "",
+      "confIds": [
+        "Computex2025"
+      ]
+    },
+    {
       "name": "ABSYZ SOFTWARE CONSULTING DMCC",
       "nameEn": "Absyz",
       "nameZh": "",
@@ -500,12 +599,30 @@
       ]
     },
     {
+      "name": "Academia Sinica",
+      "nameEn": "Academia Sinica",
+      "nameZh": "",
+      "url": "",
+      "confIds": [
+        "Computex2025"
+      ]
+    },
+    {
       "name": "Acasis Inc Co., Ltd.",
       "nameEn": "Acasis",
       "nameZh": "",
       "url": "https://www.acasis.com/",
       "confIds": [
         "CES2026"
+      ]
+    },
+    {
+      "name": "Accelerated Materials",
+      "nameEn": "Accelerated Materials",
+      "nameZh": "",
+      "url": "",
+      "confIds": [
+        "Computex2025"
       ]
     },
     {
@@ -565,12 +682,57 @@
       ]
     },
     {
+      "name": "Accordance Systems Inc.",
+      "nameEn": "AiRPA,ARAID,PLC PLUS",
+      "nameZh": "",
+      "url": "",
+      "confIds": [
+        "Computex2025"
+      ]
+    },
+    {
+      "name": "ACCU THERM CORP.",
+      "nameEn": "ACCU THERM CORP.",
+      "nameZh": "",
+      "url": "",
+      "confIds": [
+        "Computex2025"
+      ]
+    },
+    {
+      "name": "Accucrazy",
+      "nameEn": "Accucrazy",
+      "nameZh": "",
+      "url": "",
+      "confIds": [
+        "Computex2025"
+      ]
+    },
+    {
       "name": "Accudire srl",
       "nameEn": "Accudire",
       "nameZh": "",
       "url": "https://accudire.eu/en/",
       "confIds": [
         "CES2026"
+      ]
+    },
+    {
+      "name": "ACCUSYS STORAGE LTD.",
+      "nameEn": "Accusys",
+      "nameZh": "",
+      "url": "",
+      "confIds": [
+        "Computex2025"
+      ]
+    },
+    {
+      "name": "Accuview Inc.",
+      "nameEn": "Accuview",
+      "nameZh": "",
+      "url": "",
+      "confIds": [
+        "Computex2025"
       ]
     },
     {
@@ -601,6 +763,15 @@
       ]
     },
     {
+      "name": "Acegeek Technology Limited",
+      "nameEn": "ACEGEEK",
+      "nameZh": "",
+      "url": "",
+      "confIds": [
+        "Computex2025"
+      ]
+    },
+    {
       "name": "ACELIFE CO LTD",
       "nameEn": "Acelifekorea",
       "nameZh": "",
@@ -610,10 +781,28 @@
       ]
     },
     {
+      "name": "Acer Incorporated",
+      "nameEn": "Acer,Predator",
+      "nameZh": "",
+      "url": "",
+      "confIds": [
+        "Computex2025"
+      ]
+    },
+    {
       "name": "Acer宏碁",
       "nameEn": "",
       "nameZh": "",
       "url": "https://www.acer.com",
+      "confIds": [
+        "Computex2025"
+      ]
+    },
+    {
+      "name": "ACES ELECTRONICS CO., LTD",
+      "nameEn": "ACES",
+      "nameZh": "",
+      "url": "",
       "confIds": [
         "Computex2025"
       ]
@@ -646,6 +835,15 @@
       ]
     },
     {
+      "name": "Acon-Holding INC.",
+      "nameEn": "德臻科技GLW GALLOPWIRE,連展科技ADVANCED-CONNECTEK INC.,連訊通訊AOPT ACON OPTICS,連騰科技awan ADVANCED WIRELESS & ANTENNA INC,連展電能ACON-ECO",
+      "nameZh": "",
+      "url": "",
+      "confIds": [
+        "Computex2025"
+      ]
+    },
+    {
       "name": "aconnic",
       "nameEn": "Aconnic",
       "nameZh": "",
@@ -673,12 +871,30 @@
       ]
     },
     {
+      "name": "AcroCyte Therapeutics, Inc.",
+      "nameEn": "AcroCyte Therapeutics, Inc.",
+      "nameZh": "",
+      "url": "",
+      "confIds": [
+        "Computex2025"
+      ]
+    },
+    {
       "name": "Acronis International GmbH - CH",
       "nameEn": "Acronis",
       "nameZh": "",
       "url": "https://www.acronis.com/en-us/#sp",
       "confIds": [
         "GITEX2025"
+      ]
+    },
+    {
+      "name": "ACROSSER Technology Co., Ltd.",
+      "nameEn": "ACROSSER,EverFocus",
+      "nameZh": "",
+      "url": "",
+      "confIds": [
+        "Computex2025"
       ]
     },
     {
@@ -700,12 +916,48 @@
       ]
     },
     {
+      "name": "Actasys LTD",
+      "nameEn": "Actasys LTD",
+      "nameZh": "",
+      "url": "",
+      "confIds": [
+        "Computex2025"
+      ]
+    },
+    {
+      "name": "Actdesign Co., Ltd",
+      "nameEn": "Actdesign Co., Ltd",
+      "nameZh": "",
+      "url": "",
+      "confIds": [
+        "Computex2025"
+      ]
+    },
+    {
+      "name": "ACTECK TECHNOLOGY CO., LTD",
+      "nameEn": "ACTECK TECHNOLOGY CO., LTD",
+      "nameZh": "",
+      "url": "",
+      "confIds": [
+        "Computex2025"
+      ]
+    },
+    {
       "name": "Actility / Kerlink",
       "nameEn": "Actility",
       "nameZh": "",
       "url": "https://www.actility.com",
       "confIds": [
         "GITEX2025"
+      ]
+    },
+    {
+      "name": "ACTION STAR TECHNOLOGY CO., LTD.",
+      "nameEn": "ACTION STAR TECHNOLOGY CO., LTD.",
+      "nameZh": "",
+      "url": "",
+      "confIds": [
+        "Computex2025"
       ]
     },
     {
@@ -763,6 +1015,15 @@
       ]
     },
     {
+      "name": "Adapter Technology Co., Ltd.",
+      "nameEn": "Adapter Tech.",
+      "nameZh": "",
+      "url": "",
+      "confIds": [
+        "Computex2025"
+      ]
+    },
+    {
       "name": "Adaptive Recognition",
       "nameEn": "Adaptive",
       "nameZh": "",
@@ -792,6 +1053,15 @@
       ]
     },
     {
+      "name": "ADATA Technology Co., Ltd.",
+      "nameEn": "ADATA,XPG",
+      "nameZh": "",
+      "url": "",
+      "confIds": [
+        "Computex2025"
+      ]
+    },
+    {
       "name": "AdCellerant",
       "nameEn": "Adcellerant",
       "nameZh": "",
@@ -807,6 +1077,15 @@
       "url": "https://addd.co.kr/?lang=english",
       "confIds": [
         "CES2026"
+      ]
+    },
+    {
+      "name": "ADDER TECHNOLOGY LTD",
+      "nameEn": "ADDER",
+      "nameZh": "",
+      "url": "",
+      "confIds": [
+        "Computex2025"
       ]
     },
     {
@@ -828,6 +1107,15 @@
       ]
     },
     {
+      "name": "Adesso Technology Inc.",
+      "nameEn": "ADESSO,MYGEKOGEAR,GYRATION",
+      "nameZh": "",
+      "url": "",
+      "confIds": [
+        "Computex2025"
+      ]
+    },
+    {
       "name": "ADIN.AI",
       "nameEn": "Adin",
       "nameZh": "",
@@ -846,12 +1134,30 @@
       ]
     },
     {
+      "name": "ADLINK TECHNOLOGY INC.",
+      "nameEn": "ADLINK",
+      "nameZh": "",
+      "url": "",
+      "confIds": [
+        "Computex2025"
+      ]
+    },
+    {
       "name": "ADM Tech LLC",
       "nameEn": "Tera Digital",
       "nameZh": "",
       "url": "https://tera-digital.com/",
       "confIds": [
         "CES2026"
+      ]
+    },
+    {
+      "name": "Administration for Digital Industries",
+      "nameEn": "Administration for Digital Industries",
+      "nameZh": "",
+      "url": "",
+      "confIds": [
+        "Computex2025"
       ]
     },
     {
@@ -863,6 +1169,15 @@
         "CES2026",
         "Computex2025",
         "GITEX2025"
+      ]
+    },
+    {
+      "name": "ADOMAX TECHNOLOGY CO., LTD.",
+      "nameEn": "ADOMAX TECHNOLOGY CO., LTD.",
+      "nameZh": "",
+      "url": "",
+      "confIds": [
+        "Computex2025"
       ]
     },
     {
@@ -911,6 +1226,15 @@
       ]
     },
     {
+      "name": "Advanced Acoustic Technology Corporation",
+      "nameEn": "AATC",
+      "nameZh": "",
+      "url": "",
+      "confIds": [
+        "Computex2025"
+      ]
+    },
+    {
       "name": "Advanced Communications & Electronics Systems Co (ACES",
       "nameEn": "Aces Co",
       "nameZh": "",
@@ -944,6 +1268,24 @@
       "url": "https://maps.app.goo.gl/EC4z5nFWxpakiQff7",
       "confIds": [
         "GITEX2025"
+      ]
+    },
+    {
+      "name": "Advanced Materials Co. |Ltd.",
+      "nameEn": "Advanced Materials Co. |Ltd.",
+      "nameZh": "",
+      "url": "",
+      "confIds": [
+        "Computex2025"
+      ]
+    },
+    {
+      "name": "Advantech Co., Ltd.",
+      "nameEn": "Advantech Co., Ltd.",
+      "nameZh": "",
+      "url": "",
+      "confIds": [
+        "Computex2025"
       ]
     },
     {
@@ -1037,6 +1379,15 @@
       ]
     },
     {
+      "name": "Aeolus Robotics Company",
+      "nameEn": "Aeolus Robotics Company",
+      "nameZh": "",
+      "url": "",
+      "confIds": [
+        "Computex2025"
+      ]
+    },
+    {
       "name": "Aequil Science",
       "nameEn": "Ww",
       "nameZh": "",
@@ -1070,6 +1421,15 @@
       "url": "https://www.aerojetrocketdyne.com",
       "confIds": [
         "SEMICONWest2025"
+      ]
+    },
+    {
+      "name": "Aeromax Technology Co., Ltd.",
+      "nameEn": "AEROMAX",
+      "nameZh": "",
+      "url": "",
+      "confIds": [
+        "Computex2025"
       ]
     },
     {
@@ -1125,6 +1485,15 @@
       "url": "https://www.afero.io/",
       "confIds": [
         "CES2026"
+      ]
+    },
+    {
+      "name": "AFOX",
+      "nameEn": "AFOX",
+      "nameZh": "",
+      "url": "",
+      "confIds": [
+        "Computex2025"
       ]
     },
     {
@@ -1197,6 +1566,15 @@
       "url": "https://theagi.company",
       "confIds": [
         "CES2026"
+      ]
+    },
+    {
+      "name": "AGI TECHNOLOGY CO., LTD.",
+      "nameEn": "AGi",
+      "nameZh": "",
+      "url": "",
+      "confIds": [
+        "Computex2025"
       ]
     },
     {
@@ -1284,6 +1662,15 @@
       ]
     },
     {
+      "name": "Ahoku Electronic Company",
+      "nameEn": "AHOKU",
+      "nameZh": "",
+      "url": "",
+      "confIds": [
+        "Computex2025"
+      ]
+    },
+    {
       "name": "AI Collaborator",
       "nameEn": "Aicollaborator",
       "nameZh": "",
@@ -1320,6 +1707,15 @@
       ]
     },
     {
+      "name": "AI TIMES INC",
+      "nameEn": "AI TIMES INC",
+      "nameZh": "",
+      "url": "",
+      "confIds": [
+        "Computex2025"
+      ]
+    },
+    {
       "name": "AI-Tails",
       "nameEn": "Aitails",
       "nameZh": "",
@@ -1347,6 +1743,15 @@
       ]
     },
     {
+      "name": "AIC Inc.",
+      "nameEn": "AIC",
+      "nameZh": "",
+      "url": "",
+      "confIds": [
+        "Computex2025"
+      ]
+    },
+    {
       "name": "AICU Inc.",
       "nameEn": "Aicu",
       "nameZh": "",
@@ -1371,6 +1776,15 @@
       "url": "https://aidall.ai/",
       "confIds": [
         "CES2026"
+      ]
+    },
+    {
+      "name": "AIDATA CORP.LTD.",
+      "nameEn": "aidata",
+      "nameZh": "",
+      "url": "",
+      "confIds": [
+        "Computex2025"
       ]
     },
     {
@@ -1410,6 +1824,15 @@
       ]
     },
     {
+      "name": "AIFA TECHNOLOGY CORP.",
+      "nameEn": "AIFA TECH",
+      "nameZh": "",
+      "url": "",
+      "confIds": [
+        "Computex2025"
+      ]
+    },
+    {
       "name": "aigement",
       "nameEn": "Plynai",
       "nameZh": "",
@@ -1428,12 +1851,39 @@
       ]
     },
     {
+      "name": "AII Max Technology",
+      "nameEn": "AII Max Technology",
+      "nameZh": "",
+      "url": "",
+      "confIds": [
+        "Computex2025"
+      ]
+    },
+    {
+      "name": "AIKUN(CHINA) ELECTRONICS COMPANY LIMITED",
+      "nameEn": "AIKUN",
+      "nameZh": "",
+      "url": "",
+      "confIds": [
+        "Computex2025"
+      ]
+    },
+    {
       "name": "Ailat",
       "nameEn": "Ailat",
       "nameZh": "",
       "url": "https://ailat.kz/",
       "confIds": [
         "GITEX2025"
+      ]
+    },
+    {
+      "name": "AILEEN AGRITECH BIO CO. | LTD.",
+      "nameEn": "AILEEN AGRITECH BIO CO. | LTD.",
+      "nameZh": "",
+      "url": "",
+      "confIds": [
+        "Computex2025"
       ]
     },
     {
@@ -1500,6 +1950,15 @@
       ]
     },
     {
+      "name": "AIO Europe BV",
+      "nameEn": "AIO",
+      "nameZh": "",
+      "url": "",
+      "confIds": [
+        "Computex2025"
+      ]
+    },
+    {
       "name": "aiOla",
       "nameEn": "Aiola",
       "nameZh": "",
@@ -1527,6 +1986,15 @@
       ]
     },
     {
+      "name": "Aiplux Technology Co., Ltd.",
+      "nameEn": "Aiplux Technology Co., Ltd.",
+      "nameZh": "",
+      "url": "",
+      "confIds": [
+        "Computex2025"
+      ]
+    },
+    {
       "name": "AIPS (Advanced Intellectual Processing Systems)",
       "nameEn": "Aips Ai",
       "nameZh": "",
@@ -1542,6 +2010,15 @@
       "url": "https://aiq.ai",
       "confIds": [
         "GITEX2025"
+      ]
+    },
+    {
+      "name": "AiQ Smart Clothing Inc.",
+      "nameEn": "AiQ",
+      "nameZh": "",
+      "url": "",
+      "confIds": [
+        "Computex2025"
       ]
     },
     {
@@ -1590,12 +2067,30 @@
       ]
     },
     {
+      "name": "AirLive Technology Corporation",
+      "nameEn": "AirLive",
+      "nameZh": "",
+      "url": "",
+      "confIds": [
+        "Computex2025"
+      ]
+    },
+    {
       "name": "Airloom Energy",
       "nameEn": "Airloom",
       "nameZh": "",
       "url": "https://www.airloom.energy/",
       "confIds": [
         "CES2026"
+      ]
+    },
+    {
+      "name": "Airoha Technology Corp.",
+      "nameEn": "Airoha Technology Corp.",
+      "nameZh": "",
+      "url": "",
+      "confIds": [
+        "Computex2025"
       ]
     },
     {
@@ -1677,6 +2172,15 @@
       "url": "https://aistorm.ai/",
       "confIds": [
         "CES2026"
+      ]
+    },
+    {
+      "name": "AItewan BioMedical Technology Inc.",
+      "nameEn": "AItewan BioMedical Technology Inc.",
+      "nameZh": "",
+      "url": "",
+      "confIds": [
+        "Computex2025"
       ]
     },
     {
@@ -1803,6 +2307,24 @@
       "url": "https://akari-lcf.com/",
       "confIds": [
         "CES2026"
+      ]
+    },
+    {
+      "name": "Akasa Europe Ltd.",
+      "nameEn": "akasa",
+      "nameZh": "",
+      "url": "",
+      "confIds": [
+        "Computex2025"
+      ]
+    },
+    {
+      "name": "Akeana",
+      "nameEn": "Akeana",
+      "nameZh": "",
+      "url": "",
+      "confIds": [
+        "Computex2025"
       ]
     },
     {
@@ -1959,6 +2481,15 @@
       ]
     },
     {
+      "name": "Alberta Taiwan Office",
+      "nameEn": "Alberta Taiwan Office",
+      "nameZh": "",
+      "url": "",
+      "confIds": [
+        "Computex2025"
+      ]
+    },
+    {
       "name": "Alchem Ltd.",
       "nameEn": "Alchem",
       "nameZh": "",
@@ -2004,6 +2535,15 @@
       ]
     },
     {
+      "name": "ALFA NETWORK INC",
+      "nameEn": "ALFA",
+      "nameZh": "",
+      "url": "",
+      "confIds": [
+        "Computex2025"
+      ]
+    },
+    {
       "name": "ALGBIO",
       "nameEn": "Alg Bio",
       "nameZh": "",
@@ -2019,6 +2559,15 @@
       "url": "https://algebraintelligence.com/",
       "confIds": [
         "GITEX2025"
+      ]
+    },
+    {
+      "name": "ALGO ARTIS CORPORATION",
+      "nameEn": "ALGO ARTIS CORPORATION",
+      "nameZh": "",
+      "url": "",
+      "confIds": [
+        "Computex2025"
       ]
     },
     {
@@ -2100,6 +2649,15 @@
       "url": "https://www.alixpartners.com/",
       "confIds": [
         "CES2026"
+      ]
+    },
+    {
+      "name": "All Best Electronics Co., Ltd.",
+      "nameEn": "All Best Electronics Co., Ltd.",
+      "nameZh": "",
+      "url": "",
+      "confIds": [
+        "Computex2025"
       ]
     },
     {
@@ -2247,6 +2805,15 @@
       ]
     },
     {
+      "name": "Alpenglow Tek",
+      "nameEn": "Alpenglow Tek",
+      "nameZh": "",
+      "url": "",
+      "confIds": [
+        "Computex2025"
+      ]
+    },
+    {
       "name": "ALPES Co., Ltd.",
       "nameEn": "Alpes",
       "nameZh": "",
@@ -2262,6 +2829,24 @@
       "url": "https://www.alpha.ae",
       "confIds": [
         "GITEX2025"
+      ]
+    },
+    {
+      "name": "Alpha Intelligence Manifolds",
+      "nameEn": "Alpha Intelligence Manifolds",
+      "nameZh": "",
+      "url": "",
+      "confIds": [
+        "Computex2025"
+      ]
+    },
+    {
+      "name": "Alphacool International GmbH",
+      "nameEn": "Alphacool",
+      "nameZh": "",
+      "url": "",
+      "confIds": [
+        "Computex2025"
       ]
     },
     {
@@ -2292,6 +2877,15 @@
       ]
     },
     {
+      "name": "Alsemy Inc.",
+      "nameEn": "Alsemy Inc.",
+      "nameZh": "",
+      "url": "",
+      "confIds": [
+        "Computex2025"
+      ]
+    },
+    {
       "name": "Altarqea Co.",
       "nameEn": "Altarqea",
       "nameZh": "",
@@ -2307,6 +2901,15 @@
       "url": "",
       "confIds": [
         "GITEX2025"
+      ]
+    },
+    {
+      "name": "Altek Corporation",
+      "nameEn": "Altek Corporation",
+      "nameZh": "",
+      "url": "",
+      "confIds": [
+        "Computex2025"
       ]
     },
     {
@@ -2364,6 +2967,15 @@
       ]
     },
     {
+      "name": "Amaryllo Inc.",
+      "nameEn": "AMARYLLO,myHPcloud,Soteria",
+      "nameZh": "",
+      "url": "",
+      "confIds": [
+        "Computex2025"
+      ]
+    },
+    {
       "name": "Amass Co., Ltd.",
       "nameEn": "Amass",
       "nameZh": "",
@@ -2379,6 +2991,24 @@
       "url": "https://www.swipevideo.jp/en",
       "confIds": [
         "CES2026"
+      ]
+    },
+    {
+      "name": "AMAX-KY",
+      "nameEn": "AMAX-KY",
+      "nameZh": "",
+      "url": "",
+      "confIds": [
+        "Computex2025"
+      ]
+    },
+    {
+      "name": "AMAZING CHIP SEMICONDUCTOR CORPORATION",
+      "nameEn": "AMAZING CHIP SEMICONDUCTOR CORPORATION",
+      "nameZh": "",
+      "url": "",
+      "confIds": [
+        "Computex2025"
       ]
     },
     {
@@ -2427,6 +3057,15 @@
         "WAIC2025",
         "MWC2025",
         "GITEX2025"
+      ]
+    },
+    {
+      "name": "Ambedded Technology Co., Ltd",
+      "nameEn": "Ambedded Technology",
+      "nameZh": "",
+      "url": "",
+      "confIds": [
+        "Computex2025"
       ]
     },
     {
@@ -2523,6 +3162,15 @@
       ]
     },
     {
+      "name": "Amelio Biomedical Co., Ltd.",
+      "nameEn": "Amelio Biomedical Co., Ltd.",
+      "nameZh": "",
+      "url": "",
+      "confIds": [
+        "Computex2025"
+      ]
+    },
+    {
       "name": "America250.Inc.org",
       "nameEn": "America250",
       "nameZh": "",
@@ -2547,6 +3195,15 @@
       "url": "https://www.amfitrack.com/",
       "confIds": [
         "CES2026"
+      ]
+    },
+    {
+      "name": "AMICCOM Electronics Corporation",
+      "nameEn": "AMICCOM",
+      "nameZh": "",
+      "url": "",
+      "confIds": [
+        "Computex2025"
       ]
     },
     {
@@ -2595,6 +3252,15 @@
       ]
     },
     {
+      "name": "Amphenol",
+      "nameEn": "Amphenol",
+      "nameZh": "",
+      "url": "",
+      "confIds": [
+        "Computex2025"
+      ]
+    },
+    {
       "name": "Amplab inc.",
       "nameEn": "Factoryx",
       "nameZh": "",
@@ -2610,6 +3276,15 @@
       "url": "https://www.ampliconme.com",
       "confIds": [
         "GITEX2025"
+      ]
+    },
+    {
+      "name": "AMPLINK Company Limited",
+      "nameEn": "AMPLINK Company Limited",
+      "nameZh": "",
+      "url": "",
+      "confIds": [
+        "Computex2025"
       ]
     },
     {
@@ -2712,6 +3387,24 @@
       ]
     },
     {
+      "name": "Anchor Film",
+      "nameEn": "Anchor Film",
+      "nameZh": "",
+      "url": "",
+      "confIds": [
+        "Computex2025"
+      ]
+    },
+    {
+      "name": "Andes Technology Corporation",
+      "nameEn": "AndesCore™",
+      "nameZh": "",
+      "url": "",
+      "confIds": [
+        "Computex2025"
+      ]
+    },
+    {
       "name": "Andes Technology晶心科技",
       "nameEn": "",
       "nameZh": "",
@@ -2766,6 +3459,42 @@
       ]
     },
     {
+      "name": "AngkeInfo",
+      "nameEn": "AngkeInfo",
+      "nameZh": "",
+      "url": "",
+      "confIds": [
+        "Computex2025"
+      ]
+    },
+    {
+      "name": "Aniah",
+      "nameEn": "Aniah",
+      "nameZh": "",
+      "url": "",
+      "confIds": [
+        "Computex2025"
+      ]
+    },
+    {
+      "name": "Anivance ai",
+      "nameEn": "Anivance ai",
+      "nameZh": "",
+      "url": "",
+      "confIds": [
+        "Computex2025"
+      ]
+    },
+    {
+      "name": "ANJI JIFANG FURNITURE CO.,LTD",
+      "nameEn": "ANJI JIFANG FURNITURE CO.,LTD",
+      "nameZh": "",
+      "url": "",
+      "confIds": [
+        "Computex2025"
+      ]
+    },
+    {
       "name": "ANKAREF INOVASYON VE TEKNOLOJI A.S.",
       "nameEn": "Ankaref",
       "nameZh": "",
@@ -2781,7 +3510,8 @@
       "url": "https://www.anker.com/",
       "confIds": [
         "CES2026",
-        "IFA2025"
+        "IFA2025",
+        "IFA2026"
       ]
     },
     {
@@ -2800,6 +3530,15 @@
       "url": "https://ankido.iq/",
       "confIds": [
         "GITEX2025"
+      ]
+    },
+    {
+      "name": "AnMo Electronics Corporation",
+      "nameEn": "AnMo, Dino-Lite",
+      "nameZh": "",
+      "url": "",
+      "confIds": [
+        "Computex2025"
       ]
     },
     {
@@ -2866,6 +3605,15 @@
       ]
     },
     {
+      "name": "Antec Inc.",
+      "nameEn": "Antec Inc.",
+      "nameZh": "",
+      "url": "",
+      "confIds": [
+        "Computex2025"
+      ]
+    },
+    {
       "name": "Antenova",
       "nameEn": "Antenova",
       "nameZh": "",
@@ -2920,6 +3668,15 @@
       ]
     },
     {
+      "name": "AnXpert Advanced Co., Ltd.",
+      "nameEn": "Ansys",
+      "nameZh": "",
+      "url": "",
+      "confIds": [
+        "Computex2025"
+      ]
+    },
+    {
       "name": "Any-Edge Inc.",
       "nameEn": "Viamonte1114",
       "nameZh": "",
@@ -2947,12 +3704,39 @@
       ]
     },
     {
+      "name": "AON3D",
+      "nameEn": "AON3D",
+      "nameZh": "",
+      "url": "",
+      "confIds": [
+        "Computex2025"
+      ]
+    },
+    {
       "name": "AOZ",
       "nameEn": "Global",
       "nameZh": "AOZ",
       "url": "https://global.szaoz.com",
       "confIds": [
         "GITEX2025"
+      ]
+    },
+    {
+      "name": "Apacer Technology Inc.",
+      "nameEn": "Apacer,宇瞻",
+      "nameZh": "",
+      "url": "",
+      "confIds": [
+        "Computex2025"
+      ]
+    },
+    {
+      "name": "APALTEK CO.,LTD.",
+      "nameEn": "APALTEK",
+      "nameZh": "",
+      "url": "",
+      "confIds": [
+        "Computex2025"
       ]
     },
     {
@@ -2965,12 +3749,48 @@
       ]
     },
     {
+      "name": "Apeer Square Technologies",
+      "nameEn": "Apeer Square Technologies, Apeer², Apr2",
+      "nameZh": "",
+      "url": "",
+      "confIds": [
+        "Computex2025"
+      ]
+    },
+    {
       "name": "Apeer2",
       "nameEn": "Apeer2",
       "nameZh": "",
       "url": "https://apeer2.com",
       "confIds": [
         "CES2026"
+      ]
+    },
+    {
+      "name": "ApertureData",
+      "nameEn": "ApertureData",
+      "nameZh": "",
+      "url": "",
+      "confIds": [
+        "Computex2025"
+      ]
+    },
+    {
+      "name": "Apex Material Technology Corp.",
+      "nameEn": "AMT",
+      "nameZh": "",
+      "url": "",
+      "confIds": [
+        "Computex2025"
+      ]
+    },
+    {
+      "name": "APEX Precision Technology Corp.",
+      "nameEn": "Metal Circular Connector Series,Waterproof Connector Series,Mil-spec Connector Series",
+      "nameZh": "",
+      "url": "",
+      "confIds": [
+        "Computex2025"
       ]
     },
     {
@@ -2989,6 +3809,42 @@
       "url": "https://apla.co.kr/",
       "confIds": [
         "CES2026"
+      ]
+    },
+    {
+      "name": "APLEX Technology Inc.",
+      "nameEn": "APLEX,ADOTEC",
+      "nameZh": "",
+      "url": "",
+      "confIds": [
+        "Computex2025"
+      ]
+    },
+    {
+      "name": "APLUS POWER CORP.",
+      "nameEn": "APLUS",
+      "nameZh": "",
+      "url": "",
+      "confIds": [
+        "Computex2025"
+      ]
+    },
+    {
+      "name": "APO International Co., Ltd.",
+      "nameEn": "OXOPO,APOG",
+      "nameZh": "",
+      "url": "",
+      "confIds": [
+        "Computex2025"
+      ]
+    },
+    {
+      "name": "APOLLO ELECTRONICS CO., LTD.",
+      "nameEn": "APOLLO ELECTRONICS CO., LTD.",
+      "nameZh": "",
+      "url": "",
+      "confIds": [
+        "Computex2025"
       ]
     },
     {
@@ -3118,13 +3974,23 @@
       ]
     },
     {
+      "name": "AptObject Corporation",
+      "nameEn": "AptBee",
+      "nameZh": "",
+      "url": "",
+      "confIds": [
+        "Computex2025"
+      ]
+    },
+    {
       "name": "Aqara LLC",
       "nameEn": "Aqara",
       "nameZh": "",
       "url": "https://www.aqara.com",
       "confIds": [
         "CES2026",
-        "IFA2025"
+        "IFA2025",
+        "IFA2026"
       ]
     },
     {
@@ -3152,6 +4018,15 @@
       "url": "https://aquilai.io/",
       "confIds": [
         "GITEX2025"
+      ]
+    },
+    {
+      "name": "AQUIVIO Co. |Ltd",
+      "nameEn": "AQUIVIO Co. |Ltd",
+      "nameZh": "",
+      "url": "",
+      "confIds": [
+        "Computex2025"
       ]
     },
     {
@@ -3210,12 +4085,30 @@
       ]
     },
     {
+      "name": "ARaymond",
+      "nameEn": "ARaymond",
+      "nameZh": "",
+      "url": "",
+      "confIds": [
+        "Computex2025"
+      ]
+    },
+    {
       "name": "Arbe",
       "nameEn": "Arberobotics",
       "nameZh": "",
       "url": "https://arberobotics.com/",
       "confIds": [
         "CES2026"
+      ]
+    },
+    {
+      "name": "ARBOR Technology Corp.",
+      "nameEn": "ARBOR,AMobile",
+      "nameZh": "",
+      "url": "",
+      "confIds": [
+        "Computex2025"
       ]
     },
     {
@@ -3273,12 +4166,30 @@
       ]
     },
     {
+      "name": "ARCTIC GmbH",
+      "nameEn": "ARCTIC",
+      "nameZh": "",
+      "url": "",
+      "confIds": [
+        "Computex2025"
+      ]
+    },
+    {
       "name": "ARDGE",
       "nameEn": "Ardge",
       "nameZh": "ARDGE",
       "url": "https://www.ardge.com/",
       "confIds": [
         "CES2026"
+      ]
+    },
+    {
+      "name": "ARDGE Inc.",
+      "nameEn": "ARDGE Inc.",
+      "nameZh": "",
+      "url": "",
+      "confIds": [
+        "Computex2025"
       ]
     },
     {
@@ -3291,12 +4202,39 @@
       ]
     },
     {
+      "name": "AREA T886 LTD.",
+      "nameEn": "AREA T886 LTD.",
+      "nameZh": "",
+      "url": "",
+      "confIds": [
+        "Computex2025"
+      ]
+    },
+    {
+      "name": "Areca Technology Corporation",
+      "nameEn": "ARECA",
+      "nameZh": "",
+      "url": "",
+      "confIds": [
+        "Computex2025"
+      ]
+    },
+    {
       "name": "Areen Solutions (Areen Tech",
       "nameEn": "Areentech",
       "nameZh": "",
       "url": "https://www.areentech.co/",
       "confIds": [
         "GITEX2025"
+      ]
+    },
+    {
+      "name": "Arestech Solution Inc.",
+      "nameEn": "Arestech,兆雲智能",
+      "nameZh": "",
+      "url": "",
+      "confIds": [
+        "Computex2025"
       ]
     },
     {
@@ -3333,6 +4271,15 @@
       "url": "https://aria.mgmresorts.com/",
       "confIds": [
         "CES2026"
+      ]
+    },
+    {
+      "name": "ARIESYS TECHNOLOGY Co., LTD.",
+      "nameEn": "ARIESYS TECHNOLOGY Co., LTD.",
+      "nameZh": "",
+      "url": "",
+      "confIds": [
+        "Computex2025"
       ]
     },
     {
@@ -3399,6 +4346,15 @@
       ]
     },
     {
+      "name": "ARKTEK Technology Co., Limited",
+      "nameEn": "ARKTEK",
+      "nameZh": "",
+      "url": "",
+      "confIds": [
+        "Computex2025"
+      ]
+    },
+    {
       "name": "ARLAN BIOTECH, Inc.",
       "nameEn": "Arlanbiotech",
       "nameZh": "",
@@ -3427,6 +4383,15 @@
         "MWC2025",
         "Computex2025",
         "GITEX2025"
+      ]
+    },
+    {
+      "name": "ARMCo Lab",
+      "nameEn": "ARMCo Lab",
+      "nameZh": "",
+      "url": "",
+      "confIds": [
+        "Computex2025"
       ]
     },
     {
@@ -3664,12 +4629,30 @@
       ]
     },
     {
+      "name": "Ashinne Technology Co., Ltd.",
+      "nameEn": "Ashinne Technology Co., Ltd.",
+      "nameZh": "",
+      "url": "",
+      "confIds": [
+        "Computex2025"
+      ]
+    },
+    {
       "name": "Asian Leaders Association",
       "nameEn": "Asian Eca",
       "nameZh": "",
       "url": "https://www.asian-eca.org/",
       "confIds": [
         "CES2026"
+      ]
+    },
+    {
+      "name": "AsiaRF Co. Ltd.",
+      "nameEn": "AsiaRF",
+      "nameZh": "",
+      "url": "",
+      "confIds": [
+        "Computex2025"
       ]
     },
     {
@@ -3709,6 +4692,24 @@
       ]
     },
     {
+      "name": "ASON INNOVATION",
+      "nameEn": "ASON INNOVATION",
+      "nameZh": "",
+      "url": "",
+      "confIds": [
+        "Computex2025"
+      ]
+    },
+    {
+      "name": "ASPEED Technology Inc.",
+      "nameEn": "ASPEED,Cupola360",
+      "nameZh": "",
+      "url": "",
+      "confIds": [
+        "Computex2025"
+      ]
+    },
+    {
       "name": "Aspeed Technology亚斯朋",
       "nameEn": "",
       "nameZh": "",
@@ -3736,10 +4737,28 @@
       ]
     },
     {
+      "name": "ASRock Inc.",
+      "nameEn": "ASRock,ASRockRack,ASRock Industrial,ASJade Tech",
+      "nameZh": "",
+      "url": "",
+      "confIds": [
+        "Computex2025"
+      ]
+    },
+    {
       "name": "ASRock华擎",
       "nameEn": "",
       "nameZh": "",
       "url": "https://www.asrock.com",
+      "confIds": [
+        "Computex2025"
+      ]
+    },
+    {
+      "name": "ASSIGN Inc.",
+      "nameEn": "ASSIGN Inc.",
+      "nameZh": "",
+      "url": "",
       "confIds": [
         "Computex2025"
       ]
@@ -3839,6 +4858,33 @@
       ]
     },
     {
+      "name": "ASUS TECHNOLOGY INC.",
+      "nameEn": "ASUS",
+      "nameZh": "",
+      "url": "",
+      "confIds": [
+        "Computex2025"
+      ]
+    },
+    {
+      "name": "ASUSTeK Computer Inc.",
+      "nameEn": "ASUSTeK Computer Inc.",
+      "nameZh": "",
+      "url": "",
+      "confIds": [
+        "Computex2025"
+      ]
+    },
+    {
+      "name": "ASUSTOR Inc.",
+      "nameEn": "ASUSTOR",
+      "nameZh": "",
+      "url": "",
+      "confIds": [
+        "Computex2025"
+      ]
+    },
+    {
       "name": "Asustor华芸",
       "nameEn": "",
       "nameZh": "",
@@ -3929,12 +4975,30 @@
       ]
     },
     {
+      "name": "ATEN INTERNATIONAL CO., LTD.",
+      "nameEn": "ATEN",
+      "nameZh": "",
+      "url": "",
+      "confIds": [
+        "Computex2025"
+      ]
+    },
+    {
       "name": "Atitan Inc.",
       "nameEn": "Atitan",
       "nameZh": "",
       "url": "https://atitan.tech",
       "confIds": [
         "CES2026"
+      ]
+    },
+    {
+      "name": "ATK GEAR GLOBAL LIMITED",
+      "nameEn": "ATK GEAR GLOBAL LIMITED",
+      "nameZh": "",
+      "url": "",
+      "confIds": [
+        "Computex2025"
       ]
     },
     {
@@ -3992,6 +5056,24 @@
       ]
     },
     {
+      "name": "Atomrock, LLC.",
+      "nameEn": "Atomrock, VisionSense",
+      "nameZh": "",
+      "url": "",
+      "confIds": [
+        "Computex2025"
+      ]
+    },
+    {
+      "name": "ATP Electronics, Inc.",
+      "nameEn": "ATP Electronics, Inc.",
+      "nameZh": "",
+      "url": "",
+      "confIds": [
+        "Computex2025"
+      ]
+    },
+    {
       "name": "ATSC",
       "nameEn": "Atsc",
       "nameZh": "",
@@ -4025,6 +5107,15 @@
       "url": "https://www.atticlab.kr",
       "confIds": [
         "CES2026"
+      ]
+    },
+    {
+      "name": "ATW TECHNOLOGY INC.",
+      "nameEn": "ATW,LOOPCOMM",
+      "nameZh": "",
+      "url": "",
+      "confIds": [
+        "Computex2025"
       ]
     },
     {
@@ -4124,7 +5215,8 @@
       "nameZh": "",
       "url": "https://august.com",
       "confIds": [
-        "IFA2025"
+        "IFA2025",
+        "IFA2026"
       ]
     },
     {
@@ -4156,6 +5248,15 @@
       ]
     },
     {
+      "name": "AUO Display Plus Corporation",
+      "nameEn": "AUO Display Plus Corporation",
+      "nameZh": "",
+      "url": "",
+      "confIds": [
+        "Computex2025"
+      ]
+    },
+    {
       "name": "Aura Bilisim",
       "nameEn": "Lophius",
       "nameZh": "",
@@ -4171,6 +5272,15 @@
       "url": "https://www.aura.company/",
       "confIds": [
         "CES2026"
+      ]
+    },
+    {
+      "name": "AURAS Technology Co., Ltd.",
+      "nameEn": "AURAS",
+      "nameZh": "",
+      "url": "",
+      "confIds": [
+        "Computex2025"
       ]
     },
     {
@@ -4327,12 +5437,39 @@
       ]
     },
     {
+      "name": "AVC Industrial Corp.",
+      "nameEn": "AVC,全冠",
+      "nameZh": "",
+      "url": "",
+      "confIds": [
+        "Computex2025"
+      ]
+    },
+    {
+      "name": "AVEMA TECHNOLOGY CO., LTD.",
+      "nameEn": "AVEMA TECHNOLOGY CO., LTD.",
+      "nameZh": "",
+      "url": "",
+      "confIds": [
+        "Computex2025"
+      ]
+    },
+    {
       "name": "AVEPOINT GULF DMCC",
       "nameEn": "Avepoint",
       "nameZh": "",
       "url": "https://www.avepoint.com/",
       "confIds": [
         "GITEX2025"
+      ]
+    },
+    {
+      "name": "AVerMedia Technologies, Inc.",
+      "nameEn": "AVerMedia,圓剛",
+      "nameZh": "",
+      "url": "",
+      "confIds": [
+        "Computex2025"
       ]
     },
     {
@@ -4418,6 +5555,15 @@
       ]
     },
     {
+      "name": "AWAREK",
+      "nameEn": "AWAREK",
+      "nameZh": "",
+      "url": "",
+      "confIds": [
+        "Computex2025"
+      ]
+    },
+    {
       "name": "Awesome Lab Co.,Ltd.",
       "nameEn": "Awesome",
       "nameZh": "",
@@ -4433,6 +5579,15 @@
       "url": "https://www.getgrob.com",
       "confIds": [
         "CES2026"
+      ]
+    },
+    {
+      "name": "AWL - Electricity",
+      "nameEn": "AWL - Electricity",
+      "nameZh": "",
+      "url": "",
+      "confIds": [
+        "Computex2025"
       ]
     },
     {
@@ -4455,6 +5610,15 @@
       ]
     },
     {
+      "name": "Axelera AI",
+      "nameEn": "Metis AI Platform",
+      "nameZh": "",
+      "url": "",
+      "confIds": [
+        "Computex2025"
+      ]
+    },
+    {
       "name": "AxEnd, Inc.",
       "nameEn": "Ax End",
       "nameZh": "",
@@ -4470,6 +5634,15 @@
       "url": "https://axessoftware.com/",
       "confIds": [
         "GITEX2025"
+      ]
+    },
+    {
+      "name": "Axiado Corporation",
+      "nameEn": "Axiado Corporation",
+      "nameZh": "",
+      "url": "",
+      "confIds": [
+        "Computex2025"
       ]
     },
     {
@@ -4543,6 +5716,15 @@
       "url": "https://www.weighing.in",
       "confIds": [
         "GITEX2025"
+      ]
+    },
+    {
+      "name": "Axle International Holding Limited",
+      "nameEn": "AXLE",
+      "nameZh": "",
+      "url": "",
+      "confIds": [
+        "Computex2025"
       ]
     },
     {
@@ -4943,6 +6125,15 @@
       ]
     },
     {
+      "name": "Bederly Company Limited",
+      "nameEn": "Bederly Company Limited",
+      "nameZh": "",
+      "url": "",
+      "confIds": [
+        "Computex2025"
+      ]
+    },
+    {
       "name": "Beep Finance Srl",
       "nameEn": "Beep",
       "nameZh": "",
@@ -5012,6 +6203,33 @@
       "url": "https://beilab.ai/",
       "confIds": [
         "CES2026"
+      ]
+    },
+    {
+      "name": "BeiJing Jinhengtengwei Kejian Commercial and Trading Co., Ltd.",
+      "nameEn": "BeiJing Jinhengtengwei Kejian Commercial and Trading Co., Ltd.",
+      "nameZh": "",
+      "url": "",
+      "confIds": [
+        "Computex2025"
+      ]
+    },
+    {
+      "name": "Beijing Ocypus Technology Co.,Ltd.",
+      "nameEn": "Beijing Ocypus Technology Co.,Ltd.",
+      "nameZh": "",
+      "url": "",
+      "confIds": [
+        "Computex2025"
+      ]
+    },
+    {
+      "name": "Beijing Spirit Technology Development Co., Ltd.",
+      "nameEn": "Beijing Spirit Technology Development Co., Ltd.",
+      "nameZh": "",
+      "url": "",
+      "confIds": [
+        "Computex2025"
       ]
     },
     {
@@ -5457,6 +6675,15 @@
       ]
     },
     {
+      "name": "BIWIN STORAGE TECHNOLOGY CO., LTD.",
+      "nameEn": "BIWIN STORAGE TECHNOLOGY CO., LTD.",
+      "nameZh": "",
+      "url": "",
+      "confIds": [
+        "Computex2025"
+      ]
+    },
+    {
       "name": "BIXOLON CO., LTD.",
       "nameEn": "Bixolon",
       "nameZh": "",
@@ -5763,6 +6990,15 @@
       ]
     },
     {
+      "name": "BOMARE COMPANY SARL",
+      "nameEn": "STREAM",
+      "nameZh": "",
+      "url": "",
+      "confIds": [
+        "Computex2025"
+      ]
+    },
+    {
       "name": "BOOPRO TECHNOLOGY DOO",
       "nameEn": "Boopro",
       "nameZh": "",
@@ -5814,7 +7050,8 @@
       "nameZh": "",
       "url": "https://www.bosch-home.com",
       "confIds": [
-        "IFA2025"
+        "IFA2025",
+        "IFA2026"
       ]
     },
     {
@@ -5906,6 +7143,15 @@
       "url": "https://www.bowerusa.com",
       "confIds": [
         "CES2026"
+      ]
+    },
+    {
+      "name": "Bowers (XIAMEN) Technology Co., Ltd.",
+      "nameEn": "Bowers",
+      "nameZh": "",
+      "url": "",
+      "confIds": [
+        "Computex2025"
       ]
     },
     {
@@ -6360,12 +7606,30 @@
       ]
     },
     {
+      "name": "Busan-Jinhae Free Economic Zone",
+      "nameEn": "Busan-Jinhae Free Economic Zone",
+      "nameZh": "",
+      "url": "",
+      "confIds": [
+        "Computex2025"
+      ]
+    },
+    {
       "name": "BUSINESS EXPERTS M E A L.L.C",
       "nameEn": "Bemea",
       "nameZh": "",
       "url": "https://www.bemea.com/",
       "confIds": [
         "GITEX2025"
+      ]
+    },
+    {
+      "name": "Business France",
+      "nameEn": "Business France",
+      "nameZh": "",
+      "url": "",
+      "confIds": [
+        "Computex2025"
       ]
     },
     {
@@ -6423,12 +7687,30 @@
       ]
     },
     {
+      "name": "BWAVE Inc.",
+      "nameEn": "BWAVE Inc.",
+      "nameZh": "",
+      "url": "",
+      "confIds": [
+        "Computex2025"
+      ]
+    },
+    {
       "name": "BYOME LABS",
       "nameEn": "Byomelabs",
       "nameZh": "",
       "url": "https://byomelabs.com",
       "confIds": [
         "CES2026"
+      ]
+    },
+    {
+      "name": "BYOND ASIA TECH LTD",
+      "nameEn": "Byond Asia, HoloMe",
+      "nameZh": "",
+      "url": "",
+      "confIds": [
+        "Computex2025"
       ]
     },
     {
@@ -6558,6 +7840,15 @@
       "url": "https://www.cadent.com",
       "confIds": [
         "CES2026"
+      ]
+    },
+    {
+      "name": "Caesarea Labs",
+      "nameEn": "Caesarea Labs",
+      "nameZh": "",
+      "url": "",
+      "confIds": [
+        "Computex2025"
       ]
     },
     {
@@ -6912,6 +8203,15 @@
       ]
     },
     {
+      "name": "Castrol (Taiwan) Limited",
+      "nameEn": "Castrol (Taiwan) Limited",
+      "nameZh": "",
+      "url": "",
+      "confIds": [
+        "Computex2025"
+      ]
+    },
+    {
       "name": "Catana Corporation",
       "nameEn": "Catana",
       "nameZh": "",
@@ -6993,12 +8293,30 @@
       ]
     },
     {
+      "name": "CEJN Products Far East Pte Ltd – Taiwan Branch",
+      "nameEn": "CEJN",
+      "nameZh": "",
+      "url": "",
+      "confIds": [
+        "Computex2025"
+      ]
+    },
+    {
       "name": "Celebal Technologies",
       "nameEn": "Celebaltech",
       "nameZh": "",
       "url": "https://celebaltech.com/",
       "confIds": [
         "GITEX2025"
+      ]
+    },
+    {
+      "name": "Celestia Energy",
+      "nameEn": "Celestia Energy",
+      "nameZh": "",
+      "url": "",
+      "confIds": [
+        "Computex2025"
       ]
     },
     {
@@ -7407,12 +8725,30 @@
       ]
     },
     {
+      "name": "Chipsea Technologies (Shenzhen) Corp.",
+      "nameEn": "chipsea",
+      "nameZh": "",
+      "url": "",
+      "confIds": [
+        "Computex2025"
+      ]
+    },
+    {
       "name": "Chois Technology Co., Ltd.",
       "nameEn": "Thermosafer",
       "nameZh": "",
       "url": "https://www.thermosafer.com",
       "confIds": [
         "CES2026"
+      ]
+    },
+    {
+      "name": "Chongqing BOE Smart Electronic Systems Co., Ltd.",
+      "nameEn": "Chongqing BOE Smart Electronic Systems Co., Ltd.",
+      "nameZh": "",
+      "url": "",
+      "confIds": [
+        "Computex2025"
       ]
     },
     {
@@ -7494,6 +8830,15 @@
       "url": "https://www.circuli-ion.com/",
       "confIds": [
         "GITEX2025"
+      ]
+    },
+    {
+      "name": "Circulus, Inc.",
+      "nameEn": "Circulus, Inc.",
+      "nameZh": "",
+      "url": "",
+      "confIds": [
+        "Computex2025"
       ]
     },
     {
@@ -7722,6 +9067,15 @@
       ]
     },
     {
+      "name": "Clickgaming Distribution Group Sdn. Bhd.",
+      "nameEn": "TTRacing",
+      "nameZh": "",
+      "url": "",
+      "confIds": [
+        "Computex2025"
+      ]
+    },
+    {
       "name": "CLICKHOUSE",
       "nameEn": "Clickhouse",
       "nameZh": "",
@@ -7791,6 +9145,15 @@
       "url": "https://www.clouddfn.com",
       "confIds": [
         "GITEX2025"
+      ]
+    },
+    {
+      "name": "CLOUDENGINE DIGITAL PTE LTD",
+      "nameEn": "CLOUDENGINE DIGITAL PTE LTD",
+      "nameZh": "",
+      "url": "",
+      "confIds": [
+        "Computex2025"
       ]
     },
     {
@@ -8029,6 +9392,15 @@
       ]
     },
     {
+      "name": "CodeTrace",
+      "nameEn": "CodeTrace",
+      "nameZh": "",
+      "url": "",
+      "confIds": [
+        "Computex2025"
+      ]
+    },
+    {
       "name": "Codetrade India Pvt. Ltd",
       "nameEn": "Codetrade",
       "nameZh": "",
@@ -8101,6 +9473,15 @@
       ]
     },
     {
+      "name": "Colder Products Company",
+      "nameEn": "CPC",
+      "nameZh": "",
+      "url": "",
+      "confIds": [
+        "Computex2025"
+      ]
+    },
+    {
       "name": "COLDRAW Inc.",
       "nameEn": "Coldraw",
       "nameZh": "",
@@ -8152,6 +9533,15 @@
       "url": "https://www.comify.io",
       "confIds": [
         "GITEX2025"
+      ]
+    },
+    {
+      "name": "COMINO",
+      "nameEn": "COMINO",
+      "nameZh": "",
+      "url": "",
+      "confIds": [
+        "Computex2025"
       ]
     },
     {
@@ -8318,6 +9708,15 @@
       ]
     },
     {
+      "name": "COMPUTEX TAIPEI",
+      "nameEn": "COMPUTEX TAIPEI",
+      "nameZh": "",
+      "url": "",
+      "confIds": [
+        "Computex2025"
+      ]
+    },
+    {
       "name": "Comscore",
       "nameEn": "Comscore",
       "nameZh": "",
@@ -8417,6 +9816,15 @@
       ]
     },
     {
+      "name": "ConnectX Co Ltd",
+      "nameEn": "ConnectX Co Ltd",
+      "nameZh": "",
+      "url": "",
+      "confIds": [
+        "Computex2025"
+      ]
+    },
+    {
       "name": "Conportlab",
       "nameEn": "En",
       "nameZh": "",
@@ -8453,12 +9861,30 @@
       ]
     },
     {
+      "name": "CONSUSS CORPORATION",
+      "nameEn": "Consuss",
+      "nameZh": "",
+      "url": "",
+      "confIds": [
+        "Computex2025"
+      ]
+    },
+    {
       "name": "Contact Advisory Services",
       "nameEn": "Contact",
       "nameZh": "",
       "url": "https://www.contact.com.mt/",
       "confIds": [
         "GITEX2025"
+      ]
+    },
+    {
+      "name": "Continental",
+      "nameEn": "Continental",
+      "nameZh": "",
+      "url": "",
+      "confIds": [
+        "Computex2025"
       ]
     },
     {
@@ -8563,6 +9989,15 @@
       ]
     },
     {
+      "name": "CORETECH Co. |LTD",
+      "nameEn": "CORETECH Co. |LTD",
+      "nameZh": "",
+      "url": "",
+      "confIds": [
+        "Computex2025"
+      ]
+    },
+    {
       "name": "Coretronic中强光电",
       "nameEn": "",
       "nameZh": "",
@@ -8660,6 +10095,15 @@
       "url": "",
       "confIds": [
         "CES2026"
+      ]
+    },
+    {
+      "name": "COSMOS LAB",
+      "nameEn": "COSMOS LAB",
+      "nameZh": "",
+      "url": "",
+      "confIds": [
+        "Computex2025"
       ]
     },
     {
@@ -8858,6 +10302,15 @@
       "url": "https://www.crosleyradio.com/",
       "confIds": [
         "CES2026"
+      ]
+    },
+    {
+      "name": "Crosscosmos Co,.Ltd.",
+      "nameEn": "Crosscosmos Co,.Ltd.",
+      "nameZh": "",
+      "url": "",
+      "confIds": [
+        "Computex2025"
       ]
     },
     {
@@ -9240,6 +10693,15 @@
       ]
     },
     {
+      "name": "CzechInvest: Investment and Business Development Agency",
+      "nameEn": "CzechInvest: Investment and Business Development Agency",
+      "nameZh": "",
+      "url": "",
+      "confIds": [
+        "Computex2025"
+      ]
+    },
+    {
       "name": "D TECH BULUT BILISIM ANONIM SIRKETI",
       "nameEn": "Dtechcloud",
       "nameZh": "",
@@ -9310,6 +10772,15 @@
       "url": "http://www.dabinwatec.co.kr",
       "confIds": [
         "CES2026"
+      ]
+    },
+    {
+      "name": "Daegu-Gyeongbuk Free Economic Zone",
+      "nameEn": "Daegu-Gyeongbuk Free Economic Zone",
+      "nameZh": "",
+      "url": "",
+      "confIds": [
+        "Computex2025"
       ]
     },
     {
@@ -9394,6 +10865,24 @@
       ]
     },
     {
+      "name": "Damo (Shanghai) Technology Co., Ltd.",
+      "nameEn": "XuanTie",
+      "nameZh": "",
+      "url": "",
+      "confIds": [
+        "Computex2025"
+      ]
+    },
+    {
+      "name": "Danfoss Power Solutions",
+      "nameEn": "Danfoss Hansen®, Boston by Danfoss Royal™",
+      "nameZh": "",
+      "url": "",
+      "confIds": [
+        "Computex2025"
+      ]
+    },
+    {
       "name": "DANUSYS Co., Ltd.",
       "nameEn": "Danusys",
       "nameZh": "",
@@ -9403,12 +10892,30 @@
       ]
     },
     {
+      "name": "DaoAI",
+      "nameEn": "DaoAI",
+      "nameZh": "",
+      "url": "",
+      "confIds": [
+        "Computex2025"
+      ]
+    },
+    {
       "name": "DAON C&T Co.,Ltd",
       "nameEn": "U Cube",
       "nameZh": "",
       "url": "https://www.u-cube.kr",
       "confIds": [
         "GITEX2025"
+      ]
+    },
+    {
+      "name": "DapuStor PTE. LTD.",
+      "nameEn": "DapuStor PTE. LTD.",
+      "nameZh": "",
+      "url": "",
+      "confIds": [
+        "Computex2025"
       ]
     },
     {
@@ -9472,6 +10979,15 @@
       "url": "https://www.dasiwave.com/",
       "confIds": [
         "CES2026"
+      ]
+    },
+    {
+      "name": "Dassault Systèmes",
+      "nameEn": "Dassault Systemes",
+      "nameZh": "",
+      "url": "",
+      "confIds": [
+        "Computex2025"
       ]
     },
     {
@@ -9853,6 +11369,15 @@
       ]
     },
     {
+      "name": "DEEMMI PET CO., LTD.",
+      "nameEn": "DEEMMI PET CO., LTD.",
+      "nameZh": "",
+      "url": "",
+      "confIds": [
+        "Computex2025"
+      ]
+    },
+    {
       "name": "Deep Care US Inc.",
       "nameEn": "Deep Care",
       "nameZh": "",
@@ -9912,6 +11437,24 @@
       "nameEn": "",
       "nameZh": "",
       "url": "https://deepcomputing.io",
+      "confIds": [
+        "Computex2025"
+      ]
+    },
+    {
+      "name": "DeepComputing",
+      "nameEn": "DeepComputing",
+      "nameZh": "",
+      "url": "",
+      "confIds": [
+        "Computex2025"
+      ]
+    },
+    {
+      "name": "DeepCool",
+      "nameEn": ",,",
+      "nameZh": "",
+      "url": "",
       "confIds": [
         "Computex2025"
       ]
@@ -10017,6 +11560,15 @@
       ]
     },
     {
+      "name": "DEEPX",
+      "nameEn": "DEEPX",
+      "nameZh": "",
+      "url": "",
+      "confIds": [
+        "Computex2025"
+      ]
+    },
+    {
       "name": "Deglace",
       "nameEn": "Deglace",
       "nameZh": "",
@@ -10056,6 +11608,15 @@
       ]
     },
     {
+      "name": "Dell Technologies",
+      "nameEn": "Dell",
+      "nameZh": "",
+      "url": "",
+      "confIds": [
+        "Computex2025"
+      ]
+    },
+    {
       "name": "Deloitte",
       "nameEn": "Deloitte",
       "nameZh": "",
@@ -10063,6 +11624,15 @@
       "confIds": [
         "CES2026",
         "GITEX2025"
+      ]
+    },
+    {
+      "name": "Delos Data",
+      "nameEn": "Delos Data",
+      "nameZh": "",
+      "url": "",
+      "confIds": [
+        "Computex2025"
       ]
     },
     {
@@ -10462,6 +12032,15 @@
       ]
     },
     {
+      "name": "Diden Robotics",
+      "nameEn": "Diden Robotics",
+      "nameZh": "",
+      "url": "",
+      "confIds": [
+        "Computex2025"
+      ]
+    },
+    {
       "name": "DIFC Courts",
       "nameEn": "Difccourts",
       "nameZh": "",
@@ -10786,6 +12365,15 @@
       ]
     },
     {
+      "name": "DKE (Longning) Company Limited",
+      "nameEn": "東方科脈",
+      "nameZh": "",
+      "url": "",
+      "confIds": [
+        "Computex2025"
+      ]
+    },
+    {
       "name": "DLS Technology Corporation",
       "nameEn": "Dlstech",
       "nameZh": "",
@@ -10928,6 +12516,249 @@
       "url": "https://dolphin-semiconductor.com/",
       "confIds": [
         "CES2026"
+      ]
+    },
+    {
+      "name": "Dong Guan Ming Wang Electronic Co., LTD",
+      "nameEn": "Dong Guan Ming Wang Electronic Co., LTD",
+      "nameZh": "",
+      "url": "",
+      "confIds": [
+        "Computex2025"
+      ]
+    },
+    {
+      "name": "Dongguan Aimax Innovation Co., Ltd.",
+      "nameEn": "Dongguan Aimax Innovation Co., Ltd.",
+      "nameZh": "",
+      "url": "",
+      "confIds": [
+        "Computex2025"
+      ]
+    },
+    {
+      "name": "Dongguan Baoye Optical Co., Ltd",
+      "nameEn": "Dongguan Baoye Optical Co., Ltd",
+      "nameZh": "",
+      "url": "",
+      "confIds": [
+        "Computex2025"
+      ]
+    },
+    {
+      "name": "DONGGUAN CITY HANSHUO PLASTIC CO., LTD.",
+      "nameEn": "DONGGUAN CITY HANSHUO PLASTIC CO., LTD.",
+      "nameZh": "",
+      "url": "",
+      "confIds": [
+        "Computex2025"
+      ]
+    },
+    {
+      "name": "Dongguan City Kaihua Electronics Co., Ltd.",
+      "nameEn": "Dongguan City Kaihua Electronics Co., Ltd.",
+      "nameZh": "",
+      "url": "",
+      "confIds": [
+        "Computex2025"
+      ]
+    },
+    {
+      "name": "Dongguan Couso Technology Co.LTD.",
+      "nameEn": "Dongguan Couso Technology Co.LTD.",
+      "nameZh": "",
+      "url": "",
+      "confIds": [
+        "Computex2025"
+      ]
+    },
+    {
+      "name": "Dongguan Dongsong Smartlink Technology Co., Ltd.",
+      "nameEn": "Dongguan Dongsong Smartlink Technology Co., Ltd.",
+      "nameZh": "",
+      "url": "",
+      "confIds": [
+        "Computex2025"
+      ]
+    },
+    {
+      "name": "Dongguan Eontec Co., Ltd.",
+      "nameEn": "EONTEC",
+      "nameZh": "",
+      "url": "",
+      "confIds": [
+        "Computex2025"
+      ]
+    },
+    {
+      "name": "Dongguan EWIN Technology Co., Ltd",
+      "nameEn": "EWIN",
+      "nameZh": "",
+      "url": "",
+      "confIds": [
+        "Computex2025"
+      ]
+    },
+    {
+      "name": "Dongguan FL.Esports Electronics Co., Ltd.",
+      "nameEn": "FL ESPORTS",
+      "nameZh": "",
+      "url": "",
+      "confIds": [
+        "Computex2025"
+      ]
+    },
+    {
+      "name": "Dongguan Gaote Electronic Co , Ltd",
+      "nameEn": "Dongguan Gaote Electronic Co , Ltd",
+      "nameZh": "",
+      "url": "",
+      "confIds": [
+        "Computex2025"
+      ]
+    },
+    {
+      "name": "Dongguan Huaming Teng Technology Co., Ltd",
+      "nameEn": "Dongguan Huaming Teng Technology Co., Ltd",
+      "nameZh": "",
+      "url": "",
+      "confIds": [
+        "Computex2025"
+      ]
+    },
+    {
+      "name": "DONGGUAN IPRODA TECHNOLOGY CO., LTD",
+      "nameEn": "DONGGUAN IPRODA TECHNOLOGY CO., LTD",
+      "nameZh": "",
+      "url": "",
+      "confIds": [
+        "Computex2025"
+      ]
+    },
+    {
+      "name": "Dongguan Jimfuk Smart Glass Co., Ltd.",
+      "nameEn": "Dongguan Jimfuk Smart Glass Co., Ltd.",
+      "nameZh": "",
+      "url": "",
+      "confIds": [
+        "Computex2025"
+      ]
+    },
+    {
+      "name": "Dongguan Juyun Hardware Technology Co., Ltd",
+      "nameEn": "Dongguan Juyun Hardware Technology Co., Ltd",
+      "nameZh": "",
+      "url": "",
+      "confIds": [
+        "Computex2025"
+      ]
+    },
+    {
+      "name": "Dongguan Kinghal Electronic Technology Co.,Ltd",
+      "nameEn": "Dongguan Kinghal Electronic Technology Co.,Ltd",
+      "nameZh": "",
+      "url": "",
+      "confIds": [
+        "Computex2025"
+      ]
+    },
+    {
+      "name": "Dongguan Padmat Rubber Co., Ltd",
+      "nameEn": "PADMAT",
+      "nameZh": "",
+      "url": "",
+      "confIds": [
+        "Computex2025"
+      ]
+    },
+    {
+      "name": "Dongguan Qinghai Electronics Technology Co., Ltd.",
+      "nameEn": "Dongguan Qinghai Electronics Technology Co., Ltd.",
+      "nameZh": "",
+      "url": "",
+      "confIds": [
+        "Computex2025"
+      ]
+    },
+    {
+      "name": "Dongguan Qiyou Photoelectric co.,ltd",
+      "nameEn": "Qiyou",
+      "nameZh": "",
+      "url": "",
+      "confIds": [
+        "Computex2025"
+      ]
+    },
+    {
+      "name": "Dongguan Ruiheng Electronic Technology Co., Ltd.",
+      "nameEn": "MHD 瑞亨",
+      "nameZh": "",
+      "url": "",
+      "confIds": [
+        "Computex2025"
+      ]
+    },
+    {
+      "name": "Dongguan Sibositong Industrial Co., Ltd.",
+      "nameEn": "JONSBO, JONSPLUS",
+      "nameZh": "",
+      "url": "",
+      "confIds": [
+        "Computex2025"
+      ]
+    },
+    {
+      "name": "Dongguan Soeyi Technology Limited",
+      "nameEn": "Dongguan Soeyi Technology Limited",
+      "nameZh": "",
+      "url": "",
+      "confIds": [
+        "Computex2025"
+      ]
+    },
+    {
+      "name": "DONGGUAN SUOAI ELECTRONICS CO.,LTD",
+      "nameEn": "DONGGUAN SUOAI ELECTRONICS CO.,LTD",
+      "nameZh": "",
+      "url": "",
+      "confIds": [
+        "Computex2025"
+      ]
+    },
+    {
+      "name": "DongGuan Togran Electronics Technology Co.,Ltd",
+      "nameEn": "Togran",
+      "nameZh": "",
+      "url": "",
+      "confIds": [
+        "Computex2025"
+      ]
+    },
+    {
+      "name": "DONGGUAN V-LINK DISPLAY TECHNOLOGY CO., LTD",
+      "nameEn": "DONGGUAN V-LINK DISPLAY TECHNOLOGY CO., LTD",
+      "nameZh": "",
+      "url": "",
+      "confIds": [
+        "Computex2025"
+      ]
+    },
+    {
+      "name": "Dongguan World Pass Industrial Co., Ltd.",
+      "nameEn": "Dongguan World Pass Industrial Co., Ltd.",
+      "nameZh": "",
+      "url": "",
+      "confIds": [
+        "Computex2025"
+      ]
+    },
+    {
+      "name": "Dongguan Xunling New Technology Co., LTD",
+      "nameEn": "Dongguan Xunling New Technology Co., LTD",
+      "nameZh": "",
+      "url": "",
+      "confIds": [
+        "Computex2025"
       ]
     },
     {
@@ -11093,6 +12924,15 @@
       ]
     },
     {
+      "name": "Dracula Technologies",
+      "nameEn": "Dracula",
+      "nameZh": "",
+      "url": "",
+      "confIds": [
+        "Computex2025"
+      ]
+    },
+    {
       "name": "Dream Field General Trading llc",
       "nameEn": "Dfgroupuae",
       "nameZh": "",
@@ -11117,7 +12957,8 @@
       "url": "https://www.dreame.com",
       "confIds": [
         "CES2026",
-        "IFA2025"
+        "IFA2025",
+        "IFA2026"
       ]
     },
     {
@@ -11217,6 +13058,15 @@
       "url": "https://droneshub.group/",
       "confIds": [
         "GITEX2025"
+      ]
+    },
+    {
+      "name": "Dronetag",
+      "nameEn": "Dronetag",
+      "nameZh": "",
+      "url": "",
+      "confIds": [
+        "Computex2025"
       ]
     },
     {
@@ -11720,7 +13570,8 @@
       "nameZh": "",
       "url": "https://www.dyson.com",
       "confIds": [
-        "IFA2025"
+        "IFA2025",
+        "IFA2026"
       ]
     },
     {
@@ -11805,6 +13656,15 @@
       ]
     },
     {
+      "name": "Eagle Wireless",
+      "nameEn": "Eagle Wireless",
+      "nameZh": "",
+      "url": "",
+      "confIds": [
+        "Computex2025"
+      ]
+    },
+    {
       "name": "Ean Hightech Co Ltd",
       "nameEn": "Newbrain4U",
       "nameZh": "",
@@ -11820,6 +13680,15 @@
       "url": "https://earflocare.com/",
       "confIds": [
         "CES2026"
+      ]
+    },
+    {
+      "name": "Earth Information Technology",
+      "nameEn": "Earth Information Technology",
+      "nameZh": "",
+      "url": "",
+      "confIds": [
+        "Computex2025"
       ]
     },
     {
@@ -12018,7 +13887,8 @@
       "url": "https://www.ecoflow.com",
       "confIds": [
         "CES2026",
-        "IFA2025"
+        "IFA2025",
+        "IFA2026"
       ]
     },
     {
@@ -12091,7 +13961,8 @@
       "url": "https://ecovacs.com/",
       "confIds": [
         "CES2026",
-        "IFA2025"
+        "IFA2025",
+        "IFA2026"
       ]
     },
     {
@@ -12128,6 +13999,15 @@
       "url": "https://www.edgecortix.com/en/events/ces-2026",
       "confIds": [
         "CES2026"
+      ]
+    },
+    {
+      "name": "EdgeCortix",
+      "nameEn": "EdgeCortix",
+      "nameZh": "",
+      "url": "",
+      "confIds": [
+        "Computex2025"
       ]
     },
     {
@@ -12483,6 +14363,15 @@
       ]
     },
     {
+      "name": "Eleventh Fleet Pte. Ltd.",
+      "nameEn": "Eleventh Fleet Pte. Ltd.",
+      "nameZh": "",
+      "url": "",
+      "confIds": [
+        "Computex2025"
+      ]
+    },
+    {
       "name": "ELITE CARGO FZCO",
       "nameEn": "Elitecargo",
       "nameZh": "",
@@ -12501,12 +14390,30 @@
       ]
     },
     {
+      "name": "Ellynt AI",
+      "nameEn": "Ellynt AI",
+      "nameZh": "",
+      "url": "",
+      "confIds": [
+        "Computex2025"
+      ]
+    },
+    {
       "name": "elm",
       "nameEn": "Elm",
       "nameZh": "",
       "url": "https://www.elm.sa/en/pages/default.aspx",
       "confIds": [
         "GITEX2025"
+      ]
+    },
+    {
+      "name": "ELSA Optronics Technology(ShenZhen) Co., Ltd",
+      "nameEn": "ELSA",
+      "nameZh": "",
+      "url": "",
+      "confIds": [
+        "Computex2025"
       ]
     },
     {
@@ -12534,6 +14441,15 @@
       "url": "https://www.emmicroelectronic.com/",
       "confIds": [
         "CES2026"
+      ]
+    },
+    {
+      "name": "EM Microelectronic",
+      "nameEn": "EM Microelectronic",
+      "nameZh": "",
+      "url": "",
+      "confIds": [
+        "Computex2025"
       ]
     },
     {
@@ -12598,6 +14514,15 @@
       "url": "https://bit.ly/EMDElectronicsatCES2026",
       "confIds": [
         "CES2026"
+      ]
+    },
+    {
+      "name": "Emdoor Digital Technology Co., Ltd.",
+      "nameEn": "EMDOOR",
+      "nameZh": "",
+      "url": "",
+      "confIds": [
+        "Computex2025"
       ]
     },
     {
@@ -12727,6 +14652,15 @@
       ]
     },
     {
+      "name": "EMMONS INDUSTRIAL LIMITED",
+      "nameEn": "EMMONS INDUSTRIAL LIMITED",
+      "nameZh": "",
+      "url": "",
+      "confIds": [
+        "Computex2025"
+      ]
+    },
+    {
       "name": "Emnify, Inc.",
       "nameEn": "Emnify",
       "nameZh": "",
@@ -12799,6 +14733,15 @@
       ]
     },
     {
+      "name": "Emtar Technologies Inc.",
+      "nameEn": "Emtar Technologies Inc.",
+      "nameZh": "",
+      "url": "",
+      "confIds": [
+        "Computex2025"
+      ]
+    },
+    {
       "name": "Enchanted Tools",
       "nameEn": "",
       "nameZh": "",
@@ -12863,6 +14806,15 @@
       ]
     },
     {
+      "name": "Enghouse System",
+      "nameEn": "Enghouse Interactive,Enghouse Video,Aculab",
+      "nameZh": "",
+      "url": "",
+      "confIds": [
+        "Computex2025"
+      ]
+    },
+    {
       "name": "Engineersmind Corp.",
       "nameEn": "Engineersmind",
       "nameZh": "",
@@ -12908,6 +14860,15 @@
       ]
     },
     {
+      "name": "Enplas Corporation",
+      "nameEn": "Enplas Corporation",
+      "nameZh": "",
+      "url": "",
+      "confIds": [
+        "Computex2025"
+      ]
+    },
+    {
       "name": "Enplug Co., Ltd.",
       "nameEn": "Enplug",
       "nameZh": "",
@@ -12944,12 +14905,30 @@
       ]
     },
     {
+      "name": "Entalpic",
+      "nameEn": "Entalpic",
+      "nameZh": "",
+      "url": "",
+      "confIds": [
+        "Computex2025"
+      ]
+    },
+    {
       "name": "Entegris",
       "nameEn": "",
       "nameZh": "",
       "url": "https://www.entegris.com",
       "confIds": [
         "SEMICONWest2025"
+      ]
+    },
+    {
+      "name": "Enteligent",
+      "nameEn": "Enteligent",
+      "nameZh": "",
+      "url": "",
+      "confIds": [
+        "Computex2025"
       ]
     },
     {
@@ -13061,6 +15040,15 @@
       ]
     },
     {
+      "name": "Epishine",
+      "nameEn": "Epishine",
+      "nameZh": "",
+      "url": "",
+      "confIds": [
+        "Computex2025"
+      ]
+    },
+    {
       "name": "EPM",
       "nameEn": "Epmuae",
       "nameZh": "",
@@ -13154,6 +15142,15 @@
       ]
     },
     {
+      "name": "ESA BIC Czech Republic",
+      "nameEn": "ESA BIC Czech Republic",
+      "nameZh": "",
+      "url": "",
+      "confIds": [
+        "Computex2025"
+      ]
+    },
+    {
       "name": "Esarwa - Enterprise Softwares",
       "nameEn": "Esarwa",
       "nameZh": "",
@@ -13242,6 +15239,15 @@
       "url": "https://www.esri.com",
       "confIds": [
         "GITEX2025"
+      ]
+    },
+    {
+      "name": "Essencore Limited",
+      "nameEn": "KLEVV",
+      "nameZh": "",
+      "url": "",
+      "confIds": [
+        "Computex2025"
       ]
     },
     {
@@ -13417,6 +15423,15 @@
       ]
     },
     {
+      "name": "EVE Energy Co., Ltd.",
+      "nameEn": "EVE Energy",
+      "nameZh": "",
+      "url": "",
+      "confIds": [
+        "Computex2025"
+      ]
+    },
+    {
       "name": "Even Realities",
       "nameEn": "",
       "nameZh": "",
@@ -13460,6 +15475,15 @@
       "url": "https://www.evergreencpusa.com/",
       "confIds": [
         "CES2026"
+      ]
+    },
+    {
+      "name": "Everidge Co., Ltd.",
+      "nameEn": "Everidge Co., Ltd.",
+      "nameZh": "",
+      "url": "",
+      "confIds": [
+        "Computex2025"
       ]
     },
     {
@@ -13517,6 +15541,15 @@
       ]
     },
     {
+      "name": "Ewind Technology Co., Ltd",
+      "nameEn": "Ewind Technology Co., Ltd",
+      "nameZh": "",
+      "url": "",
+      "confIds": [
+        "Computex2025"
+      ]
+    },
+    {
       "name": "EX HEALTHCARE INC.",
       "nameEn": "Exhealthcare",
       "nameZh": "",
@@ -13571,12 +15604,30 @@
       ]
     },
     {
+      "name": "Exeger AB",
+      "nameEn": "Exeger AB",
+      "nameZh": "",
+      "url": "",
+      "confIds": [
+        "Computex2025"
+      ]
+    },
+    {
       "name": "Exeger Operations AB",
       "nameEn": "Exeger",
       "nameZh": "",
       "url": "https://www.exeger.com/",
       "confIds": [
         "CES2026"
+      ]
+    },
+    {
+      "name": "Exein SpA",
+      "nameEn": "Exein Analyzer, Exein Runtime",
+      "nameZh": "",
+      "url": "",
+      "confIds": [
+        "Computex2025"
       ]
     },
     {
@@ -13658,6 +15709,15 @@
       "url": "https://expo-vita.com",
       "confIds": [
         "GITEX2025"
+      ]
+    },
+    {
+      "name": "EXPRESS LUCK INDUSTRIAL (ZHONGSHAN) LIMITED",
+      "nameEn": "expressluck",
+      "nameZh": "",
+      "url": "",
+      "confIds": [
+        "Computex2025"
       ]
     },
     {
@@ -14012,6 +16072,15 @@
       ]
     },
     {
+      "name": "Farmio Pte. Ltd",
+      "nameEn": "Farmio Pte. Ltd",
+      "nameZh": "",
+      "url": "",
+      "confIds": [
+        "Computex2025"
+      ]
+    },
+    {
       "name": "Farmity CO., Ltd.",
       "nameEn": "Farmity",
       "nameZh": "",
@@ -14027,6 +16096,15 @@
       "url": "https://www.farmosystems.com/",
       "confIds": [
         "CES2026"
+      ]
+    },
+    {
+      "name": "Farreach Electronics Co.Limited",
+      "nameEn": "SKW, Farreach",
+      "nameZh": "",
+      "url": "",
+      "confIds": [
+        "Computex2025"
       ]
     },
     {
@@ -14063,6 +16141,15 @@
       "url": "https://www.fawoonanotech.com/",
       "confIds": [
         "CES2026"
+      ]
+    },
+    {
+      "name": "Faytech Tech.Co.,Ltd.",
+      "nameEn": "Faytech",
+      "nameZh": "",
+      "url": "",
+      "confIds": [
+        "Computex2025"
       ]
     },
     {
@@ -14219,6 +16306,15 @@
       ]
     },
     {
+      "name": "Fibocom Wireless Inc.",
+      "nameEn": "Fibocom Wireless Inc.",
+      "nameZh": "",
+      "url": "",
+      "confIds": [
+        "Computex2025"
+      ]
+    },
+    {
       "name": "Field AI",
       "nameEn": "",
       "nameZh": "",
@@ -14328,12 +16424,30 @@
       ]
     },
     {
+      "name": "FIREFLY TECHNOLOGY CO.,LTD",
+      "nameEn": "FIREFLY TECHNOLOGY CO.,LTD",
+      "nameZh": "",
+      "url": "",
+      "confIds": [
+        "Computex2025"
+      ]
+    },
+    {
       "name": "Fireware",
       "nameEn": "Fireware",
       "nameZh": "",
       "url": "https://www.fireware.com",
       "confIds": [
         "GITEX2025"
+      ]
+    },
+    {
+      "name": "FIRST PLAYER TECHNOLOGY (GUANGZHOU) CO., LTD.",
+      "nameEn": "FIRST PLAYER TECHNOLOGY (GUANGZHOU) CO., LTD.",
+      "nameZh": "",
+      "url": "",
+      "confIds": [
+        "Computex2025"
       ]
     },
     {
@@ -14446,6 +16560,15 @@
       ]
     },
     {
+      "name": "Flex",
+      "nameEn": "Flex",
+      "nameZh": "",
+      "url": "",
+      "confIds": [
+        "Computex2025"
+      ]
+    },
+    {
       "name": "Flex Logix",
       "nameEn": "",
       "nameZh": "",
@@ -14461,6 +16584,15 @@
       "url": "https://Flexsolarenergy.com",
       "confIds": [
         "CES2026"
+      ]
+    },
+    {
+      "name": "FlexTouch Technologies Co.",
+      "nameEn": "FlexTouch Technologies Co.",
+      "nameZh": "",
+      "url": "",
+      "confIds": [
+        "Computex2025"
       ]
     },
     {
@@ -14680,6 +16812,15 @@
       ]
     },
     {
+      "name": "Forte Weise Global Commerce Co., Limited",
+      "nameEn": "Forte Weise Global Commerce Co., Limited",
+      "nameZh": "",
+      "url": "",
+      "confIds": [
+        "Computex2025"
+      ]
+    },
+    {
       "name": "Fortinet",
       "nameEn": "",
       "nameZh": "",
@@ -14705,6 +16846,15 @@
       "url": "https://www.forum8.co.jp/english/",
       "confIds": [
         "CES2026"
+      ]
+    },
+    {
+      "name": "Foshan Dinglin Science and Technology Co., Ltd.",
+      "nameEn": "Foshan Dinglin Science and Technology Co., Ltd.",
+      "nameZh": "",
+      "url": "",
+      "confIds": [
+        "Computex2025"
       ]
     },
     {
@@ -14777,6 +16927,15 @@
       "url": "https://partner.frameo.com",
       "confIds": [
         "CES2026"
+      ]
+    },
+    {
+      "name": "Frameo A/S",
+      "nameEn": "Frameo",
+      "nameZh": "",
+      "url": "",
+      "confIds": [
+        "Computex2025"
       ]
     },
     {
@@ -14903,6 +17062,15 @@
       "url": "https://www.froresystems.com/",
       "confIds": [
         "CES2026"
+      ]
+    },
+    {
+      "name": "Frore Systems Inc.",
+      "nameEn": "AirJet, AirJet PAK",
+      "nameZh": "",
+      "url": "",
+      "confIds": [
+        "Computex2025"
       ]
     },
     {
@@ -15041,6 +17209,15 @@
       ]
     },
     {
+      "name": "Fujian Touch-China Technology Co.,ltd.",
+      "nameEn": "Fujian Touch-China Technology Co.,ltd.",
+      "nameZh": "",
+      "url": "",
+      "confIds": [
+        "Computex2025"
+      ]
+    },
+    {
       "name": "Fujifilm Middle East FZE",
       "nameEn": "Fujifilm",
       "nameZh": "",
@@ -15129,6 +17306,15 @@
       "url": "https://fusionai.sa",
       "confIds": [
         "GITEX2025"
+      ]
+    },
+    {
+      "name": "Fusion Worldwide",
+      "nameEn": "Fusion Worldwide",
+      "nameZh": "",
+      "url": "",
+      "confIds": [
+        "Computex2025"
       ]
     },
     {
@@ -15285,6 +17471,15 @@
       ]
     },
     {
+      "name": "Gainscha Auto ID Co., Ltd.",
+      "nameEn": "Gainscha",
+      "nameZh": "",
+      "url": "",
+      "confIds": [
+        "Computex2025"
+      ]
+    },
+    {
       "name": "Gakugeki Inc.",
       "nameEn": "Gakugeki",
       "nameZh": "",
@@ -15354,7 +17549,8 @@
       "url": "https://www.garmin.com",
       "confIds": [
         "CES2026",
-        "IFA2025"
+        "IFA2025",
+        "IFA2026"
       ]
     },
     {
@@ -15373,6 +17569,15 @@
       "url": "https://donteverforgetit.com/",
       "confIds": [
         "CES2026"
+      ]
+    },
+    {
+      "name": "Gauss Algorithmic",
+      "nameEn": "Gauss Algorithmic",
+      "nameZh": "",
+      "url": "",
+      "confIds": [
+        "Computex2025"
       ]
     },
     {
@@ -15481,6 +17686,15 @@
       "url": "https://www.gemss-healthcare.com/",
       "confIds": [
         "CES2026"
+      ]
+    },
+    {
+      "name": "Gen Digital",
+      "nameEn": "Norton, Avira, Avast",
+      "nameZh": "",
+      "url": "",
+      "confIds": [
+        "Computex2025"
       ]
     },
     {
@@ -15628,6 +17842,15 @@
       ]
     },
     {
+      "name": "Geniatech",
+      "nameEn": "Geniatech",
+      "nameZh": "",
+      "url": "",
+      "confIds": [
+        "Computex2025"
+      ]
+    },
+    {
       "name": "Geniewoos Inc.",
       "nameEn": "Geniewoos",
       "nameZh": "",
@@ -15751,6 +17974,15 @@
       "url": "https://www.geomate.ca/",
       "confIds": [
         "CES2026"
+      ]
+    },
+    {
+      "name": "GEOMETRIC FUTURE",
+      "nameEn": "Geometrice Future",
+      "nameZh": "",
+      "url": "",
+      "confIds": [
+        "Computex2025"
       ]
     },
     {
@@ -16082,6 +18314,15 @@
       ]
     },
     {
+      "name": "GLOBAL CHIP INDUSTRIAL CO., LIMITED",
+      "nameEn": "Mellanox, SEAGATE, INTEL",
+      "nameZh": "",
+      "url": "",
+      "confIds": [
+        "Computex2025"
+      ]
+    },
+    {
       "name": "Global Digital Innovation Network",
       "nameEn": "Gdinfoundation",
       "nameZh": "",
@@ -16251,6 +18492,15 @@
       "url": "https://www.globalsign.com/en",
       "confIds": [
         "GITEX2025"
+      ]
+    },
+    {
+      "name": "GMORS Japan Corporation",
+      "nameEn": "GMORS",
+      "nameZh": "",
+      "url": "",
+      "confIds": [
+        "Computex2025"
       ]
     },
     {
@@ -16472,7 +18722,26 @@
       "url": "https://www.govee.com",
       "confIds": [
         "CES2026",
-        "IFA2025"
+        "IFA2025",
+        "IFA2026"
+      ]
+    },
+    {
+      "name": "Government of Ontario",
+      "nameEn": "Government of Ontario",
+      "nameZh": "",
+      "url": "",
+      "confIds": [
+        "Computex2025"
+      ]
+    },
+    {
+      "name": "Goyang Industry Promotion Agency",
+      "nameEn": "Goyang Industry Promotion Agency",
+      "nameZh": "",
+      "url": "",
+      "confIds": [
+        "Computex2025"
       ]
     },
     {
@@ -16665,6 +18934,15 @@
       ]
     },
     {
+      "name": "Greneta Corp.",
+      "nameEn": "Greneta Corp.",
+      "nameZh": "",
+      "url": "",
+      "confIds": [
+        "Computex2025"
+      ]
+    },
+    {
       "name": "Grepow Inc.",
       "nameEn": "Grepow",
       "nameZh": "",
@@ -16769,7 +19047,8 @@
       "nameZh": "",
       "url": "https://www.grundig.com",
       "confIds": [
-        "IFA2025"
+        "IFA2025",
+        "IFA2026"
       ]
     },
     {
@@ -16836,12 +19115,138 @@
       ]
     },
     {
+      "name": "Guangdong Chuntex Elite Electronic Technology Co., LTD",
+      "nameEn": "Guangdong Chuntex Elite Electronic Technology Co., LTD",
+      "nameZh": "",
+      "url": "",
+      "confIds": [
+        "Computex2025"
+      ]
+    },
+    {
+      "name": "Guangdong Oshid Precision Intelligent Manufacturing Technology Co., Ltd.",
+      "nameEn": "OSHID",
+      "nameZh": "",
+      "url": "",
+      "confIds": [
+        "Computex2025"
+      ]
+    },
+    {
       "name": "Guangdong Pisen Electronics Co., Ltd.",
       "nameEn": "Pisengroup",
       "nameZh": "",
       "url": "https://pisengroup.com",
       "confIds": [
         "CES2026"
+      ]
+    },
+    {
+      "name": "GUANGDONG SOHOO TECHNOLOGY CO.,LTD",
+      "nameEn": "GUANGDONG SOHOO TECHNOLOGY CO.,LTD",
+      "nameZh": "",
+      "url": "",
+      "confIds": [
+        "Computex2025"
+      ]
+    },
+    {
+      "name": "Guangdong Tiantong Jiuheng Technology Co., Ltd.",
+      "nameEn": "Guangdong Tiantong Jiuheng Technology Co., Ltd.",
+      "nameZh": "",
+      "url": "",
+      "confIds": [
+        "Computex2025"
+      ]
+    },
+    {
+      "name": "Guangdong Unipoe IOT Technology Co., Ltd.",
+      "nameEn": "Guangdong Unipoe IOT Technology Co., Ltd.",
+      "nameZh": "",
+      "url": "",
+      "confIds": [
+        "Computex2025"
+      ]
+    },
+    {
+      "name": "Guangzhou Dingchang Electronic Technology Co., Ltd. Shenzhen Branch",
+      "nameEn": "Guangzhou Dingchang Electronic Technology Co., Ltd. Shenzhen Branch",
+      "nameZh": "",
+      "url": "",
+      "confIds": [
+        "Computex2025"
+      ]
+    },
+    {
+      "name": "Guangzhou HAVIT Technology Co., Ltd.",
+      "nameEn": "Guangzhou HAVIT Technology Co., Ltd.",
+      "nameZh": "",
+      "url": "",
+      "confIds": [
+        "Computex2025"
+      ]
+    },
+    {
+      "name": "Guangzhou Heshi Office Equipment Co., Ltd.",
+      "nameEn": "Guangzhou Heshi Office Equipment Co., Ltd.",
+      "nameZh": "",
+      "url": "",
+      "confIds": [
+        "Computex2025"
+      ]
+    },
+    {
+      "name": "Guangzhou Jnp Enterprise Management Consulting Co.,Ltd.",
+      "nameEn": "Guangzhou Jnp Enterprise Management Consulting Co.,Ltd.",
+      "nameZh": "",
+      "url": "",
+      "confIds": [
+        "Computex2025"
+      ]
+    },
+    {
+      "name": "Guangzhou Juchuang Electronic Technology Co., Ltd",
+      "nameEn": "Guangzhou Juchuang Electronic Technology Co., Ltd",
+      "nameZh": "",
+      "url": "",
+      "confIds": [
+        "Computex2025"
+      ]
+    },
+    {
+      "name": "Guangzhou Ruixaming Electronics Technology Co., Ltd.",
+      "nameEn": "Guangzhou Ruixaming Electronics Technology Co., Ltd.",
+      "nameZh": "",
+      "url": "",
+      "confIds": [
+        "Computex2025"
+      ]
+    },
+    {
+      "name": "GUANGZHOU SYBLE CO.,LTD",
+      "nameEn": "SYBLE",
+      "nameZh": "",
+      "url": "",
+      "confIds": [
+        "Computex2025"
+      ]
+    },
+    {
+      "name": "Guangzhou Xianyou Intelligent Technology Co., Ltd",
+      "nameEn": "Guangzhou Xianyou Intelligent Technology Co., Ltd",
+      "nameZh": "",
+      "url": "",
+      "confIds": [
+        "Computex2025"
+      ]
+    },
+    {
+      "name": "GUANGZHOU ZONERICH BUSINESS MACHINE CO., LTD.",
+      "nameEn": "Zonerich",
+      "nameZh": "",
+      "url": "",
+      "confIds": [
+        "Computex2025"
       ]
     },
     {
@@ -16908,12 +19313,30 @@
       ]
     },
     {
+      "name": "Gwangyang Bay Area Free Economic Zone",
+      "nameEn": "Gwangyang Bay Area Free Economic Zone",
+      "nameZh": "",
+      "url": "",
+      "confIds": [
+        "Computex2025"
+      ]
+    },
+    {
       "name": "GXLOCAL TEKNOLOJI VE DIS TICARET ANONIM SIRKETI",
       "nameEn": "Gxlocal",
       "nameZh": "",
       "url": "https://www.gxlocal.com/",
       "confIds": [
         "CES2026"
+      ]
+    },
+    {
+      "name": "Gyeonggi Free Economic Zone",
+      "nameEn": "Gyeonggi Free Economic Zone",
+      "nameZh": "",
+      "url": "",
+      "confIds": [
+        "Computex2025"
       ]
     },
     {
@@ -17003,7 +19426,8 @@
       "nameZh": "",
       "url": "https://www.haier.com",
       "confIds": [
-        "IFA2025"
+        "IFA2025",
+        "IFA2026"
       ]
     },
     {
@@ -17115,6 +19539,15 @@
       ]
     },
     {
+      "name": "HANGZHOU ZKONG NETWORKS CO., LTD",
+      "nameEn": "HANGZHOU ZKONG NETWORKS CO., LTD",
+      "nameZh": "",
+      "url": "",
+      "confIds": [
+        "Computex2025"
+      ]
+    },
+    {
       "name": "Hanlim Ce Corp.",
       "nameEn": "Sacon",
       "nameZh": "",
@@ -17124,12 +19557,39 @@
       ]
     },
     {
+      "name": "Hanmi Micronics",
+      "nameEn": "Wizmax",
+      "nameZh": "",
+      "url": "",
+      "confIds": [
+        "Computex2025"
+      ]
+    },
+    {
+      "name": "HANMI Semiconductor",
+      "nameEn": "HANMI Semiconductor",
+      "nameZh": "",
+      "url": "",
+      "confIds": [
+        "Computex2025"
+      ]
+    },
+    {
       "name": "hannun3D",
       "nameEn": "Hannun3D",
       "nameZh": "",
       "url": "https://hannun3d.com/",
       "confIds": [
         "GITEX2025"
+      ]
+    },
+    {
+      "name": "Hanomi",
+      "nameEn": "Hanomi",
+      "nameZh": "",
+      "url": "",
+      "confIds": [
+        "Computex2025"
       ]
     },
     {
@@ -17148,6 +19608,15 @@
       "url": "https://www.hanseo.ac.kr",
       "confIds": [
         "CES2026"
+      ]
+    },
+    {
+      "name": "Hanshow Technology Co., LTD.",
+      "nameEn": "Hanshow Technology Co., LTD.",
+      "nameZh": "",
+      "url": "",
+      "confIds": [
+        "Computex2025"
       ]
     },
     {
@@ -17332,6 +19801,15 @@
       ]
     },
     {
+      "name": "HDMI Licensing Administrator, Inc.",
+      "nameEn": "HDMI Licensing Administrator, Inc.",
+      "nameZh": "",
+      "url": "",
+      "confIds": [
+        "Computex2025"
+      ]
+    },
+    {
       "name": "HealthiBuddy",
       "nameEn": "Brochure",
       "nameZh": "",
@@ -17512,6 +19990,33 @@
       ]
     },
     {
+      "name": "HENA GROUP COMPANY LIMITED",
+      "nameEn": "HENA GROUP COMPANY LIMITED",
+      "nameZh": "",
+      "url": "",
+      "confIds": [
+        "Computex2025"
+      ]
+    },
+    {
+      "name": "HENEX (GUANGZHOU) TECHNOLOGY CO., LTD",
+      "nameEn": "HENEX",
+      "nameZh": "",
+      "url": "",
+      "confIds": [
+        "Computex2025"
+      ]
+    },
+    {
+      "name": "Heng Yu Electronic Manufacturing Company Limited",
+      "nameEn": "Heng Yu,Double Shell",
+      "nameZh": "",
+      "url": "",
+      "confIds": [
+        "Computex2025"
+      ]
+    },
+    {
       "name": "Hengbot Innovation",
       "nameEn": "",
       "nameZh": "",
@@ -17537,6 +20042,15 @@
       "confIds": [
         "CES2026",
         "GITEX2025"
+      ]
+    },
+    {
+      "name": "Hepzibah AI",
+      "nameEn": "Hepzibah AI",
+      "nameZh": "",
+      "url": "",
+      "confIds": [
+        "Computex2025"
       ]
     },
     {
@@ -17573,6 +20087,15 @@
       "url": "https://hevolus.com",
       "confIds": [
         "CES2026"
+      ]
+    },
+    {
+      "name": "Hewatek SRL",
+      "nameEn": "Hewatek SRL",
+      "nameZh": "",
+      "url": "",
+      "confIds": [
+        "Computex2025"
       ]
     },
     {
@@ -17730,6 +20253,15 @@
       ]
     },
     {
+      "name": "HIP GLOBAL CO., LTD.",
+      "nameEn": "HIP GLOBAL CO., LTD.",
+      "nameZh": "",
+      "url": "",
+      "confIds": [
+        "Computex2025"
+      ]
+    },
+    {
       "name": "Hiroh, LLC",
       "nameEn": "Hiroh",
       "nameZh": "",
@@ -17753,7 +20285,8 @@
       "nameZh": "",
       "url": "https://www.hisense.com",
       "confIds": [
-        "IFA2025"
+        "IFA2025",
+        "IFA2026"
       ]
     },
     {
@@ -17829,6 +20362,15 @@
       ]
     },
     {
+      "name": "HKC CORPORATION LIMITED",
+      "nameEn": "HKC Corporation Limited",
+      "nameZh": "",
+      "url": "",
+      "confIds": [
+        "Computex2025"
+      ]
+    },
+    {
       "name": "HKN Corporation",
       "nameEn": "Hkn Corporation",
       "nameZh": "",
@@ -17853,6 +20395,24 @@
       "url": "https://hnwconsultancy.com/",
       "confIds": [
         "GITEX2025"
+      ]
+    },
+    {
+      "name": "HOFFMAN SCHROFF PTE LTD",
+      "nameEn": "nVent",
+      "nameZh": "",
+      "url": "",
+      "confIds": [
+        "Computex2025"
+      ]
+    },
+    {
+      "name": "HOGE STORAGE TECHNOLOGY (HONG KONG) COMPANY LIMITED",
+      "nameEn": "HOGE STORAGE TECHNOLOGY (HONG KONG) COMPANY LIMITED",
+      "nameZh": "",
+      "url": "",
+      "confIds": [
+        "Computex2025"
       ]
     },
     {
@@ -17924,7 +20484,8 @@
       "nameZh": "",
       "url": "https://homey.app",
       "confIds": [
-        "IFA2025"
+        "IFA2025",
+        "IFA2026"
       ]
     },
     {
@@ -17945,6 +20506,15 @@
         "CES2026",
         "MWC2025",
         "GITEX2025"
+      ]
+    },
+    {
+      "name": "HONGKONG CHASE-ONE INFORMATION CO., LIMITED",
+      "nameEn": "HONGKONG CHASE-ONE INFORMATION CO., LIMITED",
+      "nameZh": "",
+      "url": "",
+      "confIds": [
+        "Computex2025"
       ]
     },
     {
@@ -18035,6 +20605,15 @@
       "url": "https://www.horsecare.si/",
       "confIds": [
         "GITEX2025"
+      ]
+    },
+    {
+      "name": "Hosin Global Electronics Co.,Ltd",
+      "nameEn": "宏芯宇,HosinGlobal",
+      "nameZh": "",
+      "url": "",
+      "confIds": [
+        "Computex2025"
       ]
     },
     {
@@ -18156,6 +20735,60 @@
       ]
     },
     {
+      "name": "Huilian cloud technology (Shenzhen) Co., Ltd",
+      "nameEn": "HVLANYN",
+      "nameZh": "",
+      "url": "",
+      "confIds": [
+        "Computex2025"
+      ]
+    },
+    {
+      "name": "Huizhou Jiadalong Electronic Technology Co. , Ltd",
+      "nameEn": "GATERON",
+      "nameZh": "",
+      "url": "",
+      "confIds": [
+        "Computex2025"
+      ]
+    },
+    {
+      "name": "Huizhou Jiuzi Electronic Technology Co.,Ltd",
+      "nameEn": "Jiuzi Electronic",
+      "nameZh": "",
+      "url": "",
+      "confIds": [
+        "Computex2025"
+      ]
+    },
+    {
+      "name": "Huizhou Shunxinjie Electronic Technology Co., Ltd.",
+      "nameEn": "SUNXI",
+      "nameZh": "",
+      "url": "",
+      "confIds": [
+        "Computex2025"
+      ]
+    },
+    {
+      "name": "Huizhou SmartByte Technology Co.,Ltd",
+      "nameEn": "Huizhou SmartByte Technology Co.,Ltd",
+      "nameZh": "",
+      "url": "",
+      "confIds": [
+        "Computex2025"
+      ]
+    },
+    {
+      "name": "Huizhou Trantek Electronics Co., Ltd.",
+      "nameEn": "TTC",
+      "nameZh": "",
+      "url": "",
+      "confIds": [
+        "Computex2025"
+      ]
+    },
+    {
       "name": "Huma",
       "nameEn": "Huma",
       "nameZh": "",
@@ -18237,6 +20870,24 @@
       ]
     },
     {
+      "name": "Hunan Dlsum Technology Co., Ltd",
+      "nameEn": "DLSUM",
+      "nameZh": "",
+      "url": "",
+      "confIds": [
+        "Computex2025"
+      ]
+    },
+    {
+      "name": "HUNAN FULLRIVER INFORMATION TECHNOLOGY CO.，LTD",
+      "nameEn": "HUNAN FULLRIVER INFORMATION TECHNOLOGY CO.，LTD",
+      "nameZh": "",
+      "url": "",
+      "confIds": [
+        "Computex2025"
+      ]
+    },
+    {
       "name": "Hunter Buildings International BV",
       "nameEn": "Hunterbuildings",
       "nameZh": "",
@@ -18279,6 +20930,15 @@
       "url": "https://www.hybongroups.com",
       "confIds": [
         "GITEX2025"
+      ]
+    },
+    {
+      "name": "Hydra Host",
+      "nameEn": "NVIDIA, DELL, HPE",
+      "nameZh": "",
+      "url": "",
+      "confIds": [
+        "Computex2025"
       ]
     },
     {
@@ -19025,6 +21685,15 @@
       ]
     },
     {
+      "name": "Illumia Labs",
+      "nameEn": "Illumia Labs",
+      "nameZh": "",
+      "url": "",
+      "confIds": [
+        "Computex2025"
+      ]
+    },
+    {
       "name": "illumicell AI",
       "nameEn": "Illumicell",
       "nameZh": "",
@@ -19169,6 +21838,15 @@
       ]
     },
     {
+      "name": "IMOnline Technologies Inc.",
+      "nameEn": "IMOnline Technologies Inc.",
+      "nameZh": "",
+      "url": "",
+      "confIds": [
+        "Computex2025"
+      ]
+    },
+    {
       "name": "Impactive Ai",
       "nameEn": "Impactive Ai",
       "nameZh": "",
@@ -19202,6 +21880,15 @@
       "url": "http://www.imeditech.kr/",
       "confIds": [
         "CES2026"
+      ]
+    },
+    {
+      "name": "IMU Inc.",
+      "nameEn": "IMU",
+      "nameZh": "",
+      "url": "",
+      "confIds": [
+        "Computex2025"
       ]
     },
     {
@@ -19376,6 +22063,15 @@
       ]
     },
     {
+      "name": "Infiniflux Ltd",
+      "nameEn": "Infiniflux Ltd",
+      "nameZh": "",
+      "url": "",
+      "confIds": [
+        "Computex2025"
+      ]
+    },
+    {
       "name": "Infinite Open Source Solutions LLP",
       "nameEn": "Ioss",
       "nameZh": "",
@@ -19538,12 +22234,30 @@
       ]
     },
     {
+      "name": "Inner Resource, Inc.",
+      "nameEn": "Inner Resource, Inc.",
+      "nameZh": "",
+      "url": "",
+      "confIds": [
+        "Computex2025"
+      ]
+    },
+    {
       "name": "inno LLC",
       "nameEn": "Inno Clouds",
       "nameZh": "",
       "url": "https://inno-clouds.com/promoeng",
       "confIds": [
         "GITEX2025"
+      ]
+    },
+    {
+      "name": "INNO3D",
+      "nameEn": "INNO3D,iCHILL",
+      "nameZh": "",
+      "url": "",
+      "confIds": [
+        "Computex2025"
       ]
     },
     {
@@ -19580,6 +22294,15 @@
       "url": "https://innodtech.co.kr/",
       "confIds": [
         "CES2026"
+      ]
+    },
+    {
+      "name": "InnoGrit Corporation",
+      "nameEn": "InnoGrit Corporation",
+      "nameZh": "",
+      "url": "",
+      "confIds": [
+        "Computex2025"
       ]
     },
     {
@@ -19643,6 +22366,15 @@
       "url": "https://www.innovatech.info",
       "confIds": [
         "CES2026"
+      ]
+    },
+    {
+      "name": "INNOVATECH SRL",
+      "nameEn": "INNOVATECH SRL",
+      "nameZh": "",
+      "url": "",
+      "confIds": [
+        "Computex2025"
       ]
     },
     {
@@ -20154,6 +22886,15 @@
       ]
     },
     {
+      "name": "Intralink",
+      "nameEn": "Intralink",
+      "nameZh": "",
+      "url": "",
+      "confIds": [
+        "Computex2025"
+      ]
+    },
+    {
       "name": "Intrepid Control Systems",
       "nameEn": "Intrepidcs",
       "nameZh": "",
@@ -20287,6 +23028,15 @@
       "url": "https://www.liaa.gov.lv/en",
       "confIds": [
         "GITEX2025"
+      ]
+    },
+    {
+      "name": "Investment NSW (Australia)",
+      "nameEn": "Investment NSW (Australia)",
+      "nameZh": "",
+      "url": "",
+      "confIds": [
+        "Computex2025"
       ]
     },
     {
@@ -20534,6 +23284,15 @@
       ]
     },
     {
+      "name": "IQUNIX",
+      "nameEn": "IQUNIX",
+      "nameZh": "",
+      "url": "",
+      "confIds": [
+        "Computex2025"
+      ]
+    },
+    {
       "name": "IQVIA / Cymer (ASML子公司)",
       "nameEn": "",
       "nameZh": "",
@@ -20625,6 +23384,15 @@
       ]
     },
     {
+      "name": "IrisGo",
+      "nameEn": "IrisGo",
+      "nameZh": "",
+      "url": "",
+      "confIds": [
+        "Computex2025"
+      ]
+    },
+    {
       "name": "Iriso USA Inc.",
       "nameEn": "Irisoconnectors",
       "nameZh": "",
@@ -20639,7 +23407,8 @@
       "nameZh": "",
       "url": "https://www.irobot.com",
       "confIds": [
-        "IFA2025"
+        "IFA2025",
+        "IFA2026"
       ]
     },
     {
@@ -20658,6 +23427,15 @@
       "url": "https://www.ironmountain.com",
       "confIds": [
         "GITEX2025"
+      ]
+    },
+    {
+      "name": "Irreversible Inc.",
+      "nameEn": "Irreversible Inc.",
+      "nameZh": "",
+      "url": "",
+      "confIds": [
+        "Computex2025"
       ]
     },
     {
@@ -20715,6 +23493,15 @@
       ]
     },
     {
+      "name": "Israel Innovation Pavilion",
+      "nameEn": "Israel Innovation Pavilion",
+      "nameZh": "",
+      "url": "",
+      "confIds": [
+        "Computex2025"
+      ]
+    },
+    {
       "name": "Israel Pavilion",
       "nameEn": "Itrade",
       "nameZh": "",
@@ -20760,6 +23547,15 @@
       ]
     },
     {
+      "name": "Italian Trade Agency Taipei Office",
+      "nameEn": "Italian Trade Agency Taipei Office",
+      "nameZh": "",
+      "url": "",
+      "confIds": [
+        "Computex2025"
+      ]
+    },
+    {
       "name": "ITALON",
       "nameEn": "Italonpro",
       "nameZh": "",
@@ -20793,6 +23589,15 @@
       "url": "https://itdasemi.com",
       "confIds": [
         "CES2026"
+      ]
+    },
+    {
+      "name": "ITEN",
+      "nameEn": "ITEN",
+      "nameZh": "",
+      "url": "",
+      "confIds": [
+        "Computex2025"
       ]
     },
     {
@@ -20990,7 +23795,8 @@
       "nameZh": "",
       "url": "https://www.jabra.com",
       "confIds": [
-        "IFA2025"
+        "IFA2025",
+        "IFA2026"
       ]
     },
     {
@@ -21054,6 +23860,15 @@
       "url": "https://www.jetro.go.jp/en/",
       "confIds": [
         "CES2026"
+      ]
+    },
+    {
+      "name": "Japan Media Corporation",
+      "nameEn": "mmRat, mmBio",
+      "nameZh": "",
+      "url": "",
+      "confIds": [
+        "Computex2025"
       ]
     },
     {
@@ -21210,12 +24025,57 @@
       ]
     },
     {
+      "name": "Jiangmen Hengji Crafts Technology Co., Ltd",
+      "nameEn": "Jiangmen Hengji Crafts Technology Co., Ltd",
+      "nameZh": "",
+      "url": "",
+      "confIds": [
+        "Computex2025"
+      ]
+    },
+    {
+      "name": "Jiangsu Bravo View Electronic Technology Co.,LTD",
+      "nameEn": "Jiangsu Bravo View Electronic Technology Co.,LTD",
+      "nameZh": "",
+      "url": "",
+      "confIds": [
+        "Computex2025"
+      ]
+    },
+    {
+      "name": "Jiangsu Enmane Electronics Industry Co., Ltd",
+      "nameEn": "ENMANE",
+      "nameZh": "",
+      "url": "",
+      "confIds": [
+        "Computex2025"
+      ]
+    },
+    {
+      "name": "Jiangxi Xingtai Technology Inc.",
+      "nameEn": "Jiangxi Xingtai Technology Inc.",
+      "nameZh": "",
+      "url": "",
+      "confIds": [
+        "Computex2025"
+      ]
+    },
+    {
       "name": "Jigowatts Inc.",
       "nameEn": "Jigowatts",
       "nameZh": "",
       "url": "https://jigowatts.jp/en/",
       "confIds": [
         "CES2026"
+      ]
+    },
+    {
+      "name": "Jimpower Trading Limited",
+      "nameEn": "SanDisk,Samsung,Lexar",
+      "nameZh": "",
+      "url": "",
+      "confIds": [
+        "Computex2025"
       ]
     },
     {
@@ -21444,6 +24304,15 @@
       ]
     },
     {
+      "name": "JWIPC Technology Co.,Ltd.",
+      "nameEn": "JWIPC",
+      "nameZh": "",
+      "url": "",
+      "confIds": [
+        "Computex2025"
+      ]
+    },
+    {
       "name": "K-water",
       "nameEn": "Kwater",
       "nameZh": "",
@@ -21606,6 +24475,15 @@
       ]
     },
     {
+      "name": "Kapnetix",
+      "nameEn": "Kapnetix",
+      "nameZh": "",
+      "url": "",
+      "confIds": [
+        "Computex2025"
+      ]
+    },
+    {
       "name": "Kara Water Inc",
       "nameEn": "Karawater",
       "nameZh": "",
@@ -21630,6 +24508,15 @@
       "url": "https://www.kardome.com",
       "confIds": [
         "CES2026"
+      ]
+    },
+    {
+      "name": "Kardome Technology LTD.",
+      "nameEn": "Kardome Technology LTD.",
+      "nameZh": "",
+      "url": "",
+      "confIds": [
+        "Computex2025"
       ]
     },
     {
@@ -21702,6 +24589,15 @@
       "url": "https://www.katanaus.com/",
       "confIds": [
         "GITEX2025"
+      ]
+    },
+    {
+      "name": "Kato Light Metal Industry",
+      "nameEn": "Kato Light Metal Industry",
+      "nameZh": "",
+      "url": "",
+      "confIds": [
+        "Computex2025"
       ]
     },
     {
@@ -21922,6 +24818,15 @@
       ]
     },
     {
+      "name": "kikaGO Limited",
+      "nameEn": "kikaGO Limited",
+      "nameZh": "",
+      "url": "",
+      "confIds": [
+        "Computex2025"
+      ]
+    },
+    {
       "name": "Kikuvi Inc.",
       "nameEn": "Kikuvi",
       "nameZh": "",
@@ -21955,6 +24860,15 @@
       "url": "https://kini-sh.com/",
       "confIds": [
         "CES2026"
+      ]
+    },
+    {
+      "name": "Kinpower International Ltd",
+      "nameEn": "Kinpower International Ltd",
+      "nameZh": "",
+      "url": "",
+      "confIds": [
+        "Computex2025"
       ]
     },
     {
@@ -22283,6 +25197,15 @@
       ]
     },
     {
+      "name": "Kompenzo",
+      "nameEn": "Kompenzo",
+      "nameZh": "",
+      "url": "",
+      "confIds": [
+        "Computex2025"
+      ]
+    },
+    {
       "name": "KOMTAS",
       "nameEn": "Komtas",
       "nameZh": "",
@@ -22502,6 +25425,24 @@
       ]
     },
     {
+      "name": "KOTRA",
+      "nameEn": "KOTRA",
+      "nameZh": "",
+      "url": "",
+      "confIds": [
+        "Computex2025"
+      ]
+    },
+    {
+      "name": "KOWIN TECHNOLOGY CO.,LTD",
+      "nameEn": "KOWIN TECHNOLOGY CO.,LTD",
+      "nameZh": "",
+      "url": "",
+      "confIds": [
+        "Computex2025"
+      ]
+    },
+    {
       "name": "KoziSense",
       "nameEn": "Kozisense",
       "nameZh": "",
@@ -22683,6 +25624,15 @@
       ]
     },
     {
+      "name": "KUMAMOTO CITY",
+      "nameEn": "KUMAMOTO CITY",
+      "nameZh": "",
+      "url": "",
+      "confIds": [
+        "Computex2025"
+      ]
+    },
+    {
       "name": "Kusters Engineering India Private Limited",
       "nameEn": "Imuindia",
       "nameZh": "",
@@ -22800,6 +25750,15 @@
       ]
     },
     {
+      "name": "Lablup Inc.",
+      "nameEn": "Lablup Inc.",
+      "nameZh": "",
+      "url": "",
+      "confIds": [
+        "Computex2025"
+      ]
+    },
+    {
       "name": "Lagos State Government",
       "nameEn": "Lagosstate",
       "nameZh": "",
@@ -22864,6 +25823,15 @@
       ]
     },
     {
+      "name": "Larch Networks",
+      "nameEn": "Larch Networks",
+      "nameZh": "",
+      "url": "",
+      "confIds": [
+        "Computex2025"
+      ]
+    },
+    {
       "name": "Lasker Inc.",
       "nameEn": "Lasker",
       "nameZh": "",
@@ -22919,6 +25887,15 @@
       ]
     },
     {
+      "name": "LD ELECTRONICS CO.,LTD.",
+      "nameEn": "LD ELECTRONICS CO.,LTD.",
+      "nameZh": "",
+      "url": "",
+      "confIds": [
+        "Computex2025"
+      ]
+    },
+    {
       "name": "LDT Technology L.L.C.-FZ",
       "nameEn": "Ldttechnology",
       "nameZh": "",
@@ -22943,6 +25920,15 @@
       "url": "https://www.cxodx.com",
       "confIds": [
         "GITEX2025"
+      ]
+    },
+    {
+      "name": "Leapfrog Distribution Pte Ltd",
+      "nameEn": "ARMAGGEDDON,SONICGEAR,ALCATROZ",
+      "nameZh": "",
+      "url": "",
+      "confIds": [
+        "Computex2025"
       ]
     },
     {
@@ -22987,7 +25973,8 @@
       "nameZh": "",
       "url": "https://www.ledvance.com",
       "confIds": [
-        "IFA2025"
+        "IFA2025",
+        "IFA2026"
       ]
     },
     {
@@ -23069,6 +26056,15 @@
       "url": "https://www.hnlens.com/",
       "confIds": [
         "CES2026"
+      ]
+    },
+    {
+      "name": "LENZO",
+      "nameEn": "LENZO",
+      "nameZh": "",
+      "url": "",
+      "confIds": [
+        "Computex2025"
       ]
     },
     {
@@ -23233,7 +26229,8 @@
       "confIds": [
         "CES2025",
         "CES2026",
-        "IFA2025"
+        "IFA2025",
+        "IFA2026"
       ]
     },
     {
@@ -23408,6 +26405,15 @@
       ]
     },
     {
+      "name": "LightSpeed Photonics Pte Ltd",
+      "nameEn": "LightKonnect, LightPCIe",
+      "nameZh": "",
+      "url": "",
+      "confIds": [
+        "Computex2025"
+      ]
+    },
+    {
       "name": "Lightware Visual Engineering Plc",
       "nameEn": "Lightware",
       "nameZh": "",
@@ -23423,6 +26429,15 @@
       "url": "https://www.lightwheel.ai/",
       "confIds": [
         "CES2026"
+      ]
+    },
+    {
+      "name": "Ligna Energy AB",
+      "nameEn": "Ligna Energy AB",
+      "nameZh": "",
+      "url": "",
+      "confIds": [
+        "Computex2025"
       ]
     },
     {
@@ -23531,6 +26546,15 @@
       "url": "https://www.linkshadow.com/",
       "confIds": [
         "GITEX2025"
+      ]
+    },
+    {
+      "name": "Linque",
+      "nameEn": "Linque",
+      "nameZh": "",
+      "url": "",
+      "confIds": [
+        "Computex2025"
       ]
     },
     {
@@ -23851,6 +26875,15 @@
       ]
     },
     {
+      "name": "LONGSYS ELECTRONICS",
+      "nameEn": "Lexar,FORESEE,Zilia",
+      "nameZh": "",
+      "url": "",
+      "confIds": [
+        "Computex2025"
+      ]
+    },
+    {
       "name": "LOOKALIKE SRL",
       "nameEn": "Lookalikeapp",
       "nameZh": "",
@@ -23866,6 +26899,15 @@
       "url": "https://www.looktech.ai",
       "confIds": [
         "CES2026"
+      ]
+    },
+    {
+      "name": "loop international limited",
+      "nameEn": "loop international limited",
+      "nameZh": "",
+      "url": "",
+      "confIds": [
+        "Computex2025"
       ]
     },
     {
@@ -23914,6 +26956,15 @@
       ]
     },
     {
+      "name": "LS Materials Co.,Ltd",
+      "nameEn": "LS Materials",
+      "nameZh": "",
+      "url": "",
+      "confIds": [
+        "Computex2025"
+      ]
+    },
+    {
       "name": "LST SOFTWARE SOLUTIONS",
       "nameEn": "Lstyazilim",
       "nameZh": "",
@@ -23938,6 +26989,15 @@
       "url": "https://www.luchrome.com/",
       "confIds": [
         "CES2026"
+      ]
+    },
+    {
+      "name": "Lucid Vision Labs | Inc.",
+      "nameEn": "Lucid Vision Labs | Inc.",
+      "nameZh": "",
+      "url": "",
+      "confIds": [
+        "Computex2025"
       ]
     },
     {
@@ -24037,6 +27097,15 @@
       "url": "https://www.lumosus.com",
       "confIds": [
         "CES2026"
+      ]
+    },
+    {
+      "name": "Lumotive",
+      "nameEn": "Lumotive",
+      "nameZh": "",
+      "url": "",
+      "confIds": [
+        "Computex2025"
       ]
     },
     {
@@ -24227,6 +27296,15 @@
       "url": "https://macpaw.com/",
       "confIds": [
         "CES2026"
+      ]
+    },
+    {
+      "name": "Macro Image Technology",
+      "nameEn": "MDIN",
+      "nameZh": "",
+      "url": "",
+      "confIds": [
+        "Computex2025"
       ]
     },
     {
@@ -24492,12 +27570,30 @@
       ]
     },
     {
+      "name": "MANGROVE",
+      "nameEn": "MANGROVE",
+      "nameZh": "",
+      "url": "",
+      "confIds": [
+        "Computex2025"
+      ]
+    },
+    {
       "name": "Manhattan & Intellinet Network Solutions | IC Intracom",
       "nameEn": "Icintracom",
       "nameZh": "",
       "url": "https://icintracom.eu/",
       "confIds": [
         "GITEX2025"
+      ]
+    },
+    {
+      "name": "Manli technology group Ltd.",
+      "nameEn": "Manli",
+      "nameZh": "",
+      "url": "",
+      "confIds": [
+        "Computex2025"
       ]
     },
     {
@@ -24753,6 +27849,15 @@
       ]
     },
     {
+      "name": "Matias Corporation",
+      "nameEn": "Matias",
+      "nameZh": "",
+      "url": "",
+      "confIds": [
+        "Computex2025"
+      ]
+    },
+    {
       "name": "Matrix42",
       "nameEn": "Matrix42",
       "nameZh": "",
@@ -24804,6 +27909,15 @@
       "url": "https://www.maxlinear.com/",
       "confIds": [
         "CES2026"
+      ]
+    },
+    {
+      "name": "MaxLinear Inc.",
+      "nameEn": "Panther,MaxAI,Keystone",
+      "nameZh": "",
+      "url": "",
+      "confIds": [
+        "Computex2025"
       ]
     },
     {
@@ -24969,6 +28083,15 @@
       ]
     },
     {
+      "name": "Mecademic Inc.",
+      "nameEn": "Mecademic Inc.",
+      "nameZh": "",
+      "url": "",
+      "confIds": [
+        "Computex2025"
+      ]
+    },
+    {
       "name": "MECS PRO - Elderly Diaper Care System",
       "nameEn": "Monitcorp",
       "nameZh": "",
@@ -24984,6 +28107,15 @@
       "url": "",
       "confIds": [
         "GITEX2025"
+      ]
+    },
+    {
+      "name": "Media Magic Co., Ltd.",
+      "nameEn": "Media Magic Co., Ltd.",
+      "nameZh": "",
+      "url": "",
+      "confIds": [
+        "Computex2025"
       ]
     },
     {
@@ -25103,6 +28235,15 @@
       "url": "https://www.medproinfo.org/",
       "confIds": [
         "CES2026"
+      ]
+    },
+    {
+      "name": "MedVigilance Inc.",
+      "nameEn": "MedVigilance Inc.",
+      "nameZh": "",
+      "url": "",
+      "confIds": [
+        "Computex2025"
       ]
     },
     {
@@ -25273,8 +28414,7 @@
       "nameZh": "",
       "url": "https://www.facebook.com/",
       "confIds": [
-        "CES2026",
-        "Computex2025"
+        "CES2026"
       ]
     },
     {
@@ -25340,6 +28480,15 @@
       "url": "https://metapercept.com",
       "confIds": [
         "GITEX2025"
+      ]
+    },
+    {
+      "name": "Metaphora Lab",
+      "nameEn": "Metaphora Lab",
+      "nameZh": "",
+      "url": "",
+      "confIds": [
+        "Computex2025"
       ]
     },
     {
@@ -25451,12 +28600,30 @@
       ]
     },
     {
+      "name": "MHS Co., Ltd.",
+      "nameEn": "MHS Co., Ltd.",
+      "nameZh": "",
+      "url": "",
+      "confIds": [
+        "Computex2025"
+      ]
+    },
+    {
       "name": "Michigan State University",
       "nameEn": "Entrepreneurship",
       "nameZh": "",
       "url": "https://entrepreneurship.msu.edu/",
       "confIds": [
         "CES2026"
+      ]
+    },
+    {
+      "name": "Micro Module Technology Co. | Ltd.",
+      "nameEn": "Micro Module Technology Co. | Ltd.",
+      "nameZh": "",
+      "url": "",
+      "confIds": [
+        "Computex2025"
       ]
     },
     {
@@ -25604,7 +28771,8 @@
       "nameZh": "",
       "url": "https://www.miele.com",
       "confIds": [
-        "IFA2025"
+        "IFA2025",
+        "IFA2026"
       ]
     },
     {
@@ -25632,6 +28800,15 @@
       "url": "https://www.mikroe.com",
       "confIds": [
         "GITEX2025"
+      ]
+    },
+    {
+      "name": "MILLENNIAL WORKS CO.,LTD",
+      "nameEn": "MILLENNIAL WORKS CO.,LTD",
+      "nameZh": "",
+      "url": "",
+      "confIds": [
+        "Computex2025"
       ]
     },
     {
@@ -25713,6 +28890,15 @@
       "url": "http://www.nmbtc.com",
       "confIds": [
         "CES2026"
+      ]
+    },
+    {
+      "name": "MinGo Technology Co., Limited",
+      "nameEn": "MinGo Technology Co., Limited",
+      "nameZh": "",
+      "url": "",
+      "confIds": [
+        "Computex2025"
       ]
     },
     {
@@ -25906,6 +29092,15 @@
       ]
     },
     {
+      "name": "MINIX TECHNOLOGY LIMITED",
+      "nameEn": "MINIX",
+      "nameZh": "",
+      "url": "",
+      "confIds": [
+        "Computex2025"
+      ]
+    },
+    {
       "name": "Minutus Computing",
       "nameEn": "Minutuscomputing",
       "nameZh": "",
@@ -26061,6 +29256,15 @@
       ]
     },
     {
+      "name": "MLR srl",
+      "nameEn": "MLR srl",
+      "nameZh": "",
+      "url": "",
+      "confIds": [
+        "Computex2025"
+      ]
+    },
+    {
       "name": "Mo-Link Technology Ltd.",
       "nameEn": "Mo Link",
       "nameZh": "",
@@ -26131,6 +29335,15 @@
       "confIds": [
         "CES2026",
         "GITEX2025"
+      ]
+    },
+    {
+      "name": "Mobilint, Inc.",
+      "nameEn": "MLA100,MLX-A1,REGULUS",
+      "nameZh": "",
+      "url": "",
+      "confIds": [
+        "Computex2025"
       ]
     },
     {
@@ -26368,6 +29581,15 @@
       ]
     },
     {
+      "name": "Molex",
+      "nameEn": "Molex",
+      "nameZh": "",
+      "url": "",
+      "confIds": [
+        "Computex2025"
+      ]
+    },
+    {
       "name": "Moloco, Inc.",
       "nameEn": "Moloco",
       "nameZh": "",
@@ -26467,6 +29689,24 @@
       ]
     },
     {
+      "name": "Monolithic Power Systems",
+      "nameEn": "Monolithic Power Systems",
+      "nameZh": "",
+      "url": "",
+      "confIds": [
+        "Computex2025"
+      ]
+    },
+    {
+      "name": "Monster Notebook",
+      "nameEn": "Monster Notebook, Tulpar Notebook, Pusat",
+      "nameZh": "",
+      "url": "",
+      "confIds": [
+        "Computex2025"
+      ]
+    },
+    {
       "name": "MONTRANS LLC",
       "nameEn": "Montrans",
       "nameZh": "",
@@ -26528,6 +29768,15 @@
       "url": "https://www.moreh.io",
       "confIds": [
         "GITEX2025"
+      ]
+    },
+    {
+      "name": "Morgenrot Inc.",
+      "nameEn": "Morgenrot Inc.",
+      "nameZh": "",
+      "url": "",
+      "confIds": [
+        "Computex2025"
       ]
     },
     {
@@ -27027,6 +30276,15 @@
       ]
     },
     {
+      "name": "MyMoney",
+      "nameEn": "MyMoney",
+      "nameZh": "",
+      "url": "",
+      "confIds": [
+        "Computex2025"
+      ]
+    },
+    {
       "name": "Myndoor",
       "nameEn": "Myndoor",
       "nameZh": "",
@@ -27162,6 +30420,15 @@
       ]
     },
     {
+      "name": "NanoBridge Semiconductor",
+      "nameEn": "NanoBridge Semiconductor",
+      "nameZh": "",
+      "url": "",
+      "confIds": [
+        "Computex2025"
+      ]
+    },
+    {
       "name": "NanoFlowX Inc.",
       "nameEn": "Nanoflowx",
       "nameZh": "",
@@ -27177,6 +30444,15 @@
       "url": "https://nanoleaf.me",
       "confIds": [
         "CES2026"
+      ]
+    },
+    {
+      "name": "Nanomade",
+      "nameEn": "Nanomade",
+      "nameZh": "",
+      "url": "",
+      "confIds": [
+        "Computex2025"
       ]
     },
     {
@@ -27441,6 +30717,15 @@
       ]
     },
     {
+      "name": "NcodiN",
+      "nameEn": "Nconnect",
+      "nameZh": "",
+      "url": "",
+      "confIds": [
+        "Computex2025"
+      ]
+    },
+    {
       "name": "NCREE",
       "nameEn": "5Dsmartes",
       "nameZh": "NCREE",
@@ -27456,6 +30741,15 @@
       "url": "https://www.ncts.co",
       "confIds": [
         "GITEX2025"
+      ]
+    },
+    {
+      "name": "NdotLight",
+      "nameEn": "NdotLight",
+      "nameZh": "",
+      "url": "",
+      "confIds": [
+        "Computex2025"
       ]
     },
     {
@@ -27586,6 +30880,15 @@
       ]
     },
     {
+      "name": "NEOWINE CO., LTD.",
+      "nameEn": "NEOWINE, ALPU, DALPU",
+      "nameZh": "",
+      "url": "",
+      "confIds": [
+        "Computex2025"
+      ]
+    },
+    {
       "name": "Nerdio Inc",
       "nameEn": "Getnerdio",
       "nameZh": "",
@@ -27618,7 +30921,8 @@
       "nameZh": "",
       "url": "https://www.netatmo.com",
       "confIds": [
-        "IFA2025"
+        "IFA2025",
+        "IFA2026"
       ]
     },
     {
@@ -27655,6 +30959,15 @@
       "url": "https://netgreen.live/",
       "confIds": [
         "GITEX2025"
+      ]
+    },
+    {
+      "name": "Netris",
+      "nameEn": "Netris",
+      "nameZh": "",
+      "url": "",
+      "confIds": [
+        "Computex2025"
       ]
     },
     {
@@ -27703,6 +31016,15 @@
       ]
     },
     {
+      "name": "Netsweeper",
+      "nameEn": "nFilter,nsEnforce",
+      "nameZh": "",
+      "url": "",
+      "confIds": [
+        "Computex2025"
+      ]
+    },
+    {
       "name": "Netsweeper Inc.",
       "nameEn": "Netsweeper",
       "nameZh": "",
@@ -27736,6 +31058,15 @@
       "url": "http://www.networkkorea.co.kr",
       "confIds": [
         "GITEX2025"
+      ]
+    },
+    {
+      "name": "Network Optix",
+      "nameEn": "Network Optix,Nx EVOS",
+      "nameZh": "",
+      "url": "",
+      "confIds": [
+        "Computex2025"
       ]
     },
     {
@@ -27944,6 +31275,15 @@
       "url": "https://www.newsedtech.co.jp/",
       "confIds": [
         "CES2026"
+      ]
+    },
+    {
+      "name": "Newsight Imaging",
+      "nameEn": "Newsight Imaging",
+      "nameZh": "",
+      "url": "",
+      "confIds": [
+        "Computex2025"
       ]
     },
     {
@@ -28232,6 +31572,15 @@
       "url": "https://www.nipa.kr/",
       "confIds": [
         "GITEX2025"
+      ]
+    },
+    {
+      "name": "Nirik inc",
+      "nameEn": "Nirik inc",
+      "nameZh": "",
+      "url": "",
+      "confIds": [
+        "Computex2025"
       ]
     },
     {
@@ -28674,7 +32023,8 @@
       "nameZh": "",
       "url": "https://nuki.io",
       "confIds": [
-        "IFA2025"
+        "IFA2025",
+        "IFA2026"
       ]
     },
     {
@@ -28775,6 +32125,15 @@
     },
     {
       "name": "NVIDIA",
+      "nameEn": "NVIDIA",
+      "nameZh": "",
+      "url": "",
+      "confIds": [
+        "Computex2025"
+      ]
+    },
+    {
+      "name": "NVIDIA",
       "nameEn": "Nvidia",
       "nameZh": "",
       "url": "https://www.nvidia.co.uk",
@@ -28792,12 +32151,39 @@
       ]
     },
     {
+      "name": "NX Electronics Limited",
+      "nameEn": "Samsung,Micron,Nvidia",
+      "nameZh": "",
+      "url": "",
+      "confIds": [
+        "Computex2025"
+      ]
+    },
+    {
       "name": "NXP Semiconductors",
       "nameEn": "Nxp",
       "nameZh": "",
       "url": "https://www.nxp.com/",
       "confIds": [
         "CES2026"
+      ]
+    },
+    {
+      "name": "NXP Semiconductors",
+      "nameEn": "NXP Semiconductors",
+      "nameZh": "",
+      "url": "",
+      "confIds": [
+        "Computex2025"
+      ]
+    },
+    {
+      "name": "NYB.AI PTE. LTD.",
+      "nameEn": "NYB.AI PTE. LTD.",
+      "nameZh": "",
+      "url": "",
+      "confIds": [
+        "Computex2025"
       ]
     },
     {
@@ -28882,6 +32268,24 @@
       ]
     },
     {
+      "name": "OCCT",
+      "nameEn": "OCCT",
+      "nameZh": "",
+      "url": "",
+      "confIds": [
+        "Computex2025"
+      ]
+    },
+    {
+      "name": "Ochy",
+      "nameEn": "Ochy",
+      "nameZh": "",
+      "url": "",
+      "confIds": [
+        "Computex2025"
+      ]
+    },
+    {
       "name": "OCP Maintenance Solutions",
       "nameEn": "Ocp Ms",
       "nameZh": "",
@@ -28915,6 +32319,15 @@
       "url": "https://www.octatco.com/eng",
       "confIds": [
         "GITEX2025"
+      ]
+    },
+    {
+      "name": "Oculi",
+      "nameEn": "Oculi",
+      "nameZh": "",
+      "url": "",
+      "confIds": [
+        "Computex2025"
       ]
     },
     {
@@ -28952,6 +32365,15 @@
       "url": "https://www.oemguru.in",
       "confIds": [
         "GITEX2025"
+      ]
+    },
+    {
+      "name": "Oetiker Japan Co., Ltd.",
+      "nameEn": "Oetiker, オエティカ, 欧梯克",
+      "nameZh": "",
+      "url": "",
+      "confIds": [
+        "Computex2025"
       ]
     },
     {
@@ -29045,6 +32467,24 @@
       ]
     },
     {
+      "name": "Okibo",
+      "nameEn": "Okibo",
+      "nameZh": "",
+      "url": "",
+      "confIds": [
+        "Computex2025"
+      ]
+    },
+    {
+      "name": "Okinawa Prefecture",
+      "nameEn": "Okinawa Prefecture",
+      "nameZh": "",
+      "url": "",
+      "confIds": [
+        "Computex2025"
+      ]
+    },
+    {
       "name": "Okta",
       "nameEn": "Okta",
       "nameZh": "",
@@ -29060,6 +32500,15 @@
       "url": "https://www.01ive.co.jp",
       "confIds": [
         "CES2026"
+      ]
+    },
+    {
+      "name": "Olive Inc.",
+      "nameEn": "Olive Inc.",
+      "nameZh": "",
+      "url": "",
+      "confIds": [
+        "Computex2025"
       ]
     },
     {
@@ -29159,6 +32608,15 @@
       "url": "https://www.OmniWOT.com",
       "confIds": [
         "GITEX2025"
+      ]
+    },
+    {
+      "name": "omoomi Inc",
+      "nameEn": "omoomi Inc",
+      "nameZh": "",
+      "url": "",
+      "confIds": [
+        "Computex2025"
       ]
     },
     {
@@ -29441,6 +32899,7 @@
         "MWC2024",
         "MWC2025",
         "IFA2025",
+        "IFA2026",
         "AsiaConsumerElectronicsBeijing2025"
       ]
     },
@@ -29587,7 +33046,8 @@
       "nameZh": "",
       "url": "https://oralb.com",
       "confIds": [
-        "IFA2025"
+        "IFA2025",
+        "IFA2026"
       ]
     },
     {
@@ -29870,6 +33330,15 @@
       ]
     },
     {
+      "name": "Overview.ai",
+      "nameEn": "Overview.ai",
+      "nameZh": "",
+      "url": "",
+      "confIds": [
+        "Computex2025"
+      ]
+    },
+    {
       "name": "Ovomind SA",
       "nameEn": "Ovomind",
       "nameZh": "",
@@ -30014,6 +33483,15 @@
       ]
     },
     {
+      "name": "PaleBlueDot AI",
+      "nameEn": "PaleBlueDot AI",
+      "nameZh": "",
+      "url": "",
+      "confIds": [
+        "Computex2025"
+      ]
+    },
+    {
       "name": "Palm Stays Real Estate Rental Platform",
       "nameEn": "Palmstays",
       "nameZh": "",
@@ -30056,7 +33534,8 @@
       "nameZh": "",
       "url": "https://www.panasonic.com",
       "confIds": [
-        "IFA2025"
+        "IFA2025",
+        "IFA2026"
       ]
     },
     {
@@ -30294,6 +33773,15 @@
       ]
     },
     {
+      "name": "PCG Trading, LLC dba Converge",
+      "nameEn": "Converge",
+      "nameZh": "",
+      "url": "",
+      "confIds": [
+        "Computex2025"
+      ]
+    },
+    {
       "name": "PCS WIRELESS LLC",
       "nameEn": "Pcsww",
       "nameZh": "",
@@ -30364,6 +33852,15 @@
       "url": "https://www.pelsee.com",
       "confIds": [
         "CES2026"
+      ]
+    },
+    {
+      "name": "PennEngineering",
+      "nameEn": "PEM®",
+      "nameZh": "",
+      "url": "",
+      "confIds": [
+        "Computex2025"
       ]
     },
     {
@@ -30543,7 +34040,8 @@
       "nameZh": "",
       "url": "https://www.philips.com",
       "confIds": [
-        "IFA2025"
+        "IFA2025",
+        "IFA2026"
       ]
     },
     {
@@ -30689,6 +34187,15 @@
       "url": "https://www.pila.energy",
       "confIds": [
         "CES2026"
+      ]
+    },
+    {
+      "name": "PiLink Co. | Ltd.",
+      "nameEn": "PiLink Co. | Ltd.",
+      "nameZh": "",
+      "url": "",
+      "confIds": [
+        "Computex2025"
       ]
     },
     {
@@ -30926,6 +34433,15 @@
       ]
     },
     {
+      "name": "PLAUD PTE. LTD.",
+      "nameEn": "PLAUD PTE. LTD.",
+      "nameZh": "",
+      "url": "",
+      "confIds": [
+        "Computex2025"
+      ]
+    },
+    {
       "name": "PLAUD Inc.",
       "nameEn": "Plaud",
       "nameZh": "",
@@ -31098,6 +34614,15 @@
       ]
     },
     {
+      "name": "Point Mobile Co., Ltd.",
+      "nameEn": "Point Mobile Co., Ltd.",
+      "nameZh": "",
+      "url": "",
+      "confIds": [
+        "Computex2025"
+      ]
+    },
+    {
       "name": "Point Mobile & Delta Systems",
       "nameEn": "Deltasystemsllc",
       "nameZh": "",
@@ -31139,7 +34664,8 @@
       "nameZh": "",
       "url": "https://www.polar.com",
       "confIds": [
-        "IFA2025"
+        "IFA2025",
+        "IFA2026"
       ]
     },
     {
@@ -31194,6 +34720,15 @@
       "url": "https://polyn.ai/",
       "confIds": [
         "CES2026"
+      ]
+    },
+    {
+      "name": "POLYN Technology",
+      "nameEn": "POLYN Technology",
+      "nameZh": "",
+      "url": "",
+      "confIds": [
+        "Computex2025"
       ]
     },
     {
@@ -31291,6 +34826,15 @@
       "nameEn": "",
       "nameZh": "",
       "url": "https://www.portwell.com.tw",
+      "confIds": [
+        "Computex2025"
+      ]
+    },
+    {
+      "name": "POSBANK",
+      "nameEn": "POSBANK",
+      "nameZh": "",
+      "url": "",
       "confIds": [
         "Computex2025"
       ]
@@ -31773,6 +35317,15 @@
       ]
     },
     {
+      "name": "PROKS SIA",
+      "nameEn": "Samsung, Crucial, Kingston",
+      "nameZh": "",
+      "url": "",
+      "confIds": [
+        "Computex2025"
+      ]
+    },
+    {
       "name": "Promate Technologies",
       "nameEn": "Promate",
       "nameZh": "",
@@ -31951,6 +35504,15 @@
       "url": "https://pura-vida.us/",
       "confIds": [
         "CES2026"
+      ]
+    },
+    {
+      "name": "Puralink",
+      "nameEn": "Puralink",
+      "nameZh": "",
+      "url": "",
+      "confIds": [
+        "Computex2025"
       ]
     },
     {
@@ -32284,6 +35846,15 @@
       ]
     },
     {
+      "name": "Quantum Brilliance",
+      "nameEn": "Quantum Brilliance",
+      "nameZh": "",
+      "url": "",
+      "confIds": [
+        "Computex2025"
+      ]
+    },
+    {
       "name": "Quantum Computer Systems",
       "nameEn": "Quantum",
       "nameZh": "",
@@ -32401,6 +35972,15 @@
       ]
     },
     {
+      "name": "QuettaFlow Technologies Pte Ltd",
+      "nameEn": "VasEdge",
+      "nameZh": "",
+      "url": "",
+      "confIds": [
+        "Computex2025"
+      ]
+    },
+    {
       "name": "Quickplay",
       "nameEn": "Quickplay",
       "nameZh": "",
@@ -32446,6 +36026,15 @@
       ]
     },
     {
+      "name": "Quobly",
+      "nameEn": "Quobly",
+      "nameZh": "",
+      "url": "",
+      "confIds": [
+        "Computex2025"
+      ]
+    },
+    {
       "name": "Quotidian Particle, Unipessoal LDA",
       "nameEn": "Tristar Mobile",
       "nameZh": "",
@@ -32461,6 +36050,15 @@
       "url": "https://www.elynceus.com",
       "confIds": [
         "CES2026"
+      ]
+    },
+    {
+      "name": "R2C2",
+      "nameEn": "R2C2",
+      "nameZh": "",
+      "url": "",
+      "confIds": [
+        "Computex2025"
       ]
     },
     {
@@ -32569,6 +36167,15 @@
       "url": "https://rapifuzz.in/",
       "confIds": [
         "GITEX2025"
+      ]
+    },
+    {
+      "name": "RAMXEED Limited",
+      "nameEn": "RAMXEED",
+      "nameZh": "",
+      "url": "",
+      "confIds": [
+        "Computex2025"
       ]
     },
     {
@@ -32707,6 +36314,15 @@
       ]
     },
     {
+      "name": "Real World Inc.",
+      "nameEn": "Real World Inc.",
+      "nameZh": "",
+      "url": "",
+      "confIds": [
+        "Computex2025"
+      ]
+    },
+    {
       "name": "Real-Time Innovations (RTI)",
       "nameEn": "Rti",
       "nameZh": "",
@@ -32794,6 +36410,15 @@
       "url": "https://www.recirqglobal.com/",
       "confIds": [
         "GITEX2025"
+      ]
+    },
+    {
+      "name": "RECOM Asia Pte Ltd",
+      "nameEn": "RECOM Asia Pte Ltd",
+      "nameZh": "",
+      "url": "",
+      "confIds": [
+        "Computex2025"
       ]
     },
     {
@@ -32985,6 +36610,15 @@
       "url": "https://regulaforensics.com/",
       "confIds": [
         "GITEX2025"
+      ]
+    },
+    {
+      "name": "REHATCH Inc.",
+      "nameEn": "REHATCH Inc.",
+      "nameZh": "",
+      "url": "",
+      "confIds": [
+        "Computex2025"
       ]
     },
     {
@@ -33187,6 +36821,15 @@
       ]
     },
     {
+      "name": "ResorTech EXPO in Okinawa Executive Committee",
+      "nameEn": "ResorTech EXPO in Okinawa Executive Committee",
+      "nameZh": "",
+      "url": "",
+      "confIds": [
+        "Computex2025"
+      ]
+    },
+    {
       "name": "Resorts World Hospitality Suites",
       "nameEn": "Resorts",
       "nameZh": "",
@@ -33314,6 +36957,15 @@
       ]
     },
     {
+      "name": "RHEAVISION ,Co.,Ltd",
+      "nameEn": "RHEAVISION ,Co.,Ltd",
+      "nameZh": "",
+      "url": "",
+      "confIds": [
+        "Computex2025"
+      ]
+    },
+    {
       "name": "Richtech Robotics",
       "nameEn": "Richtechrobotics",
       "nameZh": "",
@@ -33365,6 +37017,15 @@
       "url": "https://www.rndsquare.com",
       "confIds": [
         "CES2026"
+      ]
+    },
+    {
+      "name": "RISE Project",
+      "nameEn": "RISE Project",
+      "nameZh": "",
+      "url": "",
+      "confIds": [
+        "Computex2025"
       ]
     },
     {
@@ -33499,7 +37160,8 @@
       "nameZh": "",
       "url": "https://www.roborock.com",
       "confIds": [
-        "IFA2025"
+        "IFA2025",
+        "IFA2026"
       ]
     },
     {
@@ -33512,12 +37174,30 @@
       ]
     },
     {
+      "name": "RoboTape by Innovative Automation",
+      "nameEn": "RoboTape,RoboClip",
+      "nameZh": "",
+      "url": "",
+      "confIds": [
+        "Computex2025"
+      ]
+    },
+    {
       "name": "Robotic Box Co., Ltd.",
       "nameEn": "Rbtbox",
       "nameZh": "",
       "url": "https://www.rbtbox.kr/",
       "confIds": [
         "CES2026"
+      ]
+    },
+    {
+      "name": "Robotics & Edge AI Pavilion (Powered by Intel)",
+      "nameEn": "Robotics & Edge AI Pavilion (Powered by Intel)",
+      "nameZh": "",
+      "url": "",
+      "confIds": [
+        "Computex2025"
       ]
     },
     {
@@ -33770,6 +37450,15 @@
       "url": "https://runtime-solutions.com/",
       "confIds": [
         "GITEX2025"
+      ]
+    },
+    {
+      "name": "RUNWITHIT Synthetics",
+      "nameEn": "RUNWITHIT Synthetics",
+      "nameZh": "",
+      "url": "",
+      "confIds": [
+        "Computex2025"
       ]
     },
     {
@@ -34081,7 +37770,8 @@
         "MWC2024",
         "MWC2026",
         "MWC2025",
-        "IFA2025"
+        "IFA2025",
+        "IFA2026"
       ]
     },
     {
@@ -34182,6 +37872,15 @@
       "url": "https://www.sapphirestreamtech.com/",
       "confIds": [
         "CES2026"
+      ]
+    },
+    {
+      "name": "Sarcomere Dynamics Inc.",
+      "nameEn": "Sarcomere Dynamics Inc.",
+      "nameZh": "",
+      "url": "",
+      "confIds": [
+        "Computex2025"
       ]
     },
     {
@@ -34410,6 +38109,15 @@
       ]
     },
     {
+      "name": "Schneider Electric",
+      "nameEn": "Schneider Electric",
+      "nameZh": "",
+      "url": "",
+      "confIds": [
+        "Computex2025"
+      ]
+    },
+    {
       "name": "SCHOTT",
       "nameEn": "Schott",
       "nameZh": "",
@@ -34509,6 +38217,15 @@
       ]
     },
     {
+      "name": "SCS Inc",
+      "nameEn": "SCS Inc",
+      "nameZh": "",
+      "url": "",
+      "confIds": [
+        "Computex2025"
+      ]
+    },
+    {
       "name": "SCS Inc.",
       "nameEn": "Scsai",
       "nameZh": "",
@@ -34518,12 +38235,30 @@
       ]
     },
     {
+      "name": "SD Association",
+      "nameEn": "SD Association",
+      "nameZh": "",
+      "url": "",
+      "confIds": [
+        "Computex2025"
+      ]
+    },
+    {
       "name": "SDAA Inc.",
       "nameEn": "Sdaa",
       "nameZh": "",
       "url": "https://www.sdaa.co.kr/en",
       "confIds": [
         "CES2026"
+      ]
+    },
+    {
+      "name": "SDCX Co., Ltd.",
+      "nameEn": "SDCX Co., Ltd.",
+      "nameZh": "",
+      "url": "",
+      "confIds": [
+        "Computex2025"
       ]
     },
     {
@@ -34561,6 +38296,15 @@
       "confIds": [
         "CES2026",
         "WAIC2025",
+        "Computex2025"
+      ]
+    },
+    {
+      "name": "SEALSQ France",
+      "nameEn": "SEALSQ",
+      "nameZh": "",
+      "url": "",
+      "confIds": [
         "Computex2025"
       ]
     },
@@ -34799,6 +38543,24 @@
       ]
     },
     {
+      "name": "Semidynamics Technology Services SL",
+      "nameEn": "Semidynamics",
+      "nameZh": "",
+      "url": "",
+      "confIds": [
+        "Computex2025"
+      ]
+    },
+    {
+      "name": "SEMIQA",
+      "nameEn": "SEMIQA",
+      "nameZh": "",
+      "url": "",
+      "confIds": [
+        "Computex2025"
+      ]
+    },
+    {
       "name": "SEMIQA",
       "nameEn": "Semiqa",
       "nameZh": "",
@@ -34835,6 +38597,15 @@
       ]
     },
     {
+      "name": "Sencity PTY LTD",
+      "nameEn": "Sencity PTY LTD",
+      "nameZh": "",
+      "url": "",
+      "confIds": [
+        "Computex2025"
+      ]
+    },
+    {
       "name": "Sencure",
       "nameEn": "Sencure",
       "nameZh": "",
@@ -34858,7 +38629,8 @@
       "nameZh": "",
       "url": "https://www.sennheiser.com",
       "confIds": [
-        "IFA2025"
+        "IFA2025",
+        "IFA2026"
       ]
     },
     {
@@ -34895,6 +38667,15 @@
       "url": "https://www.sensforge.com/index",
       "confIds": [
         "CES2026"
+      ]
+    },
+    {
+      "name": "Sensor Controls Co. | Ltd.",
+      "nameEn": "Sensor Controls Co. | Ltd.",
+      "nameZh": "",
+      "url": "",
+      "confIds": [
+        "Computex2025"
       ]
     },
     {
@@ -35132,6 +38913,15 @@
       ]
     },
     {
+      "name": "SEWHA CO., LTD",
+      "nameEn": "SEHWA",
+      "nameZh": "",
+      "url": "",
+      "confIds": [
+        "Computex2025"
+      ]
+    },
+    {
       "name": "Seyond",
       "nameEn": "Seyond",
       "nameZh": "",
@@ -35222,6 +39012,15 @@
       ]
     },
     {
+      "name": "Share-Me",
+      "nameEn": "Share-Me",
+      "nameZh": "",
+      "url": "",
+      "confIds": [
+        "Computex2025"
+      ]
+    },
+    {
       "name": "SharedPro Technologies",
       "nameEn": "Sharedpro",
       "nameZh": "",
@@ -35281,7 +39080,8 @@
       "nameZh": "",
       "url": "https://www.sharp.eu",
       "confIds": [
-        "IFA2025"
+        "IFA2025",
+        "IFA2026"
       ]
     },
     {
@@ -35435,6 +39235,15 @@
       "url": "https://www.skinc.co.kr",
       "confIds": [
         "GITEX2025"
+      ]
+    },
+    {
+      "name": "SHINSEGAE Information & Communication Inc.",
+      "nameEn": "SHINSEGAE Information & Communication Inc.",
+      "nameZh": "",
+      "url": "",
+      "confIds": [
+        "Computex2025"
       ]
     },
     {
@@ -35599,7 +39408,8 @@
       "nameZh": "",
       "url": "https://www.siemens-home.bsh-group.com",
       "confIds": [
-        "IFA2025"
+        "IFA2025",
+        "IFA2026"
       ]
     },
     {
@@ -35948,6 +39758,15 @@
       ]
     },
     {
+      "name": "Sinotex International Industrial Limited",
+      "nameEn": "NINJA",
+      "nameZh": "",
+      "url": "",
+      "confIds": [
+        "Computex2025"
+      ]
+    },
+    {
       "name": "SintecMedia, NYC, Inc. D/B/A Operative",
       "nameEn": "Operative",
       "nameZh": "",
@@ -35973,6 +39792,15 @@
       "confIds": [
         "CES2026",
         "GITEX2025"
+      ]
+    },
+    {
+      "name": "SiPearl",
+      "nameEn": "SiPearl",
+      "nameZh": "",
+      "url": "",
+      "confIds": [
+        "Computex2025"
       ]
     },
     {
@@ -36054,6 +39882,15 @@
       "url": "https://www.skhynix.com/",
       "confIds": [
         "CES2026"
+      ]
+    },
+    {
+      "name": "SK hynix",
+      "nameEn": "SK hynix",
+      "nameZh": "",
+      "url": "",
+      "confIds": [
+        "Computex2025"
       ]
     },
     {
@@ -36699,6 +40536,15 @@
       ]
     },
     {
+      "name": "Solar Energy International Co. Ltd.",
+      "nameEn": "SAMSUNG, HYNIX, MICRON, NANYA, ELPIDA, KINGSTON, KUK, K-ONE, K-BOX",
+      "nameZh": "",
+      "url": "",
+      "confIds": [
+        "Computex2025"
+      ]
+    },
+    {
       "name": "Solarstic",
       "nameEn": "Solarstic",
       "nameZh": "",
@@ -36714,6 +40560,15 @@
       "url": "https://www.solarwinds.com/",
       "confIds": [
         "GITEX2025"
+      ]
+    },
+    {
+      "name": "SolidRun Ltd.",
+      "nameEn": "SolidRun Ltd.",
+      "nameZh": "",
+      "url": "",
+      "confIds": [
+        "Computex2025"
       ]
     },
     {
@@ -36911,7 +40766,8 @@
       "nameZh": "",
       "url": "https://www.sony.com",
       "confIds": [
-        "IFA2025"
+        "IFA2025",
+        "IFA2026"
       ]
     },
     {
@@ -36951,6 +40807,15 @@
       ]
     },
     {
+      "name": "SORABITO Inc.",
+      "nameEn": "SORABITO Inc.",
+      "nameZh": "",
+      "url": "",
+      "confIds": [
+        "Computex2025"
+      ]
+    },
+    {
       "name": "SoraMaterials inc.",
       "nameEn": "Sora Materials",
       "nameZh": "",
@@ -36987,6 +40852,15 @@
       ]
     },
     {
+      "name": "SOTATEK VIET NAM TECHNOLOGY JOINT STOCK COMPANY",
+      "nameEn": "SOTATEK VIET NAM TECHNOLOGY JOINT STOCK COMPANY",
+      "nameZh": "",
+      "url": "",
+      "confIds": [
+        "Computex2025"
+      ]
+    },
+    {
       "name": "Soteria Battery Innovation Group",
       "nameEn": "Soteriabig",
       "nameZh": "",
@@ -37002,6 +40876,15 @@
       "url": "https://www.soti.net",
       "confIds": [
         "GITEX2025"
+      ]
+    },
+    {
+      "name": "SOTI Inc",
+      "nameEn": "SOTI Inc",
+      "nameZh": "",
+      "url": "",
+      "confIds": [
+        "Computex2025"
       ]
     },
     {
@@ -37065,6 +40948,24 @@
       "url": "https://www.silisoundtekshop.com",
       "confIds": [
         "CES2026"
+      ]
+    },
+    {
+      "name": "Southco Asia Limited",
+      "nameEn": "Southco Asia Limited",
+      "nameZh": "",
+      "url": "",
+      "confIds": [
+        "Computex2025"
+      ]
+    },
+    {
+      "name": "Southern Alberta Institute of Technology (SAIT)",
+      "nameEn": "Southern Alberta Institute of Technology (SAIT)",
+      "nameZh": "",
+      "url": "",
+      "confIds": [
+        "Computex2025"
       ]
     },
     {
@@ -37429,6 +41330,15 @@
       ]
     },
     {
+      "name": "SqueezeBits",
+      "nameEn": "SqueezeBits",
+      "nameZh": "",
+      "url": "",
+      "confIds": [
+        "Computex2025"
+      ]
+    },
+    {
       "name": "SRK Techtronics",
       "nameEn": "Srktechtronics",
       "nameZh": "",
@@ -37516,6 +41426,15 @@
       "url": "https://www.star.global",
       "confIds": [
         "CES2026"
+      ]
+    },
+    {
+      "name": "Star Solutions International Inc.",
+      "nameEn": "Star Solutions International Inc.",
+      "nameZh": "",
+      "url": "",
+      "confIds": [
+        "Computex2025"
       ]
     },
     {
@@ -37799,6 +41718,15 @@
       ]
     },
     {
+      "name": "STR8 Industries",
+      "nameEn": "STR8 Industries",
+      "nameZh": "",
+      "url": "",
+      "confIds": [
+        "Computex2025"
+      ]
+    },
+    {
       "name": "Strata",
       "nameEn": "Therightedge",
       "nameZh": "",
@@ -37907,6 +41835,15 @@
       ]
     },
     {
+      "name": "Studiomapp",
+      "nameEn": "Studiomapp",
+      "nameZh": "",
+      "url": "",
+      "confIds": [
+        "Computex2025"
+      ]
+    },
+    {
       "name": "STULZ",
       "nameEn": "Stulz",
       "nameZh": "",
@@ -38006,12 +41943,30 @@
       ]
     },
     {
+      "name": "Sumitomo Precision Products co., ltd.",
+      "nameEn": "Siphorex",
+      "nameZh": "",
+      "url": "",
+      "confIds": [
+        "Computex2025"
+      ]
+    },
+    {
       "name": "Sumitomo Rubber Industries, Ltd.",
       "nameEn": "Srigroup",
       "nameZh": "",
       "url": "https://www.srigroup.co.jp/english/",
       "confIds": [
         "CES2026"
+      ]
+    },
+    {
+      "name": "Summit Sincerity Global Limited",
+      "nameEn": "intel,samsung,AMD",
+      "nameZh": "",
+      "url": "",
+      "confIds": [
+        "Computex2025"
       ]
     },
     {
@@ -38078,6 +42033,15 @@
       ]
     },
     {
+      "name": "SunLED Life Science",
+      "nameEn": "SunLED Life Science",
+      "nameZh": "",
+      "url": "",
+      "confIds": [
+        "Computex2025"
+      ]
+    },
+    {
       "name": "SunLED Life Science B.V.",
       "nameEn": "Sunled",
       "nameZh": "",
@@ -38093,6 +42057,15 @@
       "url": "https://www.sunnywhale.net",
       "confIds": [
         "CES2026"
+      ]
+    },
+    {
+      "name": "Sunrich Technology (H.K.) Limited",
+      "nameEn": "ST Lab",
+      "nameZh": "",
+      "url": "",
+      "confIds": [
+        "Computex2025"
       ]
     },
     {
@@ -38114,6 +42087,15 @@
       ]
     },
     {
+      "name": "Superb AI Inc.",
+      "nameEn": "Superb AI Inc.",
+      "nameZh": "",
+      "url": "",
+      "confIds": [
+        "Computex2025"
+      ]
+    },
+    {
       "name": "Superheat",
       "nameEn": "Superheat",
       "nameZh": "",
@@ -38131,6 +42113,15 @@
         "Computex2026",
         "Computex2025",
         "GITEX2025"
+      ]
+    },
+    {
+      "name": "SUPERMICRO",
+      "nameEn": "SUPERMICRO",
+      "nameZh": "",
+      "url": "",
+      "confIds": [
+        "Computex2025"
       ]
     },
     {
@@ -38401,6 +42392,15 @@
       "url": "https://www.synaptics.com/",
       "confIds": [
         "CES2026"
+      ]
+    },
+    {
+      "name": "Synaptics",
+      "nameEn": "Synaptics",
+      "nameZh": "",
+      "url": "",
+      "confIds": [
+        "Computex2025"
       ]
     },
     {
@@ -38705,6 +42705,15 @@
       ]
     },
     {
+      "name": "TAIWAN OHARA OPTICAL CO.,LTD.",
+      "nameEn": "TAIWAN OHARA OPTICAL CO.,LTD.",
+      "nameZh": "",
+      "url": "",
+      "confIds": [
+        "Computex2025"
+      ]
+    },
+    {
       "name": "Taiyo Yuden Co., Ltd.",
       "nameEn": "Ty Top",
       "nameZh": "",
@@ -38851,6 +42860,15 @@
       ]
     },
     {
+      "name": "TATSUTA Electric Wire and Cable Co., Ltd.",
+      "nameEn": "TATSUTA",
+      "nameZh": "",
+      "url": "",
+      "confIds": [
+        "Computex2025"
+      ]
+    },
+    {
       "name": "Tatweer / Yas Driving Academy",
       "nameEn": "Tatweermea",
       "nameZh": "",
@@ -38893,7 +42911,8 @@
       "url": "https://www.tcl.com",
       "confIds": [
         "CES2026",
-        "IFA2025"
+        "IFA2025",
+        "IFA2026"
       ]
     },
     {
@@ -39014,12 +43033,30 @@
       ]
     },
     {
+      "name": "Tech Mahindra",
+      "nameEn": "Tech Mahindra",
+      "nameZh": "",
+      "url": "",
+      "confIds": [
+        "Computex2025"
+      ]
+    },
+    {
       "name": "Tech Up for Women",
       "nameEn": "Techupforwomen",
       "nameZh": "",
       "url": "https://techupforwomen.com/",
       "confIds": [
         "CES2026"
+      ]
+    },
+    {
+      "name": "TECH-X SERVICE CO., LTD.",
+      "nameEn": "TECH-X SERVICE CO., LTD.",
+      "nameZh": "",
+      "url": "",
+      "confIds": [
+        "Computex2025"
       ]
     },
     {
@@ -39074,6 +43111,15 @@
       "url": "https://www.techkilla.com",
       "confIds": [
         "GITEX2025"
+      ]
+    },
+    {
+      "name": "Technic France",
+      "nameEn": "Technic",
+      "nameZh": "",
+      "url": "",
+      "confIds": [
+        "Computex2025"
       ]
     },
     {
@@ -39158,6 +43204,15 @@
       ]
     },
     {
+      "name": "TECNISCO, LTD.",
+      "nameEn": "T1K, arCuDia",
+      "nameZh": "",
+      "url": "",
+      "confIds": [
+        "Computex2025"
+      ]
+    },
+    {
       "name": "Tectonic Audio Labs",
       "nameEn": "Tectonic",
       "nameZh": "",
@@ -39182,6 +43237,15 @@
       "url": "https://www.tccim.ir",
       "confIds": [
         "GITEX2025"
+      ]
+    },
+    {
+      "name": "Teknobuilt",
+      "nameEn": "Teknobuilt",
+      "nameZh": "",
+      "url": "",
+      "confIds": [
+        "Computex2025"
       ]
     },
     {
@@ -39405,6 +43469,15 @@
       ]
     },
     {
+      "name": "Terafence LTD",
+      "nameEn": "Terafence LTD",
+      "nameZh": "",
+      "url": "",
+      "confIds": [
+        "Computex2025"
+      ]
+    },
+    {
       "name": "Teramind",
       "nameEn": "Teramind",
       "nameZh": "",
@@ -39522,6 +43595,15 @@
       ]
     },
     {
+      "name": "Texas Instruments",
+      "nameEn": "Texas Instruments",
+      "nameZh": "",
+      "url": "",
+      "confIds": [
+        "Computex2025"
+      ]
+    },
+    {
       "name": "TEXUB FZCO",
       "nameEn": "Texub",
       "nameZh": "",
@@ -39582,6 +43664,15 @@
       "url": "https://thaasa.com",
       "confIds": [
         "CES2026"
+      ]
+    },
+    {
+      "name": "Thailand Trade and Economic Office, Taipei",
+      "nameEn": "Thailand Trade and Economic Office, Taipei",
+      "nameZh": "",
+      "url": "",
+      "confIds": [
+        "Computex2025"
       ]
     },
     {
@@ -39748,6 +43839,15 @@
       ]
     },
     {
+      "name": "The Regional Municipality of York",
+      "nameEn": "York Link - Toronto Areas York Region",
+      "nameZh": "",
+      "url": "",
+      "confIds": [
+        "Computex2025"
+      ]
+    },
+    {
       "name": "The Risk Advisors (TRA",
       "nameEn": "Theriskadvisors",
       "nameZh": "",
@@ -39847,12 +43947,30 @@
       ]
     },
     {
+      "name": "Thekapco",
+      "nameEn": "Thekapco",
+      "nameZh": "",
+      "url": "",
+      "confIds": [
+        "Computex2025"
+      ]
+    },
+    {
       "name": "thekeeper Co.,Ltd.",
       "nameEn": "Thekeeper",
       "nameZh": "",
       "url": "https://www.thekeeper.co.kr",
       "confIds": [
         "CES2026"
+      ]
+    },
+    {
+      "name": "Thermal Grizzly Holding GmbH",
+      "nameEn": "Thermal Grizzly, DeltaMate",
+      "nameZh": "",
+      "url": "",
+      "confIds": [
+        "Computex2025"
       ]
     },
     {
@@ -40124,6 +44242,15 @@
       "url": "https://timetick.io",
       "confIds": [
         "CES2026"
+      ]
+    },
+    {
+      "name": "TIMEWELL Inc.",
+      "nameEn": "TIMEWELL Inc.",
+      "nameZh": "",
+      "url": "",
+      "confIds": [
+        "Computex2025"
       ]
     },
     {
@@ -40445,6 +44572,15 @@
       ]
     },
     {
+      "name": "TopoLogic Inc.",
+      "nameEn": "TopoLogic Inc.",
+      "nameZh": "",
+      "url": "",
+      "confIds": [
+        "Computex2025"
+      ]
+    },
+    {
       "name": "Topsort",
       "nameEn": "Topsort",
       "nameZh": "",
@@ -40486,7 +44622,8 @@
       "nameZh": "",
       "url": "https://www.toshiba-tv.com",
       "confIds": [
-        "IFA2025"
+        "IFA2025",
+        "IFA2026"
       ]
     },
     {
@@ -40496,6 +44633,15 @@
       "url": "https://www.toshiba.com/taec/",
       "confIds": [
         "CES2026"
+      ]
+    },
+    {
+      "name": "TOTAL CASH SYSTEMS CO.,LTD",
+      "nameEn": "TCS,NASCO",
+      "nameZh": "",
+      "url": "",
+      "confIds": [
+        "Computex2025"
       ]
     },
     {
@@ -40553,6 +44699,15 @@
       ]
     },
     {
+      "name": "toyopla inc.",
+      "nameEn": "toyopla inc.",
+      "nameZh": "",
+      "url": "",
+      "confIds": [
+        "Computex2025"
+      ]
+    },
+    {
       "name": "TP-Link Systems Inc.",
       "nameEn": "Tp Link",
       "nameZh": "",
@@ -40596,6 +44751,15 @@
       "url": "https://www.tracetronic.com/",
       "confIds": [
         "CES2026"
+      ]
+    },
+    {
+      "name": "TrackDeep",
+      "nameEn": "TrackDeep",
+      "nameZh": "",
+      "url": "",
+      "confIds": [
+        "Computex2025"
       ]
     },
     {
@@ -40722,6 +44886,15 @@
       "url": "https://www.trasna.io",
       "confIds": [
         "CES2026"
+      ]
+    },
+    {
+      "name": "travelverse",
+      "nameEn": "travelverse",
+      "nameZh": "",
+      "url": "",
+      "confIds": [
+        "Computex2025"
       ]
     },
     {
@@ -41050,6 +45223,15 @@
       ]
     },
     {
+      "name": "TurboNext.ai",
+      "nameEn": "TurboNext.ai",
+      "nameZh": "",
+      "url": "",
+      "confIds": [
+        "Computex2025"
+      ]
+    },
+    {
       "name": "turboSMTP",
       "nameEn": "Turbo Smtp",
       "nameZh": "",
@@ -41092,6 +45274,15 @@
       "url": "https://www.teethculture.com/",
       "confIds": [
         "CES2026"
+      ]
+    },
+    {
+      "name": "TwinMOS Technologies",
+      "nameEn": "TwinMOS",
+      "nameZh": "",
+      "url": "",
+      "confIds": [
+        "Computex2025"
       ]
     },
     {
@@ -41636,6 +45827,15 @@
       ]
     },
     {
+      "name": "Unitek International Group Limited",
+      "nameEn": "UNITEK",
+      "nameZh": "",
+      "url": "",
+      "confIds": [
+        "Computex2025"
+      ]
+    },
+    {
       "name": "Unitree Robotics",
       "nameEn": "",
       "nameZh": "",
@@ -41832,6 +46032,15 @@
       "url": "https://www.usare.com/",
       "confIds": [
         "CES2026"
+      ]
+    },
+    {
+      "name": "USB Implementers Forum",
+      "nameEn": "USB",
+      "nameZh": "",
+      "url": "",
+      "confIds": [
+        "Computex2025"
       ]
     },
     {
@@ -42051,6 +46260,24 @@
       ]
     },
     {
+      "name": "VBox communication LTD",
+      "nameEn": "VBox communication LTD",
+      "nameZh": "",
+      "url": "",
+      "confIds": [
+        "Computex2025"
+      ]
+    },
+    {
+      "name": "VCCI Council",
+      "nameEn": "VCCI Council",
+      "nameZh": "",
+      "url": "",
+      "confIds": [
+        "Computex2025"
+      ]
+    },
+    {
       "name": "Vdara Hospitality Suites",
       "nameEn": "Vdara",
       "nameZh": "",
@@ -42150,6 +46377,15 @@
       ]
     },
     {
+      "name": "Vellex Computing",
+      "nameEn": "Vellex Computing",
+      "nameZh": "",
+      "url": "",
+      "confIds": [
+        "Computex2025"
+      ]
+    },
+    {
       "name": "Velocity IoT",
       "nameEn": "Velocityiot",
       "nameZh": "",
@@ -42240,6 +46476,15 @@
       ]
     },
     {
+      "name": "Veridyne",
+      "nameEn": "Veridyne",
+      "nameZh": "",
+      "url": "",
+      "confIds": [
+        "Computex2025"
+      ]
+    },
+    {
       "name": "VeriSilicon Inc.",
       "nameEn": "Verisilicon",
       "nameZh": "",
@@ -42256,6 +46501,15 @@
       "url": "https://marketing.verisk.com/",
       "confIds": [
         "CES2026"
+      ]
+    },
+    {
+      "name": "VerityAI",
+      "nameEn": "VerityAI",
+      "nameZh": "",
+      "url": "",
+      "confIds": [
+        "Computex2025"
       ]
     },
     {
@@ -42319,7 +46573,8 @@
       "nameZh": "",
       "url": "https://www.vestel.com.tr",
       "confIds": [
-        "IFA2025"
+        "IFA2025",
+        "IFA2026"
       ]
     },
     {
@@ -42395,6 +46650,15 @@
       ]
     },
     {
+      "name": "Vicharak Computers PVT LTD",
+      "nameEn": "Vicharak Computers PVT LTD",
+      "nameZh": "",
+      "url": "",
+      "confIds": [
+        "Computex2025"
+      ]
+    },
+    {
       "name": "Victrola",
       "nameEn": "Victrola",
       "nameZh": "",
@@ -42440,12 +46704,30 @@
       ]
     },
     {
+      "name": "VinDynamics",
+      "nameEn": "VinDynamics",
+      "nameZh": "",
+      "url": "",
+      "confIds": [
+        "Computex2025"
+      ]
+    },
+    {
       "name": "Vinpower Digital Inc.",
       "nameEn": "Vinpowerdigital",
       "nameZh": "",
       "url": "https://vinpowerdigital.com",
       "confIds": [
         "CES2026"
+      ]
+    },
+    {
+      "name": "VINROBOTICS ROBOT APPLICATION AND RESEARCH DEVELOPMENT JOINT STOCK COMPANY",
+      "nameEn": "VINROBOTICS ROBOT APPLICATION AND RESEARCH DEVELOPMENT JOINT STOCK COMPANY",
+      "nameZh": "",
+      "url": "",
+      "confIds": [
+        "Computex2025"
       ]
     },
     {
@@ -42926,6 +47208,15 @@
       ]
     },
     {
+      "name": "Vrgineers Inc.",
+      "nameEn": "Vrgineers Inc.",
+      "nameZh": "",
+      "url": "",
+      "confIds": [
+        "Computex2025"
+      ]
+    },
+    {
       "name": "VRWARE",
       "nameEn": "Vrware",
       "nameZh": "",
@@ -42951,6 +47242,15 @@
       "confIds": [
         "CES2026",
         "GITEX2025"
+      ]
+    },
+    {
+      "name": "VSORA",
+      "nameEn": "VSORA",
+      "nameZh": "",
+      "url": "",
+      "confIds": [
+        "Computex2025"
       ]
     },
     {
@@ -43026,6 +47326,15 @@
       ]
     },
     {
+      "name": "VUSION",
+      "nameEn": "VUSION",
+      "nameZh": "",
+      "url": "",
+      "confIds": [
+        "Computex2025"
+      ]
+    },
+    {
       "name": "VUSIONGROUP",
       "nameEn": "Vusion",
       "nameZh": "",
@@ -43050,6 +47359,15 @@
       "url": "https://www.vvdntech.com",
       "confIds": [
         "CES2026"
+      ]
+    },
+    {
+      "name": "vvland Inc.",
+      "nameEn": "vvland Inc.",
+      "nameZh": "",
+      "url": "",
+      "confIds": [
+        "Computex2025"
       ]
     },
     {
@@ -43122,6 +47440,15 @@
       "url": "",
       "confIds": [
         "GITEX2025"
+      ]
+    },
+    {
+      "name": "Wang: Data Market",
+      "nameEn": "Wang: Data Market",
+      "nameZh": "",
+      "url": "",
+      "confIds": [
+        "Computex2025"
       ]
     },
     {
@@ -43252,6 +47579,15 @@
       ]
     },
     {
+      "name": "Wave Company",
+      "nameEn": "Wave Company",
+      "nameZh": "",
+      "url": "",
+      "confIds": [
+        "Computex2025"
+      ]
+    },
+    {
       "name": "Wave Shine Tech Inc.",
       "nameEn": "Waveshine Tech",
       "nameZh": "",
@@ -43295,6 +47631,15 @@
       "confIds": [
         "GTC2025",
         "GTC2026"
+      ]
+    },
+    {
+      "name": "WD",
+      "nameEn": "Western Digital,WD",
+      "nameZh": "",
+      "url": "",
+      "confIds": [
+        "Computex2025"
       ]
     },
     {
@@ -43376,6 +47721,15 @@
       "url": "https://wecommit.ai/",
       "confIds": [
         "CES2026"
+      ]
+    },
+    {
+      "name": "Wedge Networks Inc.",
+      "nameEn": "Wedge Networks Inc.",
+      "nameZh": "",
+      "url": "",
+      "confIds": [
+        "Computex2025"
       ]
     },
     {
@@ -43923,6 +48277,15 @@
       ]
     },
     {
+      "name": "Wireless Logic",
+      "nameEn": "Wireless Logic",
+      "nameZh": "",
+      "url": "",
+      "confIds": [
+        "Computex2025"
+      ]
+    },
+    {
       "name": "Wireless Power Consortium",
       "nameEn": "Wireless",
       "nameZh": "",
@@ -44038,7 +48401,8 @@
       "confIds": [
         "CES2025",
         "CES2026",
-        "IFA2025"
+        "IFA2025",
+        "IFA2026"
       ]
     },
     {
@@ -44412,6 +48776,15 @@
       ]
     },
     {
+      "name": "Xenx Technology Limited",
+      "nameEn": "Xenx Technology Limited",
+      "nameZh": "",
+      "url": "",
+      "confIds": [
+        "Computex2025"
+      ]
+    },
+    {
       "name": "XEO",
       "nameEn": "Xeo",
       "nameZh": "",
@@ -44491,6 +48864,24 @@
       "url": "https://www.xmems.com",
       "confIds": [
         "CES2026"
+      ]
+    },
+    {
+      "name": "xMEMS Labs, Inc.",
+      "nameEn": "µCooling air pump on a chip",
+      "nameZh": "",
+      "url": "",
+      "confIds": [
+        "Computex2025"
+      ]
+    },
+    {
+      "name": "XMOS technology",
+      "nameEn": "XMOS technology",
+      "nameZh": "",
+      "url": "",
+      "confIds": [
+        "Computex2025"
       ]
     },
     {
@@ -44846,6 +49237,15 @@
       ]
     },
     {
+      "name": "YOKOHAMA |Japan",
+      "nameEn": "YOKOHAMA |Japan",
+      "nameZh": "",
+      "url": "",
+      "confIds": [
+        "Computex2025"
+      ]
+    },
+    {
       "name": "Yomy",
       "nameEn": "Yomy",
       "nameZh": "",
@@ -44937,6 +49337,15 @@
       ]
     },
     {
+      "name": "YPLASMA ACTUATORS TECHNOLOGIES SL",
+      "nameEn": "YPlasma",
+      "nameZh": "",
+      "url": "",
+      "confIds": [
+        "Computex2025"
+      ]
+    },
+    {
       "name": "YTsaurus",
       "nameEn": "Ytsaurus",
       "nameZh": "",
@@ -45015,6 +49424,15 @@
       "url": "https://www.zaintech.com",
       "confIds": [
         "GITEX2025"
+      ]
+    },
+    {
+      "name": "Zalman",
+      "nameEn": "zalman",
+      "nameZh": "",
+      "url": "",
+      "confIds": [
+        "Computex2025"
       ]
     },
     {
@@ -45210,6 +49628,15 @@
       ]
     },
     {
+      "name": "ZeroKey Inc.",
+      "nameEn": "ZeroKey Inc.",
+      "nameZh": "",
+      "url": "",
+      "confIds": [
+        "Computex2025"
+      ]
+    },
+    {
       "name": "ZEROWELL Inc",
       "nameEn": "Zerowell",
       "nameZh": "",
@@ -45243,6 +49670,15 @@
       "url": "https://www.zetamobility.com",
       "confIds": [
         "CES2026"
+      ]
+    },
+    {
+      "name": "ZETIC.ai",
+      "nameEn": "ZETIC.ai",
+      "nameZh": "",
+      "url": "",
+      "confIds": [
+        "Computex2025"
       ]
     },
     {
@@ -45288,6 +49724,15 @@
       "url": "https://www.ziwo.io/ae/",
       "confIds": [
         "GITEX2025"
+      ]
+    },
+    {
+      "name": "Zoho Corporation Pte. Ltd.",
+      "nameEn": "Zoho CRM,Zoho One,Zoho Workplace",
+      "nameZh": "",
+      "url": "",
+      "confIds": [
+        "Computex2025"
       ]
     },
     {
@@ -45337,6 +49782,15 @@
       ]
     },
     {
+      "name": "ZOTAC Technology Pte. Limited",
+      "nameEn": "ZOTAC,ZOTAC GAMING,PCP Solutions",
+      "nameZh": "",
+      "url": "",
+      "confIds": [
+        "Computex2025"
+      ]
+    },
+    {
       "name": "Zscaler, Inc.",
       "nameEn": "Zscaler",
       "nameZh": "",
@@ -45370,6 +49824,15 @@
       "url": "https://www.zunzunbee.com",
       "confIds": [
         "CES2026"
+      ]
+    },
+    {
+      "name": "ZutaCore",
+      "nameEn": "ZutaCore",
+      "nameZh": "",
+      "url": "",
+      "confIds": [
+        "Computex2025"
       ]
     },
     {
@@ -48224,6 +52687,7 @@
         "MWC2025",
         "GITEX2025",
         "IFA2025",
+        "IFA2026",
         "ChinaComputingConf2025",
         "IntelligentMfgChina2025",
         "WAIC2026",
@@ -50006,6 +54470,7 @@
         "MWC2025",
         "GITEX2025",
         "IFA2025",
+        "IFA2026",
         "HangzhouEmbodiedAI2025",
         "AsiaConsumerElectronicsBeijing2025"
       ]

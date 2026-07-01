@@ -1,29 +1,5285 @@
 {
   "id": "Computex2025",
   "source": "www.computextaipei.com.tw",
-  "count": 1,
-  "updatedAt": "2026-06-25T04:02:33Z",
+  "count": 492,
+  "updatedAt": "2026-07-01T12:49:33Z",
   "exhibitors": [
     {
-      "name": "VINROBOTICS ROBOT APPLICATION AND RESEARCH DEVELOPMENT JOINT STOCK COMPANY",
-      "nameEn": "德臻科技GLW GALLOPWIRE,連展科技ADVANCED-CONNECTEK INC.,連訊通訊AOPT ACON OPTICS,連騰科技awan ADVANCED WIRELESS & ANTENNA INC,連展電能ACON-ECO",
-      "booth": "M1111a",
+      "name": "1NCE / SoftBank",
+      "nameEn": "1NCE IoT Lifetime Flat",
+      "booth": "N0001",
       "stage": "融资未公开",
       "cats": [
         "AI 基础设施",
-        "大模型 / 算法",
-        "工业 / 制造",
-        "数据 / 云 / 安全",
-        "机器人 / 具身智能",
         "消费电子 / 终端",
+        "工业 / 制造"
+      ],
+      "product": "LPWAN Module (LTE / NBIoT / LoRa / Sigfox / Weightless),IIoT Platform,IIoT Solution",
+      "country": "Japan",
+      "countryZh": "日本"
+    },
+    {
+      "name": "2m02",
+      "nameEn": "2m02",
+      "booth": "S0525",
+      "stage": "融资未公开",
+      "cats": [
+        "数据 / 云 / 安全"
+      ],
+      "product": "Physical Show Booth No.: Taipei Nangang Exhibition Center, Hall 2 (TaiNEX 2) InnoVEX S0525 S0525 DataCenter GreenTech SmartHome Startup DataCenter GreenTech SmartHome Startup",
+      "country": "France",
+      "countryZh": "法国"
+    },
+    {
+      "name": "3D Architech, Inc.",
+      "nameEn": "3D Architech, Inc.",
+      "booth": "S0724",
+      "stage": "融资未公开",
+      "product": "Physical Show Booth No.: Taipei Nangang Exhibition Center, Hall 2 (TaiNEX 2) InnoVEX S0724 S0724",
+      "country": "Korea, South Korea",
+      "countryZh": "韩国"
+    },
+    {
+      "name": "3drens",
+      "nameEn": "3drens",
+      "booth": "S1014",
+      "stage": "融资未公开",
+      "product": "Physical Show Booth No.: Taipei Nangang Exhibition Center, Hall 2 (TaiNEX 2) InnoVEX S1014 S1014",
+      "country": "Taiwan",
+      "countryZh": "台湾"
+    },
+    {
+      "name": "3M Taiwan Ltd.",
+      "nameEn": "3M Taiwan Ltd.",
+      "booth": "I0004",
+      "stage": "融资未公开",
+      "product": "Computer Power Supply",
+      "country": "Taiwan",
+      "countryZh": "台湾"
+    },
+    {
+      "name": "7Hz Inc.",
+      "nameEn": "7Hz Inc.",
+      "booth": "S0529",
+      "stage": "融资未公开",
+      "product": "Physical Show Booth No.: Taipei Nangang Exhibition Center, Hall 2 (TaiNEX 2) InnoVEX S0529 S0529",
+      "country": "Taiwan",
+      "countryZh": "台湾"
+    },
+    {
+      "name": "A Barristor Company",
+      "nameEn": "A Barristor Company",
+      "booth": "S0304",
+      "stage": "融资未公开",
+      "product": "Physical Show Booth No.: Taipei Nangang Exhibition Center, Hall 2 (TaiNEX 2) InnoVEX S0304 S0304",
+      "country": "Korea, South Korea",
+      "countryZh": "韩国"
+    },
+    {
+      "name": "A-Four Tech Co., Ltd.",
+      "nameEn": "A4 TECH,Bloody,Fstyler",
+      "booth": "Q0906",
+      "stage": "融资未公开",
+      "cats": [
+        "消费电子 / 终端"
+      ],
+      "product": "PC Keyboard",
+      "country": "Taiwan",
+      "countryZh": "台湾"
+    },
+    {
+      "name": "AAEON Technology Inc.",
+      "nameEn": "AAEON Technology Inc.",
+      "booth": "J1310",
+      "stage": "融资未公开",
+      "product": "Physical Show Booth No.: TWTC Exhibition Hall 1 Robotics A0618 A0618",
+      "country": "Taiwan",
+      "countryZh": "台湾",
+      "cats": [
+        "机器人 / 具身智能"
+      ]
+    },
+    {
+      "name": "ABA LOCKS INTERNATIONAL CO., LTD.",
+      "nameEn": "ABA",
+      "booth": "Q0333c",
+      "stage": "融资未公开",
+      "product": "Computer Lock",
+      "country": "Taiwan",
+      "countryZh": "台湾"
+    },
+    {
+      "name": "ABILITY ENTERPRISE CO., LTD.",
+      "nameEn": "ABILITY ENTERPRISE CO., LTD.",
+      "booth": "A0919a",
+      "stage": "融资未公开",
+      "cats": [
+        "机器人 / 具身智能"
+      ],
+      "product": "Robot,Robotic Arm",
+      "country": "Taiwan",
+      "countryZh": "台湾"
+    },
+    {
+      "name": "Academia Sinica",
+      "nameEn": "Academia Sinica",
+      "booth": "S0524",
+      "stage": "融资未公开",
+      "cats": [
+        "芯片 / 算力",
+        "数据 / 云 / 安全"
+      ],
+      "product": "Semiconductors & Core Tech,Edge Computing,Artificial Intelligence & Big Data",
+      "country": "Taiwan",
+      "countryZh": "台湾"
+    },
+    {
+      "name": "Accelerated Materials",
+      "nameEn": "Accelerated Materials",
+      "booth": "S0304",
+      "stage": "融资未公开",
+      "product": "Physical Show Booth No.: Taipei Nangang Exhibition Center, Hall 2 (TaiNEX 2) InnoVEX S0304 S0304",
+      "country": "Singapore",
+      "countryZh": "新加坡"
+    },
+    {
+      "name": "Accordance Systems Inc.",
+      "nameEn": "AiRPA,ARAID,PLC PLUS",
+      "booth": "R0134",
+      "stage": "融资未公开",
+      "cats": [
+        "芯片 / 算力",
+        "机器人 / 具身智能",
+        "工业 / 制造",
+        "数据 / 云 / 安全"
+      ],
+      "product": "Automated & Industrial Controller Module",
+      "country": "Taiwan",
+      "countryZh": "台湾"
+    },
+    {
+      "name": "ACCU THERM CORP.",
+      "nameEn": "ACCU THERM CORP.",
+      "booth": "P0932",
+      "stage": "融资未公开",
+      "cats": [
+        "工业 / 制造"
+      ],
+      "product": "IIoT Solution",
+      "country": "Taiwan",
+      "countryZh": "台湾"
+    },
+    {
+      "name": "Accucrazy",
+      "nameEn": "Accucrazy",
+      "booth": "S0712a",
+      "stage": "融资未公开",
+      "product": "Physical Show Booth No.: Taipei Nangang Exhibition Center, Hall 2 (TaiNEX 2) InnoVEX S0712a S0712a",
+      "country": "Taiwan",
+      "countryZh": "台湾"
+    },
+    {
+      "name": "ACCUSYS STORAGE LTD.",
+      "nameEn": "Accusys",
+      "booth": "R1022",
+      "stage": "融资未公开",
+      "cats": [
+        "AI 基础设施"
+      ],
+      "product": "Disk Array / RAID",
+      "country": "Taiwan",
+      "countryZh": "台湾"
+    },
+    {
+      "name": "Accuview Inc.",
+      "nameEn": "Accuview",
+      "booth": "P1409",
+      "stage": "融资未公开",
+      "cats": [
+        "消费电子 / 终端",
+        "工业 / 制造"
+      ],
+      "product": "LCD Display Module,Industrial Computer,Embedded Products,Human Machine Interface (HMI)",
+      "country": "Taiwan",
+      "countryZh": "台湾"
+    },
+    {
+      "name": "Acegeek Technology Limited",
+      "nameEn": "ACEGEEK",
+      "booth": "I1325",
+      "stage": "融资未公开",
+      "cats": [
+        "消费电子 / 终端"
+      ],
+      "product": "Thermal Adhesive & Grease,Computer Case,Computer Power Supply,PC Cooling & Fan,Other Computer Components & Parts",
+      "country": "Mainland China",
+      "countryZh": "中国"
+    },
+    {
+      "name": "Acer Incorporated",
+      "nameEn": "Acer,Predator",
+      "booth": "L0802",
+      "stage": "融资未公开",
+      "product": "Laptop Computer",
+      "country": "Taiwan",
+      "countryZh": "台湾"
+    },
+    {
+      "name": "ACES ELECTRONICS CO., LTD",
+      "nameEn": "ACES",
+      "booth": "I1307",
+      "stage": "融资未公开",
+      "cats": [
+        "AI 基础设施"
+      ],
+      "product": "Computer Cables & Connectors",
+      "country": "Taiwan",
+      "countryZh": "台湾"
+    },
+    {
+      "name": "Acon-Holding INC.",
+      "nameEn": "德臻科技GLW GALLOPWIRE,連展科技ADVANCED-CONNECTEK INC.,連訊通訊AOPT ACON OPTICS,連騰科技awan ADVANCED WIRELESS & ANTENNA INC,連展電能ACON-ECO",
+      "booth": "K0616",
+      "stage": "融资未公开",
+      "cats": [
+        "机器人 / 具身智能",
+        "数据 / 云 / 安全"
+      ],
+      "product": "Network Antenna",
+      "country": "Taiwan",
+      "countryZh": "台湾"
+    },
+    {
+      "name": "AcroCyte Therapeutics, Inc.",
+      "nameEn": "AcroCyte Therapeutics, Inc.",
+      "booth": "S0311a",
+      "stage": "融资未公开",
+      "product": "Physical Show Booth No.: Taipei Nangang Exhibition Center, Hall 2 (TaiNEX 2) InnoVEX S0311a S0311a",
+      "country": "Taiwan",
+      "countryZh": "台湾"
+    },
+    {
+      "name": "ACROSSER Technology Co., Ltd.",
+      "nameEn": "ACROSSER,EverFocus",
+      "booth": "Q0702",
+      "stage": "融资未公开",
+      "cats": [
+        "AI 基础设施",
+        "工业 / 制造",
+        "数据 / 云 / 安全"
+      ],
+      "product": "Automated & Industrial Controller Module,Embedded Processor,Industrial Computer,Embedded Products,Other Networking,IIoT Platform",
+      "country": "Taiwan",
+      "countryZh": "台湾"
+    },
+    {
+      "name": "Actasys LTD",
+      "nameEn": "Actasys LTD",
+      "booth": "S0905",
+      "stage": "融资未公开",
+      "product": "Physical Show Booth No.: Taipei Nangang Exhibition Center, Hall 2 (TaiNEX 2) InnoVEX S0905 S0905",
+      "country": "Israel",
+      "countryZh": "以色列"
+    },
+    {
+      "name": "Actdesign Co., Ltd",
+      "nameEn": "Actdesign Co., Ltd",
+      "stage": "融资未公开",
+      "country": "Japan",
+      "countryZh": "日本"
+    },
+    {
+      "name": "ACTECK TECHNOLOGY CO., LTD",
+      "nameEn": "ACTECK TECHNOLOGY CO., LTD",
+      "booth": "S1417",
+      "stage": "融资未公开",
+      "product": "Physical Show Booth No.: Taipei Nangang Exhibition Center, Hall 2 (TaiNEX 2) InnoVEX S1417 S1417",
+      "country": "Taiwan",
+      "countryZh": "台湾",
+      "cats": []
+    },
+    {
+      "name": "ACTION STAR TECHNOLOGY CO., LTD.",
+      "nameEn": "ACTION STAR TECHNOLOGY CO., LTD.",
+      "booth": "Q1006",
+      "stage": "融资未公开",
+      "product": "Other Computer Peripherals",
+      "country": "Taiwan",
+      "countryZh": "台湾"
+    },
+    {
+      "name": "Adapter Technology Co., Ltd.",
+      "nameEn": "Adapter Tech.",
+      "booth": "I0529",
+      "stage": "融资未公开",
+      "product": "Switching Power Supply,AC / DC Adapter,Computer Power Supply",
+      "country": "Taiwan",
+      "countryZh": "台湾"
+    },
+    {
+      "name": "ADATA Technology Co., Ltd.",
+      "nameEn": "ADATA,XPG",
+      "booth": "L0617a",
+      "stage": "融资未公开",
+      "cats": [
+        "数据 / 云 / 安全"
+      ],
+      "product": "Laptop Computer",
+      "country": "Taiwan",
+      "countryZh": "台湾"
+    },
+    {
+      "name": "ADDER TECHNOLOGY LTD",
+      "nameEn": "ADDER",
+      "booth": "K0017",
+      "stage": "融资未公开",
+      "cats": [
+        "数据 / 云 / 安全"
+      ],
+      "product": "Other Networking,Decoder & Encoder",
+      "country": "United Kingdom",
+      "countryZh": "英国"
+    },
+    {
+      "name": "Adesso Technology Inc.",
+      "nameEn": "ADESSO,MYGEKOGEAR,GYRATION",
+      "booth": "Q1220",
+      "stage": "融资未公开",
+      "cats": [
+        "消费电子 / 终端"
+      ],
+      "product": "PC Keyboard",
+      "country": "Taiwan",
+      "countryZh": "台湾"
+    },
+    {
+      "name": "ADLINK TECHNOLOGY INC.",
+      "nameEn": "ADLINK",
+      "booth": "P0425a",
+      "stage": "融资未公开",
+      "cats": [
+        "工业 / 制造"
+      ],
+      "product": "Industrial Computer",
+      "country": "Taiwan",
+      "countryZh": "台湾"
+    },
+    {
+      "name": "Administration for Digital Industries",
+      "nameEn": "Administration for Digital Industries",
+      "booth": "S0524",
+      "stage": "融资未公开",
+      "cats": [
+        "大模型 / 算法",
+        "数据 / 云 / 安全"
+      ],
+      "product": "Artificial Intelligence & Big Data,Generative AI & LLM",
+      "country": "Taiwan",
+      "countryZh": "台湾"
+    },
+    {
+      "name": "ADOMAX TECHNOLOGY CO., LTD.",
+      "nameEn": "ADOMAX TECHNOLOGY CO., LTD.",
+      "booth": "Q0915",
+      "stage": "融资未公开",
+      "product": "Mouse",
+      "country": "Taiwan",
+      "countryZh": "台湾"
+    },
+    {
+      "name": "Advanced Acoustic Technology Corporation",
+      "nameEn": "AATC",
+      "booth": "D0834",
+      "stage": "融资未公开",
+      "cats": [
+        "消费电子 / 终端"
+      ],
+      "product": "PC Speaker",
+      "country": "Taiwan",
+      "countryZh": "台湾"
+    },
+    {
+      "name": "Advanced Materials Co. |Ltd.",
+      "nameEn": "Advanced Materials Co. |Ltd.",
+      "booth": "S1014",
+      "stage": "融资未公开",
+      "product": "Physical Show Booth No.: Taipei Nangang Exhibition Center, Hall 2 (TaiNEX 2) InnoVEX S1014 S1014",
+      "country": "Taiwan",
+      "countryZh": "台湾"
+    },
+    {
+      "name": "Advantech Co., Ltd.",
+      "nameEn": "Advantech Co., Ltd.",
+      "booth": "K0603a",
+      "stage": "融资未公开",
+      "cats": [
+        "工业 / 制造",
+        "机器人 / 具身智能",
         "芯片 / 算力"
       ],
+      "product": "Physical Show Booth No.: TWTC Exhibition Hall 1 Robotics A0618 A0618",
+      "country": "Taiwan",
+      "countryZh": "台湾"
+    },
+    {
+      "name": "Aeolus Robotics Company",
+      "nameEn": "Aeolus Robotics Company",
+      "booth": "A1116",
+      "stage": "融资未公开",
+      "cats": [
+        "机器人 / 具身智能"
+      ],
+      "product": "Robot",
+      "country": "Taiwan",
+      "countryZh": "台湾"
+    },
+    {
+      "name": "Aeromax Technology Co., Ltd.",
+      "nameEn": "AEROMAX",
+      "booth": "K1405",
+      "stage": "融资未公开",
+      "product": "Wireless Audio Receiver, Adapter & Transmitter,Power Bank",
+      "country": "Taiwan",
+      "countryZh": "台湾"
+    },
+    {
+      "name": "AFOX",
+      "nameEn": "AFOX",
+      "booth": "Q0710a",
+      "stage": "融资未公开",
+      "cats": [
+        "消费电子 / 终端"
+      ],
+      "product": "PC Cooling & Fan,Graphics Card",
+      "country": "Taiwan",
+      "countryZh": "台湾"
+    },
+    {
+      "name": "AGI TECHNOLOGY CO., LTD.",
+      "nameEn": "AGi",
+      "booth": "L1117a",
+      "stage": "融资未公开",
+      "product": "Solid State Drive (SSD),DRAM",
+      "country": "Taiwan",
+      "countryZh": "台湾"
+    },
+    {
+      "name": "Ahoku Electronic Company",
+      "nameEn": "AHOKU",
+      "booth": "I0018",
+      "stage": "融资未公开",
+      "product": "Plug,Socket,Switching Power Supply,AC / DC Adapter,Power Converter",
+      "country": "Taiwan",
+      "countryZh": "台湾"
+    },
+    {
+      "name": "AI TIMES INC",
+      "nameEn": "AI TIMES INC",
+      "booth": "A0325a",
+      "stage": "融资未公开",
+      "cats": [
+        "消费电子 / 终端"
+      ],
+      "product": "Head & Bluetooth Earphone",
+      "country": "Taiwan",
+      "countryZh": "台湾"
+    },
+    {
+      "name": "AIC Inc.",
+      "nameEn": "AIC",
+      "booth": "N1106",
+      "stage": "融资未公开",
+      "cats": [
+        "芯片 / 算力",
+        "工业 / 制造"
+      ],
+      "product": "Server,Industrial Motherboard",
+      "country": "Taiwan",
+      "countryZh": "台湾"
+    },
+    {
+      "name": "AIDATA CORP.LTD.",
+      "nameEn": "aidata",
+      "booth": "Q1323",
+      "stage": "融资未公开",
+      "cats": [
+        "消费电子 / 终端",
+        "数据 / 云 / 安全"
+      ],
+      "product": "Laptop Bag,Handheld Bag & Case,Handheld Holder,Other Mobile Phone & Tablet PC Accessories,TV Mount,Other Computer Peripherals",
+      "country": "Taiwan",
+      "countryZh": "台湾"
+    },
+    {
+      "name": "AIFA TECHNOLOGY CORP.",
+      "nameEn": "AIFA TECH",
+      "booth": "J1233",
+      "stage": "融资未公开",
+      "cats": [
+        "数据 / 云 / 安全"
+      ],
+      "product": "Physical Show Booth No.: Taipei Nangang Exhibition Center, Hall 1 (TaiNEX 1) Advanced Communication & Networking J1233 J1233",
+      "country": "Taiwan",
+      "countryZh": "台湾"
+    },
+    {
+      "name": "AII Max Technology",
+      "nameEn": "AII Max Technology",
+      "booth": "M1111a",
+      "stage": "融资未公开",
+      "product": "Physical Show Booth No.: Taipei Nangang Exhibition Center, Hall 1 (TaiNEX 1) System Integration Solution M1111a M1111a",
+      "country": "Taiwan",
+      "countryZh": "台湾"
+    },
+    {
+      "name": "AIKUN(CHINA) ELECTRONICS COMPANY LIMITED",
+      "nameEn": "AIKUN",
+      "booth": "I1304",
+      "stage": "融资未公开",
+      "cats": [
+        "消费电子 / 终端"
+      ],
+      "product": "PC Keyboard,Wireless Charger",
+      "country": "Mainland China",
+      "countryZh": "中国"
+    },
+    {
+      "name": "AILEEN AGRITECH BIO CO. | LTD.",
+      "nameEn": "AILEEN AGRITECH BIO CO. | LTD.",
+      "booth": "S0923",
+      "stage": "融资未公开",
+      "product": "Physical Show Booth No.: Taipei Nangang Exhibition Center, Hall 2 (TaiNEX 2) InnoVEX S0923 S0923",
+      "country": "Taiwan",
+      "countryZh": "台湾"
+    },
+    {
+      "name": "AIO Europe BV",
+      "nameEn": "AIO",
+      "booth": "N0325a",
+      "stage": "融资未公开",
+      "cats": [
+        "消费电子 / 终端"
+      ],
+      "product": "E-paper Display,Computer Case,Computer Power Supply,PC Cooling & Fan,Other Computer Components & Parts,Bluetooth Keyboard & Mouse,Liquid Cooling System",
+      "country": "Netherlands",
+      "countryZh": "荷兰"
+    },
+    {
+      "name": "Aiplux Technology Co., Ltd.",
+      "nameEn": "Aiplux Technology Co., Ltd.",
+      "booth": "S0311a",
+      "stage": "融资未公开",
+      "product": "Physical Show Booth No.: Taipei Nangang Exhibition Center, Hall 2 (TaiNEX 2) InnoVEX S0311a S0311a",
+      "country": "Taiwan",
+      "countryZh": "台湾"
+    },
+    {
+      "name": "AiQ Smart Clothing Inc.",
+      "nameEn": "AiQ",
+      "booth": "N1213a",
+      "stage": "融资未公开",
+      "product": "Physical Show Booth No.: Taipei Nangang Exhibition Center, Hall 1 (TaiNEX 1) System Integration Solution N1213a N1213a",
+      "country": "Taiwan",
+      "countryZh": "台湾"
+    },
+    {
+      "name": "AirLive Technology Corporation",
+      "nameEn": "AirLive",
+      "booth": "K0932",
+      "stage": "融资未公开",
+      "cats": [
+        "AI 基础设施",
+        "数据 / 云 / 安全"
+      ],
+      "product": "Router,Gateway,Wireless AP / Bridge,Network Switch,IP Camera,Cloud Computing & IT Services",
+      "country": "Taiwan",
+      "countryZh": "台湾"
+    },
+    {
+      "name": "Airoha Technology Corp.",
+      "nameEn": "Airoha Technology Corp.",
+      "booth": "D0229",
+      "stage": "融资未公开",
+      "cats": [
+        "芯片 / 算力"
+      ],
+      "product": "System on Chip(SOC)",
+      "country": "Taiwan",
+      "countryZh": "台湾"
+    },
+    {
+      "name": "AItewan BioMedical Technology Inc.",
+      "nameEn": "AItewan BioMedical Technology Inc.",
+      "booth": "S0923",
+      "stage": "融资未公开",
+      "product": "Physical Show Booth No.: Taipei Nangang Exhibition Center, Hall 2 (TaiNEX 2) InnoVEX S0923 S0923",
+      "country": "Taiwan",
+      "countryZh": "台湾"
+    },
+    {
+      "name": "Akasa Europe Ltd.",
+      "nameEn": "akasa",
+      "booth": "N0329a",
+      "stage": "融资未公开",
+      "cats": [
+        "消费电子 / 终端",
+        "工业 / 制造",
+        "数据 / 云 / 安全"
+      ],
+      "product": "Heat Sink & Pipe,Thermal Adhesive & Grease,Embedded Products,Bar Code Inventory Machine,PC Cooling & Fan,Liquid Cooling System ,Gaming Accessories",
+      "country": "United Kingdom",
+      "countryZh": "英国"
+    },
+    {
+      "name": "Akeana",
+      "nameEn": "Akeana",
+      "booth": "S0409a",
+      "stage": "融资未公开",
+      "product": "Physical Show Booth No.: Taipei Nangang Exhibition Center, Hall 2 (TaiNEX 2) InnoVEX S0409a S0409a",
+      "country": "United States",
+      "countryZh": "美国"
+    },
+    {
+      "name": "Alberta Taiwan Office",
+      "nameEn": "Alberta Taiwan Office",
+      "booth": "S0506",
+      "stage": "融资未公开",
+      "product": "Physical Show Booth No.: Taipei Nangang Exhibition Center, Hall 2 (TaiNEX 2) InnoVEX S0506 S0506",
+      "country": "Canada",
+      "countryZh": "加拿大"
+    },
+    {
+      "name": "ALFA NETWORK INC",
+      "nameEn": "ALFA",
+      "booth": "A0507a",
+      "stage": "融资未公开",
+      "cats": [
+        "工业 / 制造",
+        "数据 / 云 / 安全"
+      ],
+      "product": "Industrial Automatic & Smart Machinery Turnkey Equipment,IIoT Solution",
+      "country": "Taiwan",
+      "countryZh": "台湾"
+    },
+    {
+      "name": "ALGO ARTIS CORPORATION",
+      "nameEn": "ALGO ARTIS CORPORATION",
+      "booth": "S0118",
+      "stage": "融资未公开",
+      "product": "Physical Show Booth No.: Taipei Nangang Exhibition Center, Hall 2 (TaiNEX 2) InnoVEX S0118 S0118",
+      "country": "Japan",
+      "countryZh": "日本"
+    },
+    {
+      "name": "All Best Electronics Co., Ltd.",
+      "nameEn": "All Best Electronics Co., Ltd.",
+      "booth": "I0024",
+      "stage": "融资未公开",
+      "product": "Electrical Connectors,Other Computer Components & Parts,Optical Fiber",
+      "country": "Taiwan",
+      "countryZh": "台湾"
+    },
+    {
+      "name": "Alpenglow Tek",
+      "nameEn": "Alpenglow Tek",
+      "booth": "S0209a",
+      "stage": "融资未公开",
+      "product": "Physical Show Booth No.: Taipei Nangang Exhibition Center, Hall 2 (TaiNEX 2) InnoVEX S0209a S0209a",
+      "country": "Taiwan",
+      "countryZh": "台湾"
+    },
+    {
+      "name": "Alpha Intelligence Manifolds",
+      "nameEn": "Alpha Intelligence Manifolds",
+      "booth": "S0712a",
+      "stage": "融资未公开",
+      "product": "Physical Show Booth No.: Taipei Nangang Exhibition Center, Hall 2 (TaiNEX 2) InnoVEX S0712a S0712a",
+      "country": "Taiwan",
+      "countryZh": "台湾"
+    },
+    {
+      "name": "Alphacool International GmbH",
+      "nameEn": "Alphacool",
+      "booth": "N0519",
+      "stage": "融资未公开",
+      "cats": [
+        "芯片 / 算力",
+        "消费电子 / 终端",
+        "数据 / 云 / 安全"
+      ],
+      "product": "Server,Liquid Cooling System ,AI Air Cooling / Liquid Cooling System",
+      "country": "Germany",
+      "countryZh": "德国"
+    },
+    {
+      "name": "Alsemy Inc.",
+      "nameEn": "Alsemy Inc.",
+      "booth": "S0712a",
+      "stage": "融资未公开",
+      "product": "Physical Show Booth No.: Taipei Nangang Exhibition Center, Hall 2 (TaiNEX 2) InnoVEX S0712a S0712a",
+      "country": "Korea, South Korea",
+      "countryZh": "韩国"
+    },
+    {
+      "name": "Altek Corporation",
+      "nameEn": "Altek Corporation",
+      "booth": "J0327a",
+      "stage": "融资未公开",
+      "cats": [
+        "芯片 / 算力",
+        "机器人 / 具身智能",
+        "数据 / 云 / 安全"
+      ],
+      "product": "System on Chip(SOC),Data Capturing & Identification,Image Recognition Service / Device,Biometircs System,UAV & Drone Imaging Solutions,Robotic Vision,Edge AI & Edge Computing,AI Vision & Algorithms",
+      "country": "Taiwan",
+      "countryZh": "台湾"
+    },
+    {
+      "name": "Amaryllo Inc.",
+      "nameEn": "AMARYLLO,myHPcloud,Soteria",
+      "booth": "SI",
+      "stage": "融资未公开",
+      "cats": [
+        "AI 基础设施",
+        "消费电子 / 终端",
+        "数据 / 云 / 安全"
+      ],
+      "product": "Other Drives, Storage & Blank Media,IP Camera",
+      "country": "Taiwan",
+      "countryZh": "台湾"
+    },
+    {
+      "name": "AMAX-KY",
+      "nameEn": "AMAX-KY",
+      "booth": "R0233a",
+      "stage": "融资未公开",
+      "cats": [
+        "芯片 / 算力",
+        "AI 基础设施",
+        "消费电子 / 终端",
+        "工业 / 制造"
+      ],
       "product": "Hardware Products: Industrial control equipment, workstations, servers, CDU, liquid cooling components, customized service servers,Software Products: PlatforMax Intelligent Computing Convergence Platform, distributed storage software, intelligent O&M platform, liquid cooling data center platform, AI and Token application platform,Solutions: Liquid cooling intelligent computing solution, high-performance computing cluster solution, AI computing cluster solution",
-      "url": "https://www.facebook.com/COMPUTEX.TAITRA",
-      "country": "United States Minor Outlying Islands",
-      "countryZh": "美国本土外小岛屿",
-      "pitch": "Airoha Technology, a crucial subsidiary of the MediaTek Group, specializes in Wireless Edge AI and Fixed Networking Infrastructure. Operating under a highly effective \"Large and Small Platforms, Division of Labor and Cooperation\" framework with our parent company, we offer the organizational agility required to deliver comprehensive, high-value chip solutions globally. Driven by a commitment to sustainable competitive advantages, we strategically invest in high-threshold, iterative technologies, securing a top-three global market share in Bluetooth solutions and satellite positioning. Airoha remains strictly dedicated to translating advanced technological innovations into tangible, long-term market competitiveness for our partners. Exhibitor Videos Airoha Technology constitutes a crucial component of the MediaTek Group’s strategic layout. While MediaTek’s chips are predominantly large platforms developed by R&D teams numbering in the thousands, Airoha Technology focuses on small platforms engineered by agile teams of hundreds. The two parties operate under a symbiotic relationship of “Large and Small Platforms, Division of Labor and Cooperation,” enabling the delivery of higher value and more comprehensive solutions to serve global customers. Airoha Technology was formed by combining the IoT division of its parent company, MediaTek, along with Airoha Technology (the predecessor), EcoNet, and Audiowise—bringing together three companies and four dedicated teams. The core leadership boasts over 20 years of industry experience. Prior to the consolidation, both Airoha and EcoNet were already operating as MediaTek subsidiaries. Following the merger, Airoha Technology has demonstrated substantial efficacy across talent acquisition, product line strategizing, and advanced technology investments. Furthermore, leveraged by the “Large and Small Platforms, Division of Labor and Cooperation” operational paradigm with MediaTek, this integration will unlock even greater synergies and competitive advantages. Specific Operational Proven Records: Since 2017, backed by the robust support of parent company MediaTek, Airoha Technology has proactively “expanded its European and American customer base,” heavily invested in the development of “high-margin chips,” and simultaneously accelerated its “Ethernet chip R&D.” The management team continues to optimize the corporate structure—prioritizing high-value semiconductor innovation, deploying advanced technologies, and mastering leading-edge process nodes—resulting in steady, robust growth in both revenue and profitability. Presently, Airoha Technology ranks among the top three in global market share across three core chip series: “Bluetooth® Audio/True Wireless Stereo (TWS) Earbuds,” “Fiber-optic Broadband,” and “Satellite Positioning.” Firmly established within the global leading cohort, Airoha serves numerous globally recognized marquee brand clients. Two Major Domains, Five Chip Series: Airoha Technology is an IC design company deeply dedicated to two core domains: Wireless Edge AI and Fixed Networking Infrastructure. Airoha two major domains and five chip series: Within the Fixed Networking Infrastructure domain, Airoha Technology's \"Broadband\", \"Ethernet\" and “PAM4 DSP” chip series mutually integrate and align with MediaTek’s Wi-Fi Filogic and 5G FWA solutions on both technological and commercial fronts. Together, they provide higher value, end-to-end solutions to serve global customers. Within the Wireless Edge AI domain, Airoha offers two chip series: “Short-range Wireless Product (encompassing Bluetooth audio and Bluetooth transmission)” and “Satellite Positioning.” Through strategic division of labor and cooperation with the parent company’s large platform chips—including 5G, Wi-Fi Filogic, and Auto—these series address the escalating complexity and diverse integration requirements of modern edge devices, serving as the foundational infrastructure supporting last-mile innovative applications. Strategic Investment in Iterative, High-Threshold Technologies: The “iterative technology” refers to technology that continuously evolves generation after generation, with new technical paradigms emerging periodically. As the industry perpetually establishes new standards, the end-products supported by these technologies also undergo constant innovation. Iteration signifies technological advancement and standard evolution; consequently, chip R&D must rigorously keep pace, demanding repeated optimization and backward compatibility with prior specifications. Therefore, the more generations a technology spans, the higher its difficulty and barriers to entry scale. Taking Bluetooth® audio technology as an example, Airoha Technology joined the Bluetooth® SIG in 2006 during the second-generation Bluetooth® 2.x era. After 16 years of development up to 2022, the technology evolved into the fifth-generation Bluetooth® 5.x. Looking ahead to 2026, the forthcoming Bluetooth® 7.x standard is also set to be jointly formulated by major global tech giants with Airoha Technology’s active participation. Similarly, fixed broadband development transitioned from the popularization of ADSL in 2001 through over two decades of evolution, culminating in the global deployment of 10G-PON services in 2022. By 2025, Airoha Technology became the world’s first IC supplier simultaneously equipped with software capabilities across three major open-source systems: OpenWrt, RDK-B, and prplOS. Moving into 2026, 25G-PON solutions are also fully market-ready. Therefore, Airoha Technology strategically chooses to invest in “iterative, high threshold” technologies. This commitment ensures the R&D team continuously accumulates technical prowess, making our technology investments sustainable. We continually learn from top-tier clients, striving to be a pivotal partner that grows alongside our customers. Future Growth Opportunities: Looking forward, Airoha Technology envisions immense developmental prospects across the global Fixed Networking Infrastructure and Wireless Edge AI domains. With global governments currently escalating investments in network infrastructure, Airoha Technology will continue to expand its footprint in networking terminal equipment, encompassing chips for Fiber Gateways, Ethernet Physical Layers (PHY), and Switches. Simultaneously, Airoha Technology’s ultra-high-speed SerDes transmission and Laser Driver technologies also rank at the global forefront. The company has successfully developed the single-channel 50/100/200 bps PAM4 DSP + LDD/TIA chip series, primarily applied in high-speed optical modules for long-distance interconnections between Rack-to-Rack equipment within data centers. Notably, Airoha Technology’s PAM4 DSP + LDD chip stands as Asia’s first mass-produced PAM4 DSP chip solution for high-speed optical modules. In the Wireless Edge AI domain, Short-range Wireless Product lines encompass “Bluetooth® audio” and “Bluetooth® transmission.” Beyond maintaining sustained adoption in flagship products by brand customers, Bluetooth® audio chips have extended into Gaming, Enterprise, Hearing Aids, and even the future public broadcasting market (Auracast™). Within the Bluetooth® transmission market, Airoha strategically targets premium applications. In addition to deepening collaborations with the top three global e-sports brands for high-end HID Bluetooth transmission chips (such as keyboards, gaming mice, and joystick controllers), it is also aggressively pioneering B2B industry applications and collaborating with partners to inject new momentum for mid-to-long-term growth. Leveraging the combined Edge AI technological capabilities of the MediaTek Group and Airoha Technology, Airoha’s advanced features—ranging from scene recognition and noise cancellation in audio, to centimeter-level high precision in satellite positioning, and data offloading capabilities in high-speed transmission—empower clients to rapidly deploy AI into edge devices with ultra-low power consumption, significantly elevating customer product competitiveness. Airoha Technology’s satellite positioning chips have already been adopted by automakers for pre-installed and aftermarket tracking applications. Furthermore, having passed the rigorous automotive-grade AEC-Q100 Grade 2 reliability standard tests and completed system integration with MediaTek’s Dimensity Auto platform, this achievement demonstrates Airoha Technology’s unyielding commitment to the safety and reliability of automotive satellite positioning chips, as well as its robust determination to penetrate the automotive market. Continuously Translating Technological Innovation into Customer Competitiveness: Ching-Jiang Hsieh (CJ Hsieh), Chairman of Airoha Technology: “Airoha Technology is dedicated to translating the innovative capability of advanced technologies into our customers’ competitiveness. By continuously introducing high-value chips, we accelerate our customers’ time-to-market, achieving mutual market success through the launch of their products and services, and positioning ourselves as their most valuable partner. Airoha Technology will constantly learn from global leading brand customers and grow alongside them.” Exhibiting Record 2026 2026/06/02 - 2026/06/05 COMPUTEX TAIPEI Previous： AirLive Technology Corporation Next： All Best Electronics Co., Ltd. Collapse News Press Releases Industry News eDM Exhibitor's News Show Publications COMPUTEX Focus EP.1 AI&Computing, AI Factory EP.2 Global Technology Innovation & AI Trends Exhibitor Event 2026 Show Calendar Global Press Con & Keynote Forum NVIDIA GTC Taipei Guided tour Visitor InnoVEX Transportation/Travel Hotel List Level Up your business travel How to get to Taipei Nangang Exhibition Center Taoyuan International Airport Visa Application Tourism Administration Shuttle Service Partners About COMPUTEX Show Profile Photo Gallery Videos",
-      "pitchSource": "computex-detail"
+      "country": "Taiwan",
+      "countryZh": "台湾"
+    },
+    {
+      "name": "AMAZING CHIP SEMICONDUCTOR CORPORATION",
+      "nameEn": "AMAZING CHIP SEMICONDUCTOR CORPORATION",
+      "booth": "R0931",
+      "stage": "融资未公开",
+      "cats": [
+        "芯片 / 算力"
+      ],
+      "product": "Physical Show Booth No.: Taipei Nangang Exhibition Center, Hall 2 (TaiNEX 2) AI Computing & System Integration Solution R0931 R0931",
+      "country": "Taiwan",
+      "countryZh": "台湾"
+    },
+    {
+      "name": "Ambedded Technology Co., Ltd",
+      "nameEn": "Ambedded Technology",
+      "booth": "R0834",
+      "stage": "融资未公开",
+      "product": "Physical Show Booth No.: Taipei Nangang Exhibition Center, Hall 2 (TaiNEX 2) AI Computing & System Integration Solution R0834 R0834",
+      "country": "Taiwan",
+      "countryZh": "台湾"
+    },
+    {
+      "name": "Amelio Biomedical Co., Ltd.",
+      "nameEn": "Amelio Biomedical Co., Ltd.",
+      "booth": "S0311a",
+      "stage": "融资未公开",
+      "product": "Physical Show Booth No.: Taipei Nangang Exhibition Center, Hall 2 (TaiNEX 2) InnoVEX S0311a S0311a",
+      "country": "Taiwan",
+      "countryZh": "台湾"
+    },
+    {
+      "name": "AMICCOM Electronics Corporation",
+      "nameEn": "AMICCOM",
+      "booth": "D0129",
+      "stage": "融资未公开",
+      "product": "IC Design, Packaging & Foundry",
+      "country": "Taiwan",
+      "countryZh": "台湾"
+    },
+    {
+      "name": "Amphenol",
+      "nameEn": "Amphenol",
+      "booth": "J0632",
+      "stage": "融资未公开",
+      "cats": [
+        "大模型 / 算法",
+        "芯片 / 算力",
+        "AI 基础设施",
+        "数据 / 云 / 安全"
+      ],
+      "product": "Communication Antenna,Telecommunication Services ,AI Air Cooling / Liquid Cooling System ,AI Server ,Data Center (DC) / Cloud Service Provider (CSP) ,Generative AI / LLM ,AI Switching Power Supply ,Edge Computing",
+      "country": "United States",
+      "countryZh": "美国"
+    },
+    {
+      "name": "AMPLINK Company Limited",
+      "nameEn": "AMPLINK Company Limited",
+      "booth": "D0731a",
+      "stage": "融资未公开",
+      "cats": [
+        "数据 / 云 / 安全"
+      ],
+      "product": "Physical Show Booth No.: TWTC Exhibition Hall 1 TechXperience D0731a D0731a DataCenter DataCenter",
+      "country": "Taiwan",
+      "countryZh": "台湾"
+    },
+    {
+      "name": "Anchor Film",
+      "nameEn": "Anchor Film",
+      "booth": "S0105",
+      "stage": "融资未公开",
+      "cats": [
+        "数据 / 云 / 安全"
+      ],
+      "product": "MarTech & Social Networking",
+      "country": "Taiwan",
+      "countryZh": "台湾"
+    },
+    {
+      "name": "Andes Technology Corporation",
+      "nameEn": "AndesCore™",
+      "booth": "M1111a",
+      "stage": "融资未公开",
+      "product": "IC Design, Packaging & Foundry",
+      "country": "Taiwan",
+      "countryZh": "台湾"
+    },
+    {
+      "name": "AngkeInfo",
+      "nameEn": "AngkeInfo",
+      "booth": "S1014",
+      "stage": "融资未公开",
+      "product": "Physical Show Booth No.: Taipei Nangang Exhibition Center, Hall 2 (TaiNEX 2) InnoVEX S1014 S1014",
+      "country": "Taiwan",
+      "countryZh": "台湾"
+    },
+    {
+      "name": "Aniah",
+      "nameEn": "Aniah",
+      "booth": "S0724",
+      "stage": "融资未公开",
+      "product": "Physical Show Booth No.: Taipei Nangang Exhibition Center, Hall 2 (TaiNEX 2) InnoVEX S0724 S0724",
+      "country": "France",
+      "countryZh": "法国"
+    },
+    {
+      "name": "Anivance ai",
+      "nameEn": "Anivance ai",
+      "booth": "S0712a",
+      "stage": "融资未公开",
+      "product": "Physical Show Booth No.: Taipei Nangang Exhibition Center, Hall 2 (TaiNEX 2) InnoVEX S0712a S0712a",
+      "country": "Taiwan",
+      "countryZh": "台湾"
+    },
+    {
+      "name": "ANJI JIFANG FURNITURE CO.,LTD",
+      "nameEn": "ANJI JIFANG FURNITURE CO.,LTD",
+      "booth": "S0726",
+      "stage": "融资未公开",
+      "product": "Physical Show Booth No.: Taipei Nangang Exhibition Center, Hall 2 (TaiNEX 2) InnoVEX S0726 S0726",
+      "country": "Mainland China",
+      "countryZh": "中国"
+    },
+    {
+      "name": "AnMo Electronics Corporation",
+      "nameEn": "AnMo, Dino-Lite",
+      "booth": "Q0624a",
+      "stage": "融资未公开",
+      "product": "Other Computer Peripherals",
+      "country": "Taiwan",
+      "countryZh": "台湾"
+    },
+    {
+      "name": "Antec Inc.",
+      "nameEn": "Antec Inc.",
+      "booth": "Q0217a",
+      "stage": "融资未公开",
+      "product": "Computer Case",
+      "country": "Taiwan",
+      "countryZh": "台湾"
+    },
+    {
+      "name": "AnXpert Advanced Co., Ltd.",
+      "nameEn": "Ansys",
+      "booth": "J1329",
+      "stage": "融资未公开",
+      "cats": [
+        "工业 / 制造"
+      ],
+      "product": "Industrial Software",
+      "country": "Taiwan",
+      "countryZh": "台湾"
+    },
+    {
+      "name": "AON3D",
+      "nameEn": "AON3D",
+      "booth": "S0506",
+      "stage": "融资未公开",
+      "product": "Physical Show Booth No.: Taipei Nangang Exhibition Center, Hall 2 (TaiNEX 2) InnoVEX S0506 S0506",
+      "country": "Canada",
+      "countryZh": "加拿大"
+    },
+    {
+      "name": "Apacer Technology Inc.",
+      "nameEn": "Apacer,宇瞻",
+      "booth": "I0108",
+      "stage": "融资未公开",
+      "product": "DRAM",
+      "country": "Taiwan",
+      "countryZh": "台湾"
+    },
+    {
+      "name": "APALTEK CO.,LTD.",
+      "nameEn": "APALTEK",
+      "booth": "J0431",
+      "stage": "融资未公开",
+      "product": "AI Air Cooling / Liquid Cooling System",
+      "country": "Mainland China",
+      "countryZh": "中国"
+    },
+    {
+      "name": "Apeer Square Technologies",
+      "nameEn": "Apeer Square Technologies, Apeer², Apr2",
+      "booth": "Q0316",
+      "stage": "融资未公开",
+      "cats": [
+        "消费电子 / 终端"
+      ],
+      "product": "Computer Case,PC Speaker",
+      "country": "Saudi Arabia",
+      "countryZh": "沙特阿拉伯"
+    },
+    {
+      "name": "ApertureData",
+      "nameEn": "ApertureData",
+      "booth": "S0304",
+      "stage": "融资未公开",
+      "cats": [
+        "数据 / 云 / 安全"
+      ],
+      "product": "Physical Show Booth No.: Taipei Nangang Exhibition Center, Hall 2 (TaiNEX 2) InnoVEX S0304 S0304",
+      "country": "United States",
+      "countryZh": "美国"
+    },
+    {
+      "name": "Apex Material Technology Corp.",
+      "nameEn": "AMT",
+      "booth": "D0231",
+      "stage": "融资未公开",
+      "cats": [
+        "消费电子 / 终端"
+      ],
+      "product": "E-paper Display",
+      "country": "Taiwan",
+      "countryZh": "台湾"
+    },
+    {
+      "name": "APEX Precision Technology Corp.",
+      "nameEn": "Metal Circular Connector Series,Waterproof Connector Series,Mil-spec Connector Series",
+      "booth": "A0235a",
+      "stage": "融资未公开",
+      "product": "Electrical Connectors",
+      "country": "Taiwan",
+      "countryZh": "台湾"
+    },
+    {
+      "name": "APLEX Technology Inc.",
+      "nameEn": "APLEX,ADOTEC",
+      "booth": "Q0502",
+      "stage": "融资未公开",
+      "product": "Human Machine Interface (HMI)",
+      "country": "Taiwan",
+      "countryZh": "台湾"
+    },
+    {
+      "name": "APLUS POWER CORP.",
+      "nameEn": "APLUS",
+      "booth": "Q1316a",
+      "stage": "融资未公开",
+      "cats": [
+        "AI 基础设施",
+        "数据 / 云 / 安全"
+      ],
+      "product": "Uninterruptible Power Supply (UPS),Switching Power Supply,AC / DC Adapter,Power Converter,Power Bank,Other Computer Components & Parts",
+      "country": "Taiwan",
+      "countryZh": "台湾"
+    },
+    {
+      "name": "APO International Co., Ltd.",
+      "nameEn": "OXOPO,APOG",
+      "booth": "Q0233b",
+      "stage": "融资未公开",
+      "cats": [
+        "消费电子 / 终端"
+      ],
+      "product": "Keyboards and Consumer Electronics",
+      "country": "Taiwan",
+      "countryZh": "台湾"
+    },
+    {
+      "name": "APOLLO ELECTRONICS CO., LTD.",
+      "nameEn": "APOLLO ELECTRONICS CO., LTD.",
+      "booth": "P0907",
+      "stage": "融资未公开",
+      "product": "Mobile POS,POS Printer ,Smart vending",
+      "country": "Mainland China",
+      "countryZh": "中国"
+    },
+    {
+      "name": "AptObject Corporation",
+      "nameEn": "AptBee",
+      "booth": "R0731",
+      "stage": "融资未公开",
+      "cats": [
+        "AI 基础设施",
+        "工业 / 制造"
+      ],
+      "product": "Physical Show Booth No.: Taipei Nangang Exhibition Center, Hall 2 (TaiNEX 2) AI Computing & System Integration Solution R0731 R0731 AI Platform AI Service Cloud ESG SI SmartManufacturing AI Platform AI Service Cloud ESG SI SmartManufacturing",
+      "country": "Taiwan",
+      "countryZh": "台湾"
+    },
+    {
+      "name": "AQUIVIO Co. |Ltd",
+      "nameEn": "AQUIVIO Co. |Ltd",
+      "booth": "S0923",
+      "stage": "融资未公开",
+      "product": "Physical Show Booth No.: Taipei Nangang Exhibition Center, Hall 2 (TaiNEX 2) InnoVEX S0923 S0923",
+      "country": "Taiwan",
+      "countryZh": "台湾"
+    },
+    {
+      "name": "ARaymond",
+      "nameEn": "ARaymond",
+      "booth": "S1216",
+      "stage": "融资未公开",
+      "cats": [
+        "数据 / 云 / 安全"
+      ],
+      "product": "Physical Show Booth No.: Taipei Nangang Exhibition Center, Hall 2 (TaiNEX 2) InnoVEX S1216 S1216 DataCenter DataCenter",
+      "country": "France",
+      "countryZh": "法国"
+    },
+    {
+      "name": "ARBOR Technology Corp.",
+      "nameEn": "ARBOR,AMobile",
+      "booth": "P0713",
+      "stage": "融资未公开",
+      "cats": [
+        "AI 基础设施",
+        "机器人 / 具身智能",
+        "工业 / 制造"
+      ],
+      "product": "Industrial Computer,Embedded Products,Industrial Motherboard,Human Machine Interface (HMI),IIoT Platform,IIoT Solution",
+      "country": "Taiwan",
+      "countryZh": "台湾"
+    },
+    {
+      "name": "ARCTIC GmbH",
+      "nameEn": "ARCTIC",
+      "booth": "I1229",
+      "stage": "融资未公开",
+      "cats": [
+        "消费电子 / 终端"
+      ],
+      "product": "Heat Sink & Pipe,Thermal Adhesive & Grease,Mini PC Barebone,PC Cooling & Fan,Other Computer Components & Parts,Liquid Cooling System ,AI Air Cooling / Liquid Cooling System ,Heat Dissipation Material",
+      "country": "Germany",
+      "countryZh": "德国"
+    },
+    {
+      "name": "ARDGE Inc.",
+      "nameEn": "ARDGE Inc.",
+      "booth": "S0903",
+      "stage": "融资未公开",
+      "cats": [
+        "AI 基础设施"
+      ],
+      "product": "Physical Show Booth No.: Taipei Nangang Exhibition Center, Hall 2 (TaiNEX 2) InnoVEX S0903 S0903 AI AI Platform Edge EdgeAI AI AI Platform Edge EdgeAI",
+      "country": "Taiwan",
+      "countryZh": "台湾"
+    },
+    {
+      "name": "AREA T886 LTD.",
+      "nameEn": "AREA T886 LTD.",
+      "booth": "S0923",
+      "stage": "融资未公开",
+      "product": "Physical Show Booth No.: Taipei Nangang Exhibition Center, Hall 2 (TaiNEX 2) InnoVEX S0923 S0923",
+      "country": "Taiwan",
+      "countryZh": "台湾"
+    },
+    {
+      "name": "Areca Technology Corporation",
+      "nameEn": "ARECA",
+      "booth": "Q0331a",
+      "stage": "融资未公开",
+      "cats": [
+        "AI 基础设施"
+      ],
+      "product": "Communication Cable,Embedded Products,Other Computer Peripherals,Surveillance Accessories,Cloud Computing & IT Services",
+      "country": "Taiwan",
+      "countryZh": "台湾"
+    },
+    {
+      "name": "Arestech Solution Inc.",
+      "nameEn": "Arestech,兆雲智能",
+      "booth": "P0321a",
+      "stage": "融资未公开",
+      "product": "Embedded Products",
+      "country": "Taiwan",
+      "countryZh": "台湾"
+    },
+    {
+      "name": "ARIESYS TECHNOLOGY Co., LTD.",
+      "nameEn": "ARIESYS TECHNOLOGY Co., LTD.",
+      "booth": "P1301a",
+      "stage": "融资未公开",
+      "cats": [
+        "工业 / 制造"
+      ],
+      "product": "Industrial Computer",
+      "country": "Taiwan",
+      "countryZh": "台湾"
+    },
+    {
+      "name": "ARKTEK Technology Co., Limited",
+      "nameEn": "ARKTEK",
+      "booth": "L0028",
+      "stage": "融资未公开",
+      "cats": [
+        "消费电子 / 终端"
+      ],
+      "product": "PC Motherboard,Computer Case,Computer Power Supply,Solid State Drive (SSD),Graphics Card,DRAM",
+      "country": "Hong Kong",
+      "countryZh": "香港"
+    },
+    {
+      "name": "ARMCo Lab",
+      "nameEn": "ARMCo Lab",
+      "booth": "S0304",
+      "stage": "融资未公开",
+      "cats": [
+        "数据 / 云 / 安全"
+      ],
+      "product": "Big Data & Analytics / AI",
+      "country": "Taiwan",
+      "countryZh": "台湾"
+    },
+    {
+      "name": "Ashinne Technology Co., Ltd.",
+      "nameEn": "Ashinne Technology Co., Ltd.",
+      "booth": "M1207a",
+      "stage": "融资未公开",
+      "cats": [
+        "工业 / 制造"
+      ],
+      "product": "Industrial Computer",
+      "country": "Taiwan",
+      "countryZh": "台湾"
+    },
+    {
+      "name": "AsiaRF Co. Ltd.",
+      "nameEn": "AsiaRF",
+      "booth": "K0013",
+      "stage": "融资未公开",
+      "cats": [
+        "数据 / 云 / 安全"
+      ],
+      "product": "Gateway,Network Adapter / Network Interface Card (NIC),Other Networking",
+      "country": "Taiwan",
+      "countryZh": "台湾"
+    },
+    {
+      "name": "ASON INNOVATION",
+      "nameEn": "ASON INNOVATION",
+      "booth": "S1014",
+      "stage": "融资未公开",
+      "product": "Physical Show Booth No.: Taipei Nangang Exhibition Center, Hall 2 (TaiNEX 2) InnoVEX S1014 S1014",
+      "country": "Taiwan",
+      "countryZh": "台湾"
+    },
+    {
+      "name": "ASPEED Technology Inc.",
+      "nameEn": "ASPEED,Cupola360",
+      "booth": "M0403a",
+      "stage": "融资未公开",
+      "product": "IC Design, Packaging & Foundry,IP Camera",
+      "country": "Taiwan",
+      "countryZh": "台湾"
+    },
+    {
+      "name": "ASRock Inc.",
+      "nameEn": "ASRock,ASRockRack,ASRock Industrial,ASJade Tech",
+      "booth": "R0514",
+      "stage": "融资未公开",
+      "cats": [
+        "芯片 / 算力",
+        "工业 / 制造"
+      ],
+      "product": "Server",
+      "country": "Taiwan",
+      "countryZh": "台湾"
+    },
+    {
+      "name": "ASSIGN Inc.",
+      "nameEn": "ASSIGN Inc.",
+      "booth": "S0118",
+      "stage": "融资未公开",
+      "cats": [
+        "大模型 / 算法",
+        "消费电子 / 终端"
+      ],
+      "product": "Consumer Tech,Generative AI",
+      "country": "Japan",
+      "countryZh": "日本"
+    },
+    {
+      "name": "ASUS TECHNOLOGY INC.",
+      "nameEn": "ASUS",
+      "booth": "M0820",
+      "stage": "融资未公开",
+      "product": "Laptop Computer",
+      "country": "Taiwan",
+      "countryZh": "台湾"
+    },
+    {
+      "name": "ASUSTeK Computer Inc.",
+      "nameEn": "ASUSTeK Computer Inc.",
+      "booth": "M0504",
+      "stage": "融资未公开",
+      "product": "Physical Show Booth No.: TWTC Exhibition Hall 1 Robotics A0618 A0618",
+      "country": "Taiwan",
+      "countryZh": "台湾",
+      "cats": [
+        "机器人 / 具身智能"
+      ]
+    },
+    {
+      "name": "ASUSTOR Inc.",
+      "nameEn": "ASUSTOR",
+      "booth": "R0702",
+      "stage": "融资未公开",
+      "product": "Others",
+      "country": "Taiwan",
+      "countryZh": "台湾"
+    },
+    {
+      "name": "ATEN INTERNATIONAL CO., LTD.",
+      "nameEn": "ATEN",
+      "booth": "K0116",
+      "stage": "融资未公开",
+      "cats": [
+        "数据 / 云 / 安全"
+      ],
+      "product": "Other Networking",
+      "country": "Taiwan",
+      "countryZh": "台湾"
+    },
+    {
+      "name": "ATK GEAR GLOBAL LIMITED",
+      "nameEn": "ATK GEAR GLOBAL LIMITED",
+      "booth": "S0309a",
+      "stage": "融资未公开",
+      "cats": [
+        "消费电子 / 终端"
+      ],
+      "product": "Head & Bluetooth Earphone,Bluetooth Keyboard & Mouse,Other Computer Peripherals",
+      "country": "Mainland China",
+      "countryZh": "中国"
+    },
+    {
+      "name": "Atomrock, LLC.",
+      "nameEn": "Atomrock, VisionSense",
+      "booth": "N1329",
+      "stage": "融资未公开",
+      "cats": [
+        "AI 基础设施",
+        "工业 / 制造",
+        "数据 / 云 / 安全"
+      ],
+      "product": "Data Capturing & Identification,Image Recognition Service / Device,IIoT Platform,IIoT Solution,IP Camera,Quality Inspection & Testing,Business Intelligence Service ,Edge Computing",
+      "country": "United States",
+      "countryZh": "美国"
+    },
+    {
+      "name": "ATP Electronics, Inc.",
+      "nameEn": "ATP Electronics, Inc.",
+      "booth": "R0914",
+      "stage": "融资未公开",
+      "product": "Embedded Products,Solid State Drive (SSD)",
+      "country": "Taiwan",
+      "countryZh": "台湾"
+    },
+    {
+      "name": "ATW TECHNOLOGY INC.",
+      "nameEn": "ATW,LOOPCOMM",
+      "booth": "K1131",
+      "stage": "融资未公开",
+      "cats": [
+        "消费电子 / 终端"
+      ],
+      "product": "Router,Gateway",
+      "country": "Taiwan",
+      "countryZh": "台湾"
+    },
+    {
+      "name": "AUO Display Plus Corporation",
+      "nameEn": "AUO Display Plus Corporation",
+      "booth": "D0407a",
+      "stage": "融资未公开",
+      "cats": [
+        "消费电子 / 终端"
+      ],
+      "product": "E-paper Display",
+      "country": "Taiwan",
+      "countryZh": "台湾"
+    },
+    {
+      "name": "AURAS Technology Co., Ltd.",
+      "nameEn": "AURAS",
+      "booth": "J0806",
+      "stage": "融资未公开",
+      "product": "Physical Show Booth No.: Taipei Nangang Exhibition Center, Hall 1 (TaiNEX 1) AI Computing & Tech J0806 J0806",
+      "country": "Taiwan",
+      "countryZh": "台湾"
+    },
+    {
+      "name": "AVC Industrial Corp.",
+      "nameEn": "AVC,全冠",
+      "booth": "A0219",
+      "stage": "融资未公开",
+      "cats": [
+        "工业 / 制造"
+      ],
+      "product": "Other Computer Components & Parts",
+      "country": "Taiwan",
+      "countryZh": "台湾"
+    },
+    {
+      "name": "AVEMA TECHNOLOGY CO., LTD.",
+      "nameEn": "AVEMA TECHNOLOGY CO., LTD.",
+      "booth": "N1023",
+      "stage": "融资未公开",
+      "product": "GPS,Other Automobile Electronics,Car Tracker",
+      "country": "Taiwan",
+      "countryZh": "台湾"
+    },
+    {
+      "name": "AVerMedia Technologies, Inc.",
+      "nameEn": "AVerMedia,圓剛",
+      "booth": "J0802",
+      "stage": "融资未公开",
+      "product": "Physical Show Booth No.: Taipei Nangang Exhibition Center, Hall 1 (TaiNEX 1) AI Computing & Tech J0802 J0802",
+      "country": "Taiwan",
+      "countryZh": "台湾"
+    },
+    {
+      "name": "AWAREK",
+      "nameEn": "AWAREK",
+      "booth": "S1014",
+      "stage": "融资未公开",
+      "product": "Physical Show Booth No.: Taipei Nangang Exhibition Center, Hall 2 (TaiNEX 2) InnoVEX S1014 S1014",
+      "country": "Taiwan",
+      "countryZh": "台湾"
+    },
+    {
+      "name": "AWL - Electricity",
+      "nameEn": "AWL - Electricity",
+      "booth": "S0506",
+      "stage": "融资未公开",
+      "product": "Physical Show Booth No.: Taipei Nangang Exhibition Center, Hall 2 (TaiNEX 2) InnoVEX S0506 S0506",
+      "country": "Canada",
+      "countryZh": "加拿大"
+    },
+    {
+      "name": "Axelera AI",
+      "nameEn": "Metis AI Platform",
+      "booth": "K0104",
+      "stage": "融资未公开",
+      "cats": [
+        "AI 基础设施"
+      ],
+      "product": "Edge Computing",
+      "country": "Netherlands",
+      "countryZh": "荷兰"
+    },
+    {
+      "name": "Axiado Corporation",
+      "nameEn": "Axiado Corporation",
+      "booth": "S0728",
+      "stage": "融资未公开",
+      "product": "Physical Show Booth No.: Taipei Nangang Exhibition Center, Hall 2 (TaiNEX 2) InnoVEX S0728 S0728",
+      "country": "United States",
+      "countryZh": "美国"
+    },
+    {
+      "name": "Axle International Holding Limited",
+      "nameEn": "AXLE",
+      "booth": "L0027",
+      "stage": "融资未公开",
+      "cats": [
+        "消费电子 / 终端"
+      ],
+      "product": "PC Motherboard,Solid State Drive (SSD),Graphics Card,DRAM",
+      "country": "Hong Kong",
+      "countryZh": "香港"
+    },
+    {
+      "name": "Bederly Company Limited",
+      "nameEn": "Bederly Company Limited",
+      "booth": "S1004",
+      "stage": "融资未公开",
+      "cats": [
+        "大模型 / 算法",
+        "工业 / 制造"
+      ],
+      "product": "Health & Biotech,Generative AI",
+      "country": "Thailand",
+      "countryZh": "泰国"
+    },
+    {
+      "name": "BeiJing Jinhengtengwei Kejian Commercial and Trading Co., Ltd.",
+      "nameEn": "BeiJing Jinhengtengwei Kejian Commercial and Trading Co., Ltd.",
+      "booth": "N0226",
+      "stage": "融资未公开",
+      "cats": [
+        "消费电子 / 终端"
+      ],
+      "product": "PC Keyboard,Mouse",
+      "country": "Mainland China",
+      "countryZh": "中国"
+    },
+    {
+      "name": "Beijing Ocypus Technology Co.,Ltd.",
+      "nameEn": "Beijing Ocypus Technology Co.,Ltd.",
+      "booth": "I0307",
+      "stage": "融资未公开",
+      "cats": [
+        "消费电子 / 终端"
+      ],
+      "product": "Computer Case,Computer Power Supply,PC Cooling & Fan",
+      "country": "Mainland China",
+      "countryZh": "中国"
+    },
+    {
+      "name": "Beijing Spirit Technology Development Co., Ltd.",
+      "nameEn": "Beijing Spirit Technology Development Co., Ltd.",
+      "booth": "P0303a",
+      "stage": "融资未公开",
+      "product": "Printer,POS Printer ,Barcode Printer",
+      "country": "Mainland China",
+      "countryZh": "中国"
+    },
+    {
+      "name": "BIWIN STORAGE TECHNOLOGY CO., LTD.",
+      "nameEn": "BIWIN STORAGE TECHNOLOGY CO., LTD.",
+      "booth": "R0102",
+      "stage": "融资未公开",
+      "cats": [
+        "芯片 / 算力",
+        "AI 基础设施"
+      ],
+      "product": "Solid State Drive (SSD),USB Flash Drive,Memory Card",
+      "country": "Mainland China",
+      "countryZh": "中国"
+    },
+    {
+      "name": "BOMARE COMPANY SARL",
+      "nameEn": "STREAM",
+      "booth": "N1331",
+      "stage": "融资未公开",
+      "product": "Physical Show Booth No.: Taipei Nangang Exhibition Center, Hall 1 (TaiNEX 1) International Exhibitors Area N1331 N1331",
+      "country": "Algeria",
+      "countryZh": "阿尔及利亚"
+    },
+    {
+      "name": "Bowers (XIAMEN) Technology Co., Ltd.",
+      "nameEn": "Bowers",
+      "booth": "Q1230a",
+      "stage": "融资未公开",
+      "cats": [
+        "芯片 / 算力",
+        "工业 / 制造"
+      ],
+      "product": "Server,All-In-One & Desktop Computer,Laptop Computer,Industrial Computer",
+      "country": "Mainland China",
+      "countryZh": "中国"
+    },
+    {
+      "name": "Busan-Jinhae Free Economic Zone",
+      "nameEn": "Busan-Jinhae Free Economic Zone",
+      "booth": "S0203a",
+      "stage": "融资未公开",
+      "product": "Physical Show Booth No.: Taipei Nangang Exhibition Center, Hall 2 (TaiNEX 2) InnoVEX S0203a S0203a",
+      "country": "Korea, South Korea",
+      "countryZh": "韩国"
+    },
+    {
+      "name": "Business France",
+      "nameEn": "Business France",
+      "booth": "S1216",
+      "stage": "融资未公开",
+      "cats": [
+        "AI 基础设施",
+        "工业 / 制造"
+      ],
+      "product": "Virtual Reality,Fast Charging Technology,Other Computer Peripherals,Industrial Software,Mobile App,Deep Learning Service / Device,Cloud Computing & IT Services,System Integration",
+      "country": "France",
+      "countryZh": "法国"
+    },
+    {
+      "name": "BWAVE Inc.",
+      "nameEn": "BWAVE Inc.",
+      "booth": "S0203a",
+      "stage": "融资未公开",
+      "product": "Physical Show Booth No.: Taipei Nangang Exhibition Center, Hall 2 (TaiNEX 2) InnoVEX S0203a S0203a",
+      "country": "Korea, South Korea",
+      "countryZh": "韩国"
+    },
+    {
+      "name": "BYOND ASIA TECH LTD",
+      "nameEn": "Byond Asia, HoloMe",
+      "booth": "AI",
+      "stage": "融资未公开",
+      "cats": [
+        "大模型 / 算法"
+      ],
+      "product": "Generative AI / LLM",
+      "country": "United Arab Emirates",
+      "countryZh": "阿联酋"
+    },
+    {
+      "name": "Caesarea Labs",
+      "nameEn": "Caesarea Labs",
+      "booth": "S0724",
+      "stage": "融资未公开",
+      "product": "Physical Show Booth No.: Taipei Nangang Exhibition Center, Hall 2 (TaiNEX 2) InnoVEX S0724 S0724",
+      "country": "Israel",
+      "countryZh": "以色列"
+    },
+    {
+      "name": "Castrol (Taiwan) Limited",
+      "nameEn": "Castrol (Taiwan) Limited",
+      "booth": "N1314",
+      "stage": "融资未公开",
+      "product": "Physical Show Booth No.: Taipei Nangang Exhibition Center, Hall 1 (TaiNEX 1) System Integration Solution N1314 N1314 Liquidcooling Liquidcooling",
+      "country": "United Kingdom",
+      "countryZh": "英国"
+    },
+    {
+      "name": "CEJN Products Far East Pte Ltd – Taiwan Branch",
+      "nameEn": "CEJN",
+      "booth": "N0230",
+      "stage": "融资未公开",
+      "cats": [
+        "芯片 / 算力",
+        "AI 基础设施",
+        "消费电子 / 终端",
+        "数据 / 云 / 安全"
+      ],
+      "product": "AI Server ,Data Center (DC) / Cloud Service Provider (CSP),Liquid Cooling System,AI Air Cooling / Liquid Cooling System",
+      "country": "Singapore",
+      "countryZh": "新加坡"
+    },
+    {
+      "name": "Celestia Energy",
+      "nameEn": "Celestia Energy",
+      "booth": "UAV",
+      "stage": "融资未公开",
+      "cats": [
+        "机器人 / 具身智能"
+      ],
+      "product": "others",
+      "country": "Czech Republic",
+      "countryZh": "捷克"
+    },
+    {
+      "name": "Chipsea Technologies (Shenzhen) Corp.",
+      "nameEn": "chipsea",
+      "booth": "P0825",
+      "stage": "融资未公开",
+      "cats": [
+        "芯片 / 算力"
+      ],
+      "product": "Laptop Computer",
+      "country": "Mainland China",
+      "countryZh": "中国"
+    },
+    {
+      "name": "Chongqing BOE Smart Electronic Systems Co., Ltd.",
+      "nameEn": "Chongqing BOE Smart Electronic Systems Co., Ltd.",
+      "booth": "D0229a",
+      "stage": "融资未公开",
+      "cats": [
+        "消费电子 / 终端"
+      ],
+      "product": "E-paper Display",
+      "country": "Mainland China",
+      "countryZh": "中国"
+    },
+    {
+      "name": "Circulus, Inc.",
+      "nameEn": "Circulus, Inc.",
+      "booth": "A0618",
+      "stage": "融资未公开",
+      "cats": [
+        "机器人 / 具身智能"
+      ],
+      "product": "Physical Show Booth No.: TWTC Exhibition Hall 1 Robotics A0618 A0618",
+      "country": "United States",
+      "countryZh": "美国"
+    },
+    {
+      "name": "Clickgaming Distribution Group Sdn. Bhd.",
+      "nameEn": "TTRacing",
+      "booth": "Q1206",
+      "stage": "融资未公开",
+      "product": "Gaming Accessories,Esports ,Gaming Furniture (Gaming Chair),Gaming Furniture (Smart Adjustable Desk)",
+      "country": "Malaysia",
+      "countryZh": "马来西亚"
+    },
+    {
+      "name": "CLOUDENGINE DIGITAL PTE LTD",
+      "nameEn": "CLOUDENGINE DIGITAL PTE LTD",
+      "booth": "N1230",
+      "stage": "融资未公开",
+      "cats": [
+        "芯片 / 算力",
+        "AI 基础设施"
+      ],
+      "product": "System Integration ,CPU/GPU/APU ,AI Server",
+      "country": "Singapore",
+      "countryZh": "新加坡"
+    },
+    {
+      "name": "CodeTrace",
+      "nameEn": "CodeTrace",
+      "stage": "融资未公开",
+      "country": "Malaysia",
+      "countryZh": "马来西亚"
+    },
+    {
+      "name": "Colder Products Company",
+      "nameEn": "CPC",
+      "booth": "J1302",
+      "stage": "融资未公开",
+      "cats": [
+        "芯片 / 算力",
+        "消费电子 / 终端",
+        "数据 / 云 / 安全"
+      ],
+      "product": "AI Air Cooling / Liquid Cooling System",
+      "country": "United States",
+      "countryZh": "美国"
+    },
+    {
+      "name": "COMINO",
+      "nameEn": "COMINO",
+      "booth": "J0532",
+      "stage": "融资未公开",
+      "cats": [
+        "芯片 / 算力"
+      ],
+      "product": "AI Server",
+      "country": "United Kingdom",
+      "countryZh": "英国"
+    },
+    {
+      "name": "COMPUTEX TAIPEI",
+      "nameEn": "COMPUTEX TAIPEI",
+      "stage": "融资未公开",
+      "product": "0"
+    },
+    {
+      "name": "ConnectX Co Ltd",
+      "nameEn": "ConnectX Co Ltd",
+      "booth": "S1004",
+      "stage": "融资未公开",
+      "cats": [
+        "大模型 / 算法",
+        "消费电子 / 终端"
+      ],
+      "product": "Consumer Tech,Digital Transformation / Generative AI",
+      "country": "Thailand",
+      "countryZh": "泰国"
+    },
+    {
+      "name": "CONSUSS CORPORATION",
+      "nameEn": "Consuss",
+      "booth": "N1325",
+      "stage": "融资未公开",
+      "cats": [
+        "芯片 / 算力",
+        "AI 基础设施"
+      ],
+      "product": "Liquid Cooling System,AI Air Cooling / Liquid Cooling System",
+      "country": "Japan",
+      "countryZh": "日本"
+    },
+    {
+      "name": "Continental",
+      "nameEn": "Continental",
+      "booth": "J1327",
+      "stage": "融资未公开",
+      "product": "AI Air Cooling / Liquid Cooling System",
+      "country": "Germany",
+      "countryZh": "德国"
+    },
+    {
+      "name": "CORETECH Co. |LTD",
+      "nameEn": "CORETECH Co. |LTD",
+      "booth": "S1013",
+      "stage": "融资未公开",
+      "product": "Physical Show Booth No.: Taipei Nangang Exhibition Center, Hall 2 (TaiNEX 2) InnoVEX S1013 S1013",
+      "country": "Japan",
+      "countryZh": "日本"
+    },
+    {
+      "name": "COSMOS LAB",
+      "nameEn": "COSMOS LAB",
+      "booth": "S0304",
+      "stage": "融资未公开",
+      "product": "Physical Show Booth No.: Taipei Nangang Exhibition Center, Hall 2 (TaiNEX 2) InnoVEX S0304 S0304",
+      "country": "Korea, South Korea",
+      "countryZh": "韩国"
+    },
+    {
+      "name": "Crosscosmos Co,.Ltd.",
+      "nameEn": "Crosscosmos Co,.Ltd.",
+      "stage": "融资未公开",
+      "country": "Japan",
+      "countryZh": "日本"
+    },
+    {
+      "name": "CzechInvest: Investment and Business Development Agency",
+      "nameEn": "CzechInvest: Investment and Business Development Agency",
+      "booth": "S0224",
+      "stage": "融资未公开",
+      "product": "Physical Show Booth No.: Taipei Nangang Exhibition Center, Hall 2 (TaiNEX 2) InnoVEX S0224 S0224",
+      "country": "Czech Republic",
+      "countryZh": "捷克"
+    },
+    {
+      "name": "Daegu-Gyeongbuk Free Economic Zone",
+      "nameEn": "Daegu-Gyeongbuk Free Economic Zone",
+      "booth": "S0203a",
+      "stage": "融资未公开",
+      "product": "Physical Show Booth No.: Taipei Nangang Exhibition Center, Hall 2 (TaiNEX 2) InnoVEX S0203a S0203a",
+      "country": "Korea, South Korea",
+      "countryZh": "韩国"
+    },
+    {
+      "name": "Damo (Shanghai) Technology Co., Ltd.",
+      "nameEn": "XuanTie",
+      "booth": "M1111a",
+      "stage": "融资未公开",
+      "product": "IC Design, Packaging & Foundry",
+      "country": "Mainland China",
+      "countryZh": "中国"
+    },
+    {
+      "name": "Danfoss Power Solutions",
+      "nameEn": "Danfoss Hansen®, Boston by Danfoss Royal™",
+      "booth": "J1227a",
+      "stage": "融资未公开",
+      "cats": [
+        "数据 / 云 / 安全"
+      ],
+      "product": "AI Air Cooling / Liquid Cooling System",
+      "country": "Denmark",
+      "countryZh": "丹麦"
+    },
+    {
+      "name": "DaoAI",
+      "nameEn": "DaoAI",
+      "booth": "S0506",
+      "stage": "融资未公开",
+      "product": "Physical Show Booth No.: Taipei Nangang Exhibition Center, Hall 2 (TaiNEX 2) InnoVEX S0506 S0506",
+      "country": "Canada",
+      "countryZh": "加拿大"
+    },
+    {
+      "name": "DapuStor PTE. LTD.",
+      "nameEn": "DapuStor PTE. LTD.",
+      "booth": "S1411",
+      "stage": "融资未公开",
+      "cats": [
+        "芯片 / 算力"
+      ],
+      "product": "Physical Show Booth No.: Taipei Nangang Exhibition Center, Hall 2 (TaiNEX 2) InnoVEX S1411 S1411 Semiconductor Semiconductor",
+      "country": "Singapore",
+      "countryZh": "新加坡"
+    },
+    {
+      "name": "Dassault Systèmes",
+      "nameEn": "Dassault Systemes",
+      "booth": "AI",
+      "stage": "融资未公开",
+      "cats": [
+        "大模型 / 算法",
+        "数据 / 云 / 安全"
+      ],
+      "product": "AI & Big Data,Generative AI",
+      "country": "France",
+      "countryZh": "法国"
+    },
+    {
+      "name": "DEEMMI PET CO., LTD.",
+      "nameEn": "DEEMMI PET CO., LTD.",
+      "booth": "S1004",
+      "stage": "融资未公开",
+      "cats": [
+        "大模型 / 算法",
+        "工业 / 制造"
+      ],
+      "product": "IoT,Generative AI",
+      "country": "Thailand",
+      "countryZh": "泰国"
+    },
+    {
+      "name": "DeepComputing",
+      "nameEn": "DeepComputing",
+      "booth": "M1111a",
+      "stage": "融资未公开",
+      "cats": [
+        "消费电子 / 终端"
+      ],
+      "product": "Physical Show Booth No.: Taipei Nangang Exhibition Center, Hall 1 (TaiNEX 1) System Integration Solution M1111a M1111a",
+      "country": "Hong Kong",
+      "countryZh": "香港"
+    },
+    {
+      "name": "DeepCool",
+      "nameEn": ",,",
+      "booth": "I1211a",
+      "stage": "融资未公开",
+      "cats": [
+        "消费电子 / 终端"
+      ],
+      "product": "Heat Sink & Pipe",
+      "country": "Mainland China",
+      "countryZh": "中国"
+    },
+    {
+      "name": "DEEPX",
+      "nameEn": "DEEPX",
+      "booth": "M1311a",
+      "stage": "融资未公开",
+      "product": "Embedded Processor",
+      "country": "Korea, South Korea",
+      "countryZh": "韩国"
+    },
+    {
+      "name": "Dell Technologies",
+      "nameEn": "Dell",
+      "booth": "N1231",
+      "stage": "融资未公开",
+      "cats": [
+        "消费电子 / 终端"
+      ],
+      "product": "LED,Tablet PC,Head & Bluetooth Earphone,Headset,Computer Lock,Touch Screen Monitor & Panel,Printer,Computer Cables & Connectors",
+      "country": "United States",
+      "countryZh": "美国"
+    },
+    {
+      "name": "Delos Data",
+      "nameEn": "Delos Data",
+      "booth": "J1328",
+      "stage": "融资未公开",
+      "cats": [
+        "芯片 / 算力",
+        "数据 / 云 / 安全"
+      ],
+      "product": "Application Software,AI Server ,Open Source Hardware & Software",
+      "country": "United States",
+      "countryZh": "美国"
+    },
+    {
+      "name": "Diden Robotics",
+      "nameEn": "Diden Robotics",
+      "stage": "融资未公开",
+      "cats": [
+        "机器人 / 具身智能"
+      ],
+      "country": "Korea, South Korea",
+      "countryZh": "韩国"
+    },
+    {
+      "name": "DKE (Longning) Company Limited",
+      "nameEn": "東方科脈",
+      "booth": "D0511a",
+      "stage": "融资未公开",
+      "cats": [
+        "消费电子 / 终端"
+      ],
+      "product": "E-paper Display",
+      "country": "Mainland China",
+      "countryZh": "中国"
+    },
+    {
+      "name": "Dong Guan Ming Wang Electronic Co., LTD",
+      "nameEn": "Dong Guan Ming Wang Electronic Co., LTD",
+      "booth": "I0501",
+      "stage": "融资未公开",
+      "cats": [
+        "芯片 / 算力",
+        "消费电子 / 终端"
+      ],
+      "product": "AI PC Cooling & Fan",
+      "country": "Mainland China",
+      "countryZh": "中国"
+    },
+    {
+      "name": "Dongguan Aimax Innovation Co., Ltd.",
+      "nameEn": "Dongguan Aimax Innovation Co., Ltd.",
+      "booth": "Q1312a",
+      "stage": "融资未公开",
+      "cats": [
+        "消费电子 / 终端"
+      ],
+      "product": "PC Keyboard,Mouse,Gaming Mouse ,Gaming Keyboard",
+      "country": "Mainland China",
+      "countryZh": "中国"
+    },
+    {
+      "name": "Dongguan Baoye Optical Co., Ltd",
+      "nameEn": "Dongguan Baoye Optical Co., Ltd",
+      "booth": "S0704a",
+      "stage": "融资未公开",
+      "cats": [
+        "芯片 / 算力"
+      ],
+      "product": "5G & Communication,Edge AI",
+      "country": "Mainland China",
+      "countryZh": "中国"
+    },
+    {
+      "name": "DONGGUAN CITY HANSHUO PLASTIC CO., LTD.",
+      "nameEn": "DONGGUAN CITY HANSHUO PLASTIC CO., LTD.",
+      "booth": "Q0133",
+      "stage": "融资未公开",
+      "cats": [
+        "芯片 / 算力",
+        "消费电子 / 终端"
+      ],
+      "product": "PC Cooling & Fan,Other Computer Components & Parts,Liquid Cooling System ,AI Air Cooling / Liquid Cooling System ,AI PC Cooling & Fan",
+      "country": "Mainland China",
+      "countryZh": "中国"
+    },
+    {
+      "name": "Dongguan City Kaihua Electronics Co., Ltd.",
+      "nameEn": "Dongguan City Kaihua Electronics Co., Ltd.",
+      "booth": "A0220",
+      "stage": "融资未公开",
+      "product": "Other Computer Components & Parts,Other Computer Peripherals,Gaming Accessories",
+      "country": "Mainland China",
+      "countryZh": "中国"
+    },
+    {
+      "name": "Dongguan Couso Technology Co.LTD.",
+      "nameEn": "Dongguan Couso Technology Co.LTD.",
+      "booth": "P1329",
+      "stage": "融资未公开",
+      "cats": [
+        "消费电子 / 终端"
+      ],
+      "product": "PC Keyboard,Mouse",
+      "country": "Mainland China",
+      "countryZh": "中国"
+    },
+    {
+      "name": "Dongguan Dongsong Smartlink Technology Co., Ltd.",
+      "nameEn": "Dongguan Dongsong Smartlink Technology Co., Ltd.",
+      "booth": "Q0933a",
+      "stage": "融资未公开",
+      "product": "AC / DC Adapter,GaN/SiC USB Charger",
+      "country": "Mainland China",
+      "countryZh": "中国"
+    },
+    {
+      "name": "Dongguan Eontec Co., Ltd.",
+      "nameEn": "EONTEC",
+      "booth": "N1226",
+      "stage": "融资未公开",
+      "product": "Other Computer Components & Parts",
+      "country": "Mainland China",
+      "countryZh": "中国"
+    },
+    {
+      "name": "Dongguan EWIN Technology Co., Ltd",
+      "nameEn": "EWIN",
+      "booth": "N0222",
+      "stage": "融资未公开",
+      "cats": [
+        "消费电子 / 终端"
+      ],
+      "product": "Computer Case,PC Cooling & Fan,Disk Enclosure",
+      "country": "Mainland China",
+      "countryZh": "中国"
+    },
+    {
+      "name": "Dongguan FL.Esports Electronics Co., Ltd.",
+      "nameEn": "FL ESPORTS",
+      "booth": "L1305",
+      "stage": "融资未公开",
+      "product": "Gaming Mouse,Gaming Keyboard",
+      "country": "Mainland China",
+      "countryZh": "中国"
+    },
+    {
+      "name": "Dongguan Gaote Electronic Co , Ltd",
+      "nameEn": "Dongguan Gaote Electronic Co , Ltd",
+      "booth": "N0632",
+      "stage": "融资未公开",
+      "product": "Mouse,Bluetooth Keyboard & Mouse,Keycap",
+      "country": "Mainland China",
+      "countryZh": "中国"
+    },
+    {
+      "name": "Dongguan Huaming Teng Technology Co., Ltd",
+      "nameEn": "Dongguan Huaming Teng Technology Co., Ltd",
+      "booth": "N1320",
+      "stage": "融资未公开",
+      "product": "Laptop Computer",
+      "country": "Mainland China",
+      "countryZh": "中国"
+    },
+    {
+      "name": "DONGGUAN IPRODA TECHNOLOGY CO., LTD",
+      "nameEn": "DONGGUAN IPRODA TECHNOLOGY CO., LTD",
+      "booth": "Q1210",
+      "stage": "融资未公开",
+      "cats": [
+        "消费电子 / 终端"
+      ],
+      "product": "Tablet PC,Laptop Computer",
+      "country": "Mainland China",
+      "countryZh": "中国"
+    },
+    {
+      "name": "Dongguan Jimfuk Smart Glass Co., Ltd.",
+      "nameEn": "Dongguan Jimfuk Smart Glass Co., Ltd.",
+      "booth": "A0407",
+      "stage": "融资未公开",
+      "product": "Gaming Accessories",
+      "country": "Mainland China",
+      "countryZh": "中国"
+    },
+    {
+      "name": "Dongguan Juyun Hardware Technology Co., Ltd",
+      "nameEn": "Dongguan Juyun Hardware Technology Co., Ltd",
+      "booth": "I1101a",
+      "stage": "融资未公开",
+      "cats": [
+        "消费电子 / 终端"
+      ],
+      "product": "Heat Sink & Pipe,PC Cooling & Fan,Heat Dissipation Material",
+      "country": "Mainland China",
+      "countryZh": "中国"
+    },
+    {
+      "name": "Dongguan Kinghal Electronic Technology Co.,Ltd",
+      "nameEn": "Dongguan Kinghal Electronic Technology Co.,Ltd",
+      "booth": "S1407",
+      "stage": "融资未公开",
+      "product": "Gaming&Entertainment,B5G &6G",
+      "country": "Mainland China",
+      "countryZh": "中国"
+    },
+    {
+      "name": "Dongguan Padmat Rubber Co., Ltd",
+      "nameEn": "PADMAT",
+      "booth": "Q0109",
+      "stage": "融资未公开",
+      "product": "Other Computer Peripherals",
+      "country": "Mainland China",
+      "countryZh": "中国"
+    },
+    {
+      "name": "Dongguan Qinghai Electronics Technology Co., Ltd.",
+      "nameEn": "Dongguan Qinghai Electronics Technology Co., Ltd.",
+      "booth": "L0020",
+      "stage": "融资未公开",
+      "cats": [
+        "消费电子 / 终端"
+      ],
+      "product": "PC Cooling & Fan,Other Add-On & Interface Cards,Gaming Accessories",
+      "country": "Mainland China",
+      "countryZh": "中国"
+    },
+    {
+      "name": "Dongguan Qiyou Photoelectric co.,ltd",
+      "nameEn": "Qiyou",
+      "booth": "K1229a",
+      "stage": "融资未公开",
+      "cats": [
+        "数据 / 云 / 安全"
+      ],
+      "product": "Other Computer Components & Parts,Network Adapter / Network Interface Card (NIC),Wireless WAN Dongle/Module",
+      "country": "Mainland China",
+      "countryZh": "中国"
+    },
+    {
+      "name": "Dongguan Ruiheng Electronic Technology Co., Ltd.",
+      "nameEn": "MHD 瑞亨",
+      "booth": "I0028",
+      "stage": "融资未公开",
+      "product": "AC / DC Adapter,Computer Power Supply,Fast Charging Technology",
+      "country": "Mainland China",
+      "countryZh": "中国"
+    },
+    {
+      "name": "Dongguan Sibositong Industrial Co., Ltd.",
+      "nameEn": "JONSBO, JONSPLUS",
+      "booth": "Q0223a",
+      "stage": "融资未公开",
+      "cats": [
+        "消费电子 / 终端",
+        "工业 / 制造"
+      ],
+      "product": "Heat Sink & Pipe,Computer Case,PC Cooling & Fan,Other Computer Components & Parts,Liquid Cooling System",
+      "country": "Mainland China",
+      "countryZh": "中国"
+    },
+    {
+      "name": "Dongguan Soeyi Technology Limited",
+      "nameEn": "Dongguan Soeyi Technology Limited",
+      "booth": "N1223",
+      "stage": "融资未公开",
+      "cats": [
+        "消费电子 / 终端"
+      ],
+      "product": "Computer Case,PC Cooling & Fan,Other Computer Components & Parts",
+      "country": "Mainland China",
+      "countryZh": "中国"
+    },
+    {
+      "name": "DONGGUAN SUOAI ELECTRONICS CO.,LTD",
+      "nameEn": "DONGGUAN SUOAI ELECTRONICS CO.,LTD",
+      "booth": "N1030",
+      "stage": "融资未公开",
+      "cats": [
+        "消费电子 / 终端"
+      ],
+      "product": "PC Keyboard,Mouse,Other Computer Peripherals",
+      "country": "Mainland China",
+      "countryZh": "中国"
+    },
+    {
+      "name": "DongGuan Togran Electronics Technology Co.,Ltd",
+      "nameEn": "Togran",
+      "booth": "L0013",
+      "stage": "融资未公开",
+      "cats": [
+        "消费电子 / 终端"
+      ],
+      "product": "Gaming Headphone & Headset & Microphone,Gaming Mouse ,Gaming Keyboard ,Keycap",
+      "country": "Mainland China",
+      "countryZh": "中国"
+    },
+    {
+      "name": "DONGGUAN V-LINK DISPLAY TECHNOLOGY CO., LTD",
+      "nameEn": "DONGGUAN V-LINK DISPLAY TECHNOLOGY CO., LTD",
+      "booth": "S1409",
+      "stage": "融资未公开",
+      "cats": [
+        "消费电子 / 终端"
+      ],
+      "product": "Consumer Tech",
+      "country": "Mainland China",
+      "countryZh": "中国"
+    },
+    {
+      "name": "Dongguan World Pass Industrial Co., Ltd.",
+      "nameEn": "Dongguan World Pass Industrial Co., Ltd.",
+      "booth": "Q0134a",
+      "stage": "融资未公开",
+      "cats": [
+        "工业 / 制造"
+      ],
+      "product": "USB Adapter, Cable & Hub,Bluetooth Adapter & Receiver",
+      "country": "Mainland China",
+      "countryZh": "中国"
+    },
+    {
+      "name": "Dongguan Xunling New Technology Co., LTD",
+      "nameEn": "Dongguan Xunling New Technology Co., LTD",
+      "booth": "J0234",
+      "stage": "融资未公开",
+      "product": "AI Air Cooling / Liquid Cooling System",
+      "country": "Mainland China",
+      "countryZh": "中国"
+    },
+    {
+      "name": "Dracula Technologies",
+      "nameEn": "Dracula",
+      "booth": "S1216",
+      "stage": "融资未公开",
+      "product": "Green Tech / ESG,Sustainability",
+      "country": "France",
+      "countryZh": "法国"
+    },
+    {
+      "name": "Dronetag",
+      "nameEn": "Dronetag",
+      "booth": "S0224",
+      "stage": "融资未公开",
+      "cats": [
+        "大模型 / 算法",
+        "AI 基础设施",
+        "机器人 / 具身智能"
+      ],
+      "product": "Infrastructure & Hardware,Generative AI & LLM",
+      "country": "Czech Republic",
+      "countryZh": "捷克"
+    },
+    {
+      "name": "Eagle Wireless",
+      "nameEn": "Eagle Wireless",
+      "booth": "P0930",
+      "stage": "融资未公开",
+      "cats": [
+        "机器人 / 具身智能",
+        "工业 / 制造"
+      ],
+      "product": "Wireless WAN Dongle/Module,Telematics,5G/5G-A/6G Related Products ,Edge Computing,System Integration,Automobile Software",
+      "country": "United States",
+      "countryZh": "美国"
+    },
+    {
+      "name": "Earth Information Technology",
+      "nameEn": "Earth Information Technology",
+      "stage": "融资未公开",
+      "country": "Japan",
+      "countryZh": "日本"
+    },
+    {
+      "name": "EdgeCortix",
+      "nameEn": "EdgeCortix",
+      "booth": "S0409a",
+      "stage": "融资未公开",
+      "product": "Physical Show Booth No.: Taipei Nangang Exhibition Center, Hall 2 (TaiNEX 2) InnoVEX S0409a S0409a",
+      "country": "Japan",
+      "countryZh": "日本"
+    },
+    {
+      "name": "Eleventh Fleet Pte. Ltd.",
+      "nameEn": "Eleventh Fleet Pte. Ltd.",
+      "booth": "S0002",
+      "stage": "融资未公开",
+      "product": "Other",
+      "country": "Singapore",
+      "countryZh": "新加坡"
+    },
+    {
+      "name": "Ellynt AI",
+      "nameEn": "Ellynt AI",
+      "booth": "S0904a",
+      "stage": "融资未公开",
+      "cats": [
+        "AI 基础设施"
+      ],
+      "product": "Physical Show Booth No.: Taipei Nangang Exhibition Center, Hall 2 (TaiNEX 2) InnoVEX S0904a S0904a AI AI Platform ComputerVision Edge EdgeAI Startup AI AI Platform ComputerVision Edge EdgeAI Startup",
+      "country": "India",
+      "countryZh": "印度"
+    },
+    {
+      "name": "ELSA Optronics Technology(ShenZhen) Co., Ltd",
+      "nameEn": "ELSA",
+      "booth": "N0413a",
+      "stage": "融资未公开",
+      "product": "LCD Monitor",
+      "country": "Mainland China",
+      "countryZh": "中国"
+    },
+    {
+      "name": "EM Microelectronic",
+      "nameEn": "EM Microelectronic",
+      "booth": "N0025",
+      "stage": "融资未公开",
+      "cats": [
+        "芯片 / 算力",
+        "消费电子 / 终端",
+        "工业 / 制造"
+      ],
+      "product": "System on Chip(SOC),IC Design, Packaging & Foundry,LCD Display Module,Touch Screen Monitor & Panel,Bluetooth Adapter & Receiver,Radio Frequency Identification (RFID) ,Electronic Shelf Label (ESL)",
+      "country": "Switzerland",
+      "countryZh": "瑞士"
+    },
+    {
+      "name": "Emdoor Digital Technology Co., Ltd.",
+      "nameEn": "EMDOOR",
+      "booth": "M0419a",
+      "stage": "融资未公开",
+      "cats": [
+        "消费电子 / 终端"
+      ],
+      "product": "Tablet PC,Laptop Computer",
+      "country": "Mainland China",
+      "countryZh": "中国"
+    },
+    {
+      "name": "EMMONS INDUSTRIAL LIMITED",
+      "nameEn": "EMMONS INDUSTRIAL LIMITED",
+      "booth": "S1310",
+      "stage": "融资未公开",
+      "cats": [
+        "工业 / 制造"
+      ],
+      "product": "Physical Show Booth No.: Taipei Nangang Exhibition Center, Hall 2 (TaiNEX 2) InnoVEX S1310 S1310",
+      "country": "Mainland China",
+      "countryZh": "中国"
+    },
+    {
+      "name": "Emtar Technologies Inc.",
+      "nameEn": "Emtar Technologies Inc.",
+      "booth": "S0506",
+      "stage": "融资未公开",
+      "product": "Physical Show Booth No.: Taipei Nangang Exhibition Center, Hall 2 (TaiNEX 2) InnoVEX S0506 S0506",
+      "country": "Canada",
+      "countryZh": "加拿大"
+    },
+    {
+      "name": "Enghouse System",
+      "nameEn": "Enghouse Interactive,Enghouse Video,Aculab",
+      "booth": "N0526",
+      "stage": "融资未公开",
+      "cats": [
+        "消费电子 / 终端"
+      ],
+      "product": "Live Streaming Solutions,Business & Office Software,Natural Language Processing Service/ Device,Deep Learning Service / Device,IP Phone,Videophone,Biometircs System,IT & Internet Services",
+      "country": "Canada",
+      "countryZh": "加拿大"
+    },
+    {
+      "name": "Enplas Corporation",
+      "nameEn": "Enplas Corporation",
+      "booth": "I0904",
+      "stage": "融资未公开",
+      "product": "Liquid Cooling System,AI Air Cooling / Liquid Cooling System",
+      "country": "Japan",
+      "countryZh": "日本"
+    },
+    {
+      "name": "Entalpic",
+      "nameEn": "Entalpic",
+      "booth": "S1216",
+      "stage": "融资未公开",
+      "cats": [
+        "芯片 / 算力"
+      ],
+      "product": "Digital Transformation",
+      "country": "France",
+      "countryZh": "法国"
+    },
+    {
+      "name": "Enteligent",
+      "nameEn": "Enteligent",
+      "booth": "S0304",
+      "stage": "融资未公开",
+      "product": "Physical Show Booth No.: Taipei Nangang Exhibition Center, Hall 2 (TaiNEX 2) InnoVEX S0304 S0304",
+      "country": "United States",
+      "countryZh": "美国"
+    },
+    {
+      "name": "Epishine",
+      "nameEn": "Epishine",
+      "booth": "Q0816a",
+      "stage": "融资未公开",
+      "cats": [
+        "芯片 / 算力"
+      ],
+      "product": "Epishine Indoor Solar Cells",
+      "country": "Sweden",
+      "countryZh": "瑞典"
+    },
+    {
+      "name": "ESA BIC Czech Republic",
+      "nameEn": "ESA BIC Czech Republic",
+      "booth": "S0224",
+      "stage": "融资未公开",
+      "product": "Physical Show Booth No.: Taipei Nangang Exhibition Center, Hall 2 (TaiNEX 2) InnoVEX S0224 S0224",
+      "country": "Czech Republic",
+      "countryZh": "捷克"
+    },
+    {
+      "name": "Essencore Limited",
+      "nameEn": "KLEVV",
+      "booth": "N0114",
+      "stage": "融资未公开",
+      "cats": [
+        "工业 / 制造"
+      ],
+      "product": "Solid State Drive (SSD),Disk Enclosure,DRAM,Industrial Memory",
+      "country": "Hong Kong",
+      "countryZh": "香港"
+    },
+    {
+      "name": "EVE Energy Co., Ltd.",
+      "nameEn": "EVE Energy",
+      "booth": "D0517a",
+      "stage": "融资未公开",
+      "product": "Lithium & Li-ion Battery",
+      "country": "Mainland China",
+      "countryZh": "中国"
+    },
+    {
+      "name": "Everidge Co., Ltd.",
+      "nameEn": "Everidge Co., Ltd.",
+      "booth": "S0118",
+      "stage": "融资未公开",
+      "cats": [
+        "大模型 / 算法",
+        "AI 基础设施",
+        "数据 / 云 / 安全"
+      ],
+      "product": "Application Software,Deep Learning Service / Device,Cloud Computing & IT Services,Business Intelligence Service,Generative AI / LLM,Network Video Recorder (NVR)",
+      "country": "Japan",
+      "countryZh": "日本"
+    },
+    {
+      "name": "Ewind Technology Co., Ltd",
+      "nameEn": "Ewind Technology Co., Ltd",
+      "booth": "K1421",
+      "stage": "融资未公开",
+      "cats": [
+        "数据 / 云 / 安全"
+      ],
+      "product": "Network Switch",
+      "country": "Mainland China",
+      "countryZh": "中国"
+    },
+    {
+      "name": "Exeger AB",
+      "nameEn": "Exeger AB",
+      "booth": "D0132",
+      "stage": "融资未公开",
+      "product": "E-book Reader",
+      "country": "Sweden",
+      "countryZh": "瑞典"
+    },
+    {
+      "name": "Exein SpA",
+      "nameEn": "Exein Analyzer, Exein Runtime",
+      "booth": "P0922",
+      "stage": "融资未公开",
+      "cats": [
+        "工业 / 制造",
+        "数据 / 云 / 安全"
+      ],
+      "product": "Antivirus & Security Software,IIoT Solution",
+      "country": "Italy",
+      "countryZh": "意大利"
+    },
+    {
+      "name": "EXPRESS LUCK INDUSTRIAL (ZHONGSHAN) LIMITED",
+      "nameEn": "expressluck",
+      "booth": "L0529a",
+      "stage": "融资未公开",
+      "cats": [
+        "工业 / 制造"
+      ],
+      "product": "All-In-One & Desktop Computer",
+      "country": "Mainland China",
+      "countryZh": "中国"
+    },
+    {
+      "name": "Farmio Pte. Ltd",
+      "nameEn": "Farmio Pte. Ltd",
+      "booth": "S1320",
+      "stage": "融资未公开",
+      "product": "Physical Show Booth No.: Taipei Nangang Exhibition Center, Hall 2 (TaiNEX 2) InnoVEX S1320 S1320",
+      "country": "Singapore",
+      "countryZh": "新加坡"
+    },
+    {
+      "name": "Farreach Electronics Co.Limited",
+      "nameEn": "SKW, Farreach",
+      "booth": "P0129",
+      "stage": "融资未公开",
+      "product": "KVM Cable & Switch,USB Adapter, Cable & Hub",
+      "country": "Mainland China",
+      "countryZh": "中国"
+    },
+    {
+      "name": "Faytech Tech.Co.,Ltd.",
+      "nameEn": "Faytech",
+      "booth": "J0402",
+      "stage": "融资未公开",
+      "cats": [
+        "工业 / 制造"
+      ],
+      "product": "Industrial Computer,Human Machine Interface (HMI),Edge Computing",
+      "country": "Mainland China",
+      "countryZh": "中国"
+    },
+    {
+      "name": "Fibocom Wireless Inc.",
+      "nameEn": "Fibocom Wireless Inc.",
+      "booth": "K0122",
+      "stage": "融资未公开",
+      "product": "Wireless WAN Dongle/Module",
+      "country": "Mainland China",
+      "countryZh": "中国"
+    },
+    {
+      "name": "FIREFLY TECHNOLOGY CO.,LTD",
+      "nameEn": "FIREFLY TECHNOLOGY CO.,LTD",
+      "booth": "P1417",
+      "stage": "融资未公开",
+      "cats": [
+        "芯片 / 算力",
+        "工业 / 制造"
+      ],
+      "product": "Industrial Computer,AI Server",
+      "country": "Mainland China",
+      "countryZh": "中国"
+    },
+    {
+      "name": "FIRST PLAYER TECHNOLOGY (GUANGZHOU) CO., LTD.",
+      "nameEn": "FIRST PLAYER TECHNOLOGY (GUANGZHOU) CO., LTD.",
+      "booth": "Q1334b",
+      "stage": "融资未公开",
+      "cats": [
+        "消费电子 / 终端"
+      ],
+      "product": "Computer Power Supply,PC Cooling & Fan",
+      "country": "Mainland China",
+      "countryZh": "中国"
+    },
+    {
+      "name": "Flex",
+      "nameEn": "Flex",
+      "booth": "J0132",
+      "stage": "融资未公开",
+      "cats": [
+        "AI 基础设施",
+        "数据 / 云 / 安全"
+      ],
+      "product": "Switching Power Supply,AI Air Cooling / Liquid Cooling System ,AI Switching Power Supply ,Data Center (DC) / Cloud Service Provider (CSP) ,System Integration",
+      "country": "United States",
+      "countryZh": "美国"
+    },
+    {
+      "name": "FlexTouch Technologies Co.",
+      "nameEn": "FlexTouch Technologies Co.",
+      "booth": "D0223a",
+      "stage": "融资未公开",
+      "cats": [
+        "消费电子 / 终端"
+      ],
+      "product": "E-paper Display",
+      "country": "Mainland China",
+      "countryZh": "中国"
+    },
+    {
+      "name": "Forte Weise Global Commerce Co., Limited",
+      "nameEn": "Forte Weise Global Commerce Co., Limited",
+      "booth": "S1318",
+      "stage": "融资未公开",
+      "product": "Physical Show Booth No.: Taipei Nangang Exhibition Center, Hall 2 (TaiNEX 2) InnoVEX S1318 S1318",
+      "country": "Hong Kong",
+      "countryZh": "香港"
+    },
+    {
+      "name": "Foshan Dinglin Science and Technology Co., Ltd.",
+      "nameEn": "Foshan Dinglin Science and Technology Co., Ltd.",
+      "booth": "S0804",
+      "stage": "融资未公开",
+      "product": "Physical Show Booth No.: Taipei Nangang Exhibition Center, Hall 2 (TaiNEX 2) InnoVEX S0804 S0804",
+      "country": "Mainland China",
+      "countryZh": "中国"
+    },
+    {
+      "name": "Frameo A/S",
+      "nameEn": "Frameo",
+      "booth": "Q0610a",
+      "stage": "融资未公开",
+      "cats": [
+        "消费电子 / 终端"
+      ],
+      "product": "Other Mobile Phone & Tablet PC Accessories,Mobile App",
+      "country": "Denmark",
+      "countryZh": "丹麦"
+    },
+    {
+      "name": "Frore Systems Inc.",
+      "nameEn": "AirJet, AirJet PAK",
+      "booth": "P1401a",
+      "stage": "融资未公开",
+      "product": "AI Air Cooling / Liquid Cooling System",
+      "country": "United States",
+      "countryZh": "美国"
+    },
+    {
+      "name": "Fujian Touch-China Technology Co.,ltd.",
+      "nameEn": "Fujian Touch-China Technology Co.,ltd.",
+      "booth": "P1320a",
+      "stage": "融资未公开",
+      "product": "LCD Monitor,Touch Screen Monitor & Panel",
+      "country": "Mainland China",
+      "countryZh": "中国"
+    },
+    {
+      "name": "Fusion Worldwide",
+      "nameEn": "Fusion Worldwide",
+      "booth": "I1330",
+      "stage": "融资未公开",
+      "product": "Other Computer Components & Parts",
+      "country": "Singapore",
+      "countryZh": "新加坡"
+    },
+    {
+      "name": "Gainscha Auto ID Co., Ltd.",
+      "nameEn": "Gainscha",
+      "booth": "P0901a",
+      "stage": "融资未公开",
+      "cats": [
+        "工业 / 制造"
+      ],
+      "product": "Industrial Barcode Printer,Desktop Barcode Printer,RFID Printer,Thermal Receipt Printer,Thermal Mobile Printer",
+      "country": "Mainland China",
+      "countryZh": "中国"
+    },
+    {
+      "name": "Gauss Algorithmic",
+      "nameEn": "Gauss Algorithmic",
+      "booth": "S0224",
+      "stage": "融资未公开",
+      "product": "Enterprise Software & SaaS",
+      "country": "Czech Republic",
+      "countryZh": "捷克"
+    },
+    {
+      "name": "Gen Digital",
+      "nameEn": "Norton, Avira, Avast",
+      "booth": "P0419",
+      "stage": "融资未公开",
+      "cats": [
+        "数据 / 云 / 安全"
+      ],
+      "product": "Embedded Products,Antivirus & Security Software,Application Software,Other Computer Software,Gateway,Virtual Private Network (VPN)",
+      "country": "United States",
+      "countryZh": "美国"
+    },
+    {
+      "name": "Geniatech",
+      "nameEn": "Geniatech",
+      "booth": "D0427a",
+      "stage": "融资未公开",
+      "cats": [
+        "消费电子 / 终端",
+        "工业 / 制造"
+      ],
+      "product": "Industrial Automatic & Smart Machinery Turnkey Equipment,E-paper Display,Embedded Products,Smart Grids",
+      "country": "Mainland China",
+      "countryZh": "中国"
+    },
+    {
+      "name": "GEOMETRIC FUTURE",
+      "nameEn": "Geometrice Future",
+      "booth": "Q1115",
+      "stage": "融资未公开",
+      "cats": [
+        "芯片 / 算力",
+        "消费电子 / 终端"
+      ],
+      "product": "Computer Case,Computer Power Supply,PC Cooling & Fan,Other Computer Components & Parts,AI Air Cooling / Liquid Cooling System ,AI PC Cooling & Fan",
+      "country": "Mainland China",
+      "countryZh": "中国"
+    },
+    {
+      "name": "GLOBAL CHIP INDUSTRIAL CO., LIMITED",
+      "nameEn": "Mellanox, SEAGATE, INTEL",
+      "booth": "R0301",
+      "stage": "融资未公开",
+      "cats": [
+        "芯片 / 算力",
+        "工业 / 制造",
+        "数据 / 云 / 安全"
+      ],
+      "product": "Embedded Processor,Industrial Motherboard,Hard Disk Drive (HDD),Solid State Drive (SSD),Graphics Card,Network Adapter / Network Interface Card (NIC),Wi-Fi / ZigBee Dongle & Module ,CPU/GPU/APU",
+      "country": "Mainland China",
+      "countryZh": "中国"
+    },
+    {
+      "name": "GMORS Japan Corporation",
+      "nameEn": "GMORS",
+      "booth": "Q0101",
+      "stage": "融资未公开",
+      "product": "Other Computer Components & Parts,Liquid Cooling System",
+      "country": "Japan",
+      "countryZh": "日本"
+    },
+    {
+      "name": "Government of Ontario",
+      "nameEn": "Government of Ontario",
+      "booth": "N0526",
+      "stage": "融资未公开",
+      "cats": [
+        "工业 / 制造"
+      ],
+      "product": "Microcomputer Control System,Embedded Processor,Embedded Products,Industrial Software,Deep Learning Service / Device,IIoT Solution,Electric Vehicle Battery & Charger,VR / AR / MR Applications",
+      "country": "Canada",
+      "countryZh": "加拿大"
+    },
+    {
+      "name": "Goyang Industry Promotion Agency",
+      "nameEn": "Goyang Industry Promotion Agency",
+      "booth": "S0203a",
+      "stage": "融资未公开",
+      "product": "Physical Show Booth No.: Taipei Nangang Exhibition Center, Hall 2 (TaiNEX 2) InnoVEX S0203a S0203a",
+      "country": "Korea, South Korea",
+      "countryZh": "韩国"
+    },
+    {
+      "name": "Greneta Corp.",
+      "nameEn": "Greneta Corp.",
+      "booth": "S0712a",
+      "stage": "融资未公开",
+      "product": "Physical Show Booth No.: Taipei Nangang Exhibition Center, Hall 2 (TaiNEX 2) InnoVEX S0712a S0712a",
+      "country": "Korea, South Korea",
+      "countryZh": "韩国"
+    },
+    {
+      "name": "Guangdong Chuntex Elite Electronic Technology Co., LTD",
+      "nameEn": "Guangdong Chuntex Elite Electronic Technology Co., LTD",
+      "booth": "Q0124",
+      "stage": "融资未公开",
+      "product": "LCD Monitor,Touch Screen Monitor & Panel,Graphics Tablet,Other Computer Peripherals,Computer Rack",
+      "country": "Mainland China",
+      "countryZh": "中国"
+    },
+    {
+      "name": "Guangdong Oshid Precision Intelligent Manufacturing Technology Co., Ltd.",
+      "nameEn": "OSHID",
+      "booth": "L1306",
+      "stage": "融资未公开",
+      "cats": [
+        "工业 / 制造"
+      ],
+      "product": "Keycap",
+      "country": "Mainland China",
+      "countryZh": "中国"
+    },
+    {
+      "name": "GUANGDONG SOHOO TECHNOLOGY CO.,LTD",
+      "nameEn": "GUANGDONG SOHOO TECHNOLOGY CO.,LTD",
+      "booth": "I1002",
+      "stage": "融资未公开",
+      "cats": [
+        "AI 基础设施",
+        "消费电子 / 终端"
+      ],
+      "product": "Computer Case,Computer Power Supply,PC Cooling & Fan",
+      "country": "Mainland China",
+      "countryZh": "中国"
+    },
+    {
+      "name": "Guangdong Tiantong Jiuheng Technology Co., Ltd.",
+      "nameEn": "Guangdong Tiantong Jiuheng Technology Co., Ltd.",
+      "booth": "S1312",
+      "stage": "融资未公开",
+      "cats": [
+        "芯片 / 算力"
+      ],
+      "product": "5G & Communication,Edge AI",
+      "country": "Mainland China",
+      "countryZh": "中国"
+    },
+    {
+      "name": "Guangdong Unipoe IOT Technology Co., Ltd.",
+      "nameEn": "Guangdong Unipoe IOT Technology Co., Ltd.",
+      "booth": "K0331a",
+      "stage": "融资未公开",
+      "cats": [
+        "AI 基础设施",
+        "工业 / 制造",
+        "数据 / 云 / 安全"
+      ],
+      "product": "Network Switch",
+      "country": "Mainland China",
+      "countryZh": "中国"
+    },
+    {
+      "name": "Guangzhou Dingchang Electronic Technology Co., Ltd. Shenzhen Branch",
+      "nameEn": "Guangzhou Dingchang Electronic Technology Co., Ltd. Shenzhen Branch",
+      "booth": "S0303a",
+      "stage": "融资未公开",
+      "product": "5G & Communication,AGI (Artificial General Intelligence)",
+      "country": "Mainland China",
+      "countryZh": "中国"
+    },
+    {
+      "name": "Guangzhou HAVIT Technology Co., Ltd.",
+      "nameEn": "Guangzhou HAVIT Technology Co., Ltd.",
+      "booth": "L1229a",
+      "stage": "融资未公开",
+      "cats": [
+        "消费电子 / 终端"
+      ],
+      "product": "Projector,Head & Bluetooth Earphone,Bluetooth & Wi-Fi Wireless Speaker,Power Bank,Handheld Charger,Gaming Mouse ,Gaming Keyboard ,Gaming Headphone & Headset & Microphone",
+      "country": "Mainland China",
+      "countryZh": "中国"
+    },
+    {
+      "name": "Guangzhou Heshi Office Equipment Co., Ltd.",
+      "nameEn": "Guangzhou Heshi Office Equipment Co., Ltd.",
+      "booth": "P1307",
+      "stage": "融资未公开",
+      "product": "Mobile POS",
+      "country": "Mainland China",
+      "countryZh": "中国"
+    },
+    {
+      "name": "Guangzhou Jnp Enterprise Management Consulting Co.,Ltd.",
+      "nameEn": "Guangzhou Jnp Enterprise Management Consulting Co.,Ltd.",
+      "booth": "N0003",
+      "stage": "融资未公开",
+      "product": "Computer Case,Other Computer Components & Parts",
+      "country": "Mainland China",
+      "countryZh": "中国"
+    },
+    {
+      "name": "Guangzhou Juchuang Electronic Technology Co., Ltd",
+      "nameEn": "Guangzhou Juchuang Electronic Technology Co., Ltd",
+      "booth": "S0904",
+      "stage": "融资未公开",
+      "cats": [
+        "芯片 / 算力"
+      ],
+      "product": "Circular Economy & GreenTech,Edge AI",
+      "country": "Mainland China",
+      "countryZh": "中国"
+    },
+    {
+      "name": "Guangzhou Ruixaming Electronics Technology Co., Ltd.",
+      "nameEn": "Guangzhou Ruixaming Electronics Technology Co., Ltd.",
+      "booth": "Q0834c",
+      "stage": "融资未公开",
+      "cats": [
+        "消费电子 / 终端"
+      ],
+      "product": "Computer Case,PC Cooling & Fan",
+      "country": "Mainland China",
+      "countryZh": "中国"
+    },
+    {
+      "name": "GUANGZHOU SYBLE CO.,LTD",
+      "nameEn": "SYBLE",
+      "booth": "P0107",
+      "stage": "融资未公开",
+      "cats": [
+        "工业 / 制造"
+      ],
+      "product": "IOT Sensor Device,Mobile POS",
+      "country": "Mainland China",
+      "countryZh": "中国"
+    },
+    {
+      "name": "Guangzhou Xianyou Intelligent Technology Co., Ltd",
+      "nameEn": "Guangzhou Xianyou Intelligent Technology Co., Ltd",
+      "booth": "L0001",
+      "stage": "融资未公开",
+      "product": "Laptop Computer,LCD Monitor",
+      "country": "Mainland China",
+      "countryZh": "中国"
+    },
+    {
+      "name": "GUANGZHOU ZONERICH BUSINESS MACHINE CO., LTD.",
+      "nameEn": "Zonerich",
+      "booth": "P0703",
+      "stage": "融资未公开",
+      "product": "POS System,Kiosk,Card Reader",
+      "country": "Mainland China",
+      "countryZh": "中国"
+    },
+    {
+      "name": "Gwangyang Bay Area Free Economic Zone",
+      "nameEn": "Gwangyang Bay Area Free Economic Zone",
+      "booth": "S0203a",
+      "stage": "融资未公开",
+      "product": "Physical Show Booth No.: Taipei Nangang Exhibition Center, Hall 2 (TaiNEX 2) InnoVEX S0203a S0203a",
+      "country": "Korea, South Korea",
+      "countryZh": "韩国"
+    },
+    {
+      "name": "Gyeonggi Free Economic Zone",
+      "nameEn": "Gyeonggi Free Economic Zone",
+      "booth": "S0203a",
+      "stage": "融资未公开",
+      "product": "Physical Show Booth No.: Taipei Nangang Exhibition Center, Hall 2 (TaiNEX 2) InnoVEX S0203a S0203a",
+      "country": "Korea, South Korea",
+      "countryZh": "韩国"
+    },
+    {
+      "name": "HANGZHOU ZKONG NETWORKS CO., LTD",
+      "nameEn": "HANGZHOU ZKONG NETWORKS CO., LTD",
+      "booth": "D0421",
+      "stage": "融资未公开",
+      "cats": [
+        "消费电子 / 终端",
+        "数据 / 云 / 安全"
+      ],
+      "product": "E-paper Display",
+      "country": "Mainland China",
+      "countryZh": "中国"
+    },
+    {
+      "name": "Hanmi Micronics",
+      "nameEn": "Wizmax",
+      "booth": "N0507a",
+      "stage": "融资未公开",
+      "cats": [
+        "消费电子 / 终端"
+      ],
+      "product": "Switching Power Supply,Computer Case,PC Keyboard",
+      "country": "Korea, South Korea",
+      "countryZh": "韩国"
+    },
+    {
+      "name": "HANMI Semiconductor",
+      "nameEn": "HANMI Semiconductor",
+      "booth": "M1229",
+      "stage": "融资未公开",
+      "cats": [
+        "大模型 / 算法",
+        "芯片 / 算力"
+      ],
+      "product": "DRAM,Generative AI / LLM",
+      "country": "Korea, South Korea",
+      "countryZh": "韩国"
+    },
+    {
+      "name": "Hanomi",
+      "nameEn": "Hanomi",
+      "booth": "S0304",
+      "stage": "融资未公开",
+      "product": "Physical Show Booth No.: Taipei Nangang Exhibition Center, Hall 2 (TaiNEX 2) InnoVEX S0304 S0304",
+      "country": "United States",
+      "countryZh": "美国"
+    },
+    {
+      "name": "Hanshow Technology Co., LTD.",
+      "nameEn": "Hanshow Technology Co., LTD.",
+      "booth": "D0417a",
+      "stage": "融资未公开",
+      "product": "Others",
+      "country": "Mainland China",
+      "countryZh": "中国"
+    },
+    {
+      "name": "HDMI Licensing Administrator, Inc.",
+      "nameEn": "HDMI Licensing Administrator, Inc.",
+      "booth": "N1323",
+      "stage": "融资未公开",
+      "product": "HDMI",
+      "country": "United States",
+      "countryZh": "美国"
+    },
+    {
+      "name": "HENA GROUP COMPANY LIMITED",
+      "nameEn": "HENA GROUP COMPANY LIMITED",
+      "booth": "N1330",
+      "stage": "融资未公开",
+      "cats": [
+        "消费电子 / 终端"
+      ],
+      "product": "Tablet PC,Mini PC Barebone,All-In-One & Desktop Computer,Laptop Computer",
+      "country": "Mainland China",
+      "countryZh": "中国"
+    },
+    {
+      "name": "HENEX (GUANGZHOU) TECHNOLOGY CO., LTD",
+      "nameEn": "HENEX",
+      "booth": "P0401b",
+      "stage": "融资未公开",
+      "product": "Bar Code Scanner,Bar Code & QR Code System",
+      "country": "Mainland China",
+      "countryZh": "中国"
+    },
+    {
+      "name": "Heng Yu Electronic Manufacturing Company Limited",
+      "nameEn": "Heng Yu,Double Shell",
+      "booth": "P1002c",
+      "stage": "融资未公开",
+      "cats": [
+        "消费电子 / 终端",
+        "工业 / 制造"
+      ],
+      "product": "Industrial Computer,Kiosk,Card Reader,Gaming Keyboard ,Gaming Mouse ,Point of Sales PC ,POS Accessories",
+      "country": "Hong Kong",
+      "countryZh": "香港"
+    },
+    {
+      "name": "Hepzibah AI",
+      "nameEn": "Hepzibah AI",
+      "booth": "N0526",
+      "stage": "融资未公开",
+      "cats": [
+        "大模型 / 算法",
+        "芯片 / 算力"
+      ],
+      "product": "IC Design, Packaging & Foundry,CPU/GPU/APU ,Generative AI / LLM",
+      "country": "Canada",
+      "countryZh": "加拿大"
+    },
+    {
+      "name": "Hewatek SRL",
+      "nameEn": "Hewatek SRL",
+      "booth": "S1008",
+      "stage": "融资未公开",
+      "product": "Physical Show Booth No.: Taipei Nangang Exhibition Center, Hall 2 (TaiNEX 2) InnoVEX S1008 S1008",
+      "country": "Italy",
+      "countryZh": "意大利"
+    },
+    {
+      "name": "HIP GLOBAL CO., LTD.",
+      "nameEn": "HIP GLOBAL CO., LTD.",
+      "booth": "S1004",
+      "stage": "融资未公开",
+      "cats": [
+        "工业 / 制造"
+      ],
+      "product": "IoT & Vertical Applications",
+      "country": "Thailand",
+      "countryZh": "泰国"
+    },
+    {
+      "name": "HKC CORPORATION LIMITED",
+      "nameEn": "HKC Corporation Limited",
+      "booth": "D0317a",
+      "stage": "融资未公开",
+      "product": "Computer Case,Computer Power Supply,LCD Monitor",
+      "country": "Mainland China",
+      "countryZh": "中国",
+      "cats": [
+        "消费电子 / 终端"
+      ]
+    },
+    {
+      "name": "HOFFMAN SCHROFF PTE LTD",
+      "nameEn": "nVent",
+      "booth": "N0122",
+      "stage": "融资未公开",
+      "cats": [
+        "数据 / 云 / 安全"
+      ],
+      "product": "Liquid Cooling System,AI Air Cooling / Liquid Cooling System",
+      "country": "Singapore",
+      "countryZh": "新加坡"
+    },
+    {
+      "name": "HOGE STORAGE TECHNOLOGY (HONG KONG) COMPANY LIMITED",
+      "nameEn": "HOGE STORAGE TECHNOLOGY (HONG KONG) COMPANY LIMITED",
+      "booth": "R1302",
+      "stage": "融资未公开",
+      "cats": [
+        "AI 基础设施"
+      ],
+      "product": "Solid State Drive (SSD),Disk Enclosure,USB Flash Drive,DRAM",
+      "country": "Mainland China",
+      "countryZh": "中国"
+    },
+    {
+      "name": "HONGKONG CHASE-ONE INFORMATION CO., LIMITED",
+      "nameEn": "HONGKONG CHASE-ONE INFORMATION CO., LIMITED",
+      "booth": "L0011",
+      "stage": "融资未公开",
+      "cats": [
+        "消费电子 / 终端"
+      ],
+      "product": "Mini PC Barebone,All-In-One & Desktop Computer,PC Motherboard",
+      "country": "Mainland China",
+      "countryZh": "中国"
+    },
+    {
+      "name": "Hosin Global Electronics Co.,Ltd",
+      "nameEn": "宏芯宇,HosinGlobal",
+      "booth": "R1320a",
+      "stage": "融资未公开",
+      "product": "IC Design, Packaging & Foundry,Solid State Drive (SSD),USB Flash Drive,Memory Card,DRAM",
+      "country": "Mainland China",
+      "countryZh": "中国"
+    },
+    {
+      "name": "Huilian cloud technology (Shenzhen) Co., Ltd",
+      "nameEn": "HVLANYN",
+      "booth": "N0027",
+      "stage": "融资未公开",
+      "cats": [
+        "AI 基础设施",
+        "消费电子 / 终端"
+      ],
+      "product": "Mini PC Barebone,All-In-One & Desktop Computer,Laptop Computer",
+      "country": "Mainland China",
+      "countryZh": "中国"
+    },
+    {
+      "name": "Huizhou Jiadalong Electronic Technology Co. , Ltd",
+      "nameEn": "GATERON",
+      "booth": "L1301",
+      "stage": "融资未公开",
+      "cats": [
+        "消费电子 / 终端"
+      ],
+      "product": "PC Keyboard,Mouse",
+      "country": "Mainland China",
+      "countryZh": "中国"
+    },
+    {
+      "name": "Huizhou Jiuzi Electronic Technology Co.,Ltd",
+      "nameEn": "Jiuzi Electronic",
+      "booth": "P0325a",
+      "stage": "融资未公开",
+      "product": "Gaming Accessories,Gaming Keyboard ,Esports",
+      "country": "Mainland China",
+      "countryZh": "中国"
+    },
+    {
+      "name": "Huizhou Shunxinjie Electronic Technology Co., Ltd.",
+      "nameEn": "SUNXI",
+      "booth": "L1101a",
+      "stage": "融资未公开",
+      "cats": [
+        "消费电子 / 终端"
+      ],
+      "product": "Switching Power Supply,Computer Case,PC Cooling & Fan",
+      "country": "Mainland China",
+      "countryZh": "中国"
+    },
+    {
+      "name": "Huizhou SmartByte Technology Co.,Ltd",
+      "nameEn": "Huizhou SmartByte Technology Co.,Ltd",
+      "booth": "K0009",
+      "stage": "融资未公开",
+      "cats": [
+        "数据 / 云 / 安全"
+      ],
+      "product": "Fiber Media Converter,Network Switch",
+      "country": "Mainland China",
+      "countryZh": "中国"
+    },
+    {
+      "name": "Huizhou Trantek Electronics Co., Ltd.",
+      "nameEn": "TTC",
+      "booth": "Q1034c",
+      "stage": "融资未公开",
+      "product": "Game Controller & Joystick,Gaming Keyboard ,Gaming Mouse",
+      "country": "Mainland China",
+      "countryZh": "中国"
+    },
+    {
+      "name": "Hunan Dlsum Technology Co., Ltd",
+      "nameEn": "DLSUM",
+      "booth": "P1101c",
+      "stage": "融资未公开",
+      "cats": [
+        "消费电子 / 终端",
+        "工业 / 制造"
+      ],
+      "product": "All-In-One & Desktop Computer,Industrial Computer,POS System,Point of Sales PC ,POS Accessories",
+      "country": "Mainland China",
+      "countryZh": "中国"
+    },
+    {
+      "name": "HUNAN FULLRIVER INFORMATION TECHNOLOGY CO.，LTD",
+      "nameEn": "HUNAN FULLRIVER INFORMATION TECHNOLOGY CO.，LTD",
+      "booth": "K1227a",
+      "stage": "融资未公开",
+      "cats": [
+        "数据 / 云 / 安全"
+      ],
+      "product": "Router,Network Switch,5G/5G-A/6G Related Products",
+      "country": "Mainland China",
+      "countryZh": "中国"
+    },
+    {
+      "name": "Hydra Host",
+      "nameEn": "NVIDIA, DELL, HPE",
+      "booth": "HPC",
+      "stage": "融资未公开",
+      "cats": [
+        "芯片 / 算力",
+        "AI 基础设施",
+        "消费电子 / 终端",
+        "数据 / 云 / 安全"
+      ],
+      "product": "Server,KVM Cable & Switch,AI Switching Power Supply ,CPU/GPU/APU ,AI Server,Data Center (DC) / Cloud Service Provider (CSP)",
+      "country": "United States",
+      "countryZh": "美国"
+    },
+    {
+      "name": "Illumia Labs",
+      "nameEn": "Illumia Labs",
+      "booth": "S0506",
+      "stage": "融资未公开",
+      "product": "Physical Show Booth No.: Taipei Nangang Exhibition Center, Hall 2 (TaiNEX 2) InnoVEX S0506 S0506",
+      "country": "Canada",
+      "countryZh": "加拿大"
+    },
+    {
+      "name": "IMOnline Technologies Inc.",
+      "nameEn": "IMOnline Technologies Inc.",
+      "booth": "S0506",
+      "stage": "融资未公开",
+      "product": "other",
+      "country": "Canada",
+      "countryZh": "加拿大"
+    },
+    {
+      "name": "IMU Inc.",
+      "nameEn": "IMU",
+      "booth": "P0701a",
+      "stage": "融资未公开",
+      "product": "POS System",
+      "country": "Korea, South Korea",
+      "countryZh": "韩国"
+    },
+    {
+      "name": "Infiniflux Ltd",
+      "nameEn": "Infiniflux Ltd",
+      "booth": "S0724",
+      "stage": "融资未公开",
+      "product": "Physical Show Booth No.: Taipei Nangang Exhibition Center, Hall 2 (TaiNEX 2) InnoVEX S0724 S0724",
+      "country": "United Kingdom",
+      "countryZh": "英国"
+    },
+    {
+      "name": "Inner Resource, Inc.",
+      "nameEn": "Inner Resource, Inc.",
+      "booth": "S1013",
+      "stage": "融资未公开",
+      "product": "Physical Show Booth No.: Taipei Nangang Exhibition Center, Hall 2 (TaiNEX 2) InnoVEX S1013 S1013",
+      "country": "Japan",
+      "countryZh": "日本"
+    },
+    {
+      "name": "INNO3D",
+      "nameEn": "INNO3D,iCHILL",
+      "booth": "N0425a",
+      "stage": "融资未公开",
+      "cats": [
+        "芯片 / 算力"
+      ],
+      "product": "Graphics Card,AI Server",
+      "country": "Hong Kong",
+      "countryZh": "香港"
+    },
+    {
+      "name": "InnoGrit Corporation",
+      "nameEn": "InnoGrit Corporation",
+      "booth": "R1305",
+      "stage": "融资未公开",
+      "cats": [
+        "芯片 / 算力"
+      ],
+      "product": "IC Design, Packaging & Foundry,Server,Solid State Drive (SSD),Disk Enclosure",
+      "country": "United States",
+      "countryZh": "美国"
+    },
+    {
+      "name": "INNOVATECH SRL",
+      "nameEn": "INNOVATECH SRL",
+      "booth": "S1008",
+      "stage": "融资未公开",
+      "product": "Physical Show Booth No.: Taipei Nangang Exhibition Center, Hall 2 (TaiNEX 2) InnoVEX S1008 S1008",
+      "country": "Italy",
+      "countryZh": "意大利"
+    },
+    {
+      "name": "Intralink",
+      "nameEn": "Intralink",
+      "booth": "S0409a",
+      "stage": "融资未公开",
+      "product": "Physical Show Booth No.: Taipei Nangang Exhibition Center, Hall 2 (TaiNEX 2) InnoVEX S0409a S0409a",
+      "country": "United Kingdom",
+      "countryZh": "英国"
+    },
+    {
+      "name": "Investment NSW (Australia)",
+      "nameEn": "Investment NSW (Australia)",
+      "booth": "S1217",
+      "stage": "融资未公开",
+      "product": "Other",
+      "country": "Australia",
+      "countryZh": "澳大利亚"
+    },
+    {
+      "name": "IQUNIX",
+      "nameEn": "IQUNIX",
+      "booth": "M1107a",
+      "stage": "融资未公开",
+      "product": "Computer Case,Gaming Keyboard ,Gaming Mouse",
+      "country": "Mainland China",
+      "countryZh": "中国"
+    },
+    {
+      "name": "IrisGo",
+      "nameEn": "IrisGo",
+      "booth": "S0114",
+      "stage": "融资未公开",
+      "product": "Physical Show Booth No.: Taipei Nangang Exhibition Center, Hall 2 (TaiNEX 2) InnoVEX S0114 S0114",
+      "country": "United States",
+      "countryZh": "美国"
+    },
+    {
+      "name": "Irreversible Inc.",
+      "nameEn": "Irreversible Inc.",
+      "booth": "S0506",
+      "stage": "融资未公开",
+      "product": "Physical Show Booth No.: Taipei Nangang Exhibition Center, Hall 2 (TaiNEX 2) InnoVEX S0506 S0506",
+      "country": "Canada",
+      "countryZh": "加拿大"
+    },
+    {
+      "name": "Israel Innovation Pavilion",
+      "nameEn": "Israel Innovation Pavilion",
+      "booth": "S0905",
+      "stage": "融资未公开",
+      "product": "Other",
+      "country": "Israel",
+      "countryZh": "以色列"
+    },
+    {
+      "name": "Italian Trade Agency Taipei Office",
+      "nameEn": "Italian Trade Agency Taipei Office",
+      "booth": "S1008",
+      "stage": "融资未公开",
+      "product": "Physical Show Booth No.: Taipei Nangang Exhibition Center, Hall 2 (TaiNEX 2) InnoVEX S1008 S1008",
+      "country": "Italy",
+      "countryZh": "意大利"
+    },
+    {
+      "name": "ITEN",
+      "nameEn": "ITEN",
+      "booth": "S1216",
+      "stage": "融资未公开",
+      "cats": [
+        "AI 基础设施",
+        "消费电子 / 终端",
+        "工业 / 制造"
+      ],
+      "product": "Solid State Ceramic Devices",
+      "country": "France",
+      "countryZh": "法国"
+    },
+    {
+      "name": "Japan Media Corporation",
+      "nameEn": "mmRat, mmBio",
+      "booth": "P1325",
+      "stage": "融资未公开",
+      "cats": [
+        "工业 / 制造"
+      ],
+      "product": "Pest control and health sensing products using millimeter wave radar",
+      "country": "Japan",
+      "countryZh": "日本"
+    },
+    {
+      "name": "Jiangmen Hengji Crafts Technology Co., Ltd",
+      "nameEn": "Jiangmen Hengji Crafts Technology Co., Ltd",
+      "booth": "P1330a",
+      "stage": "融资未公开",
+      "product": "Other Computer Peripherals,Mouse Pad & Wrist Rest",
+      "country": "Mainland China",
+      "countryZh": "中国"
+    },
+    {
+      "name": "Jiangsu Bravo View Electronic Technology Co.,LTD",
+      "nameEn": "Jiangsu Bravo View Electronic Technology Co.,LTD",
+      "booth": "P0626",
+      "stage": "融资未公开",
+      "product": "All-In-One & Desktop Computer,Computer Terminal,LCD Monitor",
+      "country": "Mainland China",
+      "countryZh": "中国"
+    },
+    {
+      "name": "Jiangsu Enmane Electronics Industry Co., Ltd",
+      "nameEn": "ENMANE",
+      "booth": "K0930",
+      "stage": "融资未公开",
+      "cats": [
+        "数据 / 云 / 安全"
+      ],
+      "product": "Other Networking,Communication Board,Optical Fiber,Communication Cable",
+      "country": "Mainland China",
+      "countryZh": "中国"
+    },
+    {
+      "name": "Jiangxi Xingtai Technology Inc.",
+      "nameEn": "Jiangxi Xingtai Technology Inc.",
+      "booth": "D0411a",
+      "stage": "融资未公开",
+      "cats": [
+        "消费电子 / 终端"
+      ],
+      "product": "E-paper Display",
+      "country": "Mainland China",
+      "countryZh": "中国"
+    },
+    {
+      "name": "Jimpower Trading Limited",
+      "nameEn": "SanDisk,Samsung,Lexar",
+      "booth": "R0007",
+      "stage": "融资未公开",
+      "cats": [
+        "芯片 / 算力",
+        "AI 基础设施"
+      ],
+      "product": "Hard Disk Drive (HDD),Solid State Drive (SSD),USB Flash Drive,Memory Card,Other Drives, Storage & Blank Media,CPU/GPU/APU ,Gaming MicroSD、SDXC,OTG Adapter / Hub / Flash Drive",
+      "country": "Hong Kong",
+      "countryZh": "香港"
+    },
+    {
+      "name": "JWIPC Technology Co.,Ltd.",
+      "nameEn": "JWIPC",
+      "booth": "J0531",
+      "stage": "融资未公开",
+      "cats": [
+        "消费电子 / 终端",
+        "工业 / 制造"
+      ],
+      "product": "Workstation,Mini PC Barebone,All-In-One & Desktop Computer,Laptop Computer,Industrial Computer,PC Motherboard,Computer Terminal,Edge Computing",
+      "country": "Mainland China",
+      "countryZh": "中国"
+    },
+    {
+      "name": "Kapnetix",
+      "nameEn": "Kapnetix",
+      "booth": "S0224",
+      "stage": "融资未公开",
+      "product": "Physical Show Booth No.: Taipei Nangang Exhibition Center, Hall 2 (TaiNEX 2) InnoVEX S0224 S0224",
+      "country": "Czech Republic",
+      "countryZh": "捷克"
+    },
+    {
+      "name": "Kardome Technology LTD.",
+      "nameEn": "Kardome Technology LTD.",
+      "booth": "S0905",
+      "stage": "融资未公开",
+      "product": "Physical Show Booth No.: Taipei Nangang Exhibition Center, Hall 2 (TaiNEX 2) InnoVEX S0905 S0905",
+      "country": "Israel",
+      "countryZh": "以色列"
+    },
+    {
+      "name": "Kato Light Metal Industry",
+      "nameEn": "Kato Light Metal Industry",
+      "booth": "S0118",
+      "stage": "融资未公开",
+      "product": "Physical Show Booth No.: Taipei Nangang Exhibition Center, Hall 2 (TaiNEX 2) InnoVEX S0118 S0118",
+      "country": "Japan",
+      "countryZh": "日本"
+    },
+    {
+      "name": "kikaGO Limited",
+      "nameEn": "kikaGO Limited",
+      "booth": "S0927",
+      "stage": "融资未公开",
+      "cats": [
+        "消费电子 / 终端"
+      ],
+      "product": "Smart Wearable Device,Head & Bluetooth Earphone,Bluetooth & Wi-Fi Wireless Speaker",
+      "country": "Hong Kong",
+      "countryZh": "香港"
+    },
+    {
+      "name": "Kinpower International Ltd",
+      "nameEn": "Kinpower International Ltd",
+      "booth": "I0301",
+      "stage": "融资未公开",
+      "cats": [
+        "消费电子 / 终端"
+      ],
+      "product": "Computer Case,PC Cooling & Fan,Other Computer Peripherals",
+      "country": "Mainland China",
+      "countryZh": "中国"
+    },
+    {
+      "name": "Kompenzo",
+      "nameEn": "Kompenzo",
+      "stage": "融资未公开",
+      "cats": [
+        "数据 / 云 / 安全"
+      ],
+      "product": "Artificial Intelligence & Big Data,Green Tech & Sustainability",
+      "country": "Czech Republic",
+      "countryZh": "捷克"
+    },
+    {
+      "name": "KOTRA",
+      "nameEn": "KOTRA",
+      "booth": "S0203a",
+      "stage": "融资未公开",
+      "product": "other",
+      "country": "Korea, South Korea",
+      "countryZh": "韩国"
+    },
+    {
+      "name": "KOWIN TECHNOLOGY CO.,LTD",
+      "nameEn": "KOWIN TECHNOLOGY CO.,LTD",
+      "booth": "AI",
+      "stage": "融资未公开",
+      "cats": [
+        "芯片 / 算力",
+        "AI 基础设施"
+      ],
+      "product": "Solid State Drive (SSD),Memory Card,AI Server ,Edge Computing ,Streaming Platform",
+      "country": "Mainland China",
+      "countryZh": "中国"
+    },
+    {
+      "name": "KUMAMOTO CITY",
+      "nameEn": "KUMAMOTO CITY",
+      "stage": "融资未公开",
+      "country": "Japan",
+      "countryZh": "日本"
+    },
+    {
+      "name": "Lablup Inc.",
+      "nameEn": "Lablup Inc.",
+      "booth": "S0712a",
+      "stage": "融资未公开",
+      "product": "Physical Show Booth No.: Taipei Nangang Exhibition Center, Hall 2 (TaiNEX 2) InnoVEX S0712a S0712a",
+      "country": "Korea, South Korea",
+      "countryZh": "韩国"
+    },
+    {
+      "name": "Larch Networks",
+      "nameEn": "Larch Networks",
+      "booth": "S0905",
+      "stage": "融资未公开",
+      "cats": [
+        "数据 / 云 / 安全"
+      ],
+      "product": "Physical Show Booth No.: Taipei Nangang Exhibition Center, Hall 2 (TaiNEX 2) InnoVEX S0905 S0905",
+      "country": "Israel",
+      "countryZh": "以色列"
+    },
+    {
+      "name": "LD ELECTRONICS CO.,LTD.",
+      "nameEn": "LD ELECTRONICS CO.,LTD.",
+      "booth": "S0203a",
+      "stage": "融资未公开",
+      "product": "Physical Show Booth No.: Taipei Nangang Exhibition Center, Hall 2 (TaiNEX 2) InnoVEX S0203a S0203a",
+      "country": "Korea, South Korea",
+      "countryZh": "韩国"
+    },
+    {
+      "name": "Leapfrog Distribution Pte Ltd",
+      "nameEn": "ARMAGGEDDON,SONICGEAR,ALCATROZ",
+      "booth": "N0313",
+      "stage": "融资未公开",
+      "cats": [
+        "消费电子 / 终端"
+      ],
+      "product": "Head & Bluetooth Earphone,Portable Speaker,Computer Case,PC Cooling & Fan,Bluetooth Keyboard & Mouse,Gaming Headphone & Headset & Microphone ,Gaming Accessories ,Gaming Monitor",
+      "country": "Singapore",
+      "countryZh": "新加坡"
+    },
+    {
+      "name": "LENZO",
+      "nameEn": "LENZO",
+      "booth": "S0304",
+      "stage": "融资未公开",
+      "product": "Physical Show Booth No.: Taipei Nangang Exhibition Center, Hall 2 (TaiNEX 2) InnoVEX S0304 S0304",
+      "country": "Japan",
+      "countryZh": "日本"
+    },
+    {
+      "name": "LightSpeed Photonics Pte Ltd",
+      "nameEn": "LightKonnect, LightPCIe",
+      "booth": "J1233a",
+      "stage": "融资未公开",
+      "cats": [
+        "AI 基础设施",
+        "消费电子 / 终端",
+        "数据 / 云 / 安全"
+      ],
+      "product": "IC Design, Packaging & Foundry,Live Streaming Solutions,Data Capturing & Identification,Other Networking,Data Center (DC) / Cloud Service Provider (CSP),Edge Computing",
+      "country": "Singapore",
+      "countryZh": "新加坡"
+    },
+    {
+      "name": "Ligna Energy AB",
+      "nameEn": "Ligna Energy AB",
+      "booth": "S0409a",
+      "stage": "融资未公开",
+      "cats": [
+        "AI 基础设施",
+        "消费电子 / 终端"
+      ],
+      "product": "Physical Show Booth No.: Taipei Nangang Exhibition Center, Hall 2 (TaiNEX 2) InnoVEX S0409a S0409a Embedded EnergyStorage GreenEnergy GreenTech SmartHome Wearables Embedded EnergyStorage GreenEnergy GreenTech SmartHome Wearables",
+      "country": "Sweden",
+      "countryZh": "瑞典"
+    },
+    {
+      "name": "Linque",
+      "nameEn": "Linque",
+      "booth": "S0724",
+      "stage": "融资未公开",
+      "product": "Physical Show Booth No.: Taipei Nangang Exhibition Center, Hall 2 (TaiNEX 2) InnoVEX S0724 S0724",
+      "country": "Germany",
+      "countryZh": "德国"
+    },
+    {
+      "name": "LONGSYS ELECTRONICS",
+      "nameEn": "Lexar,FORESEE,Zilia",
+      "booth": "R1006",
+      "stage": "融资未公开",
+      "cats": [
+        "芯片 / 算力",
+        "机器人 / 具身智能",
+        "消费电子 / 终端",
+        "工业 / 制造"
+      ],
+      "product": "Server,Solid State Drive (SSD),Disk Enclosure,Memory Card,DRAM,Gaming MicroSD、SDXC ,Industrial Memory,Smart Cockpit",
+      "country": "Hong Kong",
+      "countryZh": "香港"
+    },
+    {
+      "name": "loop international limited",
+      "nameEn": "loop international limited",
+      "booth": "N0401",
+      "stage": "融资未公开",
+      "cats": [
+        "消费电子 / 终端",
+        "工业 / 制造"
+      ],
+      "product": "Mini PC Barebone,All-In-One & Desktop Computer,Computer-Integrated Manufacturing (CIM),Computer Case",
+      "country": "Hong Kong",
+      "countryZh": "香港"
+    },
+    {
+      "name": "LS Materials Co.,Ltd",
+      "nameEn": "LS Materials",
+      "booth": "I0303",
+      "stage": "融资未公开",
+      "cats": [
+        "AI 基础设施"
+      ],
+      "product": "Energy Storage Solutions",
+      "country": "Korea, South Korea",
+      "countryZh": "韩国"
+    },
+    {
+      "name": "Lucid Vision Labs | Inc.",
+      "nameEn": "Lucid Vision Labs | Inc.",
+      "booth": "S0506",
+      "stage": "融资未公开",
+      "product": "other",
+      "country": "Canada",
+      "countryZh": "加拿大"
+    },
+    {
+      "name": "Lumotive",
+      "nameEn": "Lumotive",
+      "booth": "S0506",
+      "stage": "融资未公开",
+      "product": "other",
+      "country": "Canada",
+      "countryZh": "加拿大"
+    },
+    {
+      "name": "Macro Image Technology",
+      "nameEn": "MDIN",
+      "booth": "I1401",
+      "stage": "融资未公开",
+      "product": "IC Design, Packaging & Foundry",
+      "country": "Korea, South Korea",
+      "countryZh": "韩国"
+    },
+    {
+      "name": "MANGROVE",
+      "nameEn": "MANGROVE",
+      "booth": "S0203a",
+      "stage": "融资未公开",
+      "product": "Physical Show Booth No.: Taipei Nangang Exhibition Center, Hall 2 (TaiNEX 2) InnoVEX S0203a S0203a",
+      "country": "Korea, South Korea",
+      "countryZh": "韩国"
+    },
+    {
+      "name": "Manli technology group Ltd.",
+      "nameEn": "Manli",
+      "booth": "L1105a",
+      "stage": "融资未公开",
+      "product": "Graphics Card",
+      "country": "Hong Kong",
+      "countryZh": "香港"
+    },
+    {
+      "name": "Matias Corporation",
+      "nameEn": "Matias",
+      "booth": "Q0334a",
+      "stage": "融资未公开",
+      "cats": [
+        "消费电子 / 终端"
+      ],
+      "product": "Physical Show Booth No.: Taipei Nangang Exhibition Center, Hall 2 (TaiNEX 2) Consumer Electronic Accessories Q0334a Q0334a",
+      "country": "Canada",
+      "countryZh": "加拿大"
+    },
+    {
+      "name": "MaxLinear Inc.",
+      "nameEn": "Panther,MaxAI,Keystone",
+      "booth": "K0006",
+      "stage": "融资未公开",
+      "cats": [
+        "芯片 / 算力",
+        "AI 基础设施",
+        "数据 / 云 / 安全"
+      ],
+      "product": "System on Chip(SOC),Embedded Processor,IC Design, Packaging & Foundry,Networking Storage",
+      "country": "United States",
+      "countryZh": "美国"
+    },
+    {
+      "name": "Mecademic Inc.",
+      "nameEn": "Mecademic Inc.",
+      "booth": "S0506",
+      "stage": "融资未公开",
+      "product": "Physical Show Booth No.: Taipei Nangang Exhibition Center, Hall 2 (TaiNEX 2) InnoVEX S0506 S0506",
+      "country": "Canada",
+      "countryZh": "加拿大"
+    },
+    {
+      "name": "Media Magic Co., Ltd.",
+      "nameEn": "Media Magic Co., Ltd.",
+      "stage": "融资未公开",
+      "country": "Japan",
+      "countryZh": "日本"
+    },
+    {
+      "name": "MedVigilance Inc.",
+      "nameEn": "MedVigilance Inc.",
+      "stage": "融资未公开",
+      "country": "Japan",
+      "countryZh": "日本"
+    },
+    {
+      "name": "Metaphora Lab",
+      "nameEn": "Metaphora Lab",
+      "booth": "S1008",
+      "stage": "融资未公开",
+      "product": "Physical Show Booth No.: Taipei Nangang Exhibition Center, Hall 2 (TaiNEX 2) InnoVEX S1008 S1008",
+      "country": "Italy",
+      "countryZh": "意大利"
+    },
+    {
+      "name": "MHS Co., Ltd.",
+      "nameEn": "MHS Co., Ltd.",
+      "booth": "L1201",
+      "stage": "融资未公开",
+      "cats": [
+        "芯片 / 算力",
+        "消费电子 / 终端",
+        "数据 / 云 / 安全"
+      ],
+      "product": "Liquid Cooling System,CPU Cooler,GPU Cooler,Gaming PC",
+      "country": "Korea, South Korea",
+      "countryZh": "韩国"
+    },
+    {
+      "name": "Micro Module Technology Co. | Ltd.",
+      "nameEn": "Micro Module Technology Co. | Ltd.",
+      "booth": "S1013",
+      "stage": "融资未公开",
+      "product": "Physical Show Booth No.: Taipei Nangang Exhibition Center, Hall 2 (TaiNEX 2) InnoVEX S1013 S1013",
+      "country": "Japan",
+      "countryZh": "日本"
+    },
+    {
+      "name": "MILLENNIAL WORKS CO.,LTD",
+      "nameEn": "MILLENNIAL WORKS CO.,LTD",
+      "booth": "S0203a",
+      "stage": "融资未公开",
+      "product": "Physical Show Booth No.: Taipei Nangang Exhibition Center, Hall 2 (TaiNEX 2) InnoVEX S0203a S0203a",
+      "country": "Korea, South Korea",
+      "countryZh": "韩国"
+    },
+    {
+      "name": "MinGo Technology Co., Limited",
+      "nameEn": "MinGo Technology Co., Limited",
+      "booth": "S1314",
+      "stage": "融资未公开",
+      "product": "Solid State Drive (SSD)",
+      "country": "Hong Kong",
+      "countryZh": "香港"
+    },
+    {
+      "name": "MINIX TECHNOLOGY LIMITED",
+      "nameEn": "MINIX",
+      "booth": "Q0123",
+      "stage": "融资未公开",
+      "product": "AI mini computer,AI Workstation,Wireless Dongle,Portable Monitor",
+      "country": "Hong Kong",
+      "countryZh": "香港"
+    },
+    {
+      "name": "MLR srl",
+      "nameEn": "MLR srl",
+      "booth": "S1008",
+      "stage": "融资未公开",
+      "product": "Physical Show Booth No.: Taipei Nangang Exhibition Center, Hall 2 (TaiNEX 2) InnoVEX S1008 S1008",
+      "country": "Italy",
+      "countryZh": "意大利"
+    },
+    {
+      "name": "Mobilint, Inc.",
+      "nameEn": "MLA100,MLX-A1,REGULUS",
+      "booth": "N0429a",
+      "stage": "融资未公开",
+      "cats": [
+        "大模型 / 算法"
+      ],
+      "product": "Edge Computing,Generative AI / LLM",
+      "country": "Korea, South Korea",
+      "countryZh": "韩国"
+    },
+    {
+      "name": "Molex",
+      "nameEn": "Molex",
+      "booth": "M1330",
+      "stage": "融资未公开",
+      "cats": [
+        "AI 基础设施"
+      ],
+      "product": "Electrical Connectors,Other Computer Components & Parts,Computer Cables & Connectors,Communication Cable ,Battery Energy Storage Material ,AI Air Cooling / Liquid Cooling System ,Immersion Cooling",
+      "country": "United States",
+      "countryZh": "美国"
+    },
+    {
+      "name": "Monolithic Power Systems",
+      "nameEn": "Monolithic Power Systems",
+      "booth": "N0530",
+      "stage": "融资未公开",
+      "cats": [
+        "芯片 / 算力",
+        "AI 基础设施",
+        "机器人 / 具身智能"
+      ],
+      "product": "Robot,Robotic Arm,Cloud Computing & IT Services,Servo Motor ,AI Server",
+      "country": "United States",
+      "countryZh": "美国"
+    },
+    {
+      "name": "Monster Notebook",
+      "nameEn": "Monster Notebook, Tulpar Notebook, Pusat",
+      "booth": "M1201a",
+      "stage": "融资未公开",
+      "cats": [
+        "消费电子 / 终端",
+        "工业 / 制造"
+      ],
+      "product": "Workstation,All-In-One & Desktop Computer,Industrial Computer,Computer Case,Gaming Desktop ,Gaming Notebook ,Gaming Accessories ,Gaming Monitor",
+      "country": "Turkey",
+      "countryZh": "土耳其"
+    },
+    {
+      "name": "Morgenrot Inc.",
+      "nameEn": "Morgenrot Inc.",
+      "booth": "S0005",
+      "stage": "融资未公开",
+      "product": "Enterprise Software,Gen-AI",
+      "country": "Japan",
+      "countryZh": "日本"
+    },
+    {
+      "name": "MyMoney",
+      "nameEn": "MyMoney",
+      "booth": "S1008",
+      "stage": "融资未公开",
+      "product": "Physical Show Booth No.: Taipei Nangang Exhibition Center, Hall 2 (TaiNEX 2) InnoVEX S1008 S1008",
+      "country": "Italy",
+      "countryZh": "意大利"
+    },
+    {
+      "name": "NanoBridge Semiconductor",
+      "nameEn": "NanoBridge Semiconductor",
+      "booth": "S0304",
+      "stage": "融资未公开",
+      "cats": [
+        "芯片 / 算力"
+      ],
+      "product": "Physical Show Booth No.: Taipei Nangang Exhibition Center, Hall 2 (TaiNEX 2) InnoVEX S0304 S0304",
+      "country": "Japan",
+      "countryZh": "日本"
+    },
+    {
+      "name": "Nanomade",
+      "nameEn": "Nanomade",
+      "booth": "S1216",
+      "stage": "融资未公开",
+      "cats": [
+        "消费电子 / 终端"
+      ],
+      "product": "Consumer Tech,Sustainability",
+      "country": "France",
+      "countryZh": "法国"
+    },
+    {
+      "name": "NcodiN",
+      "nameEn": "Nconnect",
+      "booth": "S1216",
+      "stage": "融资未公开",
+      "cats": [
+        "芯片 / 算力",
+        "数据 / 云 / 安全"
+      ],
+      "product": "Physical Show Booth No.: Taipei Nangang Exhibition Center, Hall 2 (TaiNEX 2) InnoVEX S1216 S1216 AI DataCenter Semiconductor AI DataCenter Semiconductor",
+      "country": "France",
+      "countryZh": "法国"
+    },
+    {
+      "name": "NdotLight",
+      "nameEn": "NdotLight",
+      "booth": "S0712a",
+      "stage": "融资未公开",
+      "product": "Physical Show Booth No.: Taipei Nangang Exhibition Center, Hall 2 (TaiNEX 2) InnoVEX S0712a S0712a",
+      "country": "Korea, South Korea",
+      "countryZh": "韩国"
+    },
+    {
+      "name": "NEOWINE CO., LTD.",
+      "nameEn": "NEOWINE, ALPU, DALPU",
+      "booth": "I1001",
+      "stage": "融资未公开",
+      "product": "Physical Show Booth No.: Taipei Nangang Exhibition Center, Hall 1 (TaiNEX 1) Components & Advanced Power Tech I1001 I1001",
+      "country": "Korea, South Korea",
+      "countryZh": "韩国"
+    },
+    {
+      "name": "Netris",
+      "nameEn": "Netris",
+      "booth": "HPC",
+      "stage": "融资未公开",
+      "cats": [
+        "芯片 / 算力",
+        "AI 基础设施",
+        "消费电子 / 终端",
+        "数据 / 云 / 安全"
+      ],
+      "product": "Network Switch,Cloud Computing & IT Services,Data Center (DC) / Cloud Service Provider (CSP),AI Server ,IT & Internet Services",
+      "country": "United States",
+      "countryZh": "美国"
+    },
+    {
+      "name": "Netsweeper",
+      "nameEn": "nFilter,nsEnforce",
+      "booth": "N0526",
+      "stage": "融资未公开",
+      "product": "Other Computer Software,Telecommunication Services",
+      "country": "Canada",
+      "countryZh": "加拿大"
+    },
+    {
+      "name": "Network Optix",
+      "nameEn": "Network Optix,Nx EVOS",
+      "booth": "N0319",
+      "stage": "融资未公开",
+      "cats": [
+        "AI 基础设施",
+        "数据 / 云 / 安全"
+      ],
+      "product": "CCTV System,Cloud Computing & IT Services,Edge Computing ,IP / Digital Surveillance ,Open Source Hardware & Software",
+      "country": "United States",
+      "countryZh": "美国"
+    },
+    {
+      "name": "Newsight Imaging",
+      "nameEn": "Newsight Imaging",
+      "booth": "S0905",
+      "stage": "融资未公开",
+      "product": "Physical Show Booth No.: Taipei Nangang Exhibition Center, Hall 2 (TaiNEX 2) InnoVEX S0905 S0905",
+      "country": "Israel",
+      "countryZh": "以色列"
+    },
+    {
+      "name": "Nirik inc",
+      "nameEn": "Nirik inc",
+      "booth": "S0003",
+      "stage": "融资未公开",
+      "product": "Physical Show Booth No.: Taipei Nangang Exhibition Center, Hall 2 (TaiNEX 2) InnoVEX S0003 S0003",
+      "country": "Japan",
+      "countryZh": "日本"
+    },
+    {
+      "name": "NVIDIA",
+      "nameEn": "NVIDIA",
+      "booth": "N1431",
+      "stage": "融资未公开",
+      "cats": [
+        "芯片 / 算力"
+      ],
+      "product": "CPU/GPU/APU",
+      "country": "United States",
+      "countryZh": "美国"
+    },
+    {
+      "name": "NX Electronics Limited",
+      "nameEn": "Samsung,Micron,Nvidia",
+      "booth": "I0008",
+      "stage": "融资未公开",
+      "cats": [
+        "芯片 / 算力",
+        "消费电子 / 终端"
+      ],
+      "product": "PC Cooling & Fan,Memory Card,Graphics Card,DRAM,CPU/GPU/APU ,Gaming MicroSD、SDXC ,AI Server",
+      "country": "Hong Kong",
+      "countryZh": "香港"
+    },
+    {
+      "name": "NXP Semiconductors",
+      "nameEn": "NXP Semiconductors",
+      "booth": "A0803",
+      "stage": "融资未公开",
+      "cats": [
+        "芯片 / 算力"
+      ],
+      "product": "IC Design, Packaging & Foundry",
+      "country": "Netherlands",
+      "countryZh": "荷兰"
+    },
+    {
+      "name": "NYB.AI PTE. LTD.",
+      "nameEn": "NYB.AI PTE. LTD.",
+      "booth": "S0712a",
+      "stage": "融资未公开",
+      "product": "Physical Show Booth No.: Taipei Nangang Exhibition Center, Hall 2 (TaiNEX 2) InnoVEX S0712a S0712a",
+      "country": "Singapore",
+      "countryZh": "新加坡"
+    },
+    {
+      "name": "OCCT",
+      "nameEn": "OCCT",
+      "booth": "N1229",
+      "stage": "融资未公开",
+      "cats": [
+        "工业 / 制造"
+      ],
+      "product": "Application Software,Industrial Software,Other Computer Software",
+      "country": "France",
+      "countryZh": "法国"
+    },
+    {
+      "name": "Ochy",
+      "nameEn": "Ochy",
+      "booth": "S0923",
+      "stage": "融资未公开",
+      "product": "Physical Show Booth No.: Taipei Nangang Exhibition Center, Hall 2 (TaiNEX 2) InnoVEX S0923 S0923",
+      "country": "France",
+      "countryZh": "法国"
+    },
+    {
+      "name": "Oculi",
+      "nameEn": "Oculi",
+      "booth": "S0724",
+      "stage": "融资未公开",
+      "product": "Physical Show Booth No.: Taipei Nangang Exhibition Center, Hall 2 (TaiNEX 2) InnoVEX S0724 S0724",
+      "country": "United States",
+      "countryZh": "美国"
+    },
+    {
+      "name": "Oetiker Japan Co., Ltd.",
+      "nameEn": "Oetiker, オエティカ, 欧梯克",
+      "booth": "P1421",
+      "stage": "融资未公开",
+      "cats": [
+        "数据 / 云 / 安全"
+      ],
+      "product": "AI Air Cooling / Liquid Cooling System,Liquid Cooling System",
+      "country": "Japan",
+      "countryZh": "日本"
+    },
+    {
+      "name": "Okibo",
+      "nameEn": "Okibo",
+      "booth": "S0304",
+      "stage": "融资未公开",
+      "product": "Physical Show Booth No.: Taipei Nangang Exhibition Center, Hall 2 (TaiNEX 2) InnoVEX S0304 S0304",
+      "country": "Israel",
+      "countryZh": "以色列"
+    },
+    {
+      "name": "Okinawa Prefecture",
+      "nameEn": "Okinawa Prefecture",
+      "booth": "S0920",
+      "stage": "融资未公开",
+      "product": "Physical Show Booth No.: Taipei Nangang Exhibition Center, Hall 2 (TaiNEX 2) InnoVEX S0920 S0920",
+      "country": "Japan",
+      "countryZh": "日本"
+    },
+    {
+      "name": "Olive Inc.",
+      "nameEn": "Olive Inc.",
+      "booth": "S0118",
+      "stage": "融资未公开",
+      "cats": [
+        "数据 / 云 / 安全"
+      ],
+      "product": "AI & Big Data,Digital Transformation",
+      "country": "Japan",
+      "countryZh": "日本"
+    },
+    {
+      "name": "omoomi Inc",
+      "nameEn": "omoomi Inc",
+      "booth": "S0532",
+      "stage": "融资未公开",
+      "product": "Physical Show Booth No.: Taipei Nangang Exhibition Center, Hall 2 (TaiNEX 2) InnoVEX S0532 S0532",
+      "country": "United States",
+      "countryZh": "美国"
+    },
+    {
+      "name": "Overview.ai",
+      "nameEn": "Overview.ai",
+      "booth": "S0304",
+      "stage": "融资未公开",
+      "product": "Physical Show Booth No.: Taipei Nangang Exhibition Center, Hall 2 (TaiNEX 2) InnoVEX S0304 S0304",
+      "country": "United States",
+      "countryZh": "美国"
+    },
+    {
+      "name": "PaleBlueDot AI",
+      "nameEn": "PaleBlueDot AI",
+      "booth": "J1330",
+      "stage": "融资未公开",
+      "cats": [
+        "AI 基础设施"
+      ],
+      "product": "Cloud Computing & IT Services,System Integration",
+      "country": "United States",
+      "countryZh": "美国"
+    },
+    {
+      "name": "PCG Trading, LLC dba Converge",
+      "nameEn": "Converge",
+      "booth": "L0025",
+      "stage": "融资未公开",
+      "cats": [
+        "消费电子 / 终端"
+      ],
+      "product": "Electrical Connectors,Other Computer Components & Parts,DRAM",
+      "country": "United States",
+      "countryZh": "美国"
+    },
+    {
+      "name": "PennEngineering",
+      "nameEn": "PEM®",
+      "booth": "N1129a",
+      "stage": "融资未公开",
+      "cats": [
+        "AI 基础设施",
+        "机器人 / 具身智能",
+        "数据 / 云 / 安全"
+      ],
+      "product": "Other Computer Components & Parts",
+      "country": "United States",
+      "countryZh": "美国"
+    },
+    {
+      "name": "PiLink Co. | Ltd.",
+      "nameEn": "PiLink Co. | Ltd.",
+      "booth": "S1013",
+      "stage": "融资未公开",
+      "product": "Physical Show Booth No.: Taipei Nangang Exhibition Center, Hall 2 (TaiNEX 2) InnoVEX S1013 S1013",
+      "country": "Japan",
+      "countryZh": "日本"
+    },
+    {
+      "name": "PLAUD PTE. LTD.",
+      "nameEn": "PLAUD PTE. LTD.",
+      "booth": "S0010",
+      "stage": "融资未公开",
+      "cats": [
+        "消费电子 / 终端"
+      ],
+      "product": "Smart Wearable Device",
+      "country": "Singapore",
+      "countryZh": "新加坡"
+    },
+    {
+      "name": "Point Mobile Co., Ltd.",
+      "nameEn": "Point Mobile Co., Ltd.",
+      "booth": "P0604a",
+      "stage": "融资未公开",
+      "cats": [
+        "工业 / 制造"
+      ],
+      "product": "Industrial Mobile Computer ,Radio Frequency Identification (RFID) ,5G/5G-A/6G Related Products ,Other Mobile Devices",
+      "country": "Korea, South Korea",
+      "countryZh": "韩国"
+    },
+    {
+      "name": "POLYN Technology",
+      "nameEn": "POLYN Technology",
+      "booth": "S0905",
+      "stage": "融资未公开",
+      "product": "Physical Show Booth No.: Taipei Nangang Exhibition Center, Hall 2 (TaiNEX 2) InnoVEX S0905 S0905",
+      "country": "Israel",
+      "countryZh": "以色列"
+    },
+    {
+      "name": "POSBANK",
+      "nameEn": "POSBANK",
+      "booth": "P0704",
+      "stage": "融资未公开",
+      "product": "POS System,Kiosk,Mobile POS ,POS Printer",
+      "country": "Korea, South Korea",
+      "countryZh": "韩国"
+    },
+    {
+      "name": "PROKS SIA",
+      "nameEn": "Samsung, Crucial, Kingston",
+      "booth": "I0017",
+      "stage": "融资未公开",
+      "product": "Computer Power Supply,Other Computer Components & Parts,DRAM",
+      "country": "Latvia",
+      "countryZh": "拉脱维亚"
+    },
+    {
+      "name": "Puralink",
+      "nameEn": "Puralink",
+      "booth": "S1217",
+      "stage": "融资未公开",
+      "product": "Physical Show Booth No.: Taipei Nangang Exhibition Center, Hall 2 (TaiNEX 2) InnoVEX S1217 S1217",
+      "country": "Australia",
+      "countryZh": "澳大利亚"
+    },
+    {
+      "name": "Quantum Brilliance",
+      "nameEn": "Quantum Brilliance",
+      "booth": "S1217",
+      "stage": "融资未公开",
+      "product": "Physical Show Booth No.: Taipei Nangang Exhibition Center, Hall 2 (TaiNEX 2) InnoVEX S1217 S1217",
+      "country": "Australia",
+      "countryZh": "澳大利亚"
+    },
+    {
+      "name": "QuettaFlow Technologies Pte Ltd",
+      "nameEn": "VasEdge",
+      "booth": "J0232",
+      "stage": "融资未公开",
+      "product": "AI Air Cooling / Liquid Cooling System",
+      "country": "Singapore",
+      "countryZh": "新加坡"
+    },
+    {
+      "name": "Quobly",
+      "nameEn": "Quobly",
+      "booth": "S1216",
+      "stage": "融资未公开",
+      "cats": [
+        "芯片 / 算力",
+        "数据 / 云 / 安全"
+      ],
+      "product": "Physical Show Booth No.: Taipei Nangang Exhibition Center, Hall 2 (TaiNEX 2) InnoVEX S1216 S1216 DataCenter Quantum Semiconductor DataCenter Quantum Semiconductor",
+      "country": "France",
+      "countryZh": "法国"
+    },
+    {
+      "name": "R2C2",
+      "nameEn": "R2C2",
+      "booth": "S0304",
+      "stage": "融资未公开",
+      "product": "Physical Show Booth No.: Taipei Nangang Exhibition Center, Hall 2 (TaiNEX 2) InnoVEX S0304 S0304",
+      "country": "Hong Kong",
+      "countryZh": "香港"
+    },
+    {
+      "name": "RAMXEED Limited",
+      "nameEn": "RAMXEED",
+      "booth": "R0006",
+      "stage": "融资未公开",
+      "cats": [
+        "AI 基础设施"
+      ],
+      "product": "Other Drives, Storage & Blank Media",
+      "country": "Japan",
+      "countryZh": "日本"
+    },
+    {
+      "name": "Real World Inc.",
+      "nameEn": "Real World Inc.",
+      "booth": "S0712a",
+      "stage": "融资未公开",
+      "product": "Physical Show Booth No.: Taipei Nangang Exhibition Center, Hall 2 (TaiNEX 2) InnoVEX S0712a S0712a",
+      "country": "Korea, South Korea",
+      "countryZh": "韩国"
+    },
+    {
+      "name": "RECOM Asia Pte Ltd",
+      "nameEn": "RECOM Asia Pte Ltd",
+      "booth": "I0006",
+      "stage": "融资未公开",
+      "product": "Power Converter",
+      "country": "Singapore",
+      "countryZh": "新加坡"
+    },
+    {
+      "name": "REHATCH Inc.",
+      "nameEn": "REHATCH Inc.",
+      "booth": "S0118",
+      "stage": "融资未公开",
+      "product": "Physical Show Booth No.: Taipei Nangang Exhibition Center, Hall 2 (TaiNEX 2) InnoVEX S0118 S0118",
+      "country": "Japan",
+      "countryZh": "日本"
+    },
+    {
+      "name": "ResorTech EXPO in Okinawa Executive Committee",
+      "nameEn": "ResorTech EXPO in Okinawa Executive Committee",
+      "booth": "S0920",
+      "stage": "融资未公开",
+      "product": "Physical Show Booth No.: Taipei Nangang Exhibition Center, Hall 2 (TaiNEX 2) InnoVEX S0920 S0920",
+      "country": "Japan",
+      "countryZh": "日本"
+    },
+    {
+      "name": "RHEAVISION ,Co.,Ltd",
+      "nameEn": "RHEAVISION ,Co.,Ltd",
+      "booth": "S0203a",
+      "stage": "融资未公开",
+      "product": "Physical Show Booth No.: Taipei Nangang Exhibition Center, Hall 2 (TaiNEX 2) InnoVEX S0203a S0203a",
+      "country": "Korea, South Korea",
+      "countryZh": "韩国"
+    },
+    {
+      "name": "RISE Project",
+      "nameEn": "RISE Project",
+      "booth": "M1111a",
+      "stage": "融资未公开",
+      "product": "IC Design, Packaging & Foundry",
+      "country": "Belgium",
+      "countryZh": "比利时"
+    },
+    {
+      "name": "RoboTape by Innovative Automation",
+      "nameEn": "RoboTape,RoboClip",
+      "booth": "N0526",
+      "stage": "融资未公开",
+      "cats": [
+        "机器人 / 具身智能",
+        "工业 / 制造"
+      ],
+      "product": "Robot,Industrial Automatic & Smart Machinery Turnkey Equipment,Other Industrial Automatic Equipment & Smart Machinery",
+      "country": "Canada",
+      "countryZh": "加拿大"
+    },
+    {
+      "name": "Robotics & Edge AI Pavilion (Powered by Intel)",
+      "nameEn": "Robotics & Edge AI Pavilion (Powered by Intel)",
+      "booth": "A0618",
+      "stage": "融资未公开",
+      "cats": [
+        "芯片 / 算力",
+        "机器人 / 具身智能",
+        "工业 / 制造"
+      ],
+      "product": "Robot,Robotic Arm,Automated & Industrial Controller Module,Industrial Automatic & Smart Machinery Turnkey Equipment",
+      "country": "United States",
+      "countryZh": "美国"
+    },
+    {
+      "name": "RUNWITHIT Synthetics",
+      "nameEn": "RUNWITHIT Synthetics",
+      "booth": "S0506",
+      "stage": "融资未公开",
+      "product": "other",
+      "country": "Canada",
+      "countryZh": "加拿大"
+    },
+    {
+      "name": "Sarcomere Dynamics Inc.",
+      "nameEn": "Sarcomere Dynamics Inc.",
+      "booth": "S0506",
+      "stage": "融资未公开",
+      "product": "other",
+      "country": "Canada",
+      "countryZh": "加拿大"
+    },
+    {
+      "name": "Schneider Electric",
+      "nameEn": "Schneider Electric",
+      "booth": "N1001",
+      "stage": "融资未公开",
+      "cats": [
+        "AI 基础设施",
+        "数据 / 云 / 安全"
+      ],
+      "product": "Data Center (DC) / Cloud Service Provider (CSP),AI Air Cooling / Liquid Cooling System ,AI Switching Power Supply ,System Integration",
+      "country": "France",
+      "countryZh": "法国"
+    },
+    {
+      "name": "SCS Inc",
+      "nameEn": "SCS Inc",
+      "booth": "S0506",
+      "stage": "融资未公开",
+      "product": "Physical Show Booth No.: Taipei Nangang Exhibition Center, Hall 2 (TaiNEX 2) InnoVEX S0506 S0506",
+      "country": "Canada",
+      "countryZh": "加拿大"
+    },
+    {
+      "name": "SD Association",
+      "nameEn": "SD Association",
+      "booth": "R0902",
+      "stage": "融资未公开",
+      "product": "Memory Card",
+      "country": "United States",
+      "countryZh": "美国"
+    },
+    {
+      "name": "SDCX Co., Ltd.",
+      "nameEn": "SDCX Co., Ltd.",
+      "booth": "S1004",
+      "stage": "融资未公开",
+      "product": "Physical Show Booth No.: Taipei Nangang Exhibition Center, Hall 2 (TaiNEX 2) InnoVEX S1004 S1004",
+      "country": "Thailand",
+      "countryZh": "泰国"
+    },
+    {
+      "name": "SEALSQ France",
+      "nameEn": "SEALSQ",
+      "booth": "S1216",
+      "stage": "融资未公开",
+      "cats": [
+        "芯片 / 算力",
+        "数据 / 云 / 安全"
+      ],
+      "product": "Cybersecurity",
+      "country": "France",
+      "countryZh": "法国"
+    },
+    {
+      "name": "Semidynamics Technology Services SL",
+      "nameEn": "Semidynamics",
+      "booth": "M1111a",
+      "stage": "融资未公开",
+      "product": "IC Design, Packaging & Foundry",
+      "country": "Spain",
+      "countryZh": "西班牙"
+    },
+    {
+      "name": "SEMIQA",
+      "nameEn": "SEMIQA",
+      "booth": "S0304",
+      "stage": "融资未公开",
+      "product": "Physical Show Booth No.: Taipei Nangang Exhibition Center, Hall 2 (TaiNEX 2) InnoVEX S0304 S0304",
+      "country": "Poland",
+      "countryZh": "波兰"
+    },
+    {
+      "name": "Sencity PTY LTD",
+      "nameEn": "Sencity PTY LTD",
+      "booth": "S1217",
+      "stage": "融资未公开",
+      "product": "Physical Show Booth No.: Taipei Nangang Exhibition Center, Hall 2 (TaiNEX 2) InnoVEX S1217 S1217",
+      "country": "Australia",
+      "countryZh": "澳大利亚"
+    },
+    {
+      "name": "Sensor Controls Co. | Ltd.",
+      "nameEn": "Sensor Controls Co. | Ltd.",
+      "booth": "S1013",
+      "stage": "融资未公开",
+      "product": "Physical Show Booth No.: Taipei Nangang Exhibition Center, Hall 2 (TaiNEX 2) InnoVEX S1013 S1013",
+      "country": "Japan",
+      "countryZh": "日本"
+    },
+    {
+      "name": "SEWHA CO., LTD",
+      "nameEn": "SEHWA",
+      "booth": "N0028",
+      "stage": "融资未公开",
+      "product": "Handheld Screen Protector,Kiosk,LCD Monitor,Touch Screen Monitor & Panel",
+      "country": "Korea, South Korea",
+      "countryZh": "韩国"
+    },
+    {
+      "name": "Share-Me",
+      "nameEn": "Share-Me",
+      "booth": "S0118",
+      "stage": "融资未公开",
+      "product": "Physical Show Booth No.: Taipei Nangang Exhibition Center, Hall 2 (TaiNEX 2) InnoVEX S0118 S0118",
+      "country": "Japan",
+      "countryZh": "日本"
+    },
+    {
+      "name": "SHINSEGAE Information & Communication Inc.",
+      "nameEn": "SHINSEGAE Information & Communication Inc.",
+      "booth": "A0618",
+      "stage": "融资未公开",
+      "cats": [
+        "机器人 / 具身智能"
+      ],
+      "product": "Physical Show Booth No.: TWTC Exhibition Hall 1 Robotics A0618 A0618",
+      "country": "Korea, South Korea",
+      "countryZh": "韩国"
+    },
+    {
+      "name": "Sinotex International Industrial Limited",
+      "nameEn": "NINJA",
+      "booth": "L0024",
+      "stage": "融资未公开",
+      "cats": [
+        "工业 / 制造"
+      ],
+      "product": "Graphics Card",
+      "country": "Hong Kong",
+      "countryZh": "香港"
+    },
+    {
+      "name": "SiPearl",
+      "nameEn": "SiPearl",
+      "booth": "S1216",
+      "stage": "融资未公开",
+      "cats": [
+        "芯片 / 算力",
+        "消费电子 / 终端"
+      ],
+      "product": "Physical Show Booth No.: Taipei Nangang Exhibition Center, Hall 2 (TaiNEX 2) InnoVEX S1216 S1216 AI HPC Semiconductor AI HPC Semiconductor",
+      "country": "France",
+      "countryZh": "法国"
+    },
+    {
+      "name": "SK hynix",
+      "nameEn": "SK hynix",
+      "booth": "N0501a",
+      "stage": "融资未公开",
+      "cats": [
+        "AI 基础设施",
+        "消费电子 / 终端",
+        "数据 / 云 / 安全"
+      ],
+      "product": "DRAM & NAND Memory solutions for AI, Data centers, Automotive, PC, Mobile and etc.",
+      "country": "Korea, South Korea",
+      "countryZh": "韩国"
+    },
+    {
+      "name": "Solar Energy International Co. Ltd.",
+      "nameEn": "SAMSUNG, HYNIX, MICRON, NANYA, ELPIDA, KINGSTON, KUK, K-ONE, K-BOX",
+      "booth": "R0004",
+      "stage": "融资未公开",
+      "cats": [
+        "AI 基础设施"
+      ],
+      "product": "Physical Show Booth No.: Taipei Nangang Exhibition Center, Hall 2 (TaiNEX 2) Storage & Management Solutions R0004 R0004",
+      "country": "Hong Kong",
+      "countryZh": "香港"
+    },
+    {
+      "name": "SolidRun Ltd.",
+      "nameEn": "SolidRun Ltd.",
+      "booth": "S0905",
+      "stage": "融资未公开",
+      "product": "Physical Show Booth No.: Taipei Nangang Exhibition Center, Hall 2 (TaiNEX 2) InnoVEX S0905 S0905",
+      "country": "Israel",
+      "countryZh": "以色列"
+    },
+    {
+      "name": "SORABITO Inc.",
+      "nameEn": "SORABITO Inc.",
+      "booth": "S0118",
+      "stage": "融资未公开",
+      "product": "Physical Show Booth No.: Taipei Nangang Exhibition Center, Hall 2 (TaiNEX 2) InnoVEX S0118 S0118",
+      "country": "Japan",
+      "countryZh": "日本"
+    },
+    {
+      "name": "SOTATEK VIET NAM TECHNOLOGY JOINT STOCK COMPANY",
+      "nameEn": "SOTATEK VIET NAM TECHNOLOGY JOINT STOCK COMPANY",
+      "booth": "S0004",
+      "stage": "融资未公开",
+      "product": "Physical Show Booth No.: Taipei Nangang Exhibition Center, Hall 2 (TaiNEX 2) InnoVEX S0004 S0004",
+      "country": "Viet Nam",
+      "countryZh": "越南"
+    },
+    {
+      "name": "SOTI Inc",
+      "nameEn": "SOTI Inc",
+      "booth": "N0526",
+      "stage": "融资未公开",
+      "cats": [
+        "AI 基础设施"
+      ],
+      "product": "Cloud Computing & IT Services",
+      "country": "Canada",
+      "countryZh": "加拿大"
+    },
+    {
+      "name": "Southco Asia Limited",
+      "nameEn": "Southco Asia Limited",
+      "booth": "J0302",
+      "stage": "融资未公开",
+      "cats": [
+        "芯片 / 算力",
+        "AI 基础设施",
+        "工业 / 制造"
+      ],
+      "product": "AI Server ,AI Air Cooling / Liquid Cooling System ,Immersion Cooling",
+      "country": "Hong Kong",
+      "countryZh": "香港"
+    },
+    {
+      "name": "Southern Alberta Institute of Technology (SAIT)",
+      "nameEn": "Southern Alberta Institute of Technology (SAIT)",
+      "booth": "S0506",
+      "stage": "融资未公开",
+      "product": "Physical Show Booth No.: Taipei Nangang Exhibition Center, Hall 2 (TaiNEX 2) InnoVEX S0506 S0506",
+      "country": "Canada",
+      "countryZh": "加拿大"
+    },
+    {
+      "name": "SqueezeBits",
+      "nameEn": "SqueezeBits",
+      "booth": "S0304",
+      "stage": "融资未公开",
+      "product": "Physical Show Booth No.: Taipei Nangang Exhibition Center, Hall 2 (TaiNEX 2) InnoVEX S0304 S0304",
+      "country": "Korea, South Korea",
+      "countryZh": "韩国"
+    },
+    {
+      "name": "Star Solutions International Inc.",
+      "nameEn": "Star Solutions International Inc.",
+      "booth": "S0506",
+      "stage": "融资未公开",
+      "product": "Physical Show Booth No.: Taipei Nangang Exhibition Center, Hall 2 (TaiNEX 2) InnoVEX S0506 S0506",
+      "country": "Canada",
+      "countryZh": "加拿大"
+    },
+    {
+      "name": "STR8 Industries",
+      "nameEn": "STR8 Industries",
+      "booth": "S0724",
+      "stage": "融资未公开",
+      "product": "Physical Show Booth No.: Taipei Nangang Exhibition Center, Hall 2 (TaiNEX 2) InnoVEX S0724 S0724",
+      "country": "United States",
+      "countryZh": "美国"
+    },
+    {
+      "name": "Studiomapp",
+      "nameEn": "Studiomapp",
+      "booth": "S1008",
+      "stage": "融资未公开",
+      "product": "Physical Show Booth No.: Taipei Nangang Exhibition Center, Hall 2 (TaiNEX 2) InnoVEX S1008 S1008",
+      "country": "Italy",
+      "countryZh": "意大利"
+    },
+    {
+      "name": "Sumitomo Precision Products co., ltd.",
+      "nameEn": "Siphorex",
+      "booth": "HPC",
+      "stage": "融资未公开",
+      "cats": [
+        "消费电子 / 终端",
+        "数据 / 云 / 安全"
+      ],
+      "product": "Heat Sink & Pipe,PC Cooling & Fan,Liquid Cooling System",
+      "country": "Japan",
+      "countryZh": "日本"
+    },
+    {
+      "name": "Summit Sincerity Global Limited",
+      "nameEn": "intel,samsung,AMD",
+      "booth": "R0601d",
+      "stage": "融资未公开",
+      "cats": [
+        "芯片 / 算力",
+        "AI 基础设施"
+      ],
+      "product": "Other Computer Components & Parts,Hard Disk Drive (HDD),Solid State Drive (SSD),Memory Card,Other Drives, Storage & Blank Media,Graphics Card,DRAM,CPU/GPU/APU",
+      "country": "Hong Kong",
+      "countryZh": "香港"
+    },
+    {
+      "name": "SunLED Life Science",
+      "nameEn": "SunLED Life Science",
+      "booth": "S0530",
+      "stage": "融资未公开",
+      "product": "Physical Show Booth No.: Taipei Nangang Exhibition Center, Hall 2 (TaiNEX 2) InnoVEX S0530 S0530",
+      "country": "Netherlands",
+      "countryZh": "荷兰"
+    },
+    {
+      "name": "Sunrich Technology (H.K.) Limited",
+      "nameEn": "ST Lab",
+      "booth": "N0721",
+      "stage": "融资未公开",
+      "cats": [
+        "数据 / 云 / 安全"
+      ],
+      "product": "Sound Card,Other Add-On & Interface Cards,USB Adapter, Cable & Hub,Bluetooth Adapter & Receiver,Network Switch,Network Adapter / Network Interface Card (NIC),Other Networking",
+      "country": "Hong Kong",
+      "countryZh": "香港"
+    },
+    {
+      "name": "Superb AI Inc.",
+      "nameEn": "Superb AI Inc.",
+      "booth": "S0712a",
+      "stage": "融资未公开",
+      "product": "Physical Show Booth No.: Taipei Nangang Exhibition Center, Hall 2 (TaiNEX 2) InnoVEX S0712a S0712a",
+      "country": "Korea, South Korea",
+      "countryZh": "韩国"
+    },
+    {
+      "name": "SUPERMICRO",
+      "nameEn": "SUPERMICRO",
+      "booth": "N0602",
+      "stage": "融资未公开",
+      "cats": [
+        "大模型 / 算法",
+        "芯片 / 算力",
+        "AI 基础设施",
+        "数据 / 云 / 安全"
+      ],
+      "product": "AI Server ,System Integration ,Edge Computing ,Generative AI / LLM ,AI Air Cooling / Liquid Cooling System ,Data Center (DC) / Cloud Service Provider (CSP)",
+      "country": "United States",
+      "countryZh": "美国"
+    },
+    {
+      "name": "Synaptics",
+      "nameEn": "Synaptics",
+      "booth": "X0022",
+      "stage": "融资未公开",
+      "product": "IC Design, Packaging & Foundry",
+      "country": "United States",
+      "countryZh": "美国"
+    },
+    {
+      "name": "TAIWAN OHARA OPTICAL CO.,LTD.",
+      "nameEn": "TAIWAN OHARA OPTICAL CO.,LTD.",
+      "booth": "N1324",
+      "stage": "融资未公开",
+      "product": "VR/AR/MR Glasses",
+      "country": "Japan",
+      "countryZh": "日本"
+    },
+    {
+      "name": "TATSUTA Electric Wire and Cable Co., Ltd.",
+      "nameEn": "TATSUTA",
+      "booth": "N1423",
+      "stage": "融资未公开",
+      "product": "Liquid Cooling System",
+      "country": "Japan",
+      "countryZh": "日本"
+    },
+    {
+      "name": "Tech Mahindra",
+      "nameEn": "Tech Mahindra",
+      "booth": "XR",
+      "stage": "融资未公开",
+      "product": "IC Design, Packaging & Foundry,VR / AR / MR / XR Glasses,Mobile App",
+      "country": "India",
+      "countryZh": "印度"
+    },
+    {
+      "name": "TECH-X SERVICE CO., LTD.",
+      "nameEn": "TECH-X SERVICE CO., LTD.",
+      "booth": "S1004",
+      "stage": "融资未公开",
+      "cats": [
+        "AI 基础设施"
+      ],
+      "product": "Platform,International",
+      "country": "Thailand",
+      "countryZh": "泰国"
+    },
+    {
+      "name": "Technic France",
+      "nameEn": "Technic",
+      "booth": "S1216",
+      "stage": "融资未公开",
+      "cats": [
+        "芯片 / 算力"
+      ],
+      "product": "Physical Show Booth No.: Taipei Nangang Exhibition Center, Hall 2 (TaiNEX 2) InnoVEX S1216 S1216 Semiconductor Semiconductor",
+      "country": "France",
+      "countryZh": "法国"
+    },
+    {
+      "name": "TECNISCO, LTD.",
+      "nameEn": "T1K, arCuDia",
+      "booth": "I1001a",
+      "stage": "融资未公开",
+      "product": "AI Air Cooling / Liquid Cooling System,AI Switching Power Supply,Liquid Cooling System,Heat Dissipation Material,Immersion Cooling",
+      "country": "Japan",
+      "countryZh": "日本"
+    },
+    {
+      "name": "Teknobuilt",
+      "nameEn": "Teknobuilt",
+      "booth": "S0506",
+      "stage": "融资未公开",
+      "product": "Physical Show Booth No.: Taipei Nangang Exhibition Center, Hall 2 (TaiNEX 2) InnoVEX S0506 S0506",
+      "country": "Canada",
+      "countryZh": "加拿大"
+    },
+    {
+      "name": "Terafence LTD",
+      "nameEn": "Terafence LTD",
+      "booth": "S0905",
+      "stage": "融资未公开",
+      "product": "Physical Show Booth No.: Taipei Nangang Exhibition Center, Hall 2 (TaiNEX 2) InnoVEX S0905 S0905",
+      "country": "Israel",
+      "countryZh": "以色列"
+    },
+    {
+      "name": "Texas Instruments",
+      "nameEn": "Texas Instruments",
+      "booth": "N1201a",
+      "stage": "融资未公开",
+      "product": "Robotic Arm,Microcontroller(MCU)",
+      "country": "United States",
+      "countryZh": "美国",
+      "cats": [
+        "机器人 / 具身智能"
+      ]
+    },
+    {
+      "name": "Thailand Trade and Economic Office, Taipei",
+      "nameEn": "Thailand Trade and Economic Office, Taipei",
+      "booth": "S1004",
+      "stage": "融资未公开",
+      "product": "Other",
+      "country": "Thailand",
+      "countryZh": "泰国"
+    },
+    {
+      "name": "The Regional Municipality of York",
+      "nameEn": "York Link - Toronto Areas York Region",
+      "booth": "N0526",
+      "stage": "融资未公开",
+      "cats": [
+        "AI 基础设施",
+        "机器人 / 具身智能",
+        "工业 / 制造"
+      ],
+      "product": "Government/Foreign Direct Investment",
+      "country": "Canada",
+      "countryZh": "加拿大"
+    },
+    {
+      "name": "Thekapco",
+      "nameEn": "Thekapco",
+      "booth": "S0409",
+      "stage": "融资未公开",
+      "cats": [
+        "芯片 / 算力",
+        "消费电子 / 终端"
+      ],
+      "product": "Gaming & Entertainment,Edge AI",
+      "country": "Malaysia",
+      "countryZh": "马来西亚"
+    },
+    {
+      "name": "Thermal Grizzly Holding GmbH",
+      "nameEn": "Thermal Grizzly, DeltaMate",
+      "booth": "M1302",
+      "stage": "融资未公开",
+      "cats": [
+        "消费电子 / 终端"
+      ],
+      "product": "Electrical Connectors,Thermal Adhesive & Grease,PC Cooling & Fan,Other Computer Components & Parts,Liquid Cooling System,Heat Dissipation Material",
+      "country": "Germany",
+      "countryZh": "德国"
+    },
+    {
+      "name": "TIMEWELL Inc.",
+      "nameEn": "TIMEWELL Inc.",
+      "booth": "S1013",
+      "stage": "融资未公开",
+      "product": "Physical Show Booth No.: Taipei Nangang Exhibition Center, Hall 2 (TaiNEX 2) InnoVEX S1013 S1013",
+      "country": "Japan",
+      "countryZh": "日本"
+    },
+    {
+      "name": "TopoLogic Inc.",
+      "nameEn": "TopoLogic Inc.",
+      "booth": "S0724",
+      "stage": "融资未公开",
+      "product": "Physical Show Booth No.: Taipei Nangang Exhibition Center, Hall 2 (TaiNEX 2) InnoVEX S0724 S0724",
+      "country": "Japan",
+      "countryZh": "日本"
+    },
+    {
+      "name": "TOTAL CASH SYSTEMS CO.,LTD",
+      "nameEn": "TCS,NASCO",
+      "booth": "P0710",
+      "stage": "融资未公开",
+      "cats": [
+        "消费电子 / 终端"
+      ],
+      "product": "POS System,Kiosk,Bar Code Scanner,Business Intelligence Service ,Mobile POS ,Digital Signage ,POS Accessories ,Point of Sales PC",
+      "country": "Japan",
+      "countryZh": "日本"
+    },
+    {
+      "name": "toyopla inc.",
+      "nameEn": "toyopla inc.",
+      "booth": "S0920",
+      "stage": "融资未公开",
+      "product": "other",
+      "country": "Japan",
+      "countryZh": "日本"
+    },
+    {
+      "name": "TrackDeep",
+      "nameEn": "TrackDeep",
+      "booth": "S0304",
+      "stage": "融资未公开",
+      "product": "Physical Show Booth No.: Taipei Nangang Exhibition Center, Hall 2 (TaiNEX 2) InnoVEX S0304 S0304",
+      "country": "Estonia",
+      "countryZh": "爱沙尼亚"
+    },
+    {
+      "name": "travelverse",
+      "nameEn": "travelverse",
+      "booth": "S1008",
+      "stage": "融资未公开",
+      "product": "Physical Show Booth No.: Taipei Nangang Exhibition Center, Hall 2 (TaiNEX 2) InnoVEX S1008 S1008",
+      "country": "Italy",
+      "countryZh": "意大利"
+    },
+    {
+      "name": "TurboNext.ai",
+      "nameEn": "TurboNext.ai",
+      "booth": "S0724",
+      "stage": "融资未公开",
+      "product": "Physical Show Booth No.: Taipei Nangang Exhibition Center, Hall 2 (TaiNEX 2) InnoVEX S0724 S0724",
+      "country": "Singapore",
+      "countryZh": "新加坡"
+    },
+    {
+      "name": "TwinMOS Technologies",
+      "nameEn": "TwinMOS",
+      "booth": "R0602",
+      "stage": "融资未公开",
+      "cats": [
+        "芯片 / 算力"
+      ],
+      "product": "Memory Module,Solid State Drive,Accessories,Peripherals",
+      "country": "United Arab Emirates",
+      "countryZh": "阿联酋"
+    },
+    {
+      "name": "Unitek International Group Limited",
+      "nameEn": "UNITEK",
+      "booth": "Q0930",
+      "stage": "融资未公开",
+      "product": "AC / DC Adapter,Power Bank,Handheld Charger,Other Computer Peripherals,USB Adapter, Cable & Hub,OTG Adapter / Hub / Flash Drive ,GaN/SiC USB Charger ,Gaming Accessories",
+      "country": "Hong Kong",
+      "countryZh": "香港"
+    },
+    {
+      "name": "USB Implementers Forum",
+      "nameEn": "USB",
+      "booth": "N0614",
+      "stage": "融资未公开",
+      "product": "USB Adapter, Cable & Hub,GaN/SiC USB Charger",
+      "country": "United States",
+      "countryZh": "美国"
+    },
+    {
+      "name": "VBox communication LTD",
+      "nameEn": "VBox communication LTD",
+      "booth": "S0905",
+      "stage": "融资未公开",
+      "product": "Physical Show Booth No.: Taipei Nangang Exhibition Center, Hall 2 (TaiNEX 2) InnoVEX S0905 S0905",
+      "country": "Israel",
+      "countryZh": "以色列"
+    },
+    {
+      "name": "VCCI Council",
+      "nameEn": "VCCI Council",
+      "stage": "融资未公开",
+      "country": "Japan",
+      "countryZh": "日本"
+    },
+    {
+      "name": "Vellex Computing",
+      "nameEn": "Vellex Computing",
+      "booth": "S0724",
+      "stage": "融资未公开",
+      "product": "Physical Show Booth No.: Taipei Nangang Exhibition Center, Hall 2 (TaiNEX 2) InnoVEX S0724 S0724",
+      "country": "United States",
+      "countryZh": "美国"
+    },
+    {
+      "name": "Veridyne",
+      "nameEn": "Veridyne",
+      "stage": "融资未公开",
+      "country": "United States",
+      "countryZh": "美国"
+    },
+    {
+      "name": "VerityAI",
+      "nameEn": "VerityAI",
+      "booth": "S1217",
+      "stage": "融资未公开",
+      "product": "Physical Show Booth No.: Taipei Nangang Exhibition Center, Hall 2 (TaiNEX 2) InnoVEX S1217 S1217",
+      "country": "Australia",
+      "countryZh": "澳大利亚"
+    },
+    {
+      "name": "Vicharak Computers PVT LTD",
+      "nameEn": "Vicharak Computers PVT LTD",
+      "booth": "S1413",
+      "stage": "融资未公开",
+      "product": "Physical Show Booth No.: Taipei Nangang Exhibition Center, Hall 2 (TaiNEX 2) InnoVEX S1413 S1413",
+      "country": "India",
+      "countryZh": "印度"
+    },
+    {
+      "name": "VinDynamics",
+      "nameEn": "VinDynamics",
+      "stage": "融资未公开",
+      "country": "Viet Nam",
+      "countryZh": "越南"
+    },
+    {
+      "name": "VINROBOTICS ROBOT APPLICATION AND RESEARCH DEVELOPMENT JOINT STOCK COMPANY",
+      "nameEn": "VINROBOTICS ROBOT APPLICATION AND RESEARCH DEVELOPMENT JOINT STOCK COMPANY",
+      "booth": "A0618",
+      "stage": "融资未公开",
+      "cats": [
+        "机器人 / 具身智能"
+      ],
+      "product": "Physical Show Booth No.: TWTC Exhibition Hall 1 Robotics A0618 A0618",
+      "country": "Viet Nam",
+      "countryZh": "越南"
+    },
+    {
+      "name": "Vrgineers Inc.",
+      "nameEn": "Vrgineers Inc.",
+      "booth": "S0224",
+      "stage": "融资未公开",
+      "product": "others",
+      "country": "Czech Republic",
+      "countryZh": "捷克"
+    },
+    {
+      "name": "VSORA",
+      "nameEn": "VSORA",
+      "booth": "S1216",
+      "stage": "融资未公开",
+      "cats": [
+        "大模型 / 算法",
+        "芯片 / 算力",
+        "数据 / 云 / 安全"
+      ],
+      "product": "AI & Big Data,Generative AI",
+      "country": "France",
+      "countryZh": "法国"
+    },
+    {
+      "name": "VUSION",
+      "nameEn": "VUSION",
+      "booth": "D0311a",
+      "stage": "融资未公开",
+      "cats": [
+        "消费电子 / 终端"
+      ],
+      "product": "E-paper Display",
+      "country": "France",
+      "countryZh": "法国"
+    },
+    {
+      "name": "vvland Inc.",
+      "nameEn": "vvland Inc.",
+      "booth": "S0920",
+      "stage": "融资未公开",
+      "product": "other",
+      "country": "Japan",
+      "countryZh": "日本"
+    },
+    {
+      "name": "Wang: Data Market",
+      "nameEn": "Wang: Data Market",
+      "booth": "S1004",
+      "stage": "融资未公开",
+      "cats": [
+        "大模型 / 算法",
+        "数据 / 云 / 安全"
+      ],
+      "product": "Artificial Intelligence & Big Data,Generative AI & LLM",
+      "country": "Thailand",
+      "countryZh": "泰国"
+    },
+    {
+      "name": "Wave Company",
+      "nameEn": "Wave Company",
+      "booth": "S0923",
+      "stage": "融资未公开",
+      "cats": [
+        "芯片 / 算力",
+        "消费电子 / 终端"
+      ],
+      "product": "Physical Show Booth No.: Taipei Nangang Exhibition Center, Hall 2 (TaiNEX 2) InnoVEX S0923 S0923 AI Semiconductor Startup Wearables AI Semiconductor Startup Wearables",
+      "country": "Korea, South Korea",
+      "countryZh": "韩国"
+    },
+    {
+      "name": "WD",
+      "nameEn": "Western Digital,WD",
+      "booth": "R1308",
+      "stage": "融资未公开",
+      "cats": [
+        "AI 基础设施",
+        "数据 / 云 / 安全"
+      ],
+      "product": "Disk Array / RAID,Hard Disk Drive (HDD),Networking Storage,Surveillance Accessories,Network Attached Storage (NAS)",
+      "country": "United States",
+      "countryZh": "美国"
+    },
+    {
+      "name": "Wedge Networks Inc.",
+      "nameEn": "Wedge Networks Inc.",
+      "booth": "S0506",
+      "stage": "融资未公开",
+      "cats": [
+        "数据 / 云 / 安全"
+      ],
+      "product": "other",
+      "country": "Canada",
+      "countryZh": "加拿大"
+    },
+    {
+      "name": "Wireless Logic",
+      "nameEn": "Wireless Logic",
+      "booth": "LEO",
+      "stage": "融资未公开",
+      "cats": [
+        "工业 / 制造",
+        "数据 / 云 / 安全"
+      ],
+      "product": "Application Software,IT & Internet Services,IoT Connectivity,Anomaly Detection",
+      "country": "Singapore",
+      "countryZh": "新加坡"
+    },
+    {
+      "name": "Xenx Technology Limited",
+      "nameEn": "Xenx Technology Limited",
+      "booth": "S1024",
+      "stage": "融资未公开",
+      "product": "Physical Show Booth No.: Taipei Nangang Exhibition Center, Hall 2 (TaiNEX 2) InnoVEX S1024 S1024",
+      "country": "Hong Kong",
+      "countryZh": "香港"
+    },
+    {
+      "name": "xMEMS Labs, Inc.",
+      "nameEn": "µCooling air pump on a chip",
+      "booth": "VR",
+      "stage": "融资未公开",
+      "cats": [
+        "芯片 / 算力",
+        "消费电子 / 终端",
+        "工业 / 制造"
+      ],
+      "product": "PC Cooling & Fan,AI Air Cooling / Liquid Cooling System ,AI PC Cooling & Fan",
+      "country": "United States",
+      "countryZh": "美国"
+    },
+    {
+      "name": "XMOS technology",
+      "nameEn": "XMOS technology",
+      "booth": "P0127",
+      "stage": "融资未公开",
+      "product": "Embedded Processor",
+      "country": "United Kingdom",
+      "countryZh": "英国"
+    },
+    {
+      "name": "YOKOHAMA |Japan",
+      "nameEn": "YOKOHAMA |Japan",
+      "booth": "S1013",
+      "stage": "融资未公开",
+      "product": "Physical Show Booth No.: Taipei Nangang Exhibition Center, Hall 2 (TaiNEX 2) InnoVEX S1013 S1013",
+      "country": "Japan",
+      "countryZh": "日本"
+    },
+    {
+      "name": "YPLASMA ACTUATORS TECHNOLOGIES SL",
+      "nameEn": "YPlasma",
+      "booth": "I0601",
+      "stage": "融资未公开",
+      "cats": [
+        "芯片 / 算力",
+        "AI 基础设施",
+        "机器人 / 具身智能"
+      ],
+      "product": "Power Converter,Heat Sink & Pipe,AI Air Cooling / Liquid Cooling System,Energy Storage Solutions,AI Switching Power Supply",
+      "country": "Spain",
+      "countryZh": "西班牙"
+    },
+    {
+      "name": "Zalman",
+      "nameEn": "zalman",
+      "booth": "N1024",
+      "stage": "融资未公开",
+      "cats": [
+        "消费电子 / 终端"
+      ],
+      "product": "Computer Case,Computer Power Supply,PC Cooling & Fan,Other Computer Components & Parts,Other Computer Peripherals,Liquid Cooling System",
+      "country": "Korea, South Korea",
+      "countryZh": "韩国"
+    },
+    {
+      "name": "ZeroKey Inc.",
+      "nameEn": "ZeroKey Inc.",
+      "booth": "S0506",
+      "stage": "融资未公开",
+      "product": "Physical Show Booth No.: Taipei Nangang Exhibition Center, Hall 2 (TaiNEX 2) InnoVEX S0506 S0506",
+      "country": "Canada",
+      "countryZh": "加拿大"
+    },
+    {
+      "name": "ZETIC.ai",
+      "nameEn": "ZETIC.ai",
+      "booth": "S0304",
+      "stage": "融资未公开",
+      "product": "Physical Show Booth No.: Taipei Nangang Exhibition Center, Hall 2 (TaiNEX 2) InnoVEX S0304 S0304",
+      "country": "Korea, South Korea",
+      "countryZh": "韩国"
+    },
+    {
+      "name": "Zoho Corporation Pte. Ltd.",
+      "nameEn": "Zoho CRM,Zoho One,Zoho Workplace",
+      "booth": "K0303a",
+      "stage": "融资未公开",
+      "cats": [
+        "AI 基础设施",
+        "工业 / 制造"
+      ],
+      "product": "Customer Relationship Management,Enterprise Email,Low-Code App Development,Project Management,Help Desk,Marketing automation",
+      "country": "Singapore",
+      "countryZh": "新加坡"
+    },
+    {
+      "name": "ZOTAC Technology Pte. Limited",
+      "nameEn": "ZOTAC,ZOTAC GAMING,PCP Solutions",
+      "booth": "N0513a",
+      "stage": "融资未公开",
+      "cats": [
+        "芯片 / 算力",
+        "消费电子 / 终端",
+        "工业 / 制造"
+      ],
+      "product": "Server,Mini PC Barebone,Industrial Computer,Computer Case,Graphics Card,Edge Computing ,Gaming handheld",
+      "country": "Singapore",
+      "countryZh": "新加坡"
+    },
+    {
+      "name": "ZutaCore",
+      "nameEn": "ZutaCore",
+      "booth": "S0905",
+      "stage": "融资未公开",
+      "product": "Physical Show Booth No.: Taipei Nangang Exhibition Center, Hall 2 (TaiNEX 2) InnoVEX S0905 S0905",
+      "country": "Israel",
+      "countryZh": "以色列"
     }
   ]
 }
