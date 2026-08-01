@@ -2,7 +2,7 @@
   "id": "Computex2025",
   "source": "www.computextaipei.com.tw",
   "count": 492,
-  "updatedAt": "2026-07-01T12:49:33Z",
+  "updatedAt": "2026-08-01T05:52:58Z",
   "exhibitors": [
     {
       "name": "1NCE / SoftBank",
@@ -626,7 +626,7 @@
         "工业 / 制造",
         "数据 / 云 / 安全"
       ],
-      "product": "Heat Sink & Pipe,Thermal Adhesive & Grease,Embedded Products,Bar Code Inventory Machine,PC Cooling & Fan,Liquid Cooling System ,Gaming Accessories",
+      "product": "Heat Sink & Pipe,Thermal Adhesive & Grease,Embedded Products,Bar Code Inventory Machine,PC Cooling & Fan,Gaming Accessories,Liquid Cooling System",
       "country": "United Kingdom",
       "countryZh": "英国"
     },
@@ -707,7 +707,7 @@
         "消费电子 / 终端",
         "数据 / 云 / 安全"
       ],
-      "product": "Server,Liquid Cooling System ,AI Air Cooling / Liquid Cooling System",
+      "product": "Server,AI Air Cooling / Liquid Cooling System,Liquid Cooling System",
       "country": "Germany",
       "countryZh": "德国"
     },
@@ -813,7 +813,7 @@
         "AI 基础设施",
         "数据 / 云 / 安全"
       ],
-      "product": "Communication Antenna,Telecommunication Services ,AI Air Cooling / Liquid Cooling System ,AI Server ,Data Center (DC) / Cloud Service Provider (CSP) ,Generative AI / LLM ,AI Switching Power Supply ,Edge Computing",
+      "product": "Communication Antenna,AI Air Cooling / Liquid Cooling System,AI Server,AI Switching Power Supply,Data Center (DC) / Cloud Service Provider (CSP),Edge Computing,Generative AI / LLM,Telecommunication Services",
       "country": "United States",
       "countryZh": "美国"
     },
@@ -1027,7 +1027,7 @@
       "nameEn": "APOLLO ELECTRONICS CO., LTD.",
       "booth": "P0907",
       "stage": "融资未公开",
-      "product": "Mobile POS,POS Printer ,Smart vending",
+      "product": "Mobile POS,POS Printer,Smart vending",
       "country": "Mainland China",
       "countryZh": "中国"
     },
@@ -1087,7 +1087,7 @@
       "cats": [
         "消费电子 / 终端"
       ],
-      "product": "Heat Sink & Pipe,Thermal Adhesive & Grease,Mini PC Barebone,PC Cooling & Fan,Other Computer Components & Parts,Liquid Cooling System ,AI Air Cooling / Liquid Cooling System ,Heat Dissipation Material",
+      "product": "Heat Sink & Pipe,Thermal Adhesive & Grease,Mini PC Barebone,PC Cooling & Fan,Other Computer Components & Parts,AI Air Cooling / Liquid Cooling System,Heat Dissipation Material,Liquid Cooling System",
       "country": "Germany",
       "countryZh": "德国"
     },
@@ -1301,7 +1301,7 @@
         "工业 / 制造",
         "数据 / 云 / 安全"
       ],
-      "product": "Data Capturing & Identification,Image Recognition Service / Device,IIoT Platform,IIoT Solution,IP Camera,Quality Inspection & Testing,Business Intelligence Service ,Edge Computing",
+      "product": "Data Capturing & Identification,Image Recognition Service / Device,IIoT Platform,IIoT Solution,IP Camera,Quality Inspection & Testing,Business Intelligence Service,Edge Computing",
       "country": "United States",
       "countryZh": "美国"
     },
@@ -1470,7 +1470,7 @@
       "nameEn": "Beijing Spirit Technology Development Co., Ltd.",
       "booth": "P0303a",
       "stage": "融资未公开",
-      "product": "Printer,POS Printer ,Barcode Printer",
+      "product": "Printer,Barcode Printer,POS Printer",
       "country": "Mainland China",
       "countryZh": "中国"
     },
@@ -1581,7 +1581,7 @@
         "消费电子 / 终端",
         "数据 / 云 / 安全"
       ],
-      "product": "AI Server ,Data Center (DC) / Cloud Service Provider (CSP),Liquid Cooling System,AI Air Cooling / Liquid Cooling System",
+      "product": "AI Air Cooling / Liquid Cooling System,AI Server,Data Center (DC) / Cloud Service Provider (CSP),Liquid Cooling System",
       "country": "Singapore",
       "countryZh": "新加坡"
     },
@@ -1638,7 +1638,7 @@
       "nameEn": "TTRacing",
       "booth": "Q1206",
       "stage": "融资未公开",
-      "product": "Gaming Accessories,Esports ,Gaming Furniture (Gaming Chair),Gaming Furniture (Smart Adjustable Desk)",
+      "product": "Esports,Gaming Accessories,Gaming Furniture (Gaming Chair),Gaming Furniture (Smart Adjustable Desk)",
       "country": "Malaysia",
       "countryZh": "马来西亚"
     },
@@ -1651,7 +1651,7 @@
         "芯片 / 算力",
         "AI 基础设施"
       ],
-      "product": "System Integration ,CPU/GPU/APU ,AI Server",
+      "product": "AI Server,CPU/GPU/APU,System Integration",
       "country": "Singapore",
       "countryZh": "新加坡"
     },
@@ -1716,7 +1716,7 @@
         "芯片 / 算力",
         "AI 基础设施"
       ],
-      "product": "Liquid Cooling System,AI Air Cooling / Liquid Cooling System",
+      "product": "AI Air Cooling / Liquid Cooling System,Liquid Cooling System",
       "country": "Japan",
       "countryZh": "日本"
     },
@@ -1854,7 +1854,7 @@
     },
     {
       "name": "DeepCool",
-      "nameEn": ",,",
+      "nameEn": "DeepCool",
       "booth": "I1211a",
       "stage": "融资未公开",
       "cats": [
@@ -1894,7 +1894,7 @@
         "芯片 / 算力",
         "数据 / 云 / 安全"
       ],
-      "product": "Application Software,AI Server ,Open Source Hardware & Software",
+      "product": "Application Software,AI Server,Open Source Hardware & Software",
       "country": "United States",
       "countryZh": "美国"
     },
@@ -1941,7 +1941,7 @@
       "cats": [
         "消费电子 / 终端"
       ],
-      "product": "PC Keyboard,Mouse,Gaming Mouse ,Gaming Keyboard",
+      "product": "PC Keyboard,Mouse,Gaming Keyboard,Gaming Mouse",
       "country": "Mainland China",
       "countryZh": "中国"
     },
@@ -1966,7 +1966,7 @@
         "芯片 / 算力",
         "消费电子 / 终端"
       ],
-      "product": "PC Cooling & Fan,Other Computer Components & Parts,Liquid Cooling System ,AI Air Cooling / Liquid Cooling System ,AI PC Cooling & Fan",
+      "product": "PC Cooling & Fan,Other Computer Components & Parts,AI Air Cooling / Liquid Cooling System,AI PC Cooling & Fan,Liquid Cooling System",
       "country": "Mainland China",
       "countryZh": "中国"
     },
@@ -2026,7 +2026,7 @@
       "nameEn": "FL ESPORTS",
       "booth": "L1305",
       "stage": "融资未公开",
-      "product": "Gaming Mouse,Gaming Keyboard",
+      "product": "Gaming Keyboard,Gaming Mouse",
       "country": "Mainland China",
       "countryZh": "中国"
     },
@@ -2177,7 +2177,7 @@
       "cats": [
         "消费电子 / 终端"
       ],
-      "product": "Gaming Headphone & Headset & Microphone,Gaming Mouse ,Gaming Keyboard ,Keycap",
+      "product": "Gaming Headphone & Headset & Microphone,Gaming Keyboard,Gaming Mouse,Keycap",
       "country": "Mainland China",
       "countryZh": "中国"
     },
@@ -2246,7 +2246,7 @@
         "机器人 / 具身智能",
         "工业 / 制造"
       ],
-      "product": "Wireless WAN Dongle/Module,Telematics,5G/5G-A/6G Related Products ,Edge Computing,System Integration,Automobile Software",
+      "product": "5G/5G-A/6G Related Products,Automobile Software,Edge Computing,System Integration,Telematics,Wireless WAN Dongle/Module",
       "country": "United States",
       "countryZh": "美国"
     },
@@ -2306,7 +2306,7 @@
         "消费电子 / 终端",
         "工业 / 制造"
       ],
-      "product": "System on Chip(SOC),IC Design, Packaging & Foundry,LCD Display Module,Touch Screen Monitor & Panel,Bluetooth Adapter & Receiver,Radio Frequency Identification (RFID) ,Electronic Shelf Label (ESL)",
+      "product": "System on Chip(SOC),IC Design, Packaging & Foundry,LCD Display Module,Touch Screen Monitor & Panel,Bluetooth Adapter & Receiver,Electronic Shelf Label (ESL),Radio Frequency Identification (RFID)",
       "country": "Switzerland",
       "countryZh": "瑞士"
     },
@@ -2360,7 +2360,7 @@
       "nameEn": "Enplas Corporation",
       "booth": "I0904",
       "stage": "融资未公开",
-      "product": "Liquid Cooling System,AI Air Cooling / Liquid Cooling System",
+      "product": "AI Air Cooling / Liquid Cooling System,Liquid Cooling System",
       "country": "Japan",
       "countryZh": "日本"
     },
@@ -2560,7 +2560,7 @@
         "AI 基础设施",
         "数据 / 云 / 安全"
       ],
-      "product": "Switching Power Supply,AI Air Cooling / Liquid Cooling System ,AI Switching Power Supply ,Data Center (DC) / Cloud Service Provider (CSP) ,System Integration",
+      "product": "Switching Power Supply,AI Air Cooling / Liquid Cooling System,AI Switching Power Supply,Data Center (DC) / Cloud Service Provider (CSP),System Integration",
       "country": "United States",
       "countryZh": "美国"
     },
@@ -2641,7 +2641,7 @@
       "cats": [
         "工业 / 制造"
       ],
-      "product": "Industrial Barcode Printer,Desktop Barcode Printer,RFID Printer,Thermal Receipt Printer,Thermal Mobile Printer",
+      "product": "Desktop Barcode Printer,Industrial Barcode Printer,RFID Printer,Thermal Mobile Printer,Thermal Receipt Printer",
       "country": "Mainland China",
       "countryZh": "中国"
     },
@@ -2688,7 +2688,7 @@
         "芯片 / 算力",
         "消费电子 / 终端"
       ],
-      "product": "Computer Case,Computer Power Supply,PC Cooling & Fan,Other Computer Components & Parts,AI Air Cooling / Liquid Cooling System ,AI PC Cooling & Fan",
+      "product": "Computer Case,Computer Power Supply,PC Cooling & Fan,Other Computer Components & Parts,AI Air Cooling / Liquid Cooling System,AI PC Cooling & Fan",
       "country": "Mainland China",
       "countryZh": "中国"
     },
@@ -2702,7 +2702,7 @@
         "工业 / 制造",
         "数据 / 云 / 安全"
       ],
-      "product": "Embedded Processor,Industrial Motherboard,Hard Disk Drive (HDD),Solid State Drive (SSD),Graphics Card,Network Adapter / Network Interface Card (NIC),Wi-Fi / ZigBee Dongle & Module ,CPU/GPU/APU",
+      "product": "Embedded Processor,Industrial Motherboard,Hard Disk Drive (HDD),Solid State Drive (SSD),Graphics Card,Network Adapter / Network Interface Card (NIC),CPU/GPU/APU,Wi-Fi / ZigBee Dongle & Module",
       "country": "Mainland China",
       "countryZh": "中国"
     },
@@ -2822,7 +2822,7 @@
       "cats": [
         "消费电子 / 终端"
       ],
-      "product": "Projector,Head & Bluetooth Earphone,Bluetooth & Wi-Fi Wireless Speaker,Power Bank,Handheld Charger,Gaming Mouse ,Gaming Keyboard ,Gaming Headphone & Headset & Microphone",
+      "product": "Projector,Head & Bluetooth Earphone,Bluetooth & Wi-Fi Wireless Speaker,Power Bank,Handheld Charger,Gaming Headphone & Headset & Microphone,Gaming Keyboard,Gaming Mouse",
       "country": "Mainland China",
       "countryZh": "中国"
     },
@@ -3011,7 +3011,7 @@
         "消费电子 / 终端",
         "工业 / 制造"
       ],
-      "product": "Industrial Computer,Kiosk,Card Reader,Gaming Keyboard ,Gaming Mouse ,Point of Sales PC ,POS Accessories",
+      "product": "Industrial Computer,Kiosk,Card Reader,Gaming Keyboard,Gaming Mouse,Point of Sales PC,POS Accessories",
       "country": "Hong Kong",
       "countryZh": "香港"
     },
@@ -3069,7 +3069,7 @@
       "cats": [
         "数据 / 云 / 安全"
       ],
-      "product": "Liquid Cooling System,AI Air Cooling / Liquid Cooling System",
+      "product": "AI Air Cooling / Liquid Cooling System,Liquid Cooling System",
       "country": "Singapore",
       "countryZh": "新加坡"
     },
@@ -3136,7 +3136,7 @@
       "nameEn": "Jiuzi Electronic",
       "booth": "P0325a",
       "stage": "融资未公开",
-      "product": "Gaming Accessories,Gaming Keyboard ,Esports",
+      "product": "Esports,Gaming Accessories,Gaming Keyboard",
       "country": "Mainland China",
       "countryZh": "中国"
     },
@@ -3169,7 +3169,7 @@
       "nameEn": "TTC",
       "booth": "Q1034c",
       "stage": "融资未公开",
-      "product": "Game Controller & Joystick,Gaming Keyboard ,Gaming Mouse",
+      "product": "Game Controller & Joystick,Gaming Keyboard,Gaming Mouse",
       "country": "Mainland China",
       "countryZh": "中国"
     },
@@ -3182,7 +3182,7 @@
         "消费电子 / 终端",
         "工业 / 制造"
       ],
-      "product": "All-In-One & Desktop Computer,Industrial Computer,POS System,Point of Sales PC ,POS Accessories",
+      "product": "All-In-One & Desktop Computer,Industrial Computer,POS System,Point of Sales PC,POS Accessories",
       "country": "Mainland China",
       "countryZh": "中国"
     },
@@ -3209,7 +3209,7 @@
         "消费电子 / 终端",
         "数据 / 云 / 安全"
       ],
-      "product": "Server,KVM Cable & Switch,AI Switching Power Supply ,CPU/GPU/APU ,AI Server,Data Center (DC) / Cloud Service Provider (CSP)",
+      "product": "Server,KVM Cable & Switch,AI Server,AI Switching Power Supply,CPU/GPU/APU,Data Center (DC) / Cloud Service Provider (CSP)",
       "country": "United States",
       "countryZh": "美国"
     },
@@ -3314,7 +3314,7 @@
       "nameEn": "IQUNIX",
       "booth": "M1107a",
       "stage": "融资未公开",
-      "product": "Computer Case,Gaming Keyboard ,Gaming Mouse",
+      "product": "Computer Case,Gaming Keyboard,Gaming Mouse",
       "country": "Mainland China",
       "countryZh": "中国"
     },
@@ -3431,7 +3431,7 @@
         "芯片 / 算力",
         "AI 基础设施"
       ],
-      "product": "Hard Disk Drive (HDD),Solid State Drive (SSD),USB Flash Drive,Memory Card,Other Drives, Storage & Blank Media,CPU/GPU/APU ,Gaming MicroSD、SDXC,OTG Adapter / Hub / Flash Drive",
+      "product": "Hard Disk Drive (HDD),Solid State Drive (SSD),USB Flash Drive,Memory Card,Other Drives, Storage & Blank Media,CPU/GPU/APU,Gaming MicroSD、SDXC,OTG Adapter / Hub / Flash Drive",
       "country": "Hong Kong",
       "countryZh": "香港"
     },
@@ -3528,7 +3528,7 @@
         "芯片 / 算力",
         "AI 基础设施"
       ],
-      "product": "Solid State Drive (SSD),Memory Card,AI Server ,Edge Computing ,Streaming Platform",
+      "product": "Solid State Drive (SSD),Memory Card,AI Server,Edge Computing,Streaming Platform",
       "country": "Mainland China",
       "countryZh": "中国"
     },
@@ -3577,7 +3577,7 @@
       "cats": [
         "消费电子 / 终端"
       ],
-      "product": "Head & Bluetooth Earphone,Portable Speaker,Computer Case,PC Cooling & Fan,Bluetooth Keyboard & Mouse,Gaming Headphone & Headset & Microphone ,Gaming Accessories ,Gaming Monitor",
+      "product": "Head & Bluetooth Earphone,Portable Speaker,Computer Case,PC Cooling & Fan,Bluetooth Keyboard & Mouse,Gaming Accessories,Gaming Headphone & Headset & Microphone,Gaming Monitor",
       "country": "Singapore",
       "countryZh": "新加坡"
     },
@@ -3637,7 +3637,7 @@
         "消费电子 / 终端",
         "工业 / 制造"
       ],
-      "product": "Server,Solid State Drive (SSD),Disk Enclosure,Memory Card,DRAM,Gaming MicroSD、SDXC ,Industrial Memory,Smart Cockpit",
+      "product": "Server,Solid State Drive (SSD),Disk Enclosure,Memory Card,DRAM,Gaming MicroSD、SDXC,Industrial Memory,Smart Cockpit",
       "country": "Hong Kong",
       "countryZh": "香港"
     },
@@ -3779,7 +3779,7 @@
         "消费电子 / 终端",
         "数据 / 云 / 安全"
       ],
-      "product": "Liquid Cooling System,CPU Cooler,GPU Cooler,Gaming PC",
+      "product": "CPU Cooler,Gaming PC,GPU Cooler,Liquid Cooling System",
       "country": "Korea, South Korea",
       "countryZh": "韩国"
     },
@@ -3815,7 +3815,7 @@
       "nameEn": "MINIX",
       "booth": "Q0123",
       "stage": "融资未公开",
-      "product": "AI mini computer,AI Workstation,Wireless Dongle,Portable Monitor",
+      "product": "AI mini computer,AI Workstation,Portable Monitor,Wireless Dongle",
       "country": "Hong Kong",
       "countryZh": "香港"
     },
@@ -3848,7 +3848,7 @@
       "cats": [
         "AI 基础设施"
       ],
-      "product": "Electrical Connectors,Other Computer Components & Parts,Computer Cables & Connectors,Communication Cable ,Battery Energy Storage Material ,AI Air Cooling / Liquid Cooling System ,Immersion Cooling",
+      "product": "Electrical Connectors,Other Computer Components & Parts,Computer Cables & Connectors,AI Air Cooling / Liquid Cooling System,Battery Energy Storage Material,Communication Cable,Immersion Cooling",
       "country": "United States",
       "countryZh": "美国"
     },
@@ -3862,7 +3862,7 @@
         "AI 基础设施",
         "机器人 / 具身智能"
       ],
-      "product": "Robot,Robotic Arm,Cloud Computing & IT Services,Servo Motor ,AI Server",
+      "product": "Robot,Robotic Arm,Cloud Computing & IT Services,AI Server,Servo Motor",
       "country": "United States",
       "countryZh": "美国"
     },
@@ -3875,7 +3875,7 @@
         "消费电子 / 终端",
         "工业 / 制造"
       ],
-      "product": "Workstation,All-In-One & Desktop Computer,Industrial Computer,Computer Case,Gaming Desktop ,Gaming Notebook ,Gaming Accessories ,Gaming Monitor",
+      "product": "Workstation,All-In-One & Desktop Computer,Industrial Computer,Computer Case,Gaming Accessories,Gaming Desktop,Gaming Monitor,Gaming Notebook",
       "country": "Turkey",
       "countryZh": "土耳其"
     },
@@ -3963,7 +3963,7 @@
         "消费电子 / 终端",
         "数据 / 云 / 安全"
       ],
-      "product": "Network Switch,Cloud Computing & IT Services,Data Center (DC) / Cloud Service Provider (CSP),AI Server ,IT & Internet Services",
+      "product": "Network Switch,Cloud Computing & IT Services,AI Server,Data Center (DC) / Cloud Service Provider (CSP),IT & Internet Services",
       "country": "United States",
       "countryZh": "美国"
     },
@@ -3985,7 +3985,7 @@
         "AI 基础设施",
         "数据 / 云 / 安全"
       ],
-      "product": "CCTV System,Cloud Computing & IT Services,Edge Computing ,IP / Digital Surveillance ,Open Source Hardware & Software",
+      "product": "CCTV System,Cloud Computing & IT Services,Edge Computing,IP / Digital Surveillance,Open Source Hardware & Software",
       "country": "United States",
       "countryZh": "美国"
     },
@@ -4028,7 +4028,7 @@
         "芯片 / 算力",
         "消费电子 / 终端"
       ],
-      "product": "PC Cooling & Fan,Memory Card,Graphics Card,DRAM,CPU/GPU/APU ,Gaming MicroSD、SDXC ,AI Server",
+      "product": "PC Cooling & Fan,Memory Card,Graphics Card,DRAM,AI Server,CPU/GPU/APU,Gaming MicroSD、SDXC",
       "country": "Hong Kong",
       "countryZh": "香港"
     },
@@ -4210,7 +4210,7 @@
       "cats": [
         "工业 / 制造"
       ],
-      "product": "Industrial Mobile Computer ,Radio Frequency Identification (RFID) ,5G/5G-A/6G Related Products ,Other Mobile Devices",
+      "product": "5G/5G-A/6G Related Products,Industrial Mobile Computer,Other Mobile Devices,Radio Frequency Identification (RFID)",
       "country": "Korea, South Korea",
       "countryZh": "韩国"
     },
@@ -4228,7 +4228,7 @@
       "nameEn": "POSBANK",
       "booth": "P0704",
       "stage": "融资未公开",
-      "product": "POS System,Kiosk,Mobile POS ,POS Printer",
+      "product": "POS System,Kiosk,Mobile POS,POS Printer",
       "country": "Korea, South Korea",
       "countryZh": "韩国"
     },
@@ -4410,7 +4410,7 @@
         "AI 基础设施",
         "数据 / 云 / 安全"
       ],
-      "product": "Data Center (DC) / Cloud Service Provider (CSP),AI Air Cooling / Liquid Cooling System ,AI Switching Power Supply ,System Integration",
+      "product": "AI Air Cooling / Liquid Cooling System,AI Switching Power Supply,Data Center (DC) / Cloud Service Provider (CSP),System Integration",
       "country": "France",
       "countryZh": "法国"
     },
@@ -4620,7 +4620,7 @@
         "AI 基础设施",
         "工业 / 制造"
       ],
-      "product": "AI Server ,AI Air Cooling / Liquid Cooling System ,Immersion Cooling",
+      "product": "AI Air Cooling / Liquid Cooling System,AI Server,Immersion Cooling",
       "country": "Hong Kong",
       "countryZh": "香港"
     },
@@ -4736,7 +4736,7 @@
         "AI 基础设施",
         "数据 / 云 / 安全"
       ],
-      "product": "AI Server ,System Integration ,Edge Computing ,Generative AI / LLM ,AI Air Cooling / Liquid Cooling System ,Data Center (DC) / Cloud Service Provider (CSP)",
+      "product": "AI Air Cooling / Liquid Cooling System,AI Server,Data Center (DC) / Cloud Service Provider (CSP),Edge Computing,Generative AI / LLM,System Integration",
       "country": "United States",
       "countryZh": "美国"
     },
@@ -4805,7 +4805,7 @@
       "nameEn": "T1K, arCuDia",
       "booth": "I1001a",
       "stage": "融资未公开",
-      "product": "AI Air Cooling / Liquid Cooling System,AI Switching Power Supply,Liquid Cooling System,Heat Dissipation Material,Immersion Cooling",
+      "product": "AI Air Cooling / Liquid Cooling System,AI Switching Power Supply,Heat Dissipation Material,Immersion Cooling,Liquid Cooling System",
       "country": "Japan",
       "countryZh": "日本"
     },
@@ -4883,7 +4883,7 @@
       "cats": [
         "消费电子 / 终端"
       ],
-      "product": "Electrical Connectors,Thermal Adhesive & Grease,PC Cooling & Fan,Other Computer Components & Parts,Liquid Cooling System,Heat Dissipation Material",
+      "product": "Electrical Connectors,Thermal Adhesive & Grease,PC Cooling & Fan,Other Computer Components & Parts,Heat Dissipation Material,Liquid Cooling System",
       "country": "Germany",
       "countryZh": "德国"
     },
@@ -4913,7 +4913,7 @@
       "cats": [
         "消费电子 / 终端"
       ],
-      "product": "POS System,Kiosk,Bar Code Scanner,Business Intelligence Service ,Mobile POS ,Digital Signage ,POS Accessories ,Point of Sales PC",
+      "product": "POS System,Kiosk,Bar Code Scanner,Business Intelligence Service,Digital Signage,Mobile POS,Point of Sales PC,POS Accessories",
       "country": "Japan",
       "countryZh": "日本"
     },
@@ -4961,7 +4961,7 @@
       "cats": [
         "芯片 / 算力"
       ],
-      "product": "Memory Module,Solid State Drive,Accessories,Peripherals",
+      "product": "Accessories,Memory Module,Peripherals,Solid State Drive",
       "country": "United Arab Emirates",
       "countryZh": "阿联酋"
     },
@@ -4970,7 +4970,7 @@
       "nameEn": "UNITEK",
       "booth": "Q0930",
       "stage": "融资未公开",
-      "product": "AC / DC Adapter,Power Bank,Handheld Charger,Other Computer Peripherals,USB Adapter, Cable & Hub,OTG Adapter / Hub / Flash Drive ,GaN/SiC USB Charger ,Gaming Accessories",
+      "product": "AC / DC Adapter,Power Bank,Handheld Charger,Other Computer Peripherals,USB Adapter, Cable & Hub,Gaming Accessories,GaN/SiC USB Charger,OTG Adapter / Hub / Flash Drive",
       "country": "Hong Kong",
       "countryZh": "香港"
     },
@@ -5156,7 +5156,7 @@
         "工业 / 制造",
         "数据 / 云 / 安全"
       ],
-      "product": "Application Software,IT & Internet Services,IoT Connectivity,Anomaly Detection",
+      "product": "Application Software,Anomaly Detection,IoT Connectivity,IT & Internet Services",
       "country": "Singapore",
       "countryZh": "新加坡"
     },
@@ -5179,7 +5179,7 @@
         "消费电子 / 终端",
         "工业 / 制造"
       ],
-      "product": "PC Cooling & Fan,AI Air Cooling / Liquid Cooling System ,AI PC Cooling & Fan",
+      "product": "PC Cooling & Fan,AI Air Cooling / Liquid Cooling System,AI PC Cooling & Fan",
       "country": "United States",
       "countryZh": "美国"
     },
@@ -5211,7 +5211,7 @@
         "AI 基础设施",
         "机器人 / 具身智能"
       ],
-      "product": "Power Converter,Heat Sink & Pipe,AI Air Cooling / Liquid Cooling System,Energy Storage Solutions,AI Switching Power Supply",
+      "product": "Power Converter,Heat Sink & Pipe,AI Air Cooling / Liquid Cooling System,AI Switching Power Supply,Energy Storage Solutions",
       "country": "Spain",
       "countryZh": "西班牙"
     },
@@ -5254,7 +5254,7 @@
         "AI 基础设施",
         "工业 / 制造"
       ],
-      "product": "Customer Relationship Management,Enterprise Email,Low-Code App Development,Project Management,Help Desk,Marketing automation",
+      "product": "Customer Relationship Management,Enterprise Email,Help Desk,Low-Code App Development,Marketing automation,Project Management",
       "country": "Singapore",
       "countryZh": "新加坡"
     },
@@ -5268,7 +5268,7 @@
         "消费电子 / 终端",
         "工业 / 制造"
       ],
-      "product": "Server,Mini PC Barebone,Industrial Computer,Computer Case,Graphics Card,Edge Computing ,Gaming handheld",
+      "product": "Server,Mini PC Barebone,Industrial Computer,Computer Case,Graphics Card,Edge Computing,Gaming handheld",
       "country": "Singapore",
       "countryZh": "新加坡"
     },
